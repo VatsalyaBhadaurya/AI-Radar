@@ -2,6 +2,7 @@
 // Reads pre-generated JSON from data/ and renders it client-side.
 
 const SECTION_ORDER = [
+  "for_you",
   "top_stories",
   "model_tooling",
   "robotics_vla",
@@ -40,8 +41,12 @@ function renderItem(item) {
   const reportedBy = item.also_reported_by && item.also_reported_by.length
     ? ` (also: ${item.also_reported_by.map(escapeHTML).join(", ")})`
     : "";
+  const personalBadge = item.personal_match
+    ? '<span class="tag tag-personal">★ matches your stack</span>'
+    : "";
   return `
     <article class="item" data-tags="${escapeHTML((item.tags || []).join(" "))}" data-category="${escapeHTML(item.category || "")}">
+      ${personalBadge}
       <h3><a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.title)}</a></h3>
       <p class="item-meta">${escapeHTML(item.source)}${reportedBy} · ${escapeHTML(formatDate(item.published_at))} · score ${Number(item.score).toFixed(2)}</p>
       <p class="item-summary">${escapeHTML(item.summary)}</p>

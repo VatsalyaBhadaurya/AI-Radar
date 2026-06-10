@@ -154,6 +154,27 @@ sources:
     category: robotics_vla
     trust: 0.85
 
+  - id: gh_ros2
+    name: "ROS 2"
+    type: github_releases
+    url: "https://github.com/ros2/ros2/releases.atom"
+    category: robotics_vla
+    trust: 0.85
+
+  - id: gh_whisper
+    name: "OpenAI Whisper"
+    type: github_releases
+    url: "https://github.com/openai/whisper/releases.atom"
+    category: vlm_multimodal
+    trust: 0.85
+
+  - id: gh_ultralytics
+    name: "Ultralytics (YOLO)"
+    type: github_releases
+    url: "https://github.com/ultralytics/ultralytics/releases.atom"
+    category: vlm_multimodal
+    trust: 0.8
+
   - id: gh_unsloth
     name: "Unsloth"
     type: github_releases

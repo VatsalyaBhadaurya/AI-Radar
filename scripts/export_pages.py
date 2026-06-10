@@ -61,6 +61,7 @@ EMPTY_SECTION = '<p class="empty">No items today.</p>'
 
 ITEM_TEMPLATE = """
     <article class="item">
+      {personal_badge}
       <h3><a href="{url}" target="_blank" rel="noopener">{title}</a></h3>
       <p class="item-meta">{source} · {published_at} · score {score}</p>
       <p class="item-summary">{summary}</p>
@@ -71,6 +72,10 @@ ITEM_TEMPLATE = """
 
 
 def _render_item(item: dict) -> str:
+    personal_badge = (
+        '<span class="tag tag-personal">★ matches your stack</span>'
+        if item.get("personal_match") else ""
+    )
     return ITEM_TEMPLATE.format(
         url=html.escape(item["url"]),
         title=html.escape(item["title"]),
@@ -80,6 +85,7 @@ def _render_item(item: dict) -> str:
         summary=html.escape(item["summary"]),
         why_it_matters=html.escape(item["why_it_matters"]),
         tags=" ".join(f'<span class="tag">{html.escape(t)}</span>' for t in item["tags"]),
+        personal_badge=personal_badge,
     )
 
 

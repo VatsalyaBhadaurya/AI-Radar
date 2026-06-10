@@ -64,6 +64,15 @@ score = 0.40 × relevance
     number of items so the digest stays sharply filtered.
   </p>
 
+  <h2>Matches Your Stack</h2>
+  <p class="lead">
+    A small set of "priority keywords" in <code>config/taxonomy.yaml</code> reflects the curator's
+    own focus areas (humanoid robotics, ROS2/Jetson edge deployment, VLA/VLM perception stacks such
+    as DINOv3, SAM 2, Depth Anything, DUSt3R, YOLO, and Whisper). Items that match these terms get a
+    relevance bonus and are surfaced first in a dedicated "Matches Your Stack" section, in addition to
+    appearing in their normal category.
+  </p>
+
   <h2>Deduplication</h2>
   <p class="lead">
     Items are merged if their canonical URL matches exactly, or if their normalized titles are similar

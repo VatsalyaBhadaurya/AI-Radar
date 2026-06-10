@@ -29,6 +29,7 @@ novelty_lookback_days: 3
 
 # Digest section sizes (max items per section after ranking)
 digest_limits:
+  for_you: 4
   top_stories: 5
   model_tooling: 4
   robotics_vla: 3

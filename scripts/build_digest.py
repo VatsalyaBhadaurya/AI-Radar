@@ -10,7 +10,9 @@ from common import (
 )
 
 # section_id -> (label, category filter, limit key in scoring.yaml digest_limits)
+# category_filter == "personal" is a sentinel meaning "items with personal_match=True"
 SECTION_DEFS = [
+    ("for_you", "Matches Your Stack", "personal", "for_you"),
     ("top_stories", "Top Stories", None, "top_stories"),
     ("model_tooling", "Model & Tooling Updates", {"model_releases", "infra_tooling"}, "model_tooling"),
     ("robotics_vla", "Robotics & Embodied AI", {"robotics_vla"}, "robotics_vla"),
@@ -34,6 +36,7 @@ def _public_item(item: dict) -> dict:
         "tags": item["tags"],
         "category": item["category"],
         "score": item["score"],
+        "personal_match": item.get("personal_match", False),
         **({"also_reported_by": item["also_reported_by"]} if "also_reported_by" in item else {}),
     }
 
@@ -74,6 +77,8 @@ def build_digest(scored_items: list[dict], scoring_cfg: dict, taxonomy: dict) ->
 
         if category_filter is None:  # top_stories: best overall, above top_story_min
             candidates = [it for it in candidates if it["score"] >= top_story_min]
+        elif category_filter == "personal":
+            candidates = [it for it in candidates if it.get("personal_match")]
         else:
             candidates = [it for it in candidates if it["category"] in category_filter]
 

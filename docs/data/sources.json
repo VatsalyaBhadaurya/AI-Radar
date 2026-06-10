@@ -147,6 +147,27 @@
     "trust": 0.85
   },
   {
+    "id": "gh_ros2",
+    "name": "ROS 2",
+    "type": "github_releases",
+    "category": "robotics_vla",
+    "trust": 0.85
+  },
+  {
+    "id": "gh_whisper",
+    "name": "OpenAI Whisper",
+    "type": "github_releases",
+    "category": "vlm_multimodal",
+    "trust": 0.85
+  },
+  {
+    "id": "gh_ultralytics",
+    "name": "Ultralytics (YOLO)",
+    "type": "github_releases",
+    "category": "vlm_multimodal",
+    "trust": 0.8
+  },
+  {
     "id": "gh_unsloth",
     "name": "Unsloth",
     "type": "github_releases",

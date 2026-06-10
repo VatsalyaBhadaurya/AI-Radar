@@ -24,6 +24,10 @@ ENG_KEYWORD_BASE = 0.15
 RELEVANCE_BASE = 0.25
 RELEVANCE_KEYWORD_CAP = 5  # number of matched keywords needed to reach full relevance
 
+# Bonus applied to relevance per matched "priority_keywords" entry (curator's stack/interests).
+PRIORITY_BONUS_PER_MATCH = 0.08
+PRIORITY_BONUS_CAP = 0.25
+
 
 def _load_seen_history(lookback_days: int) -> set[str]:
     """Collect canonical URLs / item ids seen in recent archive digests."""
@@ -96,7 +100,10 @@ def _compute_engineering_value(text: str, taxonomy: dict) -> float:
     return value
 
 
-def _why_it_matters(category_label: str, matched_keywords: list[str], engineering_value: float) -> str:
+def _why_it_matters(
+    category_label: str, matched_keywords: list[str], engineering_value: float,
+    priority_matches: list[str],
+) -> str:
     if matched_keywords:
         kw_text = ", ".join(matched_keywords[:3])
         base = f"Relevant to {category_label} (matches: {kw_text})."
@@ -104,6 +111,8 @@ def _why_it_matters(category_label: str, matched_keywords: list[str], engineerin
         base = f"Tagged under {category_label}."
     if engineering_value >= 0.5:
         base += " Likely useful for builders (code, benchmarks, or tooling implications)."
+    if priority_matches:
+        base += f" Matches your stack: {', '.join(priority_matches[:3])}."
     return base
 
 
@@ -135,6 +144,11 @@ def score_items(items: list[dict], scoring_cfg: dict, taxonomy: dict) -> list[di
         engineering_value = _compute_engineering_value(text, taxonomy)
         source_trust = item["source_trust"]
 
+        priority_matches = _keyword_matches(text, taxonomy.get("priority_keywords", []))
+        if priority_matches:
+            bonus = min(PRIORITY_BONUS_CAP, PRIORITY_BONUS_PER_MATCH * len(priority_matches))
+            relevance = min(1.0, relevance + bonus)
+
         score = (
             weights["relevance"] * relevance
             + weights["novelty"] * novelty
@@ -148,9 +162,11 @@ def score_items(items: list[dict], scoring_cfg: dict, taxonomy: dict) -> list[di
         result["novelty"] = round(novelty, 4)
         result["engineering_value"] = round(engineering_value, 4)
         result["score"] = round(score, 4)
+        result["personal_match"] = bool(priority_matches)
+        result["matched_stack_keywords"] = priority_matches
 
         category_label = categories.get(best_category, {}).get("label", best_category)
-        result["why_it_matters"] = _why_it_matters(category_label, matched_keywords, engineering_value)
+        result["why_it_matters"] = _why_it_matters(category_label, matched_keywords, engineering_value, priority_matches)
 
         tags = set(result.get("tags", []))
         tags.add(best_category)
@@ -159,6 +175,8 @@ def score_items(items: list[dict], scoring_cfg: dict, taxonomy: dict) -> list[di
                 continue
             if _keyword_matches(text, cat_def.get("keywords", [])):
                 tags.add(cat_id)
+        if priority_matches:
+            tags.add("for_you")
         result["tags"] = sorted(tags)
 
         scored.append(result)
