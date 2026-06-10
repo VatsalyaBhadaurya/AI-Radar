@@ -1,0 +1,191 @@
+# Source registry for AI Engineering Radar
+# type: "rss" (generic RSS/Atom), "arxiv" (arXiv RSS), "github_releases" (repo releases.atom)
+# trust: 0.0-1.0, used as source_trust in scoring
+# category: maps to taxonomy.yaml categories
+
+sources:
+  # ---- Model releases / official labs ----
+  - id: openai_news
+    name: "OpenAI News"
+    type: rss
+    url: "https://openai.com/news/rss.xml"
+    category: model_releases
+    trust: 1.0
+
+  - id: deepmind_blog
+    name: "Google DeepMind Blog"
+    type: rss
+    url: "https://deepmind.google/blog/rss.xml"
+    category: model_releases
+    trust: 1.0
+
+  - id: huggingface_blog
+    name: "Hugging Face Blog"
+    type: rss
+    url: "https://huggingface.co/blog/feed.xml"
+    category: infra_tooling
+    trust: 0.9
+
+  - id: pytorch_blog
+    name: "PyTorch Blog"
+    type: rss
+    url: "https://pytorch.org/blog/feed.xml"
+    category: infra_tooling
+    trust: 0.95
+
+  - id: bair_blog
+    name: "Berkeley AI Research (BAIR)"
+    type: rss
+    url: "https://bair.berkeley.edu/blog/feed.xml"
+    category: papers_benchmarks
+    trust: 0.9
+
+  - id: nvidia_dev_blog
+    name: "NVIDIA Developer Blog (AI)"
+    type: rss
+    url: "https://developer.nvidia.com/blog/feed/"
+    category: infra_tooling
+    trust: 0.85
+
+  # ---- arXiv (papers / benchmarks) ----
+  - id: arxiv_cs_ai
+    name: "arXiv cs.AI"
+    type: arxiv
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: papers_benchmarks
+    trust: 0.8
+
+  - id: arxiv_cs_lg
+    name: "arXiv cs.LG"
+    type: arxiv
+    url: "https://rss.arxiv.org/rss/cs.LG"
+    category: papers_benchmarks
+    trust: 0.8
+
+  - id: arxiv_cs_cl
+    name: "arXiv cs.CL"
+    type: arxiv
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: vlm_multimodal
+    trust: 0.8
+
+  - id: arxiv_cs_cv
+    name: "arXiv cs.CV"
+    type: arxiv
+    url: "https://rss.arxiv.org/rss/cs.CV"
+    category: vlm_multimodal
+    trust: 0.8
+
+  - id: arxiv_cs_ro
+    name: "arXiv cs.RO"
+    type: arxiv
+    url: "https://rss.arxiv.org/rss/cs.RO"
+    category: robotics_vla
+    trust: 0.8
+
+  # ---- GitHub releases (open-source repos / infra & inference tooling) ----
+  - id: gh_vllm
+    name: "vLLM"
+    type: github_releases
+    url: "https://github.com/vllm-project/vllm/releases.atom"
+    category: infra_tooling
+    trust: 0.9
+
+  - id: gh_llamacpp
+    name: "llama.cpp"
+    type: github_releases
+    url: "https://github.com/ggml-org/llama.cpp/releases.atom"
+    category: infra_tooling
+    trust: 0.9
+
+  - id: gh_transformers
+    name: "Hugging Face Transformers"
+    type: github_releases
+    url: "https://github.com/huggingface/transformers/releases.atom"
+    category: infra_tooling
+    trust: 0.9
+
+  - id: gh_tensorrt_llm
+    name: "TensorRT-LLM"
+    type: github_releases
+    url: "https://github.com/NVIDIA/TensorRT-LLM/releases.atom"
+    category: infra_tooling
+    trust: 0.9
+
+  - id: gh_langchain
+    name: "LangChain"
+    type: github_releases
+    url: "https://github.com/langchain-ai/langchain/releases.atom"
+    category: repos
+    trust: 0.75
+
+  - id: gh_ollama
+    name: "Ollama"
+    type: github_releases
+    url: "https://github.com/ollama/ollama/releases.atom"
+    category: repos
+    trust: 0.8
+
+  - id: gh_triton
+    name: "Triton Inference Server"
+    type: github_releases
+    url: "https://github.com/triton-inference-server/server/releases.atom"
+    category: infra_tooling
+    trust: 0.85
+
+  - id: gh_sglang
+    name: "SGLang"
+    type: github_releases
+    url: "https://github.com/sgl-project/sglang/releases.atom"
+    category: infra_tooling
+    trust: 0.8
+
+  - id: gh_lerobot
+    name: "LeRobot (Hugging Face)"
+    type: github_releases
+    url: "https://github.com/huggingface/lerobot/releases.atom"
+    category: robotics_vla
+    trust: 0.85
+
+  - id: gh_isaac_groot
+    name: "NVIDIA Isaac GR00T"
+    type: github_releases
+    url: "https://github.com/NVIDIA/Isaac-GR00T/releases.atom"
+    category: robotics_vla
+    trust: 0.85
+
+  - id: gh_unsloth
+    name: "Unsloth"
+    type: github_releases
+    url: "https://github.com/unslothai/unsloth/releases.atom"
+    category: infra_tooling
+    trust: 0.75
+
+  - id: gh_comfyui
+    name: "ComfyUI"
+    type: github_releases
+    url: "https://github.com/comfyanonymous/ComfyUI/releases.atom"
+    category: repos
+    trust: 0.7
+
+  # ---- Industry / publications ----
+  - id: techcrunch_ai
+    name: "TechCrunch AI"
+    type: rss
+    url: "https://techcrunch.com/category/artificial-intelligence/feed/"
+    category: industry
+    trust: 0.6
+
+  - id: the_verge_ai
+    name: "The Verge AI"
+    type: rss
+    url: "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    category: industry
+    trust: 0.55
+
+  - id: semianalysis
+    name: "SemiAnalysis"
+    type: rss
+    url: "https://www.semianalysis.com/feed"
+    category: industry
+    trust: 0.85

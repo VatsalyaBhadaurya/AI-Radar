@@ -1,0 +1,486 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T18:49:41Z",
+  "headline": "Today's AI engineering radar — 2026-06-10",
+  "summary": "Today's lead story: \"Portable vLLM Model Inference Kernels in Helion\" (PyTorch Blog). Coverage spans papers_benchmarks, infra_tooling, robotics_vla with 200 items scanned and 5 surfaced across sections.",
+  "sections": [
+    {
+      "id": "top_stories",
+      "name": "Top Stories",
+      "items": [
+        {
+          "id": "item_db61cb9ec51c",
+          "title": "Portable vLLM Model Inference Kernels in Helion",
+          "source": "PyTorch Blog",
+          "url": "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion/",
+          "canonical_url": "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion",
+          "published_at": "2026-06-10T17:00:13Z",
+          "summary": "TL;DR Helion kernels were integrated into vLLM for FP8 inference using Qwen3 models and evaluated across NVIDIA H100 and B200 GPUs. The experiments show that Helion provides a productive PyTorch-native...",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, vLLM, GPU).",
+          "tags": [
+            "infra_tooling",
+            "model_releases"
+          ],
+          "category": "infra_tooling",
+          "score": 0.796
+        },
+        {
+          "id": "item_96f86bcc6a10",
+          "title": "VeriSpace: Spatially Grounded Action Verification for Vision-Language-Action Models",
+          "source": "arXiv cs.RO",
+          "url": "https://arxiv.org/abs/2606.10568",
+          "canonical_url": "https://arxiv.org/abs/2606.10568",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10568v1 Announce Type: new Abstract: Vision-language-action (VLA) models have shown strong promise for robotic manipulation, but their reliability at test time remains limited by one-shot action prediction, where even small action errors can cause grasp failure, collision, or incorrect task progression. A natural alternative is to equip VLA systems with test-time verification, allowing multiple candidate actions to be proposed and evaluated before execution. However, reliable action…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation, VLA).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla",
+            "vlm_multimodal"
+          ],
+          "category": "robotics_vla",
+          "score": 0.7243
+        },
+        {
+          "id": "item_bc0503f8476d",
+          "title": "FailureScope: Cross-Regime Behavioral Diagnosis of Language Model Weaknesses",
+          "source": "arXiv cs.LG",
+          "url": "https://arxiv.org/abs/2606.09878",
+          "canonical_url": "https://arxiv.org/abs/2606.09878",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.09878v1 Announce Type: new Abstract: Standard benchmarks report aggregate accuracy, but practitioners need to know which specific capabilities a model lacks. We introduce FailureScope, a behavioral-diagnosis method that clusters evaluation probes by their cross-model pass/fail patterns (leave-one-model-out, LOMO), and show it yields stable, interpretable failure taxonomies across three regimes usually studied separately: single-turn benchmarks, multi-turn dialogue, and adversarial ag…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, evaluation).",
+          "tags": [
+            "industry",
+            "model_releases",
+            "papers_benchmarks",
+            "repos"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.7093
+        },
+        {
+          "id": "item_f2179a002d17",
+          "title": "OpenRTLSet: A Fully Open-Source Dataset for Large Language Model-based Verilog Module Design",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.10285",
+          "canonical_url": "https://arxiv.org/abs/2606.10285",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10285v1 Announce Type: new Abstract: OpenRTLSet introduces the largest fully open-source dataset for hardware design, offering over 131,000 diverse Verilog code samples to the research community and industry. Our dataset uniquely combines Verilog code from GitHub repositories (102k modules), VHDL translations (5k modules), and synthesizable C/C++ translations (24k modules), all freely accessible without proprietary restrictions. Using the reasoning model DeepSeek-R1, we generated pai…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, dataset, reasoning).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "repos",
+            "vlm_multimodal"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.7093
+        },
+        {
+          "id": "item_5dc5b6acf465",
+          "title": "KCSAT-ML: Probing Reasoning Models with Nationwide-Cohort Human Difficulty",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.10403",
+          "canonical_url": "https://arxiv.org/abs/2606.10403",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10403v1 Announce Type: new Abstract: Math reasoning benchmarks have proliferated, yet most lack a per-item difficulty signal grounded in actual human performance. We introduce KCSAT-ML, a decade (2014-2025) of Korean College Scholastic Ability Test (KCSAT; Suneung) mathematics: 664 problems with a 339-item core set carrying official per-item error rates from nationwide cohorts of hundreds of thousands of examinees. We pair the benchmark with Difficulty-aligned Reasoning Gain (DRG): a…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, reasoning).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.7093
+        }
+      ]
+    },
+    {
+      "id": "model_tooling",
+      "name": "Model & Tooling Updates",
+      "items": [
+        {
+          "id": "item_b18dac43ccac",
+          "title": "v1.3.0rc18",
+          "source": "TensorRT-LLM",
+          "url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc18",
+          "canonical_url": "https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc18",
+          "published_at": "2026-06-10T00:10:37Z",
+          "summary": "Known Issues DSV3.2 will crash with an IMA in various long-running perf tests on GB200/GB300 when the CuteDSL MoE backend is used. Work around this issue by using another MoE backend. Model Support Support Nemotron-H NVFP4 checkpoint on Hopper ( #14775 ) Add Qwen image support ( #13449 ) Support Step-3.7-Flash model ( #14711 ) Add Cosmos3-Nano and Cosmos3-Super support ( #14824 ) Add AFMoE Trinity support ( #13148 ) API Add logprobs_simple_format option to return logprobs as a flat list[float]…",
+          "why_it_matters": "Relevant to Model Releases (matches: model, checkpoint).",
+          "tags": [
+            "infra_tooling",
+            "model_releases"
+          ],
+          "category": "model_releases",
+          "score": 0.6585
+        },
+        {
+          "id": "item_7651e1340b0b",
+          "title": "langchain-groq==1.1.3",
+          "source": "LangChain",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.1.3",
+          "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-groq%3D%3D1.1.3",
+          "published_at": "2026-06-10T04:16:24Z",
+          "summary": "Changes since langchain-groq==1.1.2 release(groq): 1.1.3 ( #38009 ) hotfix(openai): min core dep ( #37990 ) test(langchain,partners): disable pytest-benchmark under xdist to silence PytestBenchmarkWarning ( #37901 ) chore(model-profiles): refresh model profile data ( #37726 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) chore: bump idna from 3.10 to 3.15 in /libs/partners/groq ( #37556 ) ci(infra): harden Dependabot version-bound preservation ( #37510 ) chore: bump langsmith fro…",
+          "why_it_matters": "Relevant to Model Releases (matches: release, model).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "repos"
+          ],
+          "category": "model_releases",
+          "score": 0.6176
+        },
+        {
+          "id": "item_2be65e775ede",
+          "title": "Run DiffusionGemma on NVIDIA for Developer-Ready, High-Throughput Text Generation",
+          "source": "NVIDIA Developer Blog (AI)",
+          "url": "https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation/",
+          "canonical_url": "https://developer.nvidia.com/blog/run-diffusiongemma-on-nvidia-for-developer-ready-high-throughput-text-generation",
+          "published_at": "2026-06-10T16:16:30Z",
+          "summary": "Developers building real-time AI—such as chat assistants, copilots, and agentic workflows—are often constrained by token-by-token generation speed. This...",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: throughput).",
+          "tags": [
+            "infra_tooling",
+            "vlm_multimodal"
+          ],
+          "category": "infra_tooling",
+          "score": 0.616
+        },
+        {
+          "id": "item_4f8b156e21e6",
+          "title": "Decart’s new world model can simulate hours of photorealistic driving — with some caveats",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/",
+          "canonical_url": "https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats",
+          "published_at": "2026-06-10T13:07:56Z",
+          "summary": "Decart is launching Oasis 3, a real-time world model that generates photorealistic driving environments for autonomous vehicle testing, now available via API for developers to build on.",
+          "why_it_matters": "Relevant to Model Releases (matches: launch, model).",
+          "tags": [
+            "industry",
+            "infra_tooling",
+            "model_releases"
+          ],
+          "category": "model_releases",
+          "score": 0.6153
+        }
+      ]
+    },
+    {
+      "id": "robotics_vla",
+      "name": "Robotics & Embodied AI",
+      "items": [
+        {
+          "id": "item_d42af326a9e0",
+          "title": "Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models",
+          "source": "arXiv cs.RO",
+          "url": "https://arxiv.org/abs/2606.10495",
+          "canonical_url": "https://arxiv.org/abs/2606.10495",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10495v1 Announce Type: new Abstract: Safe social navigation requires robots to distinguish people from ordinary obstacles and to react before danger becomes imminent. We show that pretrained Vision-Language-Action (VLA) models already encode pedestrian-object distinctions and future collision signals in their internal representations, but behavior cloning fails to translate these signals into socially appropriate actions. To address this mismatch, we propose SALSA, a two-stage annota…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, VLA, vision-language-action).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla",
+            "vlm_multimodal"
+          ],
+          "category": "robotics_vla",
+          "score": 0.6868
+        },
+        {
+          "id": "item_5f790e2e83cb",
+          "title": "GHOST: Hierarchical Sub-Goal Policies for Generalizing Robot Manipulation",
+          "source": "arXiv cs.RO",
+          "url": "https://arxiv.org/abs/2606.10025",
+          "canonical_url": "https://arxiv.org/abs/2606.10025",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10025v1 Announce Type: new Abstract: We present GHOST, a framework for learning visuomotor manipulation policies that generalize beyond the training distribution. GHOST factorizes control into (i) a high-level policy that predicts the next sub-goal as a distribution over 3D end-effector poses from multi-view RGB-D observations, and (ii) a low-level goal-conditioned controller that executes embodiment-specific actions. To condition image-based policies on 3D goals, we introduce a simp…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation, policy).",
+          "tags": [
+            "infra_tooling",
+            "papers_benchmarks",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.6643
+        },
+        {
+          "id": "item_380173336907",
+          "title": "HiMem-WAM: Hierarchical Memory-Gated World Action Models for Robotic Manipulation",
+          "source": "arXiv cs.RO",
+          "url": "https://arxiv.org/abs/2606.10363",
+          "canonical_url": "https://arxiv.org/abs/2606.10363",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10363v1 Announce Type: new Abstract: World Action Models (WAMs) have emerged as a new powerful paradigm for embodied intelligence, learning action-relevant visual dynamics that significantly enhance generalization and robustness. However, existing WAMs still struggle with task-relevant memory in long-horizon robotic manipulation. To address this, we present HiMem-WAM, a Hierarchical Memory-Gated WAM that integrates motion-centric latent actions, high-level skill latents, and boundary…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, embodied, manipulation).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.6643
+        }
+      ]
+    },
+    {
+      "id": "vlm_multimodal",
+      "name": "VLM & Multimodal",
+      "items": [
+        {
+          "id": "item_654ba11c9fac",
+          "title": "DiffusionGemma: 4x faster text generation",
+          "source": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+          "canonical_url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+          "published_at": "2026-06-10T16:24:11Z",
+          "summary": "",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: diffusion).",
+          "tags": [
+            "model_releases",
+            "vlm_multimodal"
+          ],
+          "category": "vlm_multimodal",
+          "score": 0.6239
+        },
+        {
+          "id": "item_dad7ed3150f6",
+          "title": "Rethinking Embodied Navigation via Relational Inductive Bias",
+          "source": "arXiv cs.RO",
+          "url": "https://arxiv.org/abs/2606.10348",
+          "canonical_url": "https://arxiv.org/abs/2606.10348",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10348v1 Announce Type: new Abstract: Object navigation requires an agent to locate a target in an unknown environment through visual observations. Existing methods typically rely on open-vocabulary detectors or vision-language models (VLMs) to answer where to search, but often overlook what not to trust - which semantic cues are unreliable. Open-vocabulary perception is prone to systematic misleading evidence: false positives, outdated static priors, and repeated failed exploration d…",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: vision-language, VLM).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla",
+            "vlm_multimodal"
+          ],
+          "category": "vlm_multimodal",
+          "score": 0.6043
+        },
+        {
+          "id": "item_7a24901e2115",
+          "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+          "canonical_url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+          "published_at": "2026-06-09T19:38:28Z",
+          "summary": "",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: speech).",
+          "tags": [
+            "infra_tooling",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "vlm_multimodal",
+          "score": 0.5864
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "Papers & Benchmarks",
+      "items": [
+        {
+          "id": "item_d0184caa9414",
+          "title": "ComBench: A Benchmark for Rigorous Proof Reasoning and Constructive Realization in Olympiad-Level Combinatorics",
+          "source": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2606.10479",
+          "canonical_url": "https://arxiv.org/abs/2606.10479",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10479v1 Announce Type: new Abstract: Combinatorics is central to Olympiad-level mathematical problem solving, requiring deep discrete reasoning, creative constructions, and rigorous structural insight. Recent evidence suggests that even today's strongest frontier models remain uneven on Olympiad combinatorics, revealing a gap in creative mathematical reasoning. We introduce ComBench, an Olympiad-level combinatorics benchmark for evaluating and diagnosing the combinatorial reasoning c…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, reasoning).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6868
+        },
+        {
+          "id": "item_b4fa8a29baed",
+          "title": "Disjoint or Overlapping? Inference Windowing for Reconstruction-Based Time Series Anomaly Detection",
+          "source": "arXiv cs.LG",
+          "url": "https://arxiv.org/abs/2606.09874",
+          "canonical_url": "https://arxiv.org/abs/2606.09874",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.09874v1 Announce Type: new Abstract: Reconstruction-based methods are widely used for time series anomaly detection, where models are trained to reconstruct subsequences, and anomalies are identified through reconstruction errors. However, reported results are often hard to compare due to heterogeneous evaluation practices and underspecified inference procedures. In this paper, we revisit reconstruction-based anomaly detection in the univariate offline setting and study the role of t…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: paper, arXiv, evaluation).",
+          "tags": [
+            "industry",
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks",
+            "repos"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6868
+        },
+        {
+          "id": "item_648425cf3ed6",
+          "title": "TD-Grokking: Learning from Zero-Reward Problems by Training-Time Decomposition",
+          "source": "arXiv cs.LG",
+          "url": "https://arxiv.org/abs/2606.09883",
+          "canonical_url": "https://arxiv.org/abs/2606.09883",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.09883v1 Announce Type: new Abstract: Large language models (LLMs) have made remarkable progress in reasoning tasks, largely driven by post-training paradigms, especially reinforcement learning with verifiable rewards (RLVR). However, a critical bottleneck persists: RLVR fails on highly challenging zero-reward problems, where all sampled reasoning trajectories yield uniformly failed outcomes, providing no optimization signal to drive model improvement. Prior efforts to address this li…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, training, reasoning).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6868
+        },
+        {
+          "id": "item_fcf444b1eb26",
+          "title": "Automated Scoring of Arabic Text Using Large Language Models: A Literature Review",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.09830",
+          "canonical_url": "https://arxiv.org/abs/2606.09830",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.09830v1 Announce Type: new Abstract: In modern educational systems, Automatic Text Scoring (ATS) plays a central role by enabling scalable and consistent evaluation of learner responses without human intervention. Recently, the increased accessibility of LLMs and Arabic-specific datasets has sparked renewed interest in this area. In this work, we investigate LLM-Based approaches for the automated evaluation of Arabic texts, focusing on both short answer grading (ASAG) and essay scori…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, evaluation, dataset).",
+          "tags": [
+            "industry",
+            "model_releases",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6868
+        },
+        {
+          "id": "item_11e3719aa109",
+          "title": "BenSyc: Benchmarking Conversational Sycophancy and Human Alignment in LLMs for Bengali Contexts",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.10061",
+          "canonical_url": "https://arxiv.org/abs/2606.10061",
+          "published_at": "2026-06-10T04:00:00Z",
+          "summary": "arXiv:2606.10061v1 Announce Type: new Abstract: Large language models (LLMs) increasingly participate in emotionally sensitive social conversations, where responses may shift from balanced support toward excessive validation or escalatory alignment. Existing sycophancy research primarily focuses on factual agreement and instruction-following settings, leaving culturally grounded conversational sycophancy underexplored. We introduce BenSyc, the first benchmark for studying conversational sycopha…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, alignment).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6868
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "name": "Repo Watch",
+      "items": [
+        {
+          "id": "item_8da200cdb5a9",
+          "title": "langchain-perplexity==1.4.0",
+          "source": "LangChain",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.0",
+          "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.0",
+          "published_at": "2026-06-09T21:22:05Z",
+          "summary": "Changes since langchain-perplexity==1.3.2 release(perplexity): 1.4.0 ( #37993 ) feat(perplexity): bind_tools and Responses-API tool round-trip ( #37934 ) hotfix(openai): min core dep ( #37990 )",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: tool).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.5384
+        },
+        {
+          "id": "item_15ff289fc83a",
+          "title": "langchain-core==1.4.3",
+          "source": "LangChain",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.3",
+          "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.3",
+          "published_at": "2026-06-09T20:32:10Z",
+          "summary": "Changes since langchain-core==1.4.2 release(core): 1.4.3 ( #37991 ) feat(openai): support apply_patch built-in tool ( #37157 )",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: tool).",
+          "tags": [
+            "model_releases",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.5137
+        },
+        {
+          "id": "item_eb987eaf1883",
+          "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+          "canonical_url": "https://huggingface.co/blog/github-ci-hf-jobs",
+          "published_at": "2026-06-09T00:00:00Z",
+          "summary": "",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub).",
+          "tags": [
+            "infra_tooling",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.4972
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "name": "Industry Moves",
+      "items": [
+        {
+          "id": "item_8c9f3807d086",
+          "title": "The three hard-tech moonshots fueling SpaceX’s unbelievable IPO",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
+          "canonical_url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo",
+          "published_at": "2026-06-10T14:48:01Z",
+          "summary": "Most of the value in SpaceX's IPO is effectively a call option on the company's ambitious space data center plans.",
+          "why_it_matters": "Relevant to Industry Moves (matches: IPO).",
+          "tags": [
+            "industry"
+          ],
+          "category": "industry",
+          "score": 0.5384
+        },
+        {
+          "id": "item_eca8c4d3b03d",
+          "title": "How Justin Ernest invested nearly $500M into hot startups without a traditional VC fund",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/",
+          "canonical_url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund",
+          "published_at": "2026-06-09T23:17:51Z",
+          "summary": "Instead of spending a year raising a formal venture fund, the Sabertooth VC founder used a captive network of LPs to invest in startups like Anthropic, Anduril, and SpaceX.",
+          "why_it_matters": "Relevant to Industry Moves (matches: startup).",
+          "tags": [
+            "industry"
+          ],
+          "category": "industry",
+          "score": 0.4911
+        },
+        {
+          "id": "item_b2b31622d636",
+          "title": "‘AI-pilled’ firms spend $7,500 per employee each month on AI",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai/",
+          "canonical_url": "https://techcrunch.com/2026/06/10/ai-pilled-firms-spend-7500-per-employee-each-month-on-ai",
+          "published_at": "2026-06-10T17:07:35Z",
+          "summary": "The most AI-obsessed firms are spending roughly $7,500 monthly per employee on AI, per Ramp AI Index. That's not more than an engineer's salary — yet.",
+          "why_it_matters": "Tagged under Industry Moves.",
+          "tags": [
+            "industry"
+          ],
+          "category": "industry",
+          "score": 0.4864
+        }
+      ]
+    }
+  ]
+}

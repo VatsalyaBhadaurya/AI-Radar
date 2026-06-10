@@ -1,0 +1,184 @@
+[
+  {
+    "id": "openai_news",
+    "name": "OpenAI News",
+    "type": "rss",
+    "category": "model_releases",
+    "trust": 1.0
+  },
+  {
+    "id": "deepmind_blog",
+    "name": "Google DeepMind Blog",
+    "type": "rss",
+    "category": "model_releases",
+    "trust": 1.0
+  },
+  {
+    "id": "huggingface_blog",
+    "name": "Hugging Face Blog",
+    "type": "rss",
+    "category": "infra_tooling",
+    "trust": 0.9
+  },
+  {
+    "id": "pytorch_blog",
+    "name": "PyTorch Blog",
+    "type": "rss",
+    "category": "infra_tooling",
+    "trust": 0.95
+  },
+  {
+    "id": "bair_blog",
+    "name": "Berkeley AI Research (BAIR)",
+    "type": "rss",
+    "category": "papers_benchmarks",
+    "trust": 0.9
+  },
+  {
+    "id": "nvidia_dev_blog",
+    "name": "NVIDIA Developer Blog (AI)",
+    "type": "rss",
+    "category": "infra_tooling",
+    "trust": 0.85
+  },
+  {
+    "id": "arxiv_cs_ai",
+    "name": "arXiv cs.AI",
+    "type": "arxiv",
+    "category": "papers_benchmarks",
+    "trust": 0.8
+  },
+  {
+    "id": "arxiv_cs_lg",
+    "name": "arXiv cs.LG",
+    "type": "arxiv",
+    "category": "papers_benchmarks",
+    "trust": 0.8
+  },
+  {
+    "id": "arxiv_cs_cl",
+    "name": "arXiv cs.CL",
+    "type": "arxiv",
+    "category": "vlm_multimodal",
+    "trust": 0.8
+  },
+  {
+    "id": "arxiv_cs_cv",
+    "name": "arXiv cs.CV",
+    "type": "arxiv",
+    "category": "vlm_multimodal",
+    "trust": 0.8
+  },
+  {
+    "id": "arxiv_cs_ro",
+    "name": "arXiv cs.RO",
+    "type": "arxiv",
+    "category": "robotics_vla",
+    "trust": 0.8
+  },
+  {
+    "id": "gh_vllm",
+    "name": "vLLM",
+    "type": "github_releases",
+    "category": "infra_tooling",
+    "trust": 0.9
+  },
+  {
+    "id": "gh_llamacpp",
+    "name": "llama.cpp",
+    "type": "github_releases",
+    "category": "infra_tooling",
+    "trust": 0.9
+  },
+  {
+    "id": "gh_transformers",
+    "name": "Hugging Face Transformers",
+    "type": "github_releases",
+    "category": "infra_tooling",
+    "trust": 0.9
+  },
+  {
+    "id": "gh_tensorrt_llm",
+    "name": "TensorRT-LLM",
+    "type": "github_releases",
+    "category": "infra_tooling",
+    "trust": 0.9
+  },
+  {
+    "id": "gh_langchain",
+    "name": "LangChain",
+    "type": "github_releases",
+    "category": "repos",
+    "trust": 0.75
+  },
+  {
+    "id": "gh_ollama",
+    "name": "Ollama",
+    "type": "github_releases",
+    "category": "repos",
+    "trust": 0.8
+  },
+  {
+    "id": "gh_triton",
+    "name": "Triton Inference Server",
+    "type": "github_releases",
+    "category": "infra_tooling",
+    "trust": 0.85
+  },
+  {
+    "id": "gh_sglang",
+    "name": "SGLang",
+    "type": "github_releases",
+    "category": "infra_tooling",
+    "trust": 0.8
+  },
+  {
+    "id": "gh_lerobot",
+    "name": "LeRobot (Hugging Face)",
+    "type": "github_releases",
+    "category": "robotics_vla",
+    "trust": 0.85
+  },
+  {
+    "id": "gh_isaac_groot",
+    "name": "NVIDIA Isaac GR00T",
+    "type": "github_releases",
+    "category": "robotics_vla",
+    "trust": 0.85
+  },
+  {
+    "id": "gh_unsloth",
+    "name": "Unsloth",
+    "type": "github_releases",
+    "category": "infra_tooling",
+    "trust": 0.75
+  },
+  {
+    "id": "gh_comfyui",
+    "name": "ComfyUI",
+    "type": "github_releases",
+    "category": "repos",
+    "trust": 0.7
+  },
+  {
+    "id": "techcrunch_ai",
+    "name": "TechCrunch AI",
+    "type": "rss",
+    "category": "industry",
+    "trust": 0.6
+  },
+  {
+    "id": "the_verge_ai",
+    "name": "The Verge AI",
+    "type": "rss",
+    "category": "industry",
+    "trust": 0.55
+  },
+  {
+    "id": "semianalysis",
+    "name": "SemiAnalysis",
+    "type": "rss",
+    "category": "industry",
+    "trust": 0.85
+  }
+]

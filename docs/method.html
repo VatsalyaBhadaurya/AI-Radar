@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Method · AI Engineering Radar</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">AI Engineering Radar</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="archive.html">Archive</a>
+    <a href="sources.html">Sources</a>
+    <a href="method.html" class="active">Method</a>
+  </nav>
+</header>
+<main class="container">
+  <h1>Method</h1>
+  <p class="lead">
+    AI Engineering Radar is a narrow engineering intelligence system, not a general AI newsletter.
+    It is built for builders and researchers working on AI engineering, infra/inference, robotics,
+    VLM/VLA, and adjacent deep tech — not a firehose of headlines.
+  </p>
+
+  <h2>Architecture</h2>
+  <p class="lead">
+    The site is fully static. A scheduled GitHub Actions workflow runs once every 24 hours, fetches
+    structured sources (RSS/Atom, arXiv category feeds, GitHub release feeds), normalizes and
+    deduplicates the items, scores them, builds the daily digest, and commits the generated JSON/HTML
+    back into this repository. GitHub Pages then serves the updated site — there is no server, database,
+    or login.
+  </p>
+
+  <h2>Pipeline stages</h2>
+  <ul>
+    <li><code>fetch_feeds.py</code> — pulls entries from every source in <code>config/sources.yaml</code></li>
+    <li><code>normalize.py</code> — converts raw entries into a common item schema</li>
+    <li><code>dedupe.py</code> — collapses exact-URL duplicates and near-duplicate titles into one item, keeping the highest-trust source as the representative</li>
+    <li><code>score.py</code> — computes relevance, novelty, source trust, and engineering value</li>
+    <li><code>build_digest.py</code> — selects the top items per section</li>
+    <li><code>export_pages.py</code> — writes <code>docs/data/*.json</code> and <code>docs/digest/*.html</code></li>
+  </ul>
+
+  <h2>Scoring formula</h2>
+  <p class="lead">Each item gets a score in [0, 1]:</p>
+  <div class="formula">
+score = 0.40 × relevance
+      + 0.25 × novelty
+      + 0.20 × source_trust
+      + 0.15 × engineering_value
+  </div>
+  <ul>
+    <li><strong>relevance</strong> — how strongly the title/summary matches the taxonomy categories (model releases, infra/inference, robotics &amp; VLA, multimodal, papers, repos, industry)</li>
+    <li><strong>novelty</strong> — decays with age and drops to zero if the item already appeared in a recent digest</li>
+    <li><strong>source_trust</strong> — a per-source weight reflecting how official/authoritative the source is</li>
+    <li><strong>engineering_value</strong> — whether the item helps a builder (code, benchmarks, APIs, reproducible results) rather than just being a headline</li>
+  </ul>
+  <p class="lead">
+    Items below the minimum score threshold (see <code>config/scoring.yaml</code>) are dropped entirely.
+    The remaining items are grouped into sections (Top Stories, Model &amp; Tooling, Robotics &amp; VLA,
+    VLM &amp; Multimodal, Papers &amp; Benchmarks, Repo Watch, Industry Moves), each capped at a small
+    number of items so the digest stays sharply filtered.
+  </p>
+
+  <h2>Deduplication</h2>
+  <p class="lead">
+    Items are merged if their canonical URL matches exactly, or if their normalized titles are similar
+    enough (via a string-similarity threshold). When sources overlap, the highest-trust source is kept
+    as the representative and the others are listed as "also reported by".
+  </p>
+
+  <h2>Update cadence</h2>
+  <p class="lead">
+    The pipeline runs on a daily schedule (plus manual trigger for testing). Each run produces a new
+    <code>docs/data/archive/&lt;date&gt;.json</code> entry and updates <code>docs/data/latest.json</code>.
+  </p>
+
+  <h2>What this is not</h2>
+  <ul>
+    <li>Not a general AI newsletter — low-signal/hype content is filtered out</li>
+    <li>Not a chatbot — there is no runtime AI, only a scheduled content pipeline</li>
+    <li>Not a broad web scraper — sources are structured feeds (RSS/Atom, arXiv, GitHub releases)</li>
+  </ul>
+</main>
+<footer class="site-footer">
+  <p>AI Engineering Radar — generated automatically every 24 hours via GitHub Actions.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sources · AI Engineering Radar</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">AI Engineering Radar</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="archive.html">Archive</a>
+    <a href="sources.html" class="active">Sources</a>
+    <a href="method.html">Method</a>
+  </nav>
+</header>
+<main class="container">
+  <h1>Sources</h1>
+  <p class="lead">
+    Every item in the digest comes from one of the structured sources below — official blogs,
+    arXiv category feeds, and GitHub release feeds for tracked projects. No general web scraping.
+    "Trust" reflects how official/authoritative a source is and feeds into the relevance score.
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Source</th>
+        <th>Type</th>
+        <th>Category</th>
+        <th>Trust</th>
+      </tr>
+    </thead>
+    <tbody id="sources-body">
+      <tr><td colspan="4" class="empty">Loading…</td></tr>
+    </tbody>
+  </table>
+</main>
+<footer class="site-footer">
+  <p>AI Engineering Radar — generated automatically every 24 hours via GitHub Actions.</p>
+</footer>
+<script src="assets/app.js"></script>
+<script>
+  const TYPE_LABELS = {
+    rss: "RSS / Atom",
+    arxiv: "arXiv RSS",
+    github_releases: "GitHub Releases",
+  };
+  const CATEGORY_LABELS = {
+    model_releases: "Model Releases",
+    infra_tooling: "Infra & Tooling",
+    robotics_vla: "Robotics & VLA",
+    vlm_multimodal: "VLM & Multimodal",
+    papers_benchmarks: "Papers & Benchmarks",
+    repos: "Open-Source Repos",
+    industry: "Industry",
+  };
+
+  (async () => {
+    const tbody = document.getElementById("sources-body");
+    try {
+      const sources = await AIRadar.fetchJSON("data/sources.json");
+      tbody.innerHTML = sources
+        .map((s) => `
+          <tr>
+            <td>${AIRadar.escapeHTML(s.name)}</td>
+            <td>${AIRadar.escapeHTML(TYPE_LABELS[s.type] || s.type)}</td>
+            <td>${AIRadar.escapeHTML(CATEGORY_LABELS[s.category] || s.category)}</td>
+            <td><span class="trust-bar"><span style="width:${Math.round(s.trust * 100)}%"></span></span>${s.trust.toFixed(2)}</td>
+          </tr>
+        `)
+        .join("");
+    } catch (err) {
+      tbody.innerHTML = '<tr><td colspan="4" class="empty">Source list not available yet.</td></tr>';
+      console.error(err);
+    }
+  })();
+</script>
+</body>
+</html>

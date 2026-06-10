@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Engineering Radar</title>
+<meta name="description" content="A daily, sharply-filtered digest of AI engineering: model releases, infra & inference tooling, robotics & VLA, multimodal models, papers, and open-source repos.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">AI Engineering Radar</a>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="archive.html">Archive</a>
+    <a href="sources.html">Sources</a>
+    <a href="method.html">Method</a>
+  </nav>
+</header>
+<main class="container">
+  <h1 data-headline>Loading today's digest…</h1>
+  <p class="meta" data-meta></p>
+  <p class="lead" data-summary></p>
+
+  <div class="filters" data-filters>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="top_stories">Top Stories</button>
+    <button class="filter-btn" data-filter="model_tooling">Model &amp; Tooling</button>
+    <button class="filter-btn" data-filter="robotics_vla">Robotics &amp; VLA</button>
+    <button class="filter-btn" data-filter="vlm_multimodal">VLM &amp; Multimodal</button>
+    <button class="filter-btn" data-filter="papers">Papers</button>
+    <button class="filter-btn" data-filter="repos">Repo Watch</button>
+    <button class="filter-btn" data-filter="industry">Industry</button>
+  </div>
+
+  <div data-sections></div>
+</main>
+<footer class="site-footer">
+  <p>AI Engineering Radar — generated automatically every 24 hours via GitHub Actions. See <a href="method.html">Method</a> for how items are scored.</p>
+</footer>
+<script src="assets/app.js"></script>
+<script>
+  (async () => {
+    const root = document.querySelector("main");
+    try {
+      const digest = await AIRadar.fetchJSON("data/latest.json");
+      AIRadar.renderDigest(digest, root);
+      AIRadar.setupFilters(root);
+    } catch (err) {
+      document.querySelector("[data-headline]").textContent = "Digest not available yet";
+      document.querySelector("[data-summary]").textContent = "The first scheduled run hasn't completed yet. Check back soon.";
+      console.error(err);
+    }
+  })();
+</script>
+</body>
+</html>

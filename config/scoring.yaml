@@ -1,0 +1,44 @@
+# Scoring configuration for AI Engineering Radar
+#
+# score = w_relevance * relevance
+#       + w_novelty * novelty
+#       + w_source_trust * source_trust
+#       + w_engineering_value * engineering_value
+#
+# All component scores are normalized to [0, 1].
+
+weights:
+  relevance: 0.40
+  novelty: 0.25
+  source_trust: 0.20
+  engineering_value: 0.15
+
+# How many days back an item can be considered "recent" before novelty decays to ~0.
+novelty_half_life_days: 2
+
+# Items below this score are dropped before section selection.
+min_score_threshold: 0.25
+
+# Title similarity threshold (0-1, via difflib SequenceMatcher) above which two
+# items are considered near-duplicates and clustered together.
+title_similarity_threshold: 0.82
+
+# How many days of past digests to scan for novelty comparison (avoid re-surfacing
+# the same story day after day).
+novelty_lookback_days: 3
+
+# Digest section sizes (max items per section after ranking)
+digest_limits:
+  top_stories: 5
+  model_tooling: 4
+  robotics_vla: 3
+  vlm_multimodal: 3
+  papers: 5
+  repos: 3
+  industry: 3
+
+# Minimum score for an item to be eligible for "top_stories"
+top_story_min_score: 0.55
+
+# Maximum age (days) for an item to be eligible for the digest at all
+max_item_age_days: 5

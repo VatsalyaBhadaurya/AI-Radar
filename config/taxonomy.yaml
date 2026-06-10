@@ -1,0 +1,161 @@
+# Taxonomy for AI Engineering Radar
+# Each category has keywords used to compute "relevance" against item title + summary.
+# "engineering_keywords" boost engineering_value when present.
+# "noise_keywords" push items toward the low-signal/noise category and reduce score.
+
+categories:
+  model_releases:
+    label: "Model Releases"
+    keywords:
+      - "release"
+      - "launch"
+      - "model"
+      - "GPT"
+      - "Claude"
+      - "Gemini"
+      - "Llama"
+      - "Mistral"
+      - "open weights"
+      - "checkpoint"
+      - "fine-tune"
+      - "foundation model"
+
+  infra_tooling:
+    label: "Infra & Inference Tooling"
+    keywords:
+      - "inference"
+      - "serving"
+      - "quantization"
+      - "vLLM"
+      - "TensorRT"
+      - "CUDA"
+      - "GPU"
+      - "throughput"
+      - "latency"
+      - "kernel"
+      - "compiler"
+      - "runtime"
+      - "deployment"
+      - "framework"
+      - "library"
+      - "SDK"
+      - "API"
+
+  robotics_vla:
+    label: "Robotics & Embodied AI"
+    keywords:
+      - "robot"
+      - "robotics"
+      - "embodied"
+      - "manipulation"
+      - "locomotion"
+      - "humanoid"
+      - "VLA"
+      - "vision-language-action"
+      - "policy"
+      - "actuator"
+      - "sim-to-real"
+      - "teleoperation"
+
+  vlm_multimodal:
+    label: "VLM / VLA / Multimodal"
+    keywords:
+      - "vision-language"
+      - "multimodal"
+      - "VLM"
+      - "image-to-text"
+      - "video understanding"
+      - "captioning"
+      - "visual reasoning"
+      - "diffusion"
+      - "image generation"
+      - "video generation"
+      - "speech"
+      - "audio model"
+
+  papers_benchmarks:
+    label: "Papers & Benchmarks"
+    keywords:
+      - "paper"
+      - "arXiv"
+      - "benchmark"
+      - "evaluation"
+      - "dataset"
+      - "SOTA"
+      - "state-of-the-art"
+      - "ablation"
+      - "training"
+      - "reasoning"
+      - "RLHF"
+      - "alignment"
+
+  repos:
+    label: "Open-Source Repos"
+    keywords:
+      - "repo"
+      - "repository"
+      - "GitHub"
+      - "open source"
+      - "open-source"
+      - "library"
+      - "tool"
+      - "package"
+      - "release notes"
+      - "changelog"
+
+  industry:
+    label: "Industry Moves"
+    keywords:
+      - "funding"
+      - "acquisition"
+      - "partnership"
+      - "valuation"
+      - "raises"
+      - "startup"
+      - "CEO"
+      - "investment"
+      - "IPO"
+      - "revenue"
+
+  noise:
+    label: "Low-Signal / Noise"
+    keywords:
+      - "celebrity"
+      - "opinion"
+      - "rumor"
+      - "listicle"
+      - "horoscope"
+      - "clickbait"
+      - "sponsored"
+
+# General engineering-value signals (boost engineering_value score regardless of category)
+engineering_keywords:
+  - "open source"
+  - "open-source"
+  - "benchmark"
+  - "performance"
+  - "throughput"
+  - "latency"
+  - "API"
+  - "SDK"
+  - "code"
+  - "implementation"
+  - "weights"
+  - "checkpoint"
+  - "fine-tune"
+  - "training recipe"
+  - "evaluation"
+  - "reproducible"
+  - "tutorial"
+  - "how to"
+  - "architecture"
+  - "optimization"
+
+# Keywords that strongly indicate low engineering value / hype-only content
+hype_keywords:
+  - "is changing the world"
+  - "game changer"
+  - "mind-blowing"
+  - "you won't believe"
+  - "revolutionize"
+  - "disrupting"

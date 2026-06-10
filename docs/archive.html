@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archive · AI Engineering Radar</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">AI Engineering Radar</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="archive.html" class="active">Archive</a>
+    <a href="sources.html">Sources</a>
+    <a href="method.html">Method</a>
+  </nav>
+</header>
+<main class="container">
+  <div id="archive-list-view">
+    <h1>Archive</h1>
+    <p class="lead">Browse previous daily digests.</p>
+    <ul class="archive-list" id="date-list"></ul>
+  </div>
+
+  <div id="digest-view" style="display:none;">
+    <p><a href="archive.html">&larr; Back to archive</a></p>
+    <h1 data-headline></h1>
+    <p class="meta" data-meta></p>
+    <p class="lead" data-summary></p>
+    <div data-sections></div>
+  </div>
+</main>
+<footer class="site-footer">
+  <p>AI Engineering Radar — generated automatically every 24 hours via GitHub Actions.</p>
+</footer>
+<script src="assets/app.js"></script>
+<script>
+  (async () => {
+    const params = new URLSearchParams(window.location.search);
+    const date = params.get("date");
+    const listView = document.getElementById("archive-list-view");
+    const digestView = document.getElementById("digest-view");
+
+    if (date) {
+      listView.style.display = "none";
+      digestView.style.display = "";
+      try {
+        const digest = await AIRadar.fetchJSON(`data/archive/${date}.json`);
+        AIRadar.renderDigest(digest, digestView);
+      } catch (err) {
+        digestView.querySelector("[data-headline]").textContent = `No digest found for ${date}`;
+        console.error(err);
+      }
+      return;
+    }
+
+    try {
+      const dates = await AIRadar.fetchJSON("data/archive_index.json");
+      const list = document.getElementById("date-list");
+      if (!dates.length) {
+        list.innerHTML = '<li><span class="empty">No archived digests yet.</span></li>';
+        return;
+      }
+      list.innerHTML = dates
+        .map((d) => `<li><a href="archive.html?date=${encodeURIComponent(d)}">${AIRadar.escapeHTML(d)}</a></li>`)
+        .join("");
+    } catch (err) {
+      document.getElementById("date-list").innerHTML = '<li><span class="empty">Archive index not available yet.</span></li>';
+      console.error(err);
+    }
+  })();
+</script>
+</body>
+</html>
