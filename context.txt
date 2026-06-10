@@ -1,0 +1,515 @@
+You are building a web-based daily AI engineering intelligence agent, not a generic “AI news app.” For your domain, the product should monitor AI engineering, deep-tech, robotics, VLM/VLA, inference/tooling, papers, repos, and important product/model releases, then package the most relevant items into a digest every 24 hours.
+
+Since you want GitHub Pages hosting, the correct mental model is this: the website is only the presentation layer, while the repository plus GitHub Actions becomes the lightweight backend. GitHub Pages serves the generated outputs, and the workflow pipeline fetches feeds, ranks items, and writes new digest files back into the repo.
+
+Core architecture
+The system should follow a repo-driven static-publishing architecture. GitHub Pages serves the frontend and archive pages from repository files, and GitHub Actions runs on a schedule to regenerate those files every day.
+
+That means the architecture is:
+
+Static frontend on GitHub Pages.
+
+Feed/source config stored in the repo.
+
+Scheduled GitHub Actions workflow every 24 hours.
+
+Python or TypeScript scripts to ingest, filter, rank, and render content.
+
+Generated JSON and HTML committed back to the repo.
+
+Optional mail step later through a self-hosted tool such as listmonk, which is documented as a standalone self-hosted newsletter manager backed by Postgres.
+
+So the whole system is not “browser scraping from the website.” It is “offline generation + static publishing.” That is the correct architecture for GitHub Pages.
+
+Why this fits you
+This design is especially suitable for you because you prefer open-source tools and lightweight engineering systems rather than heavy SaaS stacks. It also matches your prior work style: repo-based projects, TypeScript/Python pipelines, and local or self-controlled AI components rather than managed black-box services.
+
+From an engineering perspective, the biggest advantage is separation of concerns:
+
+GitHub Pages handles delivery.
+
+GitHub Actions handles orchestration.
+
+Scripts handle intelligence.
+
+Optional mail infrastructure handles delivery outside the static site.
+
+That keeps the website simple and makes the actual intelligence layer reproducible and versioned in Git.
+
+What the system actually does
+Every 24 hours, the pipeline should do this:
+
+Read source definitions from config files.
+
+Fetch fresh entries from RSS, arXiv, GitHub, and selected official blogs.
+
+Normalize all items into a common schema.
+
+Remove duplicates and near-duplicates.
+
+Score items by relevance to your target domains.
+
+Select the top items for the day.
+
+Generate:
+
+machine-readable JSON
+
+archive JSON
+
+human-readable static HTML digest pages
+
+Commit those generated files back into the repo.
+
+GitHub Pages automatically serves the updated site.
+
+This is the main idea: the “agent” is the scheduled content pipeline, not a runtime chatbot.
+
+Data sources
+For a free and lightweight v1, do not begin with broad web scraping or headless browser crawling. Use structured public sources first, because they are far more stable and much easier to operate inside GitHub Actions.
+
+Your source categories should be:
+
+arXiv feeds, including filtered or custom RSS pipelines, since there are known tools and examples for generating filtered arXiv RSS feeds.
+
+GitHub repositories and release feeds for tools, model runtimes, repos, and libraries.
+
+Official engineering blogs from major AI labs and infra vendors.
+
+High-signal AI/deep-tech publications that expose RSS or consistently parseable pages.
+
+Curated robotics and multimodal sources relevant to your actual work.
+
+A good domain taxonomy for your case is:
+
+Model releases
+
+Infra and inference tooling
+
+Robotics and embodied AI
+
+VLM / VLA / multimodal
+
+Papers and benchmarks
+
+Open-source repos
+
+Industry moves
+
+Low-signal hype/noise
+
+That taxonomy is important because it prevents the system from turning into “random AI headlines.”
+
+Product behavior
+The digest should not try to show everything. It should behave like a research assistant that has editorial judgment. For a technical audience, the best digest is small, sharply filtered, and categorized.
+
+A strong daily digest can look like this:
+
+3–5 top stories
+
+3–4 model/tooling updates
+
+3–5 papers worth opening
+
+2–3 repo/watchlist updates
+
+1 short “why it matters” paragraph for the day
+
+Each item should include:
+
+title
+
+source
+
+date
+
+short summary
+
+why it matters
+
+tags
+
+original link
+
+This is much more valuable than raw link dumping.
+
+Repo structure
+A clean repository structure would be:
+
+text
+ai-engineering-radar/
+├─ docs/
+│  ├─ index.html
+│  ├─ digest.html
+│  ├─ archive.html
+│  ├─ sources.html
+│  ├─ assets/
+│  │  ├─ app.js
+│  │  ├─ styles.css
+│  │  └─ logo.svg
+│  ├─ data/
+│  │  ├─ latest.json
+│  │  ├─ sources.json
+│  │  └─ archive/
+│  │     ├─ 2026-06-10.json
+│  │     └─ 2026-06-09.json
+│  └─ digest/
+│     ├─ latest.html
+│     ├─ 2026-06-10.html
+│     └─ 2026-06-09.html
+├─ scripts/
+│  ├─ fetch_feeds.py
+│  ├─ normalize.py
+│  ├─ dedupe.py
+│  ├─ score.py
+│  ├─ build_digest.py
+│  └─ export_pages.py
+├─ config/
+│  ├─ sources.yaml
+│  ├─ taxonomy.yaml
+│  └─ scoring.yaml
+├─ .github/
+│  └─ workflows/
+│     ├─ daily-digest.yml
+│     └─ deploy-pages.yml
+└─ README.md
+GitHub Pages can publish from a branch or via GitHub Actions, and GitHub’s documentation explicitly describes the Pages deployment flow through Actions.
+
+Frontend role
+The frontend on GitHub Pages should remain very simple. It is not the worker; it is the viewer.
+
+Its job is to provide:
+
+homepage with today’s digest
+
+archive page by date
+
+section filters such as robotics, infra, papers, repos
+
+source transparency page
+
+“about methodology” page
+
+optional manual trigger instructions or status page
+
+Because it is static, the frontend should mostly read JSON files from docs/data/ and render them in the browser. This is a good fit for plain HTML/CSS/JS or a static React build, but since you want lightweight deployment, plain JS or a tiny static framework is often better.
+
+Backend role
+In this architecture, the backend is not a continuously running API server. The backend is the scheduled workflow plus the scripts.
+
+So instead of asking “where will my backend be hosted?”, the correct answer is:
+
+logic runs in GitHub Actions
+
+outputs are stored in the repo
+
+Pages hosts the outputs
+
+That is why this model is lightweight.
+
+The scripts should do six jobs:
+
+fetch_feeds.py: fetch RSS, Atom, arXiv, GitHub, blog feeds
+
+normalize.py: unify item fields
+
+dedupe.py: collapse repeats and reposts
+
+score.py: assign relevance and trust
+
+build_digest.py: pick the final set
+
+export_pages.py: generate JSON and HTML outputs
+
+Digest intelligence layer
+This part is your moat. The value is not “can fetch feeds.” The value is “can decide what matters.”
+
+Your scoring should include at least four factors:
+
+s
+c
+o
+r
+e
+=
+0.40
+×
+r
+e
+l
+e
+v
+a
+n
+c
+e
++
+0.25
+×
+n
+o
+v
+e
+l
+t
+y
++
+0.20
+×
+s
+o
+u
+r
+c
+e
+_
+t
+r
+u
+s
+t
++
+0.15
+×
+e
+n
+g
+i
+n
+e
+e
+r
+i
+n
+g
+_
+v
+a
+l
+u
+e
+score=0.40×relevance+0.25×novelty+0.20×source_trust+0.15×engineering_value
+Where:
+
+relevance = how strongly it matches your taxonomy
+
+novelty = whether this is new versus yesterday or recent history
+
+source_trust = official lab/repo/journal/blog quality
+
+engineering_value = whether it helps a builder, not just a headline reader
+
+For example:
+
+a new vLLM feature release gets high engineering value
+
+a flashy AI startup funding article gets lower engineering value unless it includes deep product implications
+
+a robotics benchmark paper gets high relevance for your domain
+
+duplicated reports of the same model launch should collapse into one cluster
+
+This is what makes it an engineering agent rather than a content scraper.
+
+Deduplication logic
+This is essential. Many sources echo the same story. Without deduplication, your digest becomes noisy.
+
+You should dedupe by:
+
+exact URL
+
+canonicalized URL
+
+normalized title similarity
+
+semantic similarity on title + summary
+
+same-source reposts
+
+A simple v1 rule can be:
+
+if canonical URL matches, merge
+
+else if title similarity > threshold, group
+
+else keep separate
+
+Then choose one representative item per duplicate cluster, ideally the highest-trust source.
+
+Scheduling model
+GitHub Actions supports scheduled workflows, and public repos on free accounts can use them with some caveats around timing and workflow behavior. So your daily digest workflow should be a cron-triggered action that runs once every 24 hours, plus optional manual dispatch for testing.
+
+The daily workflow should:
+
+checkout repo
+
+install dependencies
+
+run feed scripts
+
+build JSON/HTML
+
+commit updated outputs
+
+push changes
+
+optionally trigger Pages deployment if needed
+
+GitHub’s Pages docs outline the Actions-based publication flow through checkout, artifact upload, and deploy actions.
+
+GitHub Pages publishing model
+There are two reasonable approaches:
+
+Publish directly from docs/ on the main branch.
+
+Publish using a Pages GitHub Actions workflow.
+
+GitHub documents both “deploy from a branch” and “GitHub Actions” as supported publication methods. For your case, the simplest is usually:
+
+keep generated site in docs/
+
+configure Pages to publish from branch/folder
+
+let your scheduled action update docs/
+
+That way the same scheduled job updates the actual site content.
+
+Email in this architecture
+This is the one part that GitHub Pages cannot do directly, because GitHub Pages is a static host and does not execute server-side logic such as sending mail. So email must be treated as an external delivery layer.
+
+If you later want email, you have three realistic paths:
+
+GitHub Actions sends through an SMTP account using repository secrets.
+
+GitHub Actions calls a self-hosted listmonk API, and listmonk handles campaigns and subscribers. listmonk is documented as a standalone binary with Postgres dependency and API support.
+
+You keep the digest web-only at first and add mail after the core ranking system works.
+
+Given your constraints, the best engineering decision is to build the digest site first and email second. That removes a lot of operational complexity.
+
+Why not scrape everything
+A common mistake is to think “better scraper = better product.” For your use case, that is false.
+
+For AI engineering news:
+
+official blogs already provide structured updates
+
+arXiv is already structured
+
+GitHub data is already structured
+
+many quality publications expose feeds
+
+the hard part is ranking, not crawling
+
+GitHub Actions is not ideal for heavy browser-driven scraping anyway, since it is better suited for scheduled automation and moderate workloads than large-scale persistent scraping. So the right v1 is structured ingestion first, selective parsing second, browser automation last.
+
+Pages and data model
+The website should consume generated JSON. A good latest.json can look like:
+
+json
+{
+  "date": "2026-06-10",
+  "headline": "Today’s AI engineering radar",
+  "summary": "Key updates across model releases, inference tooling, robotics, and papers.",
+  "sections": [
+    {
+      "name": "Infra and Tooling",
+      "items": []
+    },
+    {
+      "name": "Robotics and VLA",
+      "items": []
+    },
+    {
+      "name": "Papers",
+      "items": []
+    }
+  ]
+}
+Each item can be:
+
+json
+{
+  "id": "item_001",
+  "title": "Example title",
+  "source": "Example source",
+  "url": "https://example.com",
+  "published_at": "2026-06-10T08:00:00Z",
+  "summary": "Short summary",
+  "why_it_matters": "Engineering implication",
+  "tags": ["robotics", "vlm"],
+  "score": 0.91
+}
+This keeps your frontend extremely simple.
+
+Minimal website pages
+Your site should have four core pages:
+
+Page	Purpose
+Home	Shows latest digest and top sections
+Archive	Browse previous daily digests
+Sources	Show tracked feeds and trust labels
+Method	Explain ranking, filtering, and update cadence
+This is enough for a solid v1.
+
+Development strategy
+Build in this order:
+
+Source registry.
+
+Feed fetchers.
+
+Normalizer.
+
+Deduper.
+
+Scorer.
+
+Digest renderer.
+
+GitHub Action.
+
+Static frontend.
+
+Email integration later.
+
+That order matters because you first need the intelligence layer, then the publishing layer.
+
+Proper product framing
+The product should be described as:
+
+“A GitHub Pages-hosted static AI engineering radar that uses GitHub Actions as a scheduled intelligence pipeline to collect, rank, and publish daily deep-tech and AI engineering digests.”
+
+That is the cleanest contextual description.
+
+And the sharp product differentiation is:
+
+not a general AI newsletter
+
+not a chat bot
+
+not a random scraper
+
+a narrow engineering intelligence system for builders and researchers
+
+That positioning is much stronger for your background in robotics, multimodal AI, and technical research.
+
+Recommended v1 constraints
+To keep it realistic and reliable:
+
+30–80 sources maximum
+
+one run every 24 hours
+
+RSS/API-first only
+
+no login/auth system
+
+no per-user personalization at first
+
+no browser scraping initially
+
+no email until the digest quality is stable
+
+Those constraints are not limitations; they are what make the system actually shippable on GitHub Pages.
