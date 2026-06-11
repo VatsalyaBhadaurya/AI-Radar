@@ -1,87 +1,88 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T06:44:57Z",
+  "generated_at": "2026-06-11T12:46:54Z",
   "headline": "Today's AI engineering radar — 2026-06-11",
-  "summary": "Today's lead story: \"Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation\" (arXiv cs.RO). Coverage spans robotics_vla, papers_benchmarks with 210 items scanned and 5 surfaced across sections.",
+  "summary": "Today's lead story: \"DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World\" (arXiv cs.RO). Coverage spans robotics_vla, papers_benchmarks, model_releases with 214 items scanned and 5 surfaced across sections.",
   "sections": [
     {
       "id": "for_you",
       "name": "Matches Your Stack",
       "items": [
         {
-          "id": "item_6268d6dd41aa",
-          "title": "Critic Architecture Matters: Dual vs. Unified Critics for Humanoid Loco-Manipulation",
+          "id": "item_0bc83e616999",
+          "title": "DuoBench: A Reproducible Benchmark for Bimanual Manipulation in Simulation and the Real World",
           "source": "arXiv cs.RO",
-          "url": "https://arxiv.org/abs/2606.11891",
-          "canonical_url": "https://arxiv.org/abs/2606.11891",
+          "url": "https://arxiv.org/abs/2606.11901",
+          "canonical_url": "https://arxiv.org/abs/2606.11901",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11891v1 Announce Type: new Abstract: Multi-objective reinforcement learning for humanoid robots must coordinate locomotion and manipulation within a single policy. A natural design choice is whether to use a single (unified) critic that estimates the combined value of all objectives, or separate (dual) critics with disjoint reward signals. We present a controlled comparison on the Unitree G1 humanoid (23 active DoF) in NVIDIA Isaac Lab, training loco-manipulation policies through a s…",
-          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation, locomotion). Matches your stack: humanoid, manipulation.",
+          "summary": "arXiv:2606.11901v1 Announce Type: new Abstract: Bimanual robot systems substantially expand manipulation capabilities, but coordinating two arms introduces additional control complexity and failure modes that are not well captured by existing benchmarks. We introduce DuoBench, an extensible benchmarking framework for bimanual manipulation policies on the FR3 Duo platform. DuoBench comprises eleven tasks spanning four coordination categories, implemented in simulation and partially reproduced in…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation). Matches your stack: manipulation.",
           "tags": [
             "for_you",
+            "infra_tooling",
             "papers_benchmarks",
             "robotics_vla"
           ],
           "category": "robotics_vla",
-          "score": 0.8453,
+          "score": 0.6997,
           "personal_match": true
         },
         {
-          "id": "item_75f19e9f3eee",
-          "title": "Learning Object Manipulation from Scratch via Contrastive Interaction",
+          "id": "item_43a29adcc3ae",
+          "title": "PLUME: Probabilistic Latent Unified World Modeling and Parameter Estimation for Multi-Finger Manipulation",
           "source": "arXiv cs.RO",
-          "url": "https://arxiv.org/abs/2606.11525",
-          "canonical_url": "https://arxiv.org/abs/2606.11525",
+          "url": "https://arxiv.org/abs/2606.11396",
+          "canonical_url": "https://arxiv.org/abs/2606.11396",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11525v1 Announce Type: new Abstract: Contrastive Reinforcement Learning (CRL) has seen recent success in a wide variety of goal-conditioned robotics tasks by learning structured representations of the dynamics. However, despite its success in locomotion and simpler control domains, CRL often struggles in interaction-rich manipulation. We argue that a key source of this difficulty is object-centric interaction, such as contact or grasping, that induces distinct changes in the underlyi…",
-          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, robotics, manipulation). Matches your stack: manipulation.",
-          "tags": [
-            "for_you",
-            "papers_benchmarks",
-            "robotics_vla"
-          ],
-          "category": "robotics_vla",
-          "score": 0.8228,
-          "personal_match": true
-        },
-        {
-          "id": "item_ee83106f80f0",
-          "title": "TacCoRL: Integrating Tactile Feedback into VLA via Simulation",
-          "source": "arXiv cs.RO",
-          "url": "https://arxiv.org/abs/2606.11743",
-          "canonical_url": "https://arxiv.org/abs/2606.11743",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11743v1 Announce Type: new Abstract: Vision-language-action (VLA) models provide strong visual, language, and action priors for robot manipulation, but visual observations alone often miss the local contact state required for contact-rich tasks. We present TacCoRL, a scalable framework that injects Tactile feedback into VLA policies and improves them through sim-real Co-training and simulation-based reinforcement learning (RL), without requiring large-scale tactile pretraining or ext…",
-          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation, VLA). Matches your stack: VLA, vision-language-action, manipulation.",
+          "summary": "arXiv:2606.11396v1 Announce Type: new Abstract: Dexterous manipulation with multi-finger hands can be sensitive to physical parameters such as object shape, pose, and friction coefficients. While simulation enables large-scale data collection with known parameter values, simulation-trained policies must still handle uncertainty at deployment, where the true parameters and therefore the true dynamics are unknown. Standard domain randomization strategies may be insufficient for precise tasks like…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: manipulation, world model). Matches your stack: world model, manipulation.",
           "tags": [
             "for_you",
             "infra_tooling",
             "model_releases",
             "papers_benchmarks",
-            "robotics_vla",
-            "vlm_multimodal"
-          ],
-          "category": "robotics_vla",
-          "score": 0.8228,
-          "personal_match": true
-        },
-        {
-          "id": "item_7132d9f7c8d1",
-          "title": "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning",
-          "source": "arXiv cs.RO",
-          "url": "https://arxiv.org/abs/2606.11767",
-          "canonical_url": "https://arxiv.org/abs/2606.11767",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11767v1 Announce Type: new Abstract: Blind grasping with a dexterous hand is a crucial manipulation capability. Nevertheless, learning such tactile-only policies for real robots remains challenging due to the tactile sim-to-real gap and the limited expressiveness of sparse tactile signals. To bridge this gap, we propose a framework for tactile-only blind grasping that is deployable on a physical multi-fingered robotic hand. Our approach combines three key components. First, we introd…",
-          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation, policy). Matches your stack: sim-to-real, manipulation.",
-          "tags": [
-            "for_you",
-            "infra_tooling",
-            "papers_benchmarks",
             "robotics_vla"
           ],
           "category": "robotics_vla",
-          "score": 0.8228,
+          "score": 0.6867,
+          "personal_match": true
+        },
+        {
+          "id": "item_81d56a846f0c",
+          "title": "Embodied-BenchClaw: An Autonomous Multi-Agent System for Embodied Spatial Intelligence Benchmark Construction",
+          "source": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2606.11909",
+          "canonical_url": "https://arxiv.org/abs/2606.11909",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11909v1 Announce Type: new Abstract: Benchmarks are essential for evaluating embodied spatial intelligence, yet their construction is labor-intensive, hard to reuse, and difficult to maintain. Existing embodied benchmarks are often static and may quickly become saturated as models improve, limiting their ability to distinguish new capabilities. We propose Embodied-BenchClaw, an autonomous agentic system for constructing embodied spatial intelligence benchmarks. Given a user-specified…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark). Matches your stack: embodied.",
+          "tags": [
+            "for_you",
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6772,
+          "personal_match": true
+        },
+        {
+          "id": "item_6300eefcdb0b",
+          "title": "Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models",
+          "source": "arXiv cs.RO",
+          "url": "https://arxiv.org/abs/2606.11324",
+          "canonical_url": "https://arxiv.org/abs/2606.11324",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11324v1 Announce Type: new Abstract: We introduce Embodied-R1.5, a unified Embodied Foundation Model (EFM) that integrates comprehensive embodied reasoning capabilities, spanning embodied cognition, task planning, correction, and pointing, within a single architecture toward general physical intelligence. Leveraging three automated data construction pipelines to significantly expand the data coverage of critical capabilities, we build a large-scale data system of over 15B tokens, and…",
+          "why_it_matters": "Relevant to Model Releases (matches: model, foundation model). Matches your stack: embodied.",
+          "tags": [
+            "for_you",
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla"
+          ],
+          "category": "model_releases",
+          "score": 0.6772,
           "personal_match": true
         }
       ]
@@ -91,97 +92,98 @@
       "name": "Top Stories",
       "items": [
         {
-          "id": "item_77850c029c7b",
-          "title": "i1: A Simple and Fully Open Recipe for Strong Text-to-Image Models",
-          "source": "arXiv cs.CV",
-          "url": "https://arxiv.org/abs/2606.11289",
-          "canonical_url": "https://arxiv.org/abs/2606.11289",
+          "id": "item_94d9d96d215a",
+          "title": "AutoMine Solution for AV2 2026 Scenario Mining Challenge",
+          "source": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2606.11874",
+          "canonical_url": "https://arxiv.org/abs/2606.11874",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11289v1 Announce Type: new Abstract: Diffusion models have consistently driven progress in text-to-image generation. However, it is challenging to attribute recent progress to specific modeling and data choices: state-of-the-art open-weight models provide limited ablations, and do not disclose their training data and full training details. The research community needs fully open (weights, data, and code) models as a foundation for further research; yet existing fully open models stil…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, state-of-the-art, ablation).",
+          "summary": "arXiv:2606.11874v1 Announce Type: new Abstract: With the development of autonomous driving systems, mining high-value, safety-critical, and planning-relevant scenarios from large-scale driving logs has become essential for data-driven evaluation. In this paper, we propose AutoMine, a robust self-refining scenario mining method based on LLMs and VLMs. AutoMine uses semantics-preserving prompt augmentation to reduce LLM prompt sensitivity, combines robust trajectory atomic functions with VLM-base…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: paper, arXiv, evaluation).",
           "tags": [
-            "model_releases",
+            "industry",
+            "infra_tooling",
             "papers_benchmarks",
             "vlm_multimodal"
           ],
           "category": "papers_benchmarks",
-          "score": 0.8078,
+          "score": 0.7052,
           "personal_match": false
         },
         {
-          "id": "item_ad4bdd7b115f",
-          "title": "Benchmarking Large Language Models for Safety Data Extraction",
-          "source": "arXiv cs.CL",
-          "url": "https://arxiv.org/abs/2606.11204",
-          "canonical_url": "https://arxiv.org/abs/2606.11204",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11204v1 Announce Type: new Abstract: Accurate extraction of structured information from Safety Data Sheets (SDS) remains challenging in industrial safety due to heterogeneous document formats and the limitations of traditional rule-based methods. This study benchmarks state-of-the-art Large Language Models (LLMs) for automated SDS data extraction, comparing text-based and multimodal processing pipelines. We systematically evaluate four models: Gemini 1.5 Pro, GPT-4o, Claude 3.7 Sonne…",
-          "why_it_matters": "Relevant to Model Releases (matches: model, GPT, Claude).",
-          "tags": [
-            "model_releases",
-            "papers_benchmarks",
-            "vlm_multimodal"
-          ],
-          "category": "model_releases",
-          "score": 0.7853,
-          "personal_match": false
-        },
-        {
-          "id": "item_9ce516fb3826",
-          "title": "Energy-Efficient On-Device RAG on a Mobile NPU: System Design and Benchmark on Snapdragon X Elite",
-          "source": "arXiv cs.CL",
-          "url": "https://arxiv.org/abs/2606.11257",
-          "canonical_url": "https://arxiv.org/abs/2606.11257",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11257v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) pipelines are compute-intensive, combining embedding, retrieval, reranking, and large language model (LLM) generation. Running them entirely on-device benefits privacy, latency, and offline use, but the energy cost of CPU inference is a major barrier. We present what is, to our knowledge, the first end-to-end RAG pipeline that runs all neural stages -- embedding, reranking, and LLM generation -- on the Qualcomm…",
-          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, latency, on-device). Matches your stack: on-device.",
-          "tags": [
-            "for_you",
-            "infra_tooling",
-            "model_releases",
-            "papers_benchmarks",
-            "vlm_multimodal"
-          ],
-          "category": "infra_tooling",
-          "score": 0.7798,
-          "personal_match": true
-        },
-        {
-          "id": "item_4493a63cb396",
-          "title": "SwiftCTS: Fast Cross-Design Prediction and Pareto Optimization of Clock Tree Metrics via Few-Shot Calibration",
+          "id": "item_93af10cf7b39",
+          "title": "To Intervene or Not: Guiding Inference-time Alignment with Probabilistic Model Blending",
           "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2606.11348",
-          "canonical_url": "https://arxiv.org/abs/2606.11348",
+          "url": "https://arxiv.org/abs/2606.11201",
+          "canonical_url": "https://arxiv.org/abs/2606.11201",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11348v1 Announce Type: new Abstract: Clock Tree Synthesis (CTS) is a computationally expensive stage in the physical design flow, requiring iterative EDA tool invocations to navigate a vast configuration space for optimal power, wirelength, and timing skew. Existing machine learning approaches require computationally expensive retraining or fine-tuning cycles to adapt to unseen macro architectures and are architecturally mismatched to the millions of evaluations demanded by exhaustiv…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, evaluation, training). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "summary": "arXiv:2606.11201v1 Announce Type: new Abstract: The wide deployment of LLMs has made model alignment necessary to make newly trained models safely and effectively respond to user instructions. Among different methods, inference-time alignment is often cheaper as it intervenes (i.e., offers guidances) only during output generation. Existing proposals apply guidances extracted from certain aligned models without properly assessing their reliability. Nonetheless, our systematic evaluation reveals…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, evaluation, alignment).",
           "tags": [
             "industry",
-            "papers_benchmarks",
-            "repos"
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks"
           ],
           "category": "papers_benchmarks",
-          "score": 0.7703,
+          "score": 0.7052,
           "personal_match": false
         },
         {
-          "id": "item_6aba6c734c88",
-          "title": "PoQ-Judge: A Multi-Architecture Evaluation Framework for Cost-Aware Proof-of-Quality in Decentralized LLM Inference",
+          "id": "item_c05307850afb",
+          "title": "ProcessThinker: Enhancing Multi-modal Large Language Models Reasoning via Rollout-based Process Reward",
           "source": "arXiv cs.CL",
-          "url": "https://arxiv.org/abs/2606.11196",
-          "canonical_url": "https://arxiv.org/abs/2606.11196",
+          "url": "https://arxiv.org/abs/2606.11209",
+          "canonical_url": "https://arxiv.org/abs/2606.11209",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11196v1 Announce Type: new Abstract: Decentralized LLM inference networks need lightweight, reference-free quality evaluation for Proof of Quality (PoQ). We present PoQ-Judge, a framework that trains dedicated judge models to score query-output pairs without ground-truth references. We study three architectures across the quality-cost tradeoff: a TextCNN judge, a MiniLM cross-encoder, and a DeBERTa judge. Using two-stage training on UltraFeedback plus GPT-labeled in-domain data, the…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, evaluation, training). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "summary": "arXiv:2606.11209v1 Announce Type: new Abstract: Visual question answering increasingly requires multi-step reasoning. Recent post-training with reinforcement learning under verifiable rewards (RLVR) and Group Relative Policy Optimization (GRPO) can improve multimodal reasoning, but most approaches rely on sparse outcome-only rewards. As a result, they struggle to tell whether an incorrect answer comes from a small mistake late in the reasoning or from an unhelpful trajectory from the start. A c…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, training, reasoning).",
           "tags": [
-            "industry",
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla",
+            "vlm_multimodal"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.7052,
+          "personal_match": false
+        },
+        {
+          "id": "item_26ecb6a08789",
+          "title": "Afrispeech Semantics: Evaluating Audio Semantic Reasoning in Spoken Language Models Across Domains and Accents",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.11219",
+          "canonical_url": "https://arxiv.org/abs/2606.11219",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11219v1 Announce Type: new Abstract: Audio language models (ALMs) are increasingly used for speech-based understanding, yet their ability to perform semantic reasoning beyond transcription, Text-to-Audio Retrieval, Captioning, and Question-Answering accuracy remains insufficiently benchmarked. In particular, the effects of accent variation, domain shift, and semantic over-inference on audio reasoning are poorly understood. We evaluate audio language models across five semantic and pa…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, reasoning).",
+          "tags": [
             "infra_tooling",
             "model_releases",
             "papers_benchmarks",
             "vlm_multimodal"
           ],
           "category": "papers_benchmarks",
-          "score": 0.7703,
+          "score": 0.7052,
+          "personal_match": false
+        },
+        {
+          "id": "item_0ea928909228",
+          "title": "Sch\\\"utzen: Evaluating LLM Safety in Bulgarian and German Contexts",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.11316",
+          "canonical_url": "https://arxiv.org/abs/2606.11316",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11316v1 Announce Type: new Abstract: Large language models are increasingly deployed across professional domains, bringing hard-to-predict risks, including the generation of harmful or disrespectful content. Although substantial progress has been made in developing safety evaluation datasets, existing resources remain overwhelmingly English- and Chinese-centric. This limitation is particularly pronounced when evaluating languages that operate within shared sociocultural, legal, and e…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, evaluation, dataset).",
+          "tags": [
+            "industry",
+            "model_releases",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.7052,
           "personal_match": false
         }
       ]
@@ -191,75 +193,73 @@
       "name": "Model & Tooling Updates",
       "items": [
         {
-          "id": "item_db61cb9ec51c",
-          "title": "Portable vLLM Model Inference Kernels in Helion",
-          "source": "PyTorch Blog",
-          "url": "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion/",
-          "canonical_url": "https://pytorch.org/blog/portable-vllm-model-inference-kernels-in-helion",
-          "published_at": "2026-06-10T17:00:13Z",
-          "summary": "TL;DR Helion kernels were integrated into vLLM for FP8 inference using Qwen3 models and evaluated across NVIDIA H100 and B200 GPUs. The experiments show that Helion provides a productive PyTorch-native...",
-          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, vLLM, GPU).",
-          "tags": [
-            "infra_tooling",
-            "model_releases"
-          ],
-          "category": "infra_tooling",
-          "score": 0.7575,
-          "personal_match": false
-        },
-        {
-          "id": "item_0a5dd07630ba",
-          "title": "SkillJuror: Measuring How Agent Skill Organization Changes Runtime Behavior",
+          "id": "item_d63c04a2e931",
+          "title": "INFRAMIND: Infrastructure-Aware Multi-Agent Orchestration",
           "source": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2606.11543",
-          "canonical_url": "https://arxiv.org/abs/2606.11543",
+          "url": "https://arxiv.org/abs/2606.11440",
+          "canonical_url": "https://arxiv.org/abs/2606.11440",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11543v1 Announce Type: new Abstract: Agent Skills augment large language model (LLM) agents with procedural knowledge at inference time, but current benchmarks rarely distinguish what a Skill says from how it is organized. We study this distinction through Progressive Disclosure, where a concise root file points agents to supporting resources on demand, and compare it with a normalized flat baseline. We present SkillJuror, a framework for evaluating Skill writing paradigms through se…",
-          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, runtime, framework).",
+          "summary": "arXiv:2606.11440v1 Announce Type: new Abstract: Existing multi-agent LLM orchestration methods, ranging from brute-force ensembles to learned routers, select models and topologies based on task and model features. However, these methods do not consider the runtime state of the serving infrastructure. On shared GPU clusters under concurrent load, this infrastructure blindness causes systematic resource underutilization: preferred models accumulate deep request queues while equally capable altern…",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: serving, GPU, runtime).",
           "tags": [
             "infra_tooling",
             "model_releases",
             "papers_benchmarks"
           ],
           "category": "infra_tooling",
-          "score": 0.7253,
+          "score": 0.6827,
           "personal_match": false
         },
         {
-          "id": "item_aaefd9c798a1",
-          "title": "Cross-Modal Benchmarking for Robotic Perception in Natural Environments",
-          "source": "arXiv cs.CV",
-          "url": "https://arxiv.org/abs/2606.11563",
-          "canonical_url": "https://arxiv.org/abs/2606.11563",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11563v1 Announce Type: new Abstract: Natural environments present a complex challenge to robotics perception systems. Current models, particularly vision foundation models, are largely trained on structured, urban environments leading to weaknesses in their perception for field robotics tasks. We showcase the limitations of current models using our recently released WildCross benchmark, a new cross-modal benchmark for place recognition and metric depth estimation in large-scale natur…",
-          "why_it_matters": "Relevant to Model Releases (matches: release, model, foundation model).",
+          "id": "item_8ee7249bb619",
+          "title": "langchain-mistralai==1.1.5",
+          "source": "LangChain",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.5",
+          "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.5",
+          "published_at": "2026-06-10T21:53:40Z",
+          "summary": "Changes since langchain-mistralai==1.1.4 release(mistralai): 1.1.5 ( #38038 ) fix(core): support content block tokens in callbacks ( #34739 ) hotfix(openai): min core dep ( #37990 ) chore(model-profiles): refresh model profile data ( #37916 ) test(langchain,partners): disable pytest-benchmark under xdist to silence PytestBenchmarkWarning ( #37901 ) chore(model-profiles): refresh model profile data ( #37870 ) chore(infra): bump langchain-tests floor to 1.1.9 ( #37610 ) test(mistralai): stabilize…",
+          "why_it_matters": "Relevant to Model Releases (matches: release, model, Mistral).",
           "tags": [
             "model_releases",
             "papers_benchmarks",
-            "robotics_vla",
-            "vlm_multimodal"
+            "repos"
           ],
           "category": "model_releases",
-          "score": 0.7253,
+          "score": 0.6766,
           "personal_match": false
         },
         {
-          "id": "item_fa0d36e64c25",
-          "title": "From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference",
-          "source": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2606.11207",
-          "canonical_url": "https://arxiv.org/abs/2606.11207",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11207v1 Announce Type: new Abstract: We present SemantiClean, a modular framework for extracting structured semantic signals from e-commerce session data and driving pluggable inference targets including purchase intent, customer segmentation, and product affinity through a shared element library. Unlike conventional end-to-end predictors that optimise solely for accuracy, SemantiClean prioritises auditability, structural governance, and sigma=0 reproducibility, explicitly trading ma…",
-          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, framework, library).",
+          "id": "item_c9630166b246",
+          "title": "b9596",
+          "source": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9596",
+          "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9596",
+          "published_at": "2026-06-11T10:10:51Z",
+          "summary": "server: skip unused log lines on router mode ( #24463 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) DISABLED Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64 (CUDA 13…",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: CUDA, framework).",
           "tags": [
-            "infra_tooling",
-            "papers_benchmarks",
-            "repos"
+            "infra_tooling"
           ],
           "category": "infra_tooling",
-          "score": 0.7028,
+          "score": 0.6633,
+          "personal_match": false
+        },
+        {
+          "id": "item_fb37ef8096dd",
+          "title": "v8.4.65 - QNN channel-last + semantic ArgMax performance improvements (#24790)",
+          "source": "Ultralytics (YOLO)",
+          "url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.65",
+          "canonical_url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.65",
+          "published_at": "2026-06-11T08:04:17Z",
+          "summary": "🌟 Summary v8.4.65 is mainly a mobile inference performance release 📱⚡, with the biggest upgrade improving QNN exports for Snapdragon NPUs and speeding up semantic segmentation outputs by moving costly work inside the model graph. 📊 Key Changes 🚀 Major QNN export performance upgrade in PR #24790 by @glenn-jocher QNN exports now use channel-last (NHWC) input , which better matches Qualcomm Hexagon NPU hardware and camera-native image layouts. This avoids extra data reordering at inference time, r…",
+          "why_it_matters": "Relevant to Model Releases (matches: release, model).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "vlm_multimodal"
+          ],
+          "category": "model_releases",
+          "score": 0.6586,
           "personal_match": false
         }
       ]
@@ -269,52 +269,34 @@
       "name": "Robotics & Embodied AI",
       "items": [
         {
-          "id": "item_0c94ced71816",
-          "title": "LAST: Bridging Vision-Language and Action Manifolds via Gromov-Wasserstein Alignment",
-          "source": "arXiv cs.CV",
-          "url": "https://arxiv.org/abs/2606.11221",
-          "canonical_url": "https://arxiv.org/abs/2606.11221",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11221v1 Announce Type: new Abstract: We take a Gromov-Wasserstein perspective on Vision-Language-Action (VLA) learning, where the goal is to make the relational geometry of action representations compatible with the semantic geometry of VL embeddings. However, this alignment is non-trivial due to the mathematical heterogeneity between the domains: the semantic space of vision-language is topologically linear and isotropic, whereas the physical manifold of robotic action is non-Euclid…",
-          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, VLA, vision-language-action). Matches your stack: VLA, vision-language-action.",
-          "tags": [
-            "for_you",
-            "papers_benchmarks",
-            "robotics_vla",
-            "vlm_multimodal"
-          ],
-          "category": "robotics_vla",
-          "score": 0.7668,
-          "personal_match": true
-        },
-        {
-          "id": "item_bdeda53d964a",
-          "title": "Dynamic Execution Horizon Prediction for Chunk-based Robot Policies",
+          "id": "item_6c3068f897ed",
+          "title": "LUCID: Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition",
           "source": "arXiv cs.RO",
-          "url": "https://arxiv.org/abs/2606.11408",
-          "canonical_url": "https://arxiv.org/abs/2606.11408",
+          "url": "https://arxiv.org/abs/2606.11628",
+          "canonical_url": "https://arxiv.org/abs/2606.11628",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11408v1 Announce Type: new Abstract: Action chunking has become a standard design in modern robot policies, from diffusion/flow policies to vision-language-action models, where the policy predicts a sequence of actions and executes a fixed number of them instead of acting one step at a time. However, this paradigm relies on a key assumption: a fixed execution horizon. During chunk execution, the policy operates open-loop, which is particularly problematic for fine-grained manipulatio…",
-          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, vision-language-action, policy). Matches your stack: vision-language-action.",
+          "summary": "arXiv:2606.11628v1 Announce Type: new Abstract: The most widely-adopted robot learning pipelines today learn skills from robot demonstrations or structured human data, which are expensive to collect and tied to specific embodiments. In contrast, unstructured human videos provide a scalable alternative. They contain diverse manipulation demonstrations across objects, scenes, and strategies, but are not directly connected to robot action. We propose LUCID, a two-stage framework that learns task i…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation). Matches your stack: manipulation.",
           "tags": [
             "for_you",
+            "industry",
+            "infra_tooling",
             "model_releases",
             "papers_benchmarks",
-            "robotics_vla",
-            "vlm_multimodal"
+            "robotics_vla"
           ],
           "category": "robotics_vla",
-          "score": 0.7348,
+          "score": 0.6547,
           "personal_match": true
         },
         {
-          "id": "item_dca4e72fb38a",
-          "title": "HiPi: Reproducible High-Fidelity Piezoresistive Sensors for Robotic Manipulation",
+          "id": "item_d26f298b306f",
+          "title": "Human-Guided Co-Manipulation of Carbon Fiber Plies",
           "source": "arXiv cs.RO",
-          "url": "https://arxiv.org/abs/2606.11372",
-          "canonical_url": "https://arxiv.org/abs/2606.11372",
+          "url": "https://arxiv.org/abs/2606.11818",
+          "canonical_url": "https://arxiv.org/abs/2606.11818",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11372v1 Announce Type: new Abstract: Piezoresistive tactile sensors are attractive for robotic manipulation because they are thin, lightweight, low-cost, and scalable to dense large-area sensing. However, existing systems still face a practical trade-off: recent reproducible designs emphasize accessibility and ease of reproduction, whereas high-fidelity readout architectures remain more difficult to fabricate, assemble, and deploy. We present HiPi, a reproducible high-fidelity piezor…",
+          "summary": "arXiv:2606.11818v1 Announce Type: new Abstract: The handling of flexible materials is a difficult task to fully automate due to the challenges caused by the deformability of these types of objects. Meanwhile, a fully manual process can be ergonomically challenging, tedious and inefficient. Thus, human-robot collaboration (HRC) and cooperative manipulation (co-manipulation) have received increasing interest in this field as they enable human involvement when needed while also improving productiv…",
           "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, manipulation). Matches your stack: manipulation.",
           "tags": [
             "for_you",
@@ -322,8 +304,25 @@
             "robotics_vla"
           ],
           "category": "robotics_vla",
-          "score": 0.7198,
+          "score": 0.6547,
           "personal_match": true
+        },
+        {
+          "id": "item_e94a164d1255",
+          "title": "MASK: Multi-Agent Semantic K-Scheduling for Risk-Sensitive 6G Robotics",
+          "source": "arXiv cs.RO",
+          "url": "https://arxiv.org/abs/2606.11249",
+          "canonical_url": "https://arxiv.org/abs/2606.11249",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11249v1 Announce Type: new Abstract: Realizing the vision of 6G connected robotics requires reconciling high-performance collaborative control with the rigid spectral limitations of physical wireless channels. In realistic collaborative sensing scenarios, spectral resources are quantized into finite physical resource blocks or orthogonal subcarriers, rendering simultaneous transmission by all agents infeasible. To address this, we propose Multi-Agent Semantic K-Scheduling (MASK), a c…",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, robotics).",
+          "tags": [
+            "papers_benchmarks",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.6452,
+          "personal_match": false
         }
       ]
     },
@@ -332,14 +331,14 @@
       "name": "VLM & Multimodal",
       "items": [
         {
-          "id": "item_d27c6f00c9b9",
-          "title": "AVIS: Adaptive Test-Time Scaling for Vision-Language Models",
-          "source": "arXiv cs.CV",
-          "url": "https://arxiv.org/abs/2606.11576",
-          "canonical_url": "https://arxiv.org/abs/2606.11576",
+          "id": "item_6289071a9e88",
+          "title": "Seeing Before Colliding: Anticipatory Safe RL with Frozen Vision-Language Models",
+          "source": "arXiv cs.LG",
+          "url": "https://arxiv.org/abs/2606.11266",
+          "canonical_url": "https://arxiv.org/abs/2606.11266",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11576v1 Announce Type: new Abstract: Modern Vision-Language Models (VLMs) benefit from chain-of-thought prompting and test-time scaling, but these gains often come with prohibitive inference cost due to large visual contexts and long decoding chains. We view this cost through two coupled axes: Visual Context Scaling (VCS), which controls how much visual evidence is passed to the language model, and Visual Reasoning Scaling (VRS), which controls how much inference-time reasoning searc…",
-          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: vision-language, VLM, visual reasoning).",
+          "summary": "arXiv:2606.11266v1 Announce Type: new Abstract: The cost signal that constrained-RL algorithms optimize against is almost always reactive: the simulator emits a non-zero cost only after a collision has begun, and the Lagrange multiplier of PPO-Lagrangian grows only after the episode budget has been exceeded. At race speeds, where collisions are instantaneous and irreversible, any safety mechanism that waits for cost to accumulate is structurally too late. We present VLM-Safe-RL, a framework tha…",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: vision-language, VLM).",
           "tags": [
             "infra_tooling",
             "model_releases",
@@ -347,42 +346,44 @@
             "vlm_multimodal"
           ],
           "category": "vlm_multimodal",
-          "score": 0.7028,
+          "score": 0.6227,
           "personal_match": false
         },
         {
-          "id": "item_32c495d69d12",
-          "title": "VL-DINO: Leveraging CLIP Vision-Language Knowledge for Open-Vocabulary Object Detectio",
-          "source": "arXiv cs.CV",
-          "url": "https://arxiv.org/abs/2606.11546",
-          "canonical_url": "https://arxiv.org/abs/2606.11546",
+          "id": "item_85bf3b6c992d",
+          "title": "T2MM: An LLM Supported Architecture For Inquiry-Based Modeling",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.11210",
+          "canonical_url": "https://arxiv.org/abs/2606.11210",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11546v1 Announce Type: new Abstract: Vision-language models like CLIP can provide rich semantic priors for open-vocabulary object detection. However, jointly integrating both textual and visual knowledge into detection architectures remains challenging. In this paper, we propose VL-DINO, an open-vocabulary detector that enhances DINO through more effective exploitation of CLIP's vision-language knowledge. Specifically, a Query-guided Positive Sample Construction (QPSC) module is firs…",
-          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: vision-language, object detection).",
+          "summary": "arXiv:2606.11210v1 Announce Type: new Abstract: Model Construction is a foundational practice in science learning that relies on visualization and interactivity. Large Language Models, increasingly augmented with multimodal capabilities, have been integrated in education contexts to support learning. However, these tools lack visual interactivity that is required by some learning contexts. We introduce Text to Multimodal Model (T2MM), a robust, dynamic LLM supported architecture that assists in…",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: multimodal).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "repos",
+            "vlm_multimodal"
+          ],
+          "category": "vlm_multimodal",
+          "score": 0.5852,
+          "personal_match": false
+        },
+        {
+          "id": "item_c21df9677671",
+          "title": "Overcoming State Inertia in Full-Duplex Spoken Language Models via Activation Steering",
+          "source": "arXiv cs.CL",
+          "url": "https://arxiv.org/abs/2606.11386",
+          "canonical_url": "https://arxiv.org/abs/2606.11386",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11386v1 Announce Type: new Abstract: Full-duplex spoken language models (FD-SLMs) enable seamless speech interaction by allowing models to listen and speak simultaneously, yet the internal mechanism by which they coordinate listening and speaking remains underexplored. We analyze the predictive behavior encoded in FD-SLM hidden representations and find that they exhibit stream-specific predictive patterns: during listening, they preferentially predict the incoming user stream, wherea…",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: speech).",
           "tags": [
             "model_releases",
             "papers_benchmarks",
             "vlm_multimodal"
           ],
           "category": "vlm_multimodal",
-          "score": 0.6653,
-          "personal_match": false
-        },
-        {
-          "id": "item_91f518bd09cf",
-          "title": "PT-WNO: Point Transformer with Wavelet Neural Operator for 3D Point Cloud Semantic Segmentation",
-          "source": "arXiv cs.CV",
-          "url": "https://arxiv.org/abs/2606.11466",
-          "canonical_url": "https://arxiv.org/abs/2606.11466",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11466v1 Announce Type: new Abstract: Point cloud semantic segmentation requires architectures that capture both fine-grained local geometry and broad global scene structure. Transformer-based networks have demonstrated strong performance by focusing on detailed local feature aggregation; however, global context is conveyed primarily through skip connections across encoder-decoder stages, which we argue is insufficient for full scene understanding. We hypothesize that augmenting skip…",
-          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: scene understanding). Likely useful for builders (code, benchmarks, or tooling implications).",
-          "tags": [
-            "papers_benchmarks",
-            "vlm_multimodal"
-          ],
-          "category": "vlm_multimodal",
-          "score": 0.6503,
+          "score": 0.5852,
           "personal_match": false
         }
       ]
@@ -392,32 +393,14 @@
       "name": "Papers & Benchmarks",
       "items": [
         {
-          "id": "item_565c072d958a",
-          "title": "NightFeats @ MMU-RAGent NeurIPS 2025: A Context-Optimized Multi-Agent RAG System for the Text-to-Text Track",
-          "source": "arXiv cs.CL",
-          "url": "https://arxiv.org/abs/2606.11199",
-          "canonical_url": "https://arxiv.org/abs/2606.11199",
+          "id": "item_a6b14b73fa9c",
+          "title": "CFCamo: A Counterfactual Detect-or-Abstain Framework for Camouflaged Object Detection",
+          "source": "arXiv cs.CV",
+          "url": "https://arxiv.org/abs/2606.11231",
+          "canonical_url": "https://arxiv.org/abs/2606.11231",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11199v1 Announce Type: new Abstract: We present NightFeats, a structured multi-agent retrieval-augmented generation (RAG) system submitted to the MMU-RAGent competition at NeurIPS 2025, where it was awarded Best Dynamic Evaluation in the text-to-text track. Rather than targeting benchmark maximization, this work proposes a principled pipeline that decomposes knowledge synthesis into three coordinated phases: retrieval, curation, and composition, each governed by explicit intermediate…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, evaluation).",
-          "tags": [
-            "industry",
-            "papers_benchmarks",
-            "vlm_multimodal"
-          ],
-          "category": "papers_benchmarks",
-          "score": 0.7478,
-          "personal_match": false
-        },
-        {
-          "id": "item_72b4d1ab9593",
-          "title": "BioDivergence: A Benchmark and Evaluation Framework for Hidden Contextual Contradictions in Biomedical Abstracts",
-          "source": "arXiv cs.CL",
-          "url": "https://arxiv.org/abs/2606.11208",
-          "canonical_url": "https://arxiv.org/abs/2606.11208",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11208v1 Announce Type: new Abstract: Biomedical findings often seem to conflict across studies, but many of these differences are context-dependent rather than true contradictions. Variations in cohort, geography, assay protocol, disease subtype, and clinical setting can make both claims locally valid. Existing NLI and scientific claim-verification benchmarks reduce such cases to entailment, contradiction, or neutral, failing to capture the contextual structure behind divergence. To…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, evaluation).",
+          "summary": "arXiv:2606.11231v1 Announce Type: new Abstract: Vision-language reinforcement learning has recently shown strong target-present localization for camouflaged object detection (COD). Yet localization is only one side of the decision: when the agent faces an ordinary image with no camouflaged target, will it still claim that a camouflaged object exists? Standard COD training and evaluation data are positive-only, so agents optimized under this setting can acquire an over-detect bias, a task-specif…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, evaluation, training).",
           "tags": [
             "industry",
             "infra_tooling",
@@ -425,63 +408,79 @@
             "vlm_multimodal"
           ],
           "category": "papers_benchmarks",
-          "score": 0.7478,
+          "score": 0.7052,
           "personal_match": false
         },
         {
-          "id": "item_675ac1a90e0e",
-          "title": "LifeSentence: Language models can encode human life course trajectories from longitudinal panel data",
-          "source": "arXiv cs.CL",
-          "url": "https://arxiv.org/abs/2606.11220",
-          "canonical_url": "https://arxiv.org/abs/2606.11220",
-          "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11220v1 Announce Type: new Abstract: Forecasting human life outcomes is important to gain insights into how individuals attain long and healthy lives. Conventional statistical approaches yield limited accuracy, potentially due to discarding the sequential structure of the life course. Modern methods such as transformer architectures require large scale training data that most longitudinal panel studies lack. Here we introduce LifeSentence, a model for life-course reasoning that bridg…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, training, reasoning).",
-          "tags": [
-            "model_releases",
-            "papers_benchmarks",
-            "vlm_multimodal"
-          ],
-          "category": "papers_benchmarks",
-          "score": 0.7478,
-          "personal_match": false
-        },
-        {
-          "id": "item_b6241b385f50",
-          "title": "Distortion-Resilient Robotic Imitation Learning for Autonomous Cable Routing",
+          "id": "item_d455ac773b53",
+          "title": "Modular Anthropomorphic Hand Design via Multi-Parameter Finger Benchmarking and Selection",
           "source": "arXiv cs.RO",
-          "url": "https://arxiv.org/abs/2606.11577",
-          "canonical_url": "https://arxiv.org/abs/2606.11577",
+          "url": "https://arxiv.org/abs/2606.11826",
+          "canonical_url": "https://arxiv.org/abs/2606.11826",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11577v1 Announce Type: new Abstract: The rapid development of intelligent control methodologies has endowed robots with powerful autonomous intelligence. Cable routing, a ubiquitous foundational task in industry, provides a rigorous benchmark for robotic dexterity and sequential decision-making. In these practical scenarios, image observation distortion frequently occurs. Samples characterized by low-quality image observations often hinder accurate model training, posing challenges t…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, training).",
+          "summary": "arXiv:2606.11826v1 Announce Type: new Abstract: Designing anthropomorphic dexterous robotic hands remains challenging as the design space straddles morphology, actuation, and sensing properties, and performance metrics span both task-dependent and task-agnostic. Existing optimization methods are often unstructured or consider only a single performance metric, limiting systematic comparison and targeted refinement. While the design considerations of the entire hand are significant, the individua…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark). Likely useful for builders (code, benchmarks, or tooling implications).",
           "tags": [
-            "infra_tooling",
-            "model_releases",
             "papers_benchmarks",
             "robotics_vla"
           ],
           "category": "papers_benchmarks",
-          "score": 0.7478,
+          "score": 0.6902,
           "personal_match": false
         },
         {
-          "id": "item_7711e576f365",
-          "title": "TouchThinker: Scaling Tactile Commonsense Reasoning to the Open World with Large-scale Data and Action-aware Representation",
-          "source": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2606.11637",
-          "canonical_url": "https://arxiv.org/abs/2606.11637",
+          "id": "item_7a0b504ca339",
+          "title": "GLACIER: A Multimodal Student-Teacher Foundation Model for Molecular Property Prediction",
+          "source": "arXiv cs.LG",
+          "url": "https://arxiv.org/abs/2606.11382",
+          "canonical_url": "https://arxiv.org/abs/2606.11382",
           "published_at": "2026-06-11T04:00:00Z",
-          "summary": "arXiv:2606.11637v1 Announce Type: new Abstract: Touch is a key modality for embodied agents to understand the physical world. Although recent work has incorporated tactile signals into language systems for tactile commonsense reasoning, scaling such systems to realistic open-world settings remains challenging due to two key bottlenecks: (1) current tactile reasoning datasets remain limited in format and scale, providing insufficient supervision for reasoning from tactile observations to physica…",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, dataset, reasoning). Matches your stack: embodied.",
+          "summary": "arXiv:2606.11382v1 Announce Type: new Abstract: Deep learning models facilitate the discovery of molecules with tailored properties among billions of candidate compounds. However, the computational burden to develop and deploy state-of-the-art models continuously increases, limiting their scalability. Most large-scale models are unimodal in nature and overlook the potential to leverage complementary molecular data modalities. To address these shortcomings, this paper introduces the Graph-Langua…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: paper, arXiv, state-of-the-art).",
           "tags": [
-            "for_you",
+            "model_releases",
             "papers_benchmarks",
-            "robotics_vla"
+            "vlm_multimodal"
           ],
           "category": "papers_benchmarks",
-          "score": 0.7348,
-          "personal_match": true
+          "score": 0.6827,
+          "personal_match": false
+        },
+        {
+          "id": "item_9dd54bb686b5",
+          "title": "Exploring Adaptive Masked Reconstruction for Self-Supervised Skeleton-Based Action Recognition",
+          "source": "arXiv cs.CV",
+          "url": "https://arxiv.org/abs/2606.11450",
+          "canonical_url": "https://arxiv.org/abs/2606.11450",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11450v1 Announce Type: new Abstract: Recently, masked skeleton reconstruction models have emerged as strong action representation learners, driving significant progress in self-supervised skeleton-based action recognition. However, existing state-of-the-art methods must predict an exceedingly large number of spatiotemporal patches, significantly prolonging training time. Besides, by treating all spatiotemporal regions equally during reconstruction, these models are distracted from le…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, state-of-the-art, training).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6827,
+          "personal_match": false
+        },
+        {
+          "id": "item_af696969e113",
+          "title": "Architecture-Aware Reinforcement Learning Makes Sliding-Window Attention Competitive in Math Reasoning",
+          "source": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2606.11634",
+          "canonical_url": "https://arxiv.org/abs/2606.11634",
+          "published_at": "2026-06-11T04:00:00Z",
+          "summary": "arXiv:2606.11634v1 Announce Type: new Abstract: The rapid progress of reasoning and agentic large language models (LLMs) has increased the demand for long-context inference, but self-attention (SA) scales quadratically with context length. To address this, we study SWARR (Sliding-Window Attention with Reinforced Adaptation for Math Reasoning), a practical recipe for adapting SWA models to mathematical reasoning. SWARR has two stages: (1) efficient conversion from a pretrained SA model to SWA wi…",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, reasoning).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6677,
+          "personal_match": false
         }
       ]
     },
@@ -490,56 +489,57 @@
       "name": "Repo Watch",
       "items": [
         {
-          "id": "item_b8cf30177165",
-          "title": "Anthropic’s Dario Amodei has just one direct report",
-          "source": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
-          "canonical_url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report",
-          "published_at": "2026-06-11T03:53:06Z",
-          "summary": "If you doubted his genius, doubt no more.",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: repo).",
-          "tags": [
-            "industry",
-            "repos"
-          ],
-          "category": "repos",
-          "score": 0.5424,
-          "personal_match": false
-        },
-        {
-          "id": "item_8da200cdb5a9",
-          "title": "langchain-perplexity==1.4.0",
+          "id": "item_119f884f331a",
+          "title": "langchain-core==1.4.6",
           "source": "LangChain",
-          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.0",
-          "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.0",
-          "published_at": "2026-06-09T21:22:05Z",
-          "summary": "Changes since langchain-perplexity==1.3.2 release(perplexity): 1.4.0 ( #37993 ) feat(perplexity): bind_tools and Responses-API tool round-trip ( #37934 ) hotfix(openai): min core dep ( #37990 )",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: tool).",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.6",
+          "canonical_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.6",
+          "published_at": "2026-06-11T07:10:09Z",
+          "summary": "Changes since langchain-core==1.4.5 release(core): 1.4.6 ( #38061 ) feat(core,partners): add package version tracking to tracing metadata ( #35295 ) fix(core,openai): normalize v1 streamed tool calls ( #35983 ) chore(infra): bump mypy to 2.1 and unify type-check config across the monorepo ( #36470 )",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, tool, package).",
           "tags": [
-            "infra_tooling",
             "model_releases",
             "repos"
           ],
           "category": "repos",
-          "score": 0.5094,
+          "score": 0.683,
           "personal_match": false
         },
         {
-          "id": "item_eb987eaf1883",
-          "title": "Migrating Your GitHub CI to Hugging Face Jobs",
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-          "canonical_url": "https://huggingface.co/blog/github-ci-hf-jobs",
-          "published_at": "2026-06-09T00:00:00Z",
-          "summary": "",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub).",
+          "id": "item_8875a0080dac",
+          "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+          "canonical_url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+          "published_at": "2026-06-11T00:00:00Z",
+          "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: tool).",
           "tags": [
-            "infra_tooling",
+            "model_releases",
             "repos"
           ],
           "category": "repos",
-          "score": 0.4759,
+          "score": 0.6129,
           "personal_match": false
+        },
+        {
+          "id": "item_8101e8546880",
+          "title": "ROS 2 Rolling - Nightlies 2026-06-10",
+          "source": "ROS 2",
+          "url": "https://github.com/ros2/ros2/releases/tag/release-rolling-nightlies",
+          "canonical_url": "https://github.com/ros2/ros2/releases/tag/release-rolling-nightlies",
+          "published_at": "2026-06-10T14:54:13Z",
+          "summary": "These are the binary packages for ROS 2 Rolling Nightlies 2026-06-10. These binaries will get updated nightly given that all jobs have \"not failed\" to keep synchrony across operating systems. For runtime dependencies, see the binary package installation instructions . Your system must be up-to-date to be compatible with the downloaded packages. Note: ignore the source code links because they don't contain the source code for ROS 2 (they're auto-generated by GitHub). Instead, grab the binary pac…",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub, package). Matches your stack: ROS 2.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "repos",
+            "robotics_vla"
+          ],
+          "category": "repos",
+          "score": 0.467,
+          "personal_match": true
         }
       ]
     },
@@ -548,51 +548,52 @@
       "name": "Industry Moves",
       "items": [
         {
-          "id": "item_2e82e49e47b6",
-          "title": "xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims",
+          "id": "item_ac6a14e89557",
+          "title": "Investing in multi-agent AI safety research",
+          "source": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+          "canonical_url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research",
+          "published_at": "2026-06-10T10:21:19Z",
+          "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
+          "why_it_matters": "Relevant to Industry Moves (matches: funding).",
+          "tags": [
+            "industry",
+            "model_releases"
+          ],
+          "category": "industry",
+          "score": 0.5532,
+          "personal_match": false
+        },
+        {
+          "id": "item_eca8c4d3b03d",
+          "title": "How Justin Ernest invested nearly $500M into hot startups without a traditional VC fund",
           "source": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
-          "canonical_url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims",
-          "published_at": "2026-06-10T22:31:19Z",
-          "summary": "A former xAI engineer is suing the company and SpaceX, alleging he was fired for raising AI safety concerns about Grok days before SpaceX's historic IPO.",
-          "why_it_matters": "Relevant to Industry Moves (matches: IPO).",
+          "url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund/",
+          "canonical_url": "https://techcrunch.com/2026/06/09/how-justin-ernest-invested-nearly-500m-into-hot-startups-without-a-traditional-vc-fund",
+          "published_at": "2026-06-09T23:17:51Z",
+          "summary": "Instead of spending a year raising a formal venture fund, the Sabertooth VC founder used a captive network of LPs to invest in startups like Anthropic, Anduril, and SpaceX.",
+          "why_it_matters": "Relevant to Industry Moves (matches: startup).",
           "tags": [
             "industry"
           ],
           "category": "industry",
-          "score": 0.5245,
+          "score": 0.448,
           "personal_match": false
         },
         {
-          "id": "item_8c9f3807d086",
-          "title": "The three hard-tech moonshots fueling SpaceX’s unbelievable IPO",
+          "id": "item_d6657a17b2e4",
+          "title": "Fresh off bond sale, Amazon borrows $17.5B from banks as AI spending continues",
           "source": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo/",
-          "canonical_url": "https://techcrunch.com/2026/06/10/the-three-hard-tech-moonshots-fueling-spacexs-unbelievable-ipo",
-          "published_at": "2026-06-10T14:48:01Z",
-          "summary": "Most of the value in SpaceX's IPO is effectively a call option on the company's ambitious space data center plans.",
-          "why_it_matters": "Relevant to Industry Moves (matches: IPO).",
-          "tags": [
-            "industry"
-          ],
-          "category": "industry",
-          "score": 0.5011,
-          "personal_match": false
-        },
-        {
-          "id": "item_8884f8a748dc",
-          "title": "Opendoor’s India exit is fueling a bigger conversation about AI and outsourcing",
-          "source": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
-          "canonical_url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing",
-          "published_at": "2026-06-11T04:02:19Z",
-          "summary": "The decision comes as India emerges as the world’s largest GCC market.",
+          "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+          "canonical_url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues",
+          "published_at": "2026-06-10T20:19:31Z",
+          "summary": "Companies are burning through exorbitant sums of money to keep pace in the AI arms race. Debt is climbing.",
           "why_it_matters": "Tagged under Industry Moves.",
           "tags": [
             "industry"
           ],
           "category": "industry",
-          "score": 0.4829,
+          "score": 0.4396,
           "personal_match": false
         }
       ]
