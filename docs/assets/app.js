@@ -4,6 +4,7 @@
 const SECTION_ORDER = [
   "for_you",
   "top_stories",
+  "build_today",
   "model_tooling",
   "robotics_vla",
   "vlm_multimodal",
@@ -44,9 +45,13 @@ function renderItem(item) {
   const personalBadge = item.personal_match
     ? '<span class="tag tag-personal">★ matches your stack</span>'
     : "";
+  const imageHtml = item.image_url
+    ? `<a class="item-image-link" href="${escapeHTML(item.url)}" target="_blank" rel="noopener"><img class="item-image" src="${escapeHTML(item.image_url)}" alt="" loading="lazy"></a>`
+    : "";
   return `
     <article class="item" data-tags="${escapeHTML((item.tags || []).join(" "))}" data-category="${escapeHTML(item.category || "")}">
       ${personalBadge}
+      ${imageHtml}
       <h3><a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.title)}</a></h3>
       <p class="item-meta">${escapeHTML(item.source)}${reportedBy} · ${escapeHTML(formatDate(item.published_at))} · score ${Number(item.score).toFixed(2)}</p>
       <p class="item-summary">${escapeHTML(item.summary)}</p>

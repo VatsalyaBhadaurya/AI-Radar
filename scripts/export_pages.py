@@ -62,6 +62,7 @@ EMPTY_SECTION = '<p class="empty">No items today.</p>'
 ITEM_TEMPLATE = """
     <article class="item">
       {personal_badge}
+      {image_html}
       <h3><a href="{url}" target="_blank" rel="noopener">{title}</a></h3>
       <p class="item-meta">{source} · {published_at} · score {score}</p>
       <p class="item-summary">{summary}</p>
@@ -70,12 +71,24 @@ ITEM_TEMPLATE = """
     </article>
 """
 
+ITEM_IMAGE_TEMPLATE = (
+    '<a class="item-image-link" href="{url}" target="_blank" rel="noopener">'
+    '<img class="item-image" src="{image_url}" alt="" loading="lazy">'
+    "</a>"
+)
+
 
 def _render_item(item: dict) -> str:
     personal_badge = (
         '<span class="tag tag-personal">★ matches your stack</span>'
         if item.get("personal_match") else ""
     )
+    image_html = ""
+    if item.get("image_url"):
+        image_html = ITEM_IMAGE_TEMPLATE.format(
+            url=html.escape(item["url"]),
+            image_url=html.escape(item["image_url"]),
+        )
     return ITEM_TEMPLATE.format(
         url=html.escape(item["url"]),
         title=html.escape(item["title"]),
@@ -86,6 +99,7 @@ def _render_item(item: dict) -> str:
         why_it_matters=html.escape(item["why_it_matters"]),
         tags=" ".join(f'<span class="tag">{html.escape(t)}</span>' for t in item["tags"]),
         personal_badge=personal_badge,
+        image_html=image_html,
     )
 
 

@@ -201,5 +201,40 @@
     "type": "rss",
     "category": "industry",
     "trust": 0.85
+  },
+  {
+    "id": "gh_trending_all",
+    "name": "GitHub Trending (All Languages)",
+    "type": "rss",
+    "category": "projects",
+    "trust": 0.7
+  },
+  {
+    "id": "gh_trending_python",
+    "name": "GitHub Trending (Python)",
+    "type": "rss",
+    "category": "projects",
+    "trust": 0.7
+  },
+  {
+    "id": "gh_trending_cpp",
+    "name": "GitHub Trending (C++)",
+    "type": "rss",
+    "category": "projects",
+    "trust": 0.7
+  },
+  {
+    "id": "hn_show",
+    "name": "Hacker News (Show HN)",
+    "type": "rss",
+    "category": "projects",
+    "trust": 0.5
+  },
+  {
+    "id": "hackaday",
+    "name": "Hackaday",
+    "type": "rss",
+    "category": "projects",
+    "trust": 0.7
   }
 ]

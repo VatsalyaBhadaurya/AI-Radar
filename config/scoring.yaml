@@ -31,6 +31,7 @@ novelty_lookback_days: 3
 digest_limits:
   for_you: 4
   top_stories: 5
+  build_today: 3
   model_tooling: 4
   robotics_vla: 3
   vlm_multimodal: 3

@@ -210,3 +210,39 @@ sources:
     url: "https://www.semianalysis.com/feed"
     category: industry
     trust: 0.85
+
+  # ---- Build Today: project discovery (software + hardware) ----
+  - id: gh_trending_all
+    name: "GitHub Trending (All Languages)"
+    type: rss
+    url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml"
+    category: projects
+    trust: 0.7
+
+  - id: gh_trending_python
+    name: "GitHub Trending (Python)"
+    type: rss
+    url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml"
+    category: projects
+    trust: 0.7
+
+  - id: gh_trending_cpp
+    name: "GitHub Trending (C++)"
+    type: rss
+    url: "https://mshibanami.github.io/GitHubTrendingRSS/daily/c++.xml"
+    category: projects
+    trust: 0.7
+
+  - id: hn_show
+    name: "Hacker News (Show HN)"
+    type: rss
+    url: "https://hnrss.org/show?points=40"
+    category: projects
+    trust: 0.5
+
+  - id: hackaday
+    name: "Hackaday"
+    type: rss
+    url: "https://hackaday.com/blog/feed/"
+    category: projects
+    trust: 0.7

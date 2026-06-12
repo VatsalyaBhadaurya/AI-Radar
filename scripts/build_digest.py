@@ -14,6 +14,7 @@ from common import (
 SECTION_DEFS = [
     ("for_you", "Matches Your Stack", "personal", "for_you"),
     ("top_stories", "Top Stories", None, "top_stories"),
+    ("build_today", "Build Today: Project Picks", "source_tag:projects", "build_today"),
     ("model_tooling", "Model & Tooling Updates", {"model_releases", "infra_tooling"}, "model_tooling"),
     ("robotics_vla", "Robotics & Embodied AI", {"robotics_vla"}, "robotics_vla"),
     ("vlm_multimodal", "VLM & Multimodal", {"vlm_multimodal"}, "vlm_multimodal"),
@@ -32,6 +33,7 @@ def _public_item(item: dict) -> dict:
         "canonical_url": item["canonical_url"],
         "published_at": item["published_at"],
         "summary": item["summary"],
+        "image_url": item.get("image_url"),
         "why_it_matters": item["why_it_matters"],
         "tags": item["tags"],
         "category": item["category"],
@@ -79,6 +81,9 @@ def build_digest(scored_items: list[dict], scoring_cfg: dict, taxonomy: dict) ->
             candidates = [it for it in candidates if it["score"] >= top_story_min]
         elif category_filter == "personal":
             candidates = [it for it in candidates if it.get("personal_match")]
+        elif isinstance(category_filter, str) and category_filter.startswith("source_tag:"):
+            source_tag = category_filter.split(":", 1)[1]
+            candidates = [it for it in candidates if source_tag in it.get("tags", [])]
         else:
             candidates = [it for it in candidates if it["category"] in category_filter]
 

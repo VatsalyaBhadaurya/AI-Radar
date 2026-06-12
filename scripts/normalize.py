@@ -38,6 +38,7 @@ def normalize_items(raw_items: list[dict]) -> list[dict]:
             "category": raw["category"],
             "source_trust": raw["source_trust"],
             "tags": [raw["category"]],
+            "image_url": raw.get("image_url"),
         }
         normalized.append(item)
 

@@ -30,6 +30,25 @@ def _entry_published(entry) -> str | None:
     return None
 
 
+def _entry_image(entry) -> str | None:
+    """Pull a preview image straight out of the feed entry, if present."""
+    thumbs = entry.get("media_thumbnail")
+    if thumbs:
+        url = thumbs[0].get("url")
+        if url:
+            return url
+
+    for content in entry.get("media_content", []):
+        if content.get("medium") == "image" and content.get("url"):
+            return content["url"]
+
+    for link in entry.get("links", []):
+        if link.get("rel") == "enclosure" and (link.get("type") or "").startswith("image/"):
+            return link.get("href")
+
+    return None
+
+
 def fetch_source(source: dict) -> list[dict]:
     url = source["url"]
     try:
@@ -57,6 +76,7 @@ def fetch_source(source: dict) -> list[dict]:
             "link": link,
             "summary": summary,
             "published_at": _entry_published(entry),
+            "image_url": _entry_image(entry),
         })
     return items
 
