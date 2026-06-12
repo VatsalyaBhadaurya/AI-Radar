@@ -43,6 +43,9 @@ body {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 700;
   font-size: 1.05rem;
   color: var(--text);
@@ -51,8 +54,14 @@ body {
 }
 
 .brand::before {
-  content: "▣ ";
-  color: var(--accent);
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 5px;
 }
 
 .site-header nav a {
