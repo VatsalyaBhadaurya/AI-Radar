@@ -42,6 +42,10 @@ def load_scoring() -> dict:
     return load_yaml(CONFIG_DIR / "scoring.yaml")
 
 
+def load_profile() -> dict:
+    return load_yaml(CONFIG_DIR / "profile.yaml")
+
+
 def ensure_dirs() -> None:
     for d in (DATA_DIR, ARCHIVE_DIR, DIGEST_DIR, WORK_DIR):
         d.mkdir(parents=True, exist_ok=True)

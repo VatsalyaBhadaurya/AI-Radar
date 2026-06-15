@@ -184,6 +184,27 @@ hype_keywords:
   - "revolutionize"
   - "disrupting"
 
+# Keywords that identify startup funding / investment news (used by the
+# "Recent Funding" section to score items from dedicated funding sources).
+funding_keywords:
+  - "raises"
+  - "raised"
+  - "funding"
+  - "seed round"
+  - "seed funding"
+  - "series a"
+  - "series b"
+  - "series c"
+  - "series d"
+  - "venture capital"
+  - "valuation"
+  - "acquired"
+  - "acquisition"
+  - "investment"
+  - "backed by"
+  - "led by"
+  - "round of funding"
+
 # Stack/interest keywords for the curator (humanoid robotics + on-device VLM/VLA perception).
 # Items matching these get a relevance bonus and are eligible for the "Matches Your Stack" section.
 priority_keywords:

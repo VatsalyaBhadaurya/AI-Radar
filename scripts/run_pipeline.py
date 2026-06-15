@@ -13,7 +13,7 @@ import fetch_feeds
 import fetch_previews
 import normalize
 import score
-from common import WORK_DIR, ensure_dirs, load_scoring, load_sources, load_taxonomy, read_json, write_json
+from common import WORK_DIR, ensure_dirs, load_profile, load_scoring, load_sources, load_taxonomy, read_json, write_json
 
 
 def main() -> None:
@@ -21,6 +21,7 @@ def main() -> None:
     sources = load_sources()
     scoring_cfg = load_scoring()
     taxonomy = load_taxonomy()
+    profile = load_profile()
 
     t0 = time.time()
     print("== 1/7 fetch_feeds ==")
@@ -39,7 +40,7 @@ def main() -> None:
     print(f"  {len(deduped)} deduped items")
 
     print("== 4/7 score ==")
-    scored = score.score_items(deduped, scoring_cfg, taxonomy)
+    scored = score.score_items(deduped, scoring_cfg, taxonomy, profile)
     scored.sort(key=lambda it: it["score"], reverse=True)
     write_json(WORK_DIR / "scored.json", scored)
     print(f"  {len(scored)} scored items")

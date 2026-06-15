@@ -40,6 +40,12 @@ def normalize_items(raw_items: list[dict]) -> list[dict]:
             "tags": [raw["category"]],
             "image_url": raw.get("image_url"),
         }
+        if raw.get("company"):
+            item["company"] = raw["company"]
+        if raw.get("location"):
+            item["location"] = raw["location"]
+        if raw.get("job_tags"):
+            item["job_tags"] = raw["job_tags"]
         normalized.append(item)
 
     return normalized

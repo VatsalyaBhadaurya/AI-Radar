@@ -65,7 +65,7 @@ ITEM_TEMPLATE = """
       {personal_badge}
       {image_html}
       <h3><a href="{url}" target="_blank" rel="noopener">{title}</a></h3>
-      <p class="item-meta">{source} · {published_at} · score {score}</p>
+      <p class="item-meta">{meta_line}</p>
       <p class="item-summary">{summary}</p>
       <p class="item-why"><strong>Why it matters:</strong> {why_it_matters}</p>
       <p class="item-tags">{tags}</p>
@@ -80,8 +80,10 @@ ITEM_IMAGE_TEMPLATE = (
 
 
 def _render_item(item: dict) -> str:
+    is_job = item.get("category") == "jobs"
+    personal_badge_text = "★ strong match for you" if is_job else "★ matches your stack"
     personal_badge = (
-        '<span class="tag tag-personal">★ matches your stack</span>'
+        f'<span class="tag tag-personal">{personal_badge_text}</span>'
         if item.get("personal_match") else ""
     )
     image_html = ""
@@ -90,12 +92,19 @@ def _render_item(item: dict) -> str:
             url=html.escape(item["url"]),
             image_url=html.escape(item["image_url"]),
         )
+    if is_job:
+        company = item.get("company") or item["source"]
+        location = item.get("location")
+        meta_line = html.escape(company)
+        if location:
+            meta_line += f" · {html.escape(location)}"
+        meta_line += f" · {html.escape(item['published_at'])}"
+    else:
+        meta_line = f"{html.escape(item['source'])} · {html.escape(item['published_at'])} · score {item['score']}"
     return ITEM_TEMPLATE.format(
         url=html.escape(item["url"]),
         title=html.escape(item["title"]),
-        source=html.escape(item["source"]),
-        published_at=html.escape(item["published_at"]),
-        score=item["score"],
+        meta_line=meta_line,
         summary=html.escape(item["summary"]),
         why_it_matters=html.escape(item["why_it_matters"]),
         tags=" ".join(f'<span class="tag">{html.escape(t)}</span>' for t in item["tags"]),

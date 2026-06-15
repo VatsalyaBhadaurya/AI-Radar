@@ -19,6 +19,7 @@ from common import (
 REQUEST_TIMEOUT = 20
 USER_AGENT = "ai-engineering-radar/1.0 (+https://github.com/)"
 MAX_ITEMS_PER_SOURCE = 25
+MAX_REMOTEOK_ITEMS = 100  # RemoteOK returns its full feed in one call; widen the pool for matching
 
 
 def _entry_published(entry) -> str | None:
@@ -49,7 +50,61 @@ def _entry_image(entry) -> str | None:
     return None
 
 
+def _parse_remoteok_date(date_str: str | None) -> str | None:
+    if not date_str:
+        return None
+    try:
+        dt = datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        return None
+
+
+def fetch_remoteok(source: dict) -> list[dict]:
+    """RemoteOK exposes a JSON API rather than RSS/Atom."""
+    url = source["url"]
+    try:
+        resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception as exc:  # noqa: BLE001 - keep pipeline alive on any source failure
+        print(f"  [warn] failed to fetch {source['id']} ({url}): {exc}", file=sys.stderr)
+        return []
+
+    items = []
+    for entry in data[:MAX_REMOTEOK_ITEMS]:
+        if not isinstance(entry, dict) or "position" not in entry:
+            continue  # first element is a legal notice, not a job
+        position = (entry.get("position") or "").strip()
+        company = (entry.get("company") or "").strip()
+        link = (entry.get("url") or "").strip()
+        if not position or not link:
+            continue
+        title = f"{company}: {position}" if company else position
+        items.append({
+            "source_id": source["id"],
+            "source_name": source["name"],
+            "category": source["category"],
+            "source_trust": source["trust"],
+            "type": source["type"],
+            "title": title,
+            "link": link,
+            "summary": entry.get("description") or "",
+            "published_at": _parse_remoteok_date(entry.get("date")),
+            "image_url": entry.get("company_logo") or entry.get("logo"),
+            "company": company,
+            "location": (entry.get("location") or "").strip(),
+            "job_tags": entry.get("tags") or [],
+        })
+    return items
+
+
 def fetch_source(source: dict) -> list[dict]:
+    if source["type"] == "remoteok":
+        return fetch_remoteok(source)
+
     url = source["url"]
     try:
         resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)

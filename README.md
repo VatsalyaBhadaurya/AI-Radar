@@ -1,37 +1,74 @@
 # AI Engineering Radar
 
-A GitHub Pages-hosted static AI engineering radar that uses GitHub Actions as a
-scheduled intelligence pipeline to collect, rank, and publish a daily digest of
-AI engineering, infra/inference tooling, robotics & embodied AI, VLM/VLA &
-multimodal work, papers/benchmarks, and notable open-source repo releases.
+**A daily intelligence briefing for AI engineers, robotics builders, and embedded/edge ML practitioners.**
 
-It is **not** a general AI newsletter, a chatbot, or a web scraper. It's a
-narrow, repo-driven, static-publishing pipeline:
+AI Engineering Radar continuously scans the AI ecosystem — model releases, inference
+and infra tooling, robotics & embodied AI, VLM/VLA and multimodal research, papers
+and benchmarks, open-source repo activity, startup hiring, and funding news — and
+distills it into a single, ranked daily digest. No sign-up, no inbox clutter, no
+hype-driven feed: every item is scored for relevance and engineering value before
+it's surfaced.
 
-- **GitHub Pages** serves the static frontend (`docs/`).
-- **GitHub Actions** runs the pipeline once every 24 hours.
-- **Scripts** (`scripts/`) fetch structured sources (RSS/Atom, arXiv, GitHub
-  release feeds), normalize, dedupe, score, and build the digest.
-- Generated JSON/HTML is committed back to `docs/` and served by Pages.
+**Live digest:** https://vatsalyabhadaurya.github.io/AI-Radar/
 
-## Repo structure
+## What you get
 
-```
-ai-engineering-radar/
-├─ docs/                  # GitHub Pages site (served from here)
-│  ├─ index.html          # latest digest
-│  ├─ archive.html        # browse past digests
-│  ├─ sources.html        # tracked sources & trust
-│  ├─ method.html         # scoring methodology
-│  ├─ assets/             # styles.css, app.js
-│  ├─ data/               # latest.json, sources.json, archive/*.json
-│  └─ digest/             # static rendered digest pages
-├─ scripts/               # pipeline (fetch -> normalize -> dedupe -> score -> digest -> export)
-├─ config/                # sources.yaml, taxonomy.yaml, scoring.yaml
-└─ .github/workflows/     # daily-digest.yml
-```
+- **Daily digest** — a ranked, de-duplicated summary of what actually matters in AI
+  engineering today, refreshed automatically every 24 hours.
+- **Matches Your Stack** — items personalized to a configurable technology profile
+  (frameworks, hardware, research areas), surfaced ahead of generic noise.
+- **Hiring For You** — curated job postings (RemoteOK, Hacker News Jobs/YC, We Work
+  Remotely) ranked against a precise experience profile — skills, domains, and
+  career stage — so intern/entry-level/new-grad roles that genuinely match come
+  first and senior-only postings are filtered down.
+- **Recent Funding** — fresh startup funding and acquisition news (TechCrunch
+  Startups, Crunchbase News, MedCity News for medtech), ranked by relevance to your
+  focus areas — AI, robotics, medtech, and industrial automation.
+- **Build Today** — hands-on project picks worth trying this week.
+- **Robotics & Embodied AI / VLM & Multimodal / Papers & Benchmarks / Repo Watch /
+  Industry Moves** — dedicated sections so you can scan exactly the slice of the
+  ecosystem you care about.
+- **Archive & methodology** — every day's digest is preserved and browsable, and the
+  full scoring methodology is published and transparent.
 
-## Running the pipeline locally
+## How it works
+
+AI Engineering Radar runs as a fully automated, self-hosted pipeline:
+
+1. **Collect** — pulls from a curated registry of RSS/Atom feeds, arXiv listings,
+   GitHub release feeds, job boards, and funding news sources.
+2. **Normalize & deduplicate** — cleans and merges near-duplicate stories so the
+   same announcement isn't repeated across sources.
+3. **Score** — every item is scored on relevance, novelty, source trust, and
+   engineering value (with dedicated formulas for job postings and funding news,
+   weighted against a configurable experience profile).
+4. **Digest & publish** — the day's top items are organized into sections, rendered
+   as a static site, and published — no servers, databases, or third-party services
+   required.
+
+The whole thing runs on a free GitHub Actions schedule and is served by GitHub
+Pages, so it stays online and up to date with zero ongoing maintenance.
+
+## Make it yours
+
+Everything that personalizes the digest lives in a small set of config files —
+no code changes required:
+
+- **`config/profile.yaml`** — your experience profile: core skills, domains of
+  interest, and career stage. Drives the "Hiring For You" ranking with precise
+  skill/domain matching and entry-level vs. senior filtering.
+- **`config/sources.yaml`** — the registry of tracked sources (feeds, job boards,
+  funding news), each with a category and trust weight.
+- **`config/taxonomy.yaml`** — keyword taxonomy used to categorize and score
+  general digest items, including your "priority stack" for the "Matches Your
+  Stack" section.
+- **`config/scoring.yaml`** — scoring weights, thresholds, novelty decay, and
+  per-section item limits.
+
+See [`docs/method.html`](docs/method.html) for the full, published scoring
+methodology.
+
+## Running it yourself
 
 ```bash
 pip install -r requirements.txt
@@ -39,37 +76,22 @@ cd scripts
 python run_pipeline.py
 ```
 
-This fetches all sources in `config/sources.yaml`, builds today's digest, and
-writes:
+This fetches every source in `config/sources.yaml`, scores and ranks the results,
+and writes the digest to `docs/data/` and `docs/digest/` — the same files served by
+the live site. Preview locally with:
 
-- `docs/data/latest.json`, `docs/data/archive/<date>.json`, `docs/data/sources.json`
-- `docs/digest/latest.html`, `docs/digest/<date>.html`
-
-Then serve `docs/` locally to preview, e.g. `python -m http.server 8000 --directory docs`.
-
-## Scoring
-
+```bash
+python -m http.server 8000 --directory docs
 ```
-score = 0.40 × relevance + 0.25 × novelty + 0.20 × source_trust + 0.15 × engineering_value
-```
-
-See [`docs/method.html`](docs/method.html) and `config/scoring.yaml` for details.
-
-## Configuration
-
-- `config/sources.yaml` — source registry (RSS/Atom, arXiv RSS, GitHub release feeds)
-- `config/taxonomy.yaml` — categories and keyword sets used for relevance scoring
-- `config/scoring.yaml` — score weights, thresholds, and digest section sizes
 
 ## Deployment
 
-1. Push this repo to GitHub.
-2. In **Settings → Pages**, set source to **Deploy from a branch**, branch
-   `main`, folder `/docs`.
+1. Fork or clone this repo.
+2. In **Settings → Pages**, set source to **Deploy from a branch**, branch `main`,
+   folder `/docs`.
 3. The `.github/workflows/daily-digest.yml` workflow runs on a daily schedule
-   (06:00 UTC) and on manual dispatch. It regenerates `docs/data` and
-   `docs/digest` and pushes the changes; Pages picks up the update
-   automatically.
+   (06:00 UTC) and on manual dispatch, regenerating the digest and pushing the
+   update — Pages picks it up automatically.
 
 ## Roadmap
 

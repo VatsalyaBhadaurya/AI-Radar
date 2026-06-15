@@ -13,6 +13,8 @@ from common import (
 # category_filter == "personal" is a sentinel meaning "items with personal_match=True"
 SECTION_DEFS = [
     ("for_you", "Matches Your Stack", "personal", "for_you"),
+    ("hiring_for_you", "Hiring For You", "source_tag:jobs", "hiring_for_you"),
+    ("recent_funding", "Recent Funding", "source_tag:funding", "recent_funding"),
     ("top_stories", "Top Stories", None, "top_stories"),
     ("build_today", "Build Today: Project Picks", "source_tag:projects", "build_today"),
     ("model_tooling", "Model & Tooling Updates", {"model_releases", "infra_tooling"}, "model_tooling"),
@@ -25,7 +27,7 @@ SECTION_DEFS = [
 
 
 def _public_item(item: dict) -> dict:
-    return {
+    public = {
         "id": item["id"],
         "title": item["title"],
         "source": item["source"],
@@ -41,6 +43,12 @@ def _public_item(item: dict) -> dict:
         "personal_match": item.get("personal_match", False),
         **({"also_reported_by": item["also_reported_by"]} if "also_reported_by" in item else {}),
     }
+    if item["category"] == "jobs":
+        public["company"] = item.get("company", "")
+        public["location"] = item.get("location", "")
+        public["experience_match"] = item.get("experience_match", 0)
+        public["matched_skills"] = item.get("matched_skills", [])
+    return public
 
 
 def _build_summary(top_items: list[dict], total_items: int) -> tuple[str, str]:
@@ -65,10 +73,14 @@ def _build_summary(top_items: list[dict], total_items: int) -> tuple[str, str]:
 
 def build_digest(scored_items: list[dict], scoring_cfg: dict, taxonomy: dict) -> dict:
     min_threshold = scoring_cfg["min_score_threshold"]
+    min_threshold_overrides = scoring_cfg.get("min_score_threshold_by_category", {})
     top_story_min = scoring_cfg["top_story_min_score"]
     limits = scoring_cfg["digest_limits"]
 
-    eligible = [it for it in scored_items if it["score"] >= min_threshold]
+    eligible = [
+        it for it in scored_items
+        if it["score"] >= min_threshold_overrides.get(it["category"], min_threshold)
+    ]
     used_ids: set[str] = set()
     sections = []
     surfaced: list[dict] = []
@@ -78,9 +90,15 @@ def build_digest(scored_items: list[dict], scoring_cfg: dict, taxonomy: dict) ->
         candidates = [it for it in eligible if it["id"] not in used_ids]
 
         if category_filter is None:  # top_stories: best overall, above top_story_min
-            candidates = [it for it in candidates if it["score"] >= top_story_min]
+            candidates = [
+                it for it in candidates
+                if it["score"] >= top_story_min and it["category"] not in ("jobs", "funding")
+            ]
         elif category_filter == "personal":
-            candidates = [it for it in candidates if it.get("personal_match")]
+            candidates = [
+                it for it in candidates
+                if it.get("personal_match") and it["category"] not in ("jobs", "funding")
+            ]
         elif isinstance(category_filter, str) and category_filter.startswith("source_tag:"):
             source_tag = category_filter.split(":", 1)[1]
             candidates = [it for it in candidates if source_tag in it.get("tags", [])]

@@ -19,6 +19,13 @@ novelty_half_life_days: 2
 # Items below this score are dropped before section selection.
 min_score_threshold: 0.25
 
+# Per-category overrides for min_score_threshold. Jobs/funding use a different
+# score formula shape (see score.py), so the general-digest threshold doesn't
+# transfer directly.
+min_score_threshold_by_category:
+  jobs: 0.18
+  funding: 0.25
+
 # Title similarity threshold (0-1, via difflib SequenceMatcher) above which two
 # items are considered near-duplicates and clustered together.
 title_similarity_threshold: 0.82
@@ -30,6 +37,8 @@ novelty_lookback_days: 3
 # Digest section sizes (max items per section after ranking)
 digest_limits:
   for_you: 4
+  hiring_for_you: 5
+  recent_funding: 4
   top_stories: 5
   build_today: 3
   model_tooling: 4
@@ -44,3 +53,9 @@ top_story_min_score: 0.55
 
 # Maximum age (days) for an item to be eligible for the digest at all
 max_item_age_days: 5
+
+# Per-category overrides for max_item_age_days (job postings and funding
+# news stay relevant longer than a typical news article).
+max_item_age_days_by_category:
+  jobs: 14
+  funding: 7

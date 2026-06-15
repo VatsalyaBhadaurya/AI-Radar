@@ -60,9 +60,12 @@ score = 0.40 × relevance
   </ul>
   <p class="lead">
     Items below the minimum score threshold (see <code>config/scoring.yaml</code>) are dropped entirely.
-    The remaining items are grouped into sections (Top Stories, Model &amp; Tooling, Robotics &amp; VLA,
-    VLM &amp; Multimodal, Papers &amp; Benchmarks, Repo Watch, Industry Moves), each capped at a small
-    number of items so the digest stays sharply filtered.
+    The remaining items are grouped into sections (Matches Your Stack, Hiring For You, Recent Funding,
+    Top Stories, Build Today, Model &amp; Tooling, Robotics &amp; VLA, VLM &amp; Multimodal, Papers &amp;
+    Benchmarks, Repo Watch, Industry Moves), each capped at a small number of items so the digest stays
+    sharply filtered. Job postings and funding news use the same overall formula shape but with
+    profile-based relevance (see "Hiring For You" and "Recent Funding" below) instead of taxonomy
+    category matching.
   </p>
 
   <h2>Matches Your Stack</h2>
@@ -72,6 +75,25 @@ score = 0.40 × relevance
     as DINOv3, SAM 2, Depth Anything, DUSt3R, YOLO, and Whisper). Items that match these terms get a
     relevance bonus and are surfaced first in a dedicated "Matches Your Stack" section, in addition to
     appearing in their normal category.
+  </p>
+
+  <h2>Hiring For You</h2>
+  <p class="lead">
+    Job postings are pulled from RemoteOK, Hacker News "Jobs" (YC), and We Work Remotely. Each posting
+    is scored against <code>config/profile.yaml</code> — an explicit experience profile listing core
+    skills (e.g. ROS2, Jetson, PyTorch, YOLO, DINOv3, OpenCV), domain interests (embodied AI, robotics,
+    medtech, industrial inspection), and career-stage signals. Postings that mention your skills/domains
+    score higher; intern/entry-level/new-grad postings get a bonus, and senior-only postings (without
+    any entry-level signal) are heavily de-prioritized. The top matches appear in "Hiring For You" with
+    company, location, and a "★ strong match for you" badge for the closest fits.
+  </p>
+
+  <h2>Recent Funding</h2>
+  <p class="lead">
+    Startup funding news comes from TechCrunch Startups, Crunchbase News, and MedCity News (medtech).
+    Items are scored on funding-specific keywords (raises, seed/Series A-D, acquisition, valuation) plus
+    relevance to your focus domains — so AI, robotics, and medtech funding rounds are prioritized in the
+    "Recent Funding" section.
   </p>
 
   <h2>Deduplication</h2>

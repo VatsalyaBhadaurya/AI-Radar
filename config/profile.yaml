@@ -1,0 +1,119 @@
+# Personal experience profile - drives the "Hiring For You" job-matching section.
+#
+# This is kept separate from taxonomy.yaml's "priority_keywords" (which personalizes
+# the general digest). This profile is specifically about *your* skills, domains,
+# and career stage, used to score and rank job postings.
+
+# Career stage - used to bias toward intern/entry-level/new-grad roles and
+# de-prioritize senior-only postings.
+experience_level: "intern_entry"
+
+# Distinctive tools/technologies that are a strong signal on their own - a single
+# match here is enough to mark a job as relevant (combined with the entry-level check).
+core_skills:
+  - "ROS2"
+  - "ROS 2"
+  - "Jetson"
+  - "Jetson Orin"
+  - "Jetson Nano"
+  - "STM32"
+  - "Arduino"
+  - "Raspberry Pi"
+  - "CUDA"
+  - "YOLOv8"
+  - "YOLO11"
+  - "DINOv3"
+  - "DINOv2"
+  - "SAM 2"
+  - "Segment Anything"
+  - "Depth Anything"
+  - "DUSt3R"
+  - "Whisper"
+  - "TensorFlow"
+  - "PyTorch"
+  - "OpenCV"
+
+# Common/general tools you use, but which are too widely used elsewhere to be a
+# signal on their own. These only add to the score once a job already qualifies
+# via a core skill or domain match.
+general_skills:
+  - "Python"
+  - "Flask"
+  - "Firebase"
+  - "MySQL"
+  - "Docker"
+  - "Linux"
+  - "transformers"
+  - "CNN"
+
+# Domains and fields of interest - broader signal for job-match scoring.
+# Spans embodied AI/robotics, medtech (MaaKosh), and industrial inspection (TVS/WIL).
+domain_keywords:
+  - "robotics"
+  - "humanoid"
+  - "embodied"
+  - "embodied AI"
+  - "perception"
+  - "computer vision"
+  - "VLA"
+  - "vision-language-action"
+  - "vision-language"
+  - "multimodal"
+  - "sensor fusion"
+  - "SLAM"
+  - "edge AI"
+  - "edge inference"
+  - "on-device"
+  - "embedded systems"
+  - "real-time"
+  - "machine learning"
+  - "deep learning"
+  - "computer vision engineer"
+  - "AI engineer"
+  - "research engineer"
+  - "medtech"
+  - "healthtech"
+  - "health tech"
+  - "digital health"
+  - "biomedical"
+  - "medical device"
+  - "wearable"
+  - "neonatal"
+  - "maternal health"
+  - "industrial automation"
+  - "manufacturing"
+  - "quality inspection"
+  - "defect detection"
+  - "anomaly detection"
+
+# Job-title/seniority signals that indicate an early-career-friendly posting.
+# Presence of any of these gives the listing a relevance boost.
+entry_level_keywords:
+  - "intern"
+  - "internship"
+  - "co-op"
+  - "apprentice"
+  - "fresher"
+  - "junior"
+  - "entry level"
+  - "entry-level"
+  - "new grad"
+  - "new graduate"
+  - "graduate program"
+  - "trainee"
+  - "research assistant"
+  - "undergraduate"
+
+# Job-title/seniority signals that indicate a senior-only posting.
+# If present without any entry-level signal, the listing is heavily de-prioritized.
+senior_only_keywords:
+  - "senior"
+  - "staff engineer"
+  - "principal"
+  - "director"
+  - "head of"
+  - "VP of"
+  - "10+ years"
+  - "8+ years"
+  - "7+ years"
+  - "5+ years experience"

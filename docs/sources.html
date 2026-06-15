@@ -21,7 +21,8 @@
   <h1>Sources</h1>
   <p class="lead">
     Every item in the digest comes from one of the structured sources below — official blogs,
-    arXiv category feeds, and GitHub release feeds for tracked projects. No general web scraping.
+    arXiv category feeds, GitHub release feeds, job boards (for "Hiring For You"), and startup
+    funding feeds (for "Recent Funding"). No general web scraping.
     "Trust" reflects how official/authoritative a source is and feeds into the relevance score.
   </p>
   <div class="table-wrap">
@@ -49,6 +50,7 @@
     rss: "RSS / Atom",
     arxiv: "arXiv RSS",
     github_releases: "GitHub Releases",
+    remoteok: "RemoteOK API",
   };
   const CATEGORY_LABELS = {
     model_releases: "Model Releases",
@@ -58,6 +60,9 @@
     papers_benchmarks: "Papers & Benchmarks",
     repos: "Open-Source Repos",
     industry: "Industry",
+    projects: "Build Today: Projects",
+    jobs: "Hiring For You",
+    funding: "Recent Funding",
   };
 
   (async () => {

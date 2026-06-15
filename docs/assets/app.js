@@ -3,6 +3,8 @@
 
 const SECTION_ORDER = [
   "for_you",
+  "hiring_for_you",
+  "recent_funding",
   "top_stories",
   "build_today",
   "model_tooling",
@@ -39,21 +41,32 @@ function renderItem(item) {
   const tags = (item.tags || [])
     .map((t) => `<span class="tag">${escapeHTML(t)}</span>`)
     .join("");
+  const isJob = item.category === "jobs";
   const reportedBy = item.also_reported_by && item.also_reported_by.length
     ? ` (also: ${item.also_reported_by.map(escapeHTML).join(", ")})`
     : "";
   const personalBadge = item.personal_match
-    ? '<span class="tag tag-personal">★ matches your stack</span>'
+    ? `<span class="tag tag-personal">★ ${isJob ? "strong match for you" : "matches your stack"}</span>`
     : "";
   const imageHtml = item.image_url
     ? `<a class="item-image-link" href="${escapeHTML(item.url)}" target="_blank" rel="noopener"><img class="item-image" src="${escapeHTML(item.image_url)}" alt="" loading="lazy"></a>`
     : "";
+
+  let metaLine;
+  if (isJob) {
+    const company = item.company || item.source;
+    const location = item.location ? ` · ${escapeHTML(item.location)}` : "";
+    metaLine = `${escapeHTML(company)}${location} · ${escapeHTML(formatDate(item.published_at))}`;
+  } else {
+    metaLine = `${escapeHTML(item.source)}${reportedBy} · ${escapeHTML(formatDate(item.published_at))} · score ${Number(item.score).toFixed(2)}`;
+  }
+
   return `
     <article class="item" data-tags="${escapeHTML((item.tags || []).join(" "))}" data-category="${escapeHTML(item.category || "")}">
       ${personalBadge}
       ${imageHtml}
       <h3><a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.title)}</a></h3>
-      <p class="item-meta">${escapeHTML(item.source)}${reportedBy} · ${escapeHTML(formatDate(item.published_at))} · score ${Number(item.score).toFixed(2)}</p>
+      <p class="item-meta">${metaLine}</p>
       <p class="item-summary">${escapeHTML(item.summary)}</p>
       <p class="item-why"><strong>Why it matters:</strong> ${escapeHTML(item.why_it_matters)}</p>
       <p class="item-tags">${tags}</p>

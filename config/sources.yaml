@@ -246,3 +246,47 @@ sources:
     url: "https://hackaday.com/blog/feed/"
     category: projects
     trust: 0.7
+
+  # ---- Hiring For You: job postings matched to your experience profile ----
+  - id: remoteok_jobs
+    name: "RemoteOK"
+    type: remoteok
+    url: "https://remoteok.com/api"
+    category: jobs
+    trust: 0.6
+
+  - id: hn_jobs
+    name: "Hacker News Jobs (YC)"
+    type: rss
+    url: "https://hnrss.org/jobs"
+    category: jobs
+    trust: 0.7
+
+  - id: wwr_programming
+    name: "We Work Remotely (Programming)"
+    type: rss
+    url: "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+    category: jobs
+    trust: 0.6
+
+  # ---- Recent Funding: startup funding news (incl. medtech) ----
+  - id: techcrunch_startups
+    name: "TechCrunch Startups"
+    type: rss
+    url: "https://techcrunch.com/category/startups/feed/"
+    category: funding
+    trust: 0.7
+
+  - id: crunchbase_news
+    name: "Crunchbase News"
+    type: rss
+    url: "https://news.crunchbase.com/feed/"
+    category: funding
+    trust: 0.75
+
+  - id: medcity_news
+    name: "MedCity News"
+    type: rss
+    url: "https://medcitynews.com/feed/"
+    category: funding
+    trust: 0.7

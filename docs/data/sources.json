@@ -236,5 +236,47 @@
     "type": "rss",
     "category": "projects",
     "trust": 0.7
+  },
+  {
+    "id": "remoteok_jobs",
+    "name": "RemoteOK",
+    "type": "remoteok",
+    "category": "jobs",
+    "trust": 0.6
+  },
+  {
+    "id": "hn_jobs",
+    "name": "Hacker News Jobs (YC)",
+    "type": "rss",
+    "category": "jobs",
+    "trust": 0.7
+  },
+  {
+    "id": "wwr_programming",
+    "name": "We Work Remotely (Programming)",
+    "type": "rss",
+    "category": "jobs",
+    "trust": 0.6
+  },
+  {
+    "id": "techcrunch_startups",
+    "name": "TechCrunch Startups",
+    "type": "rss",
+    "category": "funding",
+    "trust": 0.7
+  },
+  {
+    "id": "crunchbase_news",
+    "name": "Crunchbase News",
+    "type": "rss",
+    "category": "funding",
+    "trust": 0.75
+  },
+  {
+    "id": "medcity_news",
+    "name": "MedCity News",
+    "type": "rss",
+    "category": "funding",
+    "trust": 0.7
   }
 ]

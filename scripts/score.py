@@ -13,7 +13,7 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 from common import (
-    ARCHIVE_DIR, WORK_DIR, ensure_dirs, load_scoring, load_taxonomy,
+    ARCHIVE_DIR, WORK_DIR, ensure_dirs, load_profile, load_scoring, load_taxonomy,
     now_utc, parse_iso, read_json, write_json,
 )
 
@@ -27,6 +27,21 @@ RELEVANCE_KEYWORD_CAP = 5  # number of matched keywords needed to reach full rel
 # Bonus applied to relevance per matched "priority_keywords" entry (curator's stack/interests).
 PRIORITY_BONUS_PER_MATCH = 0.08
 PRIORITY_BONUS_CAP = 0.25
+
+# ---- Hiring For You (job postings scored against config/profile.yaml) ----
+JOB_CORE_SKILL_WEIGHT = 0.2
+JOB_DOMAIN_WEIGHT = 0.15
+JOB_GENERAL_SKILL_WEIGHT = 0.05
+JOB_ENTRY_BONUS = 0.2
+JOB_SENIOR_PENALTY_FACTOR = 0.25
+JOB_SCORE_EXPERIENCE_WEIGHT = 0.75
+JOB_SCORE_NOVELTY_WEIGHT = 0.25
+JOB_PERSONAL_MATCH_THRESHOLD = 0.35
+
+# ---- Recent Funding (startup funding news, incl. medtech) ----
+FUNDING_RELEVANCE_BASE = 0.2
+FUNDING_KEYWORD_STEP = 0.12
+FUNDING_DOMAIN_STEP = 0.08
 
 
 def _load_seen_history(lookback_days: int) -> set[str]:
@@ -116,11 +131,131 @@ def _why_it_matters(
     return base
 
 
-def score_items(items: list[dict], scoring_cfg: dict, taxonomy: dict) -> list[dict]:
+def _job_why_it_matters(skill_matches: list[str], domain_matches: list[str], entry_matches: list[str]) -> str:
+    parts = []
+    if skill_matches:
+        parts.append(f"matches your skills ({', '.join(skill_matches[:3])})")
+    if domain_matches:
+        parts.append(f"matches your focus areas ({', '.join(domain_matches[:3])})")
+    if entry_matches:
+        parts.append("looks open to interns/entry-level candidates")
+    if not parts:
+        return "Job posting from a tracked board; no strong overlap with your profile yet."
+    return "This role " + "; ".join(parts) + "."
+
+
+def _funding_why_it_matters(funding_matches: list[str], domain_matches: list[str]) -> str:
+    if domain_matches:
+        return f"Startup funding news relevant to your focus areas: {', '.join(domain_matches[:3])}."
+    if funding_matches:
+        return "Startup funding news (" + ", ".join(funding_matches[:3]) + ")."
+    return "Startup funding news."
+
+
+def _score_job(item: dict, text: str, profile: dict, seen: set[str], half_life: float) -> dict:
+    job_text = f"{text} {' '.join(item.get('job_tags', []))}".lower()
+
+    core_matches = _keyword_matches(job_text, profile.get("core_skills", []))
+    general_matches = _keyword_matches(job_text, profile.get("general_skills", []))
+    domain_matches = _keyword_matches(job_text, profile.get("domain_keywords", []))
+    entry_matches = _keyword_matches(job_text, profile.get("entry_level_keywords", []))
+    senior_matches = _keyword_matches(job_text, profile.get("senior_only_keywords", []))
+    skill_matches = core_matches + general_matches
+
+    if not core_matches and not domain_matches:
+        # No overlap with a distinctive skill or a focus domain - a hit on a generic
+        # tool (Python, Docker, ...) or the entry-level bonus alone isn't a real match.
+        experience_match = 0.0
+    else:
+        experience_match = (
+            JOB_CORE_SKILL_WEIGHT * len(core_matches)
+            + JOB_DOMAIN_WEIGHT * len(domain_matches)
+            + JOB_GENERAL_SKILL_WEIGHT * len(general_matches)
+        )
+        if entry_matches:
+            experience_match += JOB_ENTRY_BONUS
+        experience_match = min(1.0, experience_match)
+        if senior_matches and not entry_matches:
+            experience_match *= JOB_SENIOR_PENALTY_FACTOR
+
+    novelty = _compute_novelty(item, seen, half_life)
+    score = JOB_SCORE_EXPERIENCE_WEIGHT * experience_match + JOB_SCORE_NOVELTY_WEIGHT * novelty
+
+    result = dict(item)
+    result["category"] = "jobs"
+    result["relevance"] = round(experience_match, 4)
+    result["novelty"] = round(novelty, 4)
+    result["engineering_value"] = 0.0
+    result["score"] = round(score, 4)
+    result["experience_match"] = round(experience_match, 4)
+    result["matched_skills"] = skill_matches
+    result["matched_domains"] = domain_matches
+    result["personal_match"] = experience_match >= JOB_PERSONAL_MATCH_THRESHOLD
+    result["matched_stack_keywords"] = skill_matches + domain_matches
+    result["why_it_matters"] = _job_why_it_matters(skill_matches, domain_matches, entry_matches)
+
+    tags = set(result.get("tags", []))
+    tags.add("jobs")
+    if result["personal_match"]:
+        tags.add("for_you")
+    result["tags"] = sorted(tags)
+
+    return result
+
+
+def _score_funding(
+    item: dict, text: str, profile: dict, taxonomy: dict, scoring_cfg: dict, seen: set[str], half_life: float,
+) -> dict:
+    weights = scoring_cfg["weights"]
+
+    funding_matches = _keyword_matches(text, taxonomy.get("funding_keywords", []))
+    domain_matches = _keyword_matches(text, profile.get("domain_keywords", []))
+
+    relevance = min(1.0, FUNDING_RELEVANCE_BASE
+                    + FUNDING_KEYWORD_STEP * len(funding_matches)
+                    + FUNDING_DOMAIN_STEP * len(domain_matches))
+
+    novelty = _compute_novelty(item, seen, half_life)
+    engineering_value = _compute_engineering_value(text, taxonomy)
+    source_trust = item["source_trust"]
+
+    score = (
+        weights["relevance"] * relevance
+        + weights["novelty"] * novelty
+        + weights["source_trust"] * source_trust
+        + weights["engineering_value"] * engineering_value
+    )
+
+    result = dict(item)
+    result["category"] = "funding"
+    result["relevance"] = round(relevance, 4)
+    result["novelty"] = round(novelty, 4)
+    result["engineering_value"] = round(engineering_value, 4)
+    result["score"] = round(score, 4)
+    result["personal_match"] = False
+    result["matched_stack_keywords"] = []
+    result["matched_domains"] = domain_matches
+    result["why_it_matters"] = _funding_why_it_matters(funding_matches, domain_matches)
+
+    tags = set(result.get("tags", []))
+    if funding_matches:
+        tags.add("funding")
+    else:
+        # Came from a funding-focused source but doesn't actually mention a
+        # raise/round/acquisition - don't surface it in "Recent Funding".
+        tags.discard("funding")
+    result["tags"] = sorted(tags)
+
+    return result
+
+
+def score_items(items: list[dict], scoring_cfg: dict, taxonomy: dict, profile: dict | None = None) -> list[dict]:
+    profile = profile or {}
     weights = scoring_cfg["weights"]
     half_life = scoring_cfg["novelty_half_life_days"]
     lookback = scoring_cfg["novelty_lookback_days"]
     max_age_days = scoring_cfg["max_item_age_days"]
+    max_age_overrides = scoring_cfg.get("max_item_age_days_by_category", {})
     seen = _load_seen_history(lookback)
 
     categories = taxonomy["categories"]
@@ -136,7 +271,15 @@ def score_items(items: list[dict], scoring_cfg: dict, taxonomy: dict) -> list[di
         except (ValueError, KeyError):
             age_days = 0
 
-        if age_days > max_age_days:
+        if age_days > max_age_overrides.get(item["category"], max_age_days):
+            continue
+
+        if item["category"] == "jobs":
+            scored.append(_score_job(item, text, profile, seen, half_life))
+            continue
+
+        if item["category"] == "funding":
+            scored.append(_score_funding(item, text, profile, taxonomy, scoring_cfg, seen, half_life))
             continue
 
         relevance, best_category, matched_keywords = _compute_relevance(text, item["category"], taxonomy)
@@ -189,7 +332,8 @@ def main() -> None:
     items = read_json(WORK_DIR / "deduped.json", default=[])
     scoring_cfg = load_scoring()
     taxonomy = load_taxonomy()
-    scored = score_items(items, scoring_cfg, taxonomy)
+    profile = load_profile()
+    scored = score_items(items, scoring_cfg, taxonomy, profile)
     scored.sort(key=lambda it: it["score"], reverse=True)
     write_json(WORK_DIR / "scored.json", scored)
     print(f"Scored {len(scored)} items (from {len(items)} candidates)")
