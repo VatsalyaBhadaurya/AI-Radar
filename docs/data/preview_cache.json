@@ -302,5 +302,37 @@
   "https://remoteok.com/remote-jobs/remote-e-commerce-sales-executive-foodme-global-dine-palace-1133259": {
     "image_url": "https://remoteok.com/assets/og-image-2021c.png",
     "fetched_at": "2026-06-15"
+  },
+  "https://developer.nvidia.com/blog/pretrained-to-imagine-fine-tuned-to-act-the-rise-of-world-action-models": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/WAM_Blog_Post_Header.webp",
+    "fetched_at": "2026-06-15"
+  },
+  "https://remoteok.com/remote-jobs/remote-production-utility-fxi-1133415": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-06-15"
+  },
+  "https://ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/bb1239ee67e01455546fe8a413724b572346e680.png?1745870357",
+    "fetched_at": "2026-06-15"
+  },
+  "https://ycombinator.com/companies/dalus/jobs/5IDmKJt-senior-software-frontend-engineer-germany-office": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/645913bc5b924a5fb0cbb389f31f963b8c0910ef.png?1736994367",
+    "fetched_at": "2026-06-15"
+  },
+  "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/sarvam.jpg?resize=1200,800",
+    "fetched_at": "2026-06-15"
+  },
+  "https://theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/DCD_20260615_Adam_Bry.png?quality=90&amp;strip=all&amp;crop=0%2C10.711631919237%2C100%2C78.576736161526&amp;w=1200",
+    "fetched_at": "2026-06-15"
+  },
+  "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/06/GettyImages-1125951338.jpg?resize=1200,900",
+    "fetched_at": "2026-06-15"
+  },
+  "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/coast_ground_postprocess.png?resize=1200,900",
+    "fetched_at": "2026-06-15"
   }
 }
