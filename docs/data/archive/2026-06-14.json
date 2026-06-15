@@ -1,0 +1,635 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T11:30:21Z",
+  "headline": "Today's AI engineering radar — 2026-06-14",
+  "summary": "Today's lead story: \"Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT\" (NVIDIA Developer Blog (AI)). Coverage spans infra_tooling, repos with 170 items scanned and 5 surfaced across sections.",
+  "sections": [
+    {
+      "id": "for_you",
+      "name": "Matches Your Stack",
+      "items": [
+        {
+          "id": "item_b1a28004eeaa",
+          "title": "Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT",
+          "source": "NVIDIA Developer Blog (AI)",
+          "url": "https://developer.nvidia.com/blog/model-quantization-turn-fp8-checkpoints-into-high-performance-inference-engines-with-nvidia-tensorrt/",
+          "canonical_url": "https://developer.nvidia.com/blog/model-quantization-turn-fp8-checkpoints-into-high-performance-inference-engines-with-nvidia-tensorrt",
+          "published_at": "2026-06-09T18:27:52Z",
+          "summary": "Converting a quantized checkpoint into an NVIDIA TensorRT engine bridges the gap between model optimization and production deployment, enabling faster...",
+          "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Quantization-Series.jpg",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, quantization, TensorRT). Likely useful for builders (code, benchmarks, or tooling implications). Matches your stack: TensorRT.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "model_releases"
+          ],
+          "category": "infra_tooling",
+          "score": 0.632,
+          "personal_match": true
+        },
+        {
+          "id": "item_a1fb6fe48154",
+          "title": "v8.4.63 - NVIDIA TensorRT 11 support with ModelOpt FP16 and INT8 quantization (#24735)",
+          "source": "Ultralytics (YOLO)",
+          "url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.63",
+          "canonical_url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.63",
+          "published_at": "2026-06-09T17:37:13Z",
+          "summary": "🌟 Summary 🚀 Ultralytics v8.4.63 mainly adds TensorRT 11 export support with FP16 and INT8 quantization via NVIDIA ModelOpt, while also expanding built-in multi-object tracking with several new tracker options and improving reliability, performance, and docs. 📊 Key Changes 🧠 Major export upgrade: TensorRT 11 support The standout update in this release is PR #24735 by @onuralpszr . Ultralytics now supports exporting models to NVIDIA TensorRT 11 , which had previously broken due to API changes in…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: quantization, TensorRT, API). Matches your stack: TensorRT.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "model_releases",
+            "vlm_multimodal"
+          ],
+          "category": "infra_tooling",
+          "score": 0.5878,
+          "personal_match": true
+        },
+        {
+          "id": "item_ea4173aa8546",
+          "title": "v8.4.64 - Tracker ReID ONNX encoders autodownload (#24774)",
+          "source": "Ultralytics (YOLO)",
+          "url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.64",
+          "canonical_url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.64",
+          "published_at": "2026-06-10T14:29:24Z",
+          "summary": "🌟 Summary Ultralytics v8.4.64 makes tracking easier and more reliable 🎯—especially with new auto-downloaded YOLO26 ReID ONNX encoders—while also improving QNN export, multi-GPU training stability, logging, and export robustness 🚀 📊 Key Changes Tracking got a major usability upgrade with auto-downloaded YOLO26 ReID ONNX encoders 🤖📦 You can now use built-in tracking ReID models like yolo26n-reid.onnx through yolo26x-reid.onnx without manually downloading or exporting them first. Tracking ReID mat…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: GPU, ONNX). Matches your stack: ONNX.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "infra_tooling",
+          "score": 0.5223,
+          "personal_match": true
+        },
+        {
+          "id": "item_8101e8546880",
+          "title": "ROS 2 Rolling - Nightlies 2026-06-14",
+          "source": "ROS 2",
+          "url": "https://github.com/ros2/ros2/releases/tag/release-rolling-nightlies",
+          "canonical_url": "https://github.com/ros2/ros2/releases/tag/release-rolling-nightlies",
+          "published_at": "2026-06-14T08:09:36Z",
+          "summary": "These are the binary packages for ROS 2 Rolling Nightlies 2026-06-14. These binaries will get updated nightly given that all jobs have \"not failed\" to keep synchrony across operating systems. For runtime dependencies, see the binary package installation instructions . Your system must be up-to-date to be compatible with the downloaded packages. Note: ignore the source code links because they don't contain the source code for ROS 2 (they're auto-generated by GitHub). Instead, grab the binary pac…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub, package). Matches your stack: ROS 2.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "repos",
+            "robotics_vla"
+          ],
+          "category": "repos",
+          "score": 0.467,
+          "personal_match": true
+        }
+      ]
+    },
+    {
+      "id": "top_stories",
+      "name": "Top Stories",
+      "items": [
+        {
+          "id": "item_2d46ea7f4323",
+          "title": "hexo-ai/sia",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/hexo-ai/sia",
+          "canonical_url": "https://github.com/hexo-ai/sia",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task. SIA (Self-Improving AI) Official implementation of SIA: Self Improving AI with Harness &amp; Weight Updates (Hebbar et al., 2026) — a self-improving loop where a language-model agent updates both the harness and the weights of a task-specific agent. The paper reports a 56.6% gain on LawBench, 91.9% runtime reduction on GPU kernels, and 502% improvement on single-cel…",
+          "image_url": "https://opengraph.githubassets.com/30b29be567ddce1189347892511e5b04eb9252930e2314379482f3fd3a23d284/hexo-ai/sia",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: GPU, kernel, runtime). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.8425,
+          "personal_match": false
+        },
+        {
+          "id": "item_ad18a56beeed",
+          "title": "tirth8205/code-review-graph",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/tirth8205/code-review-graph",
+          "canonical_url": "https://github.com/tirth8205/code-review-graph",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows. code-review-graph Stop burning tokens. Start reviewing smarter. English | 简体中文 | 日本語 | 한국어 | हिन्दी Usage · Commands · FAQ · Troubleshooting · GitHub Action · Reproducing the benchmarks · Roadmap AI coding tools can end up re-reading large parts of your codebase on review tasks. code-revi…",
+          "image_url": "https://opengraph.githubassets.com/5b2c2571259d680b0f8fc5954b1fca309d50e34ca2b82a83b34f3db5eb8e4cb0/tirth8205/code-review-graph",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, GitHub, tool).",
+          "tags": [
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.7375,
+          "personal_match": false
+        },
+        {
+          "id": "item_a748c2bf63ec",
+          "title": "tenstorrent/tt-metal",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/tenstorrent/tt-metal",
+          "canonical_url": "https://github.com/tenstorrent/tt-metal",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "🤘 TT-NN operator library, and TT-Metalium low level kernel programming model. Hardware | Install | Discord | Join Us | Bounty $ TT-NN is a Python &amp; C++ Neural Network OP library. API Reference | Model Demos Featured Models The Models team is focused on developing the following models, optimizing them for performance, accuracy, and compatibility. Follow each model link for more details. Important For a full model list see the Model Matrix , or visit the Developer Hub . Note Performance Metri…",
+          "image_url": "https://opengraph.githubassets.com/b07b816b84360734f203707600c7a90a0a8824a2e2a06dcbe4fe4368ade77d78/tenstorrent/tt-metal",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: kernel, library, API).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.7375,
+          "personal_match": false
+        },
+        {
+          "id": "item_a0b967d0d31e",
+          "title": "v8.4.67 - Add opt-in weights_only model loading via ULTRALYTICS_SAFE_LOAD (#24829)",
+          "source": "Ultralytics (YOLO)",
+          "url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.67",
+          "canonical_url": "https://github.com/ultralytics/ultralytics/releases/tag/v8.4.67",
+          "published_at": "2026-06-14T00:05:42Z",
+          "summary": "🌟 Summary v8.4.67 is a small but meaningful release focused on safer model loading 🔒, plus an important TT100K dataset label fix 🛣️ and a batch of documentation/link cleanups 📚. 📊 Key Changes 🔒 New opt-in safe model loading via ULTRALYTICS_SAFE_LOAD ( @glenn-jocher , PR #24829 ) Ultralytics added a new environment flag, ULTRALYTICS_SAFE_LOAD=true , that enables a safer way to load model checkpoints. When enabled, checkpoint loading uses PyTorch’s newer weights_only=True behavior and only rebuil…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Model Releases (matches: release, model, checkpoint).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "vlm_multimodal"
+          ],
+          "category": "model_releases",
+          "score": 0.7195,
+          "personal_match": false
+        },
+        {
+          "id": "item_a19c77d83c98",
+          "title": "emscripten-core/emscripten",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/emscripten-core/emscripten",
+          "canonical_url": "https://github.com/emscripten-core/emscripten",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Emscripten: An LLVM-to-WebAssembly Compiler Main project page: https://emscripten.org GitHub CI status: Chromium builder status: emscripten-releases Overview Emscripten compiles C and C++ to WebAssembly using LLVM and Binaryen . Emscripten output can run on the Web, in Node.js, and in wasm runtimes . Emscripten provides Web support for popular portable APIs such as OpenGL and SDL2, allowing complex graphical native applications to be ported, such as the Unity game engine and Google Earth . It c…",
+          "image_url": "https://opengraph.githubassets.com/44c4c760a0d419dd76ee74c28671b9e32c716442a35758d8737149de5c42b615/emscripten-core/emscripten",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: compiler, runtime, API).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.715,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "build_today",
+      "name": "Build Today: Project Picks",
+      "items": [
+        {
+          "id": "item_f3f1b90b51a6",
+          "title": "google/perfetto",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/google/perfetto",
+          "canonical_url": "https://github.com/google/perfetto",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Production-grade client-side tracing, profiling, and analysis for complex software systems. Perfetto - System profiling, app tracing and trace analysis Perfetto is an open-source suite of SDKs, daemons and tools which use tracing to help developers understand the behaviour of complex systems and root-cause functional and performance issues on client and embedded systems. It is a production-grade tool that is the default tracing system for the Android operating system and the Chromium browser .…",
+          "image_url": "https://opengraph.githubassets.com/df1272c90b5f7cbd2c4c9ad9562dc657dce95d1cd5d13aa8638ffb9953d52899/google/perfetto",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: SDK, embedded). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "tags": [
+            "infra_tooling",
+            "projects",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.7,
+          "personal_match": false
+        },
+        {
+          "id": "item_5a585a847e87",
+          "title": "ClickHouse/ClickHouse",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/ClickHouse/ClickHouse",
+          "canonical_url": "https://github.com/ClickHouse/ClickHouse",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "ClickHouse® is a real-time analytics database management system ClickHouse® is an open-source column-oriented database management system that allows generating analytical data reports in real-time. How To Install (Linux, macOS, FreeBSD) curl https://clickhouse.com/ | sh Useful Links Official website has a quick high-level overview of ClickHouse on the main page. ClickHouse Cloud ClickHouse as a service, built by the creators and maintainers. Tutorial shows how to set up and query a small ClickH…",
+          "image_url": "https://opengraph.githubassets.com/d0f2dfb89e15dbf2bf6c27244bb33e72d8622d878f0a8c1bdfda06750802fac4/ClickHouse/ClickHouse",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, open-source). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "tags": [
+            "infra_tooling",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.7,
+          "personal_match": false
+        },
+        {
+          "id": "item_7f6a81e2dbf5",
+          "title": "iree-org/iree",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/iree-org/iree",
+          "canonical_url": "https://github.com/iree-org/iree",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "A retargetable MLIR-based machine learning compiler and runtime toolkit. IREE: Intermediate Representation Execution Environment IREE ( I ntermediate R epresentation E xecution E nvironment, pronounced as \"eerie\") is an MLIR -based end-to-end compiler and runtime that lowers Machine Learning (ML) models to a unified IR that scales up to meet the needs of the datacenter and down to satisfy the constraints and special considerations of mobile and edge deployments. See our website for project deta…",
+          "image_url": "https://opengraph.githubassets.com/7c2c288709fd7c749201a11915cf54ec188c3dad2de4043d4f779a520a3a7f86/iree-org/iree",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: compiler, runtime, deployment).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.6925,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "model_tooling",
+      "name": "Model & Tooling Updates",
+      "items": [
+        {
+          "id": "item_067d96e900d8",
+          "title": "b9631",
+          "source": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9631",
+          "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9631",
+          "published_at": "2026-06-14T10:20:21Z",
+          "summary": "cli : fix not copying preserved tokens ( #24258 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows x64…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: CUDA, framework).",
+          "tags": [
+            "infra_tooling"
+          ],
+          "category": "infra_tooling",
+          "score": 0.6683,
+          "personal_match": false
+        },
+        {
+          "id": "item_d27e56b1633e",
+          "title": "b9630",
+          "source": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9630",
+          "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b9630",
+          "published_at": "2026-06-14T07:32:53Z",
+          "summary": "Add cohere2moe to llama-vocab for TINY_AYA ( #24601 ) macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (ROCm 7.2) Ubuntu x64 (OpenVINO) Ubuntu x64 (SYCL FP32) Ubuntu x64 (SYCL FP16) Android: Android arm64 (CPU) Windows: Windows x64 (CPU) Windows arm64 (CPU) Windows x64 (CUDA 12) - CUDA 12.4 DLLs Windows…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: CUDA, framework).",
+          "tags": [
+            "infra_tooling",
+            "model_releases"
+          ],
+          "category": "infra_tooling",
+          "score": 0.6586,
+          "personal_match": false
+        },
+        {
+          "id": "item_e30f8dee0b0b",
+          "title": "NVIDIA/SkillSpector",
+          "source": "GitHub Trending (All Languages)",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "canonical_url": "https://github.com/NVIDIA/SkillSpector",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks. SkillSpector Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks before installing agent skills. Overview AI agent skills (used by Claude Code, Codex CLI, Gemini CLI, etc.) execute with implicit trust and minimal vetting. Research shows that 26.1% of skills contain vulnerabilities and 5.2% show likely malicious intent . SkillSpector helps you ans…",
+          "image_url": "https://opengraph.githubassets.com/ca327da77d44a1210aa9af9ac0053f071010e24b2e6f008852600231b5162bfa/NVIDIA/SkillSpector",
+          "why_it_matters": "Relevant to Model Releases (matches: Claude, Gemini).",
+          "tags": [
+            "model_releases",
+            "projects"
+          ],
+          "category": "model_releases",
+          "score": 0.655,
+          "personal_match": false,
+          "also_reported_by": [
+            "GitHub Trending (Python)"
+          ]
+        },
+        {
+          "id": "item_c44e27161b7e",
+          "title": "shareAI-lab/learn-claude-code",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/shareAI-lab/learn-claude-code",
+          "canonical_url": "https://github.com/shareAI-lab/learn-claude-code",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1 English | 中文 | 日本語 Learn Claude Code -- Harness Engineering for Real Agents Agency Comes from the Model. An Agent Product = Model + Harness. Before we write any code, one thing needs to be clear. Agency -- the capacity to perceive, reason, and act -- comes from model training, not from external code orchestration. But a working agent product needs both the model and the harness. The model is the driver. The harnes…",
+          "image_url": "https://opengraph.githubassets.com/5d9c5e805527c954cfc9a636cca1a837249fb5f78d72855ba5a727c61419c95b/shareAI-lab/learn-claude-code",
+          "why_it_matters": "Relevant to Model Releases (matches: model, Claude).",
+          "tags": [
+            "model_releases",
+            "papers_benchmarks",
+            "projects"
+          ],
+          "category": "model_releases",
+          "score": 0.655,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "robotics_vla",
+      "name": "Robotics & Embodied AI",
+      "items": [
+        {
+          "id": "item_4e1ee776f96c",
+          "title": "Robot Chess but Each Piece is a Small Robot",
+          "source": "Hackaday",
+          "url": "https://hackaday.com/2026/06/13/robot-chess-but-each-piece-is-a-small-robot/",
+          "canonical_url": "https://hackaday.com/2026/06/13/robot-chess-but-each-piece-is-a-small-robot",
+          "published_at": "2026-06-14T02:00:11Z",
+          "summary": "We have seen a number of self-playing chess boards over the years, but the general theme has been standard chess pieces moved by either an internal electromagnet or an external &#8230;read more",
+          "image_url": "https://hackaday.com/wp-content/uploads/2026/06/chess_robot_piece_3dprintedlife_youtube.jpg",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot).",
+          "tags": [
+            "projects",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.5404,
+          "personal_match": false
+        },
+        {
+          "id": "item_f4a6f6d2b392",
+          "title": "Powering the future of robotics in Europe",
+          "source": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+          "canonical_url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
+          "published_at": "2026-06-09T14:02:33Z",
+          "summary": "",
+          "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/130.width-1300.jpg",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, robotics).",
+          "tags": [
+            "model_releases",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.4425,
+          "personal_match": false
+        },
+        {
+          "id": "item_823f824c8da9",
+          "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+          "canonical_url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything",
+          "published_at": "2026-06-12T01:48:07Z",
+          "summary": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/THEKER-photo-seriesA.jpg?resize=1200,799",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, humanoid). Matches your stack: humanoid.",
+          "tags": [
+            "for_you",
+            "industry",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.3945,
+          "personal_match": true
+        }
+      ]
+    },
+    {
+      "id": "vlm_multimodal",
+      "name": "VLM & Multimodal",
+      "items": [
+        {
+          "id": "item_654ba11c9fac",
+          "title": "DiffusionGemma: 4x faster text generation",
+          "source": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+          "canonical_url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+          "published_at": "2026-06-10T16:24:11Z",
+          "summary": "",
+          "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Diffusion_Gemma_Social.width-1300.png",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: diffusion).",
+          "tags": [
+            "model_releases",
+            "vlm_multimodal"
+          ],
+          "category": "vlm_multimodal",
+          "score": 0.3825,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "Papers & Benchmarks",
+      "items": [
+        {
+          "id": "item_2e785fd10fb0",
+          "title": "NVIDIA/physicsnemo",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/NVIDIA/physicsnemo",
+          "canonical_url": "https://github.com/NVIDIA/physicsnemo",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Open-source deep-learning framework for building, training, and fine-tuning deep learning models using state-of-the-art Physics-ML methods NVIDIA PhysicsNeMo 📝 NVIDIA PhysicsNeMo is undergoing an update to v2.0 - all the features, with easier installation and integration to external packages. See the migration guide for more details! NVIDIA PhysicsNeMo | Documentation | Install Guide | Getting Started | Contributing Guidelines | Dev blog What is PhysicsNeMo? NVIDIA PhysicsNeMo is an open-source…",
+          "image_url": "https://opengraph.githubassets.com/68d6493a4ac89f7cf401c2dbcd5ccb6584f7a7649aafe6351471ad0826863670/NVIDIA/physicsnemo",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: state-of-the-art, training).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.655,
+          "personal_match": false
+        },
+        {
+          "id": "item_80c37ff58f78",
+          "title": "scikit-learn/scikit-learn",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/scikit-learn/scikit-learn",
+          "canonical_url": "https://github.com/scikit-learn/scikit-learn",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "scikit-learn: machine learning in Python .. - - mode: rst - - |GitHubActions| |Codecov| |CircleCI| |Nightly wheels| |Ruff| |PythonVersion| |PyPI| |DOI| |Benchmark| .. |GitHubActions| image:: https://github.com/scikit-learn/scikit-learn/actions/workflows/unit-tests.yml/badge.svg ? :target: https://github.com/scikit-learn/scikit-learn/actions/workflows/unit-tests.yml?query=branch%3Amain .. |CircleCI| image:: https://circleci.com/gh/scikit-learn/scikit-learn/tree/main.svg?style=shield :target: htt…",
+          "image_url": "https://opengraph.githubassets.com/028de81925040e0b1b84321fb2855df8cd966cb313ce45d7654c0af9b91bfb5f/scikit-learn/scikit-learn",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: benchmark).",
+          "tags": [
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6175,
+          "personal_match": false
+        },
+        {
+          "id": "item_9907424bf2cc",
+          "title": "stack-of-tasks/pinocchio",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/stack-of-tasks/pinocchio",
+          "canonical_url": "https://github.com/stack-of-tasks/pinocchio",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives --> Pinocchio is open-source software actively developed by the Willow team at Inria in the lovely city of Paris. Pinocchio instantiates state-of-the-art Rigid Body Algorithms for poly-articulated systems, building upon and revisiting the foundational algorithms introduced by Roy Featherstone. Beyond traditional rigid-body dynamics formulations, Pinocchio delivers cutting-edge algorithmic solut…",
+          "image_url": "https://opengraph.githubassets.com/d76450d524df710544a1b68317891a91a67760abf40e2f5cdce04122408abd5d/stack-of-tasks/pinocchio",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: state-of-the-art).",
+          "tags": [
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6175,
+          "personal_match": false
+        },
+        {
+          "id": "item_cc39aa2cdedf",
+          "title": "f3d-app/f3d",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/f3d-app/f3d",
+          "canonical_url": "https://github.com/f3d-app/f3d",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Fast and minimalist 3D viewer. F3D - Fast and minimalist 3D viewer By the F3D-APP Foundation. F3D (pronounced `/fɛd/`) is a fast and minimalist 3D viewer desktop application. It supports many file formats, from digital content to scientific datasets (including glTF, USD, STL, STEP, PLY, OBJ, FBX, Alembic), can show animations and support thumbnails and many rendering and texturing options including real time physically based rendering and raytracing. It is fully controllable from the command li…",
+          "image_url": "https://repository-images.githubusercontent.com/241178673/63e48b80-cc25-11ea-8f2e-19543d1f0221",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: dataset).",
+          "tags": [
+            "papers_benchmarks",
+            "projects"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.5725,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "name": "Repo Watch",
+      "items": [
+        {
+          "id": "item_a585c4a56975",
+          "title": "luanti-org/luanti",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/luanti-org/luanti",
+          "canonical_url": "https://github.com/luanti-org/luanti",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "Luanti (formerly Minetest) is an open source voxel game-creation platform with easy modding and game creation Luanti (formerly Minetest) Luanti is a free open-source voxel game engine with easy modding and game creation. Copyright (C) 2010-2026 Perttu Ahola celeron55@gmail.com and contributors (see source file comments and the version control log) Table of Contents Further Documentation Default Controls Paths Configuration File Command-line Options Compiling Docker Version Scheme Further docume…",
+          "image_url": "https://opengraph.githubassets.com/83f85be3842a31151d8620a65cf83feb1711f17fefcd0d1e1d6fba2d5bc4197d/luanti-org/luanti",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: open source, open-source).",
+          "tags": [
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.6775,
+          "personal_match": false
+        },
+        {
+          "id": "item_35cfcc6404ec",
+          "title": "py-pdf/pypdf",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/py-pdf/pypdf",
+          "canonical_url": "https://github.com/py-pdf/pypdf",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "A pure-python PDF library capable of splitting, merging, cropping, and transforming the pages of PDF files pypdf pypdf is a free and open-source pure-python PDF library capable of splitting, merging , cropping, and transforming the pages of PDF files. It can also add custom data, viewing options, and passwords to PDF files. pypdf can retrieve text and metadata from PDFs as well. See pdfly for a CLI application that uses pypdf to interact with PDFs. Installation Install pypdf using pip: pip inst…",
+          "image_url": "https://opengraph.githubassets.com/aa9af2b5477880737ed3a6752eb9910560f6c369f917e9f2c749894407ce5806/py-pdf/pypdf",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: open-source, library).",
+          "tags": [
+            "infra_tooling",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.655,
+          "personal_match": false
+        },
+        {
+          "id": "item_2387aa514cbc",
+          "title": "OpenTTD/OpenTTD",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/OpenTTD/OpenTTD",
+          "canonical_url": "https://github.com/OpenTTD/OpenTTD",
+          "published_at": "2026-06-14T11:30:16Z",
+          "summary": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe OpenTTD Table of contents 1.0) About 1.1) Downloading OpenTTD 1.2) OpenTTD gameplay manual 1.3) Supported platforms 1.4) Installing and running OpenTTD 1.5) Add-on content / mods 1.6) OpenTTD directories 1.7) Compiling OpenTTD 2.0) Contact and community 2.1) Multiplayer games 2.2) Contributing to OpenTTD 2.3) Reporting bugs 2.4) Translating 3.0) Licensing 4.0) Credits 1.0) About OpenTTD is a transport simulation game b…",
+          "image_url": "https://opengraph.githubassets.com/806013b9a753682950271cd73b89de7ba40d6fb2376fcd2110222a628151fdcb/OpenTTD/OpenTTD",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, open source).",
+          "tags": [
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.655,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "name": "Industry Moves",
+      "items": [
+        {
+          "id": "item_8054bc1bd718",
+          "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+          "canonical_url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+          "published_at": "2026-06-14T00:03:49Z",
+          "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Meta-image.jpg?w=1024",
+          "why_it_matters": "Relevant to Industry Moves (matches: acquisition).",
+          "tags": [
+            "industry",
+            "repos"
+          ],
+          "category": "industry",
+          "score": 0.5144,
+          "personal_match": false
+        },
+        {
+          "id": "item_88203ea47459",
+          "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+          "canonical_url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown",
+          "published_at": "2026-06-13T19:11:41Z",
+          "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1348139958.jpg?resize=1200,767",
+          "why_it_matters": "Relevant to Industry Moves (matches: CEO).",
+          "tags": [
+            "industry",
+            "model_releases",
+            "repos"
+          ],
+          "category": "industry",
+          "score": 0.5,
+          "personal_match": false
+        },
+        {
+          "id": "item_e1a5e90b6d8b",
+          "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+          "canonical_url": "https://theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+          "published_at": "2026-06-13T21:39:26Z",
+          "summary": "According to the Wall Street Journal, the export control directive that led to Anthropic cutting off access to Fable 5 and Mythos 5 was triggered in part by cybersecurity research from Amazon and conversations between CEO Andy Jassy and the White House. According to the report, the paper from Amazon claims that, through a series [&#8230;]",
+          "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+          "why_it_matters": "Relevant to Industry Moves (matches: CEO).",
+          "tags": [
+            "industry",
+            "papers_benchmarks",
+            "repos"
+          ],
+          "category": "industry",
+          "score": 0.4972,
+          "personal_match": false
+        }
+      ]
+    }
+  ]
+}

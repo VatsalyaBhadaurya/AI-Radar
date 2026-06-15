@@ -1,0 +1,596 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T11:14:20Z",
+  "headline": "Today's AI engineering radar — 2026-06-13",
+  "summary": "Today's lead story: \"ros-navigation/navigation2\" (GitHub Trending (C++)). Coverage spans infra_tooling, model_releases, robotics_vla with 160 items scanned and 5 surfaced across sections.",
+  "sections": [
+    {
+      "id": "for_you",
+      "name": "Matches Your Stack",
+      "items": [
+        {
+          "id": "item_9a3fa895a64e",
+          "title": "ros-navigation/navigation2",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/ros-navigation/navigation2",
+          "canonical_url": "https://github.com/ros-navigation/navigation2",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "ROS 2 Navigation Framework and System Nav2 For detailed instructions on how to: Concepts and Getting Started First Time Setup Guide ROS Distribution Statuses Build &amp; Install and Docker Containers General Tutorials and Algorithm Developer Tutorials Configuration Guide Navigation Plugins API Docs ROSCon Talks and Citations Migration Guides Contribute Please visit our documentation site . Please visit our community Slack here (if this link does not work, please contact maintainers to reactivat…",
+          "image_url": "https://opengraph.githubassets.com/4b4c014588b7d6b6cdf75dd95a7752d97229a1949b0dcd273fff84c5c8a180b1/ros-navigation/navigation2",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: framework, API). Likely useful for builders (code, benchmarks, or tooling implications). Matches your stack: ROS 2.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "projects",
+            "robotics_vla"
+          ],
+          "category": "infra_tooling",
+          "score": 0.732,
+          "personal_match": true
+        },
+        {
+          "id": "item_6ff1710765e5",
+          "title": "modelscope/ms-swift",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/modelscope/ms-swift",
+          "canonical_url": "https://github.com/modelscope/ms-swift",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-V4, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025). SWIFT (Scalable lightWeight Infrastructure for Fine-Tuning) ModelScope Community Website 中文 &nbsp; ｜ &nbsp; English &nbsp; Paper &nbsp; ｜ English Documentation &nbsp; ｜ &nbsp; 中文文档 &nbsp; 📖 Table of Contents Groups Introduction News Installation Quick Start Usage License Citati…",
+          "image_url": "https://opengraph.githubassets.com/5565e1a2e85b3cf3ff61708e5839ef1f599ffa05d6a4cf6dad2c1a96540da498/modelscope/ms-swift",
+          "why_it_matters": "Relevant to Model Releases (matches: model, Llama). Matches your stack: LLaVA.",
+          "tags": [
+            "for_you",
+            "model_releases",
+            "papers_benchmarks",
+            "projects",
+            "vlm_multimodal"
+          ],
+          "category": "model_releases",
+          "score": 0.6645,
+          "personal_match": true
+        },
+        {
+          "id": "item_b1a28004eeaa",
+          "title": "Model Quantization: Turn FP8 Checkpoints into High-Performance Inference Engines with NVIDIA TensorRT",
+          "source": "NVIDIA Developer Blog (AI)",
+          "url": "https://developer.nvidia.com/blog/model-quantization-turn-fp8-checkpoints-into-high-performance-inference-engines-with-nvidia-tensorrt/",
+          "canonical_url": "https://developer.nvidia.com/blog/model-quantization-turn-fp8-checkpoints-into-high-performance-inference-engines-with-nvidia-tensorrt",
+          "published_at": "2026-06-09T18:27:52Z",
+          "summary": "Converting a quantized checkpoint into an NVIDIA TensorRT engine bridges the gap between model optimization and production deployment, enabling faster...",
+          "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Quantization-Series.jpg",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, quantization, TensorRT). Likely useful for builders (code, benchmarks, or tooling implications). Matches your stack: TensorRT.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "model_releases"
+          ],
+          "category": "infra_tooling",
+          "score": 0.632,
+          "personal_match": true
+        },
+        {
+          "id": "item_823f824c8da9",
+          "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+          "canonical_url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything",
+          "published_at": "2026-06-12T01:48:07Z",
+          "summary": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/THEKER-photo-seriesA.jpg?resize=1200,799",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, humanoid). Matches your stack: humanoid.",
+          "tags": [
+            "for_you",
+            "industry",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.5488,
+          "personal_match": true
+        }
+      ]
+    },
+    {
+      "id": "top_stories",
+      "name": "Top Stories",
+      "items": [
+        {
+          "id": "item_65e32dabe8c3",
+          "title": "vllm-project/vllm",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/vllm-project/vllm",
+          "canonical_url": "https://github.com/vllm-project/vllm",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs Easy, fast, and cheap LLM serving for everyone | Documentation | Blog | Paper | Twitter/X | User Forum | Developer Slack | 🔥 We have built a vLLM website to help you get started with vLLM. Please visit vllm.ai to learn more. For events, please visit vllm.ai/events to join us. About vLLM is a fast and easy-to-use library for LLM inference and serving. Originally developed in the Sky Computing Lab at UC Berkeley, vLLM ha…",
+          "image_url": "https://opengraph.githubassets.com/65a23f6562c336c189ed398ef2547ebe17500a2ff0f0c5b36a1fd3503cf9154a/vllm-project/vllm",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, serving, vLLM).",
+          "tags": [
+            "infra_tooling",
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.835,
+          "personal_match": false
+        },
+        {
+          "id": "item_57bfa0743201",
+          "title": "defold/defold",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/defold/defold",
+          "canonical_url": "https://github.com/defold/defold",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Defold is a completely free to use game engine for development of desktop, mobile and web games. Defold Repository for the Defold engine, editor and command line tools. Supported by Folder Structure build_tools - Build configuration and build tools used by build scripts ci - Continuous integration files for GitHub CI ( more info ) com.dynamo.cr - Bob engine - Engine editor - Editor external - External libraries that can be rebuilt using our build system packages - Prebuilt external packages scr…",
+          "image_url": "https://repository-images.githubusercontent.com/4315538/d4ff8c80-99b1-11ea-9c09-b2167399b0b6",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, repository, GitHub).",
+          "tags": [
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.8125,
+          "personal_match": false
+        },
+        {
+          "id": "item_64777d16cfc6",
+          "title": "lemonade-sdk/lemonade",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/lemonade-sdk/lemonade",
+          "canonical_url": "https://github.com/lemonade-sdk/lemonade",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Lemonade helps users discover and run local AI apps by serving optimized LLMs right from their own GPUs and NPUs. Join our discord: https://discord.gg/5xXzkMu8Zk 🍋 Lemonade: Refreshingly fast local AI Download | Documentation | Discord Lemonade is the local AI server that gives you the same capabilities as cloud APIs, except 100% free and private. Use the latest models for chat, coding, speech, and image generation on your own NPU and GPU. Lemonade comes in two flavors: Lemonade Server installs…",
+          "image_url": "https://opengraph.githubassets.com/71d20401076438b2a44fd5459747f0023b3bd8a5d94a3f170764f9fbd5a66b26/lemonade-sdk/lemonade",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: serving, GPU, SDK).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "projects",
+            "vlm_multimodal"
+          ],
+          "category": "infra_tooling",
+          "score": 0.7975,
+          "personal_match": false
+        },
+        {
+          "id": "item_0a274413062e",
+          "title": "brave/brave-core",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/brave/brave-core",
+          "canonical_url": "https://github.com/brave/brave-core",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues Brave Core Brave Core is a set of changes, APIs, and scripts used for customizing Chromium to make the Brave browser. Please also check https://github.com/brave/brave-browser which only holds the issues, releases and the wiki. Overview This repository holds the build tools needed to build the Brave desktop browser for all platforms. In particular, it fetches and syncs code from the…",
+          "image_url": "https://opengraph.githubassets.com/fdcee2d632be8154535a187dab9fc7611d69cad6126850b492bb885f6095a390/brave/brave-core",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, repository, GitHub).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.7975,
+          "personal_match": false
+        },
+        {
+          "id": "item_e2820020cd6d",
+          "title": "BerriAI/litellm",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/BerriAI/litellm",
+          "canonical_url": "https://github.com/BerriAI/litellm",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM] 🚅 LiteLLM LiteLLM AI Gateway Open Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format. LiteLLM Proxy Server (AI Gateway) | Hosted Proxy | Enterprise Tier | Website What is LiteLLM LiteLLM is an open source AI Gat…",
+          "image_url": "https://opengraph.githubassets.com/de8f82af564eaedc7545df5cc4db058b3b598717dccd213693ddeffd767c42d6/BerriAI/litellm",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: vLLM, SDK, API). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "tags": [
+            "infra_tooling",
+            "projects",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.76,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "build_today",
+      "name": "Build Today: Project Picks",
+      "items": [
+        {
+          "id": "item_9b1c67c76607",
+          "title": "FreeCAD/FreeCAD",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/FreeCAD/FreeCAD",
+          "canonical_url": "https://github.com/FreeCAD/FreeCAD",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler. Your own 3D Parametric Modeler Website • Documentation • Forum • Bug tracker • Git repository • Blog Overview Freedom to build what you want FreeCAD is an open-source parametric 3D modeler made primarily to design real-life objects of any size. Parametric modeling allows you to easily modify your design by going back into your model history to change its parameters. Create 3D from 2D and back FreeCAD let…",
+          "image_url": "https://opengraph.githubassets.com/cd3aa9603988918d65d828c9c000471fe87c4d14ee077541efd44160ab6433cc/FreeCAD/FreeCAD",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, repository, open-source).",
+          "tags": [
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.7375,
+          "personal_match": false
+        },
+        {
+          "id": "item_f5d7e2d7c0e5",
+          "title": "NVIDIA-NeMo/NeMo",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/NVIDIA-NeMo/NeMo",
+          "canonical_url": "https://github.com/NVIDIA-NeMo/NeMo",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech) NVIDIA NeMo Speech Checkout our HuggingFace🤗 collection for the latest open weight checkpoints and demos! Updates The first release of NeMo Speech after NeMo repository split is scheduled for June 2026, as the repo undergoes transformation. For the latest stable released version, please use the 26.02 NGC container .…",
+          "image_url": "https://opengraph.githubassets.com/27ee484be12eb6e1811685ddd1fc79ca2dad89f81a832625da3ce27b2d17bc9b/NVIDIA-NeMo/NeMo",
+          "why_it_matters": "Relevant to Model Releases (matches: release, model, checkpoint).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "projects",
+            "repos",
+            "vlm_multimodal"
+          ],
+          "category": "model_releases",
+          "score": 0.715,
+          "personal_match": false
+        },
+        {
+          "id": "item_fe4944ce8b2e",
+          "title": "realsenseai/librealsense",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/realsenseai/librealsense",
+          "canonical_url": "https://github.com/realsenseai/librealsense",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "RealSense SDK RealSense SDK 2.0 is a cross-platform library for RealSense depth cameras. The SDK allows depth and color streaming, and provides intrinsic and extrinsic calibration information. Important Notice We are happy to announce that the RealSense GitHub repositories have been successfully migrated to the RealSenseAI organization. Please make sure to update your links to the new RealSenseAI organization for both cloning the repositories and accessing specific files within them. https://gi…",
+          "image_url": "https://opengraph.githubassets.com/99f6fcc5dedc3b40e3103ef8aee9bae889b6859cad7f7ed53bfde1946114bb8c/realsenseai/librealsense",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, GitHub, library).",
+          "tags": [
+            "infra_tooling",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.715,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "model_tooling",
+      "name": "Model & Tooling Updates",
+      "items": [
+        {
+          "id": "item_3e4e023acddc",
+          "title": "v0.23.0",
+          "source": "vLLM",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+          "canonical_url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
+          "published_at": "2026-06-13T09:28:51Z",
+          "summary": "vLLM v0.23.0 Release Notes Please note that Minimax M3 is not yet supported in this version. Please follow vLLM recipe for usage guides for M3. Highlights This release features 408 commits from 200 contributors (63 new)! DeepSeek-V4 matures across backends : Following its introduction in v0.22.0, DeepSeek-V4 received another large hardening and optimization pass. Its sparse MLA metadata is now decoupled from DeepSeek-V3.2 ( #44699 ), it gained a TRTLLM-gen attention kernel ( #43827 ), EPLB supp…",
+          "image_url": "https://avatars.githubusercontent.com/u/51931015?s=60&v=4",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: vLLM, kernel).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "repos"
+          ],
+          "category": "infra_tooling",
+          "score": 0.6887,
+          "personal_match": false,
+          "also_reported_by": [
+            "ComfyUI"
+          ]
+        },
+        {
+          "id": "item_f180635c0b57",
+          "title": "UE4SS-RE/RE-UE4SS",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/UE4SS-RE/RE-UE4SS",
+          "canonical_url": "https://github.com/UE4SS-RE/RE-UE4SS",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Injectable LUA scripting system, SDK generator, live property editor and other dumping utilities for UE4/5 games Unreal Engine 4/5 Scripting System Lua scripting system platform, C++ Modding API, SDK generator, blueprint mod loader, live property editor and other dumping utilities for UE4/5 games. Major features Lua Scripting API : Write lua mods based on the UE object system Blueprint Modloading : Spawn blueprint mods automatically without editing/replacing game files C++ Modding API : Write C…",
+          "image_url": "https://opengraph.githubassets.com/85c4c20e8288d883f40ecf5caf762c8326f4d1a78e93871452142ea106e20c0f/UE4SS-RE/RE-UE4SS",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: SDK, API).",
+          "tags": [
+            "infra_tooling",
+            "projects"
+          ],
+          "category": "infra_tooling",
+          "score": 0.6775,
+          "personal_match": false
+        },
+        {
+          "id": "item_9bb1ec0513a5",
+          "title": "v0.30.8",
+          "source": "Ollama",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
+          "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.30.8",
+          "published_at": "2026-06-12T19:57:22Z",
+          "summary": "What's Changed Fixed ollama launch selecting the wrong provider in some cases Improved prompt caching by decoupling it from context shift for better KV cache reuse More stable MLX inference with hardened linear and embedding layers MLX runner now creates snapshots during prompt processing and speculative decoding for improved reliability Improved recurrent model support with per-boundary states from the gated-delta kernels Full Changelog : v0.30.7...v0.30.8",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Model Releases (matches: launch, model, Llama).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "repos"
+          ],
+          "category": "model_releases",
+          "score": 0.663,
+          "personal_match": false
+        },
+        {
+          "id": "item_2046f5e50faf",
+          "title": "obra/superpowers",
+          "source": "GitHub Trending (All Languages)",
+          "url": "https://github.com/obra/superpowers",
+          "canonical_url": "https://github.com/obra/superpowers",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "An agentic skills framework & software development methodology that works. Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. Quickstart Give your agent Superpowers: Claude Code , Codex CLI , Codex App , Factory Droid , Gemini CLI , OpenCode , Cursor , GitHub Copilot CLI . How it works It starts from the moment you fire up your coding agent. A…",
+          "image_url": "https://opengraph.githubassets.com/217e54216ab5e96ec40634004456075b85c5665efd9b14b6d351beca48dd82c8/obra/superpowers",
+          "why_it_matters": "Relevant to Model Releases (matches: Claude, Gemini).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "model_releases",
+          "score": 0.655,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "robotics_vla",
+      "name": "Robotics & Embodied AI",
+      "items": [
+        {
+          "id": "item_f4a6f6d2b392",
+          "title": "Powering the future of robotics in Europe",
+          "source": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/",
+          "canonical_url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
+          "published_at": "2026-06-09T14:02:33Z",
+          "summary": "",
+          "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/130.width-1300.jpg",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, robotics).",
+          "tags": [
+            "model_releases",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.5076,
+          "personal_match": false
+        },
+        {
+          "id": "item_31f4bff2af38",
+          "title": "Industrial policy for the Intelligence Age",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+          "canonical_url": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+          "published_at": "2026-06-09T00:00:00Z",
+          "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+          "image_url": "https://images.ctfassets.net/kftzwdyauwt9/11LdpL12BCPNTyOLq78Oqe/b4e727a85b930043fe1964a3a55503b0/Industrial_policy_for_the_Intelligence_Age.png?w=1600&amp;h=900&amp;fit=fill",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: policy).",
+          "tags": [
+            "model_releases",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.4356,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "vlm_multimodal",
+      "name": "VLM & Multimodal",
+      "items": [
+        {
+          "id": "item_3d24635a991f",
+          "title": "v0.1.46-beta",
+          "source": "Unsloth",
+          "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.46-beta",
+          "canonical_url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.46-beta",
+          "published_at": "2026-06-12T13:55:14Z",
+          "summary": "DiffusionGemma: disable tools, enable artifacts canvas by default ( #6 …",
+          "image_url": "https://avatars.githubusercontent.com/u/23090290?s=60&v=4",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: diffusion).",
+          "tags": [
+            "infra_tooling",
+            "repos",
+            "vlm_multimodal"
+          ],
+          "category": "vlm_multimodal",
+          "score": 0.5163,
+          "personal_match": false
+        },
+        {
+          "id": "item_654ba11c9fac",
+          "title": "DiffusionGemma: 4x faster text generation",
+          "source": "Google DeepMind Blog",
+          "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+          "canonical_url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+          "published_at": "2026-06-10T16:24:11Z",
+          "summary": "",
+          "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Diffusion_Gemma_Social.width-1300.png",
+          "why_it_matters": "Relevant to VLM / VLA / Multimodal (matches: diffusion).",
+          "tags": [
+            "model_releases",
+            "vlm_multimodal"
+          ],
+          "category": "vlm_multimodal",
+          "score": 0.4777,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "Papers & Benchmarks",
+      "items": [
+        {
+          "id": "item_c0728193543a",
+          "title": "FareedKhan-dev/train-llm-from-scratch",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+          "canonical_url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "A straightforward method for training your LLM, from downloading data to generating text. Train LLM From Scratch I am Looking for a PhD position in AI . GitHub I implemented a transformer model from scratch using PyTorch, based on the paper Attention is All You Need . You can use my scripts to train your own billion or million parameter LLM using a single GPU. New: from-scratch post-training suite (SFT · Reward Model · PPO · DPO · GRPO/RLVR). The repo now goes beyond pretraining all the way to…",
+          "image_url": "https://repository-images.githubusercontent.com/915520679/9a2fcbc3-4753-4550-ab10-dfdc4ec676bf",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: paper, training).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6325,
+          "personal_match": false
+        },
+        {
+          "id": "item_25b1a340935c",
+          "title": "carla-simulator/carla",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/carla-simulator/carla",
+          "canonical_url": "https://github.com/carla-simulator/carla",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Open-source simulator for autonomous driving research. CARLA Simulator CARLA is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of…",
+          "image_url": "https://repository-images.githubusercontent.com/108102826/b4c7e780-9374-11e9-970b-aacad1e5f0a7",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: training).",
+          "tags": [
+            "papers_benchmarks",
+            "projects",
+            "repos"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.6175,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "repos",
+      "name": "Repo Watch",
+      "items": [
+        {
+          "id": "item_10ba719313a0",
+          "title": "anthropics/skills",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/anthropics/skills",
+          "canonical_url": "https://github.com/anthropics/skills",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io . Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your org…",
+          "image_url": "https://opengraph.githubassets.com/fd4506745fe6cc4a146c48520bc1647edc163fdba782b7d4ed15e14d84aa83c4/anthropics/skills",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, repository). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "tags": [
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.7,
+          "personal_match": false
+        },
+        {
+          "id": "item_5d4fbe8b90e5",
+          "title": "OpenBB-finance/OpenBB",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/OpenBB-finance/OpenBB",
+          "canonical_url": "https://github.com/OpenBB-finance/OpenBB",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "Financial data platform for analysts, quants and AI agents. Open Data Platform by OpenBB (ODP) is the open-source toolset that helps data engineers integrate proprietary, licensed, and public data sources into downstream applications like AI copilots and research dashboards. ODP operates as the \"connect once, consume everywhere\" infrastructure layer that consolidates and exposes data to multiple surfaces at once: Python environments for quants, OpenBB Workspace and Excel for analysts, MCP serve…",
+          "image_url": "https://repository-images.githubusercontent.com/323048702/4659bbdb-ae11-4f51-8a16-860fa9dfc551",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: open-source, tool).",
+          "tags": [
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.655,
+          "personal_match": false
+        },
+        {
+          "id": "item_b28f4578984d",
+          "title": "shuvonsec/claude-bug-bounty",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/shuvonsec/claude-bug-bounty",
+          "canonical_url": "https://github.com/shuvonsec/claude-bug-bounty",
+          "published_at": "2026-06-13T11:14:15Z",
+          "summary": "AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes, autonomous hunting, and report generation. All inside Claude Code. BugHunter AI-powered bug bounty hunting — recon to report, in your terminal. Find vulnerabilities. Validate them. Get paid. No subscription required. Free Setup · Quick Start · Commands · What It Finds · Install · FAQ What Is This? A professional bug bounty hunting toolkit that works with or without a Claude subscription . Give it a target — it handles re…",
+          "image_url": "https://opengraph.githubassets.com/1eea44b8992cb6b5821927d0d53cad255be3289fabda663ba2439c2ba745efe2/shuvonsec/claude-bug-bounty",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, tool).",
+          "tags": [
+            "model_releases",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.655,
+          "personal_match": false
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "name": "Industry Moves",
+      "items": [
+        {
+          "id": "item_751a3efded98",
+          "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+          "canonical_url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer",
+          "published_at": "2026-06-12T16:23:25Z",
+          "summary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/GettyImages-2275575484.jpg?resize=1200,815",
+          "why_it_matters": "Relevant to Industry Moves (matches: valuation, IPO).",
+          "tags": [
+            "industry"
+          ],
+          "category": "industry",
+          "score": 0.5529,
+          "personal_match": false
+        },
+        {
+          "id": "item_c42142b50e2c",
+          "title": "It’s hot IPO summer, and the MANGOS are ripe",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+          "canonical_url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe",
+          "published_at": "2026-06-12T15:50:52Z",
+          "summary": "The IPO market is back, and&#160;it&#8217;s&#160;not the same&#160;companies&#160;leading the charge. FAANG had a good run, but a&#160;new acronym is taking over: MANGOS&#160;— Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half&#160;of that&#160;bunch is heading to public markets in the same window,&#160;and&#160;it&#8217;s&#160;a stress test for investors, for valuations, and for [&#8230;]",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/spacex-rocket-getty.jpg?resize=1200,801",
+          "why_it_matters": "Relevant to Industry Moves (matches: valuation, IPO).",
+          "tags": [
+            "industry"
+          ],
+          "category": "industry",
+          "score": 0.5514,
+          "personal_match": false
+        },
+        {
+          "id": "item_42d7dc0552ca",
+          "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+          "canonical_url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living",
+          "published_at": "2026-06-13T04:14:19Z",
+          "summary": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-1487822193.jpg?resize=1200,800",
+          "why_it_matters": "Relevant to Industry Moves (matches: startup).",
+          "tags": [
+            "industry"
+          ],
+          "category": "industry",
+          "score": 0.5285,
+          "personal_match": false
+        }
+      ]
+    }
+  ]
+}
