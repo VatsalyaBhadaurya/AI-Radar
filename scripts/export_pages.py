@@ -78,8 +78,79 @@ ITEM_IMAGE_TEMPLATE = (
     "</a>"
 )
 
+PERSON_TEMPLATE = """
+    <article class="item person" data-category="people">
+      {personal_badge}
+      <div class="person-head">
+        {avatar_html}
+        <div>
+          <h3><a href="{url}" target="_blank" rel="noopener">{name}</a></h3>
+          <p class="item-meta">{meta_line}</p>
+        </div>
+      </div>
+      <p class="item-summary">{summary}</p>
+      <p class="item-why"><strong>Why they matter:</strong> {why_it_matters}</p>
+      {work_html}
+      <p class="item-tags">{links_html}{tags}</p>
+    </article>
+"""
+
+PERSON_AVATAR_TEMPLATE = (
+    '<a class="person-avatar-link" href="{url}" target="_blank" rel="noopener">'
+    '<img class="person-avatar" src="{image_url}" alt="" loading="lazy">'
+    "</a>"
+)
+
+
+def _render_person(item: dict) -> str:
+    personal_badge = (
+        '<span class="tag tag-personal">★ strong match for your domain</span>'
+        if item.get("personal_match") else ""
+    )
+    avatar_html = ""
+    if item.get("image_url"):
+        avatar_html = PERSON_AVATAR_TEMPLATE.format(
+            url=html.escape(item["url"]), image_url=html.escape(item["image_url"]),
+        )
+    meta_parts = [item.get("source", "")]
+    if item.get("affiliation"):
+        meta_parts.append(item["affiliation"])
+    meta_parts.append(item.get("region", ""))
+    meta_parts.append(f"score {item['score']}")
+    meta_line = " · ".join(html.escape(p) for p in meta_parts if p)
+
+    work = item.get("recent_work", [])
+    if work:
+        lis = "".join(
+            f'<li><a href="{html.escape(w["url"])}" target="_blank" rel="noopener">{html.escape(w["title"])}</a></li>'
+            for w in work
+        )
+        work_html = f'<p class="person-work-label">Recent work:</p><ul class="person-work">{lis}</ul>'
+    else:
+        work_html = ""
+
+    links_html = "".join(
+        f'<a class="tag tag-link" href="{html.escape(p["url"])}" target="_blank" rel="noopener">{html.escape(p["label"])}</a>'
+        for p in item.get("profiles", []) if p.get("url")
+    )
+    tags = " ".join(f'<span class="tag">{html.escape(t)}</span>' for t in item.get("tags", []))
+    return PERSON_TEMPLATE.format(
+        personal_badge=personal_badge,
+        avatar_html=avatar_html,
+        url=html.escape(item["url"]),
+        name=html.escape(item["name"]),
+        meta_line=meta_line,
+        summary=html.escape(item.get("summary", "")),
+        why_it_matters=html.escape(item["why_it_matters"]),
+        work_html=work_html,
+        links_html=links_html,
+        tags=tags,
+    )
+
 
 def _render_item(item: dict) -> str:
+    if item.get("category") == "people":
+        return _render_person(item)
     is_job = item.get("category") == "jobs"
     personal_badge_text = "★ strong match for you" if is_job else "★ matches your stack"
     personal_badge = (

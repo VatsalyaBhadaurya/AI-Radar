@@ -1,0 +1,98 @@
+# People Radar configuration
+#
+# Surfaces *people* (researchers + builders, Indian and international) doing
+# meaningful work in your domain, discovered from legitimate public APIs:
+#   - arXiv            (researchers, via the arXiv API)
+#   - GitHub Search    (builders shipping repos, via the official GitHub API)
+#   - Hugging Face     (people publishing models, via the HF API)
+#   - Semantic Scholar (author profiles + citation signals, via the S2 API)
+#
+# NOTE: this deliberately does NOT scrape LinkedIn. LinkedIn is auth-walled,
+# blocks datacenter IPs (GitHub Actions), and forbids scraping in its ToS. The
+# sources below expose the same people through public, bot-friendly APIs, and
+# each person card links to where you can find/verify them.
+
+# Free-text queries used against the external APIs. Keep these tight and
+# domain-specific so the people surfaced are genuinely in your space.
+search_terms:
+  - "humanoid robot learning"
+  - "vision language action model"
+  - "embodied AI"
+  - "robot manipulation policy"
+  - "robot foundation model"
+  - "sim-to-real reinforcement learning"
+  - "on-device vision inference"
+  - "edge AI deployment"
+  - "visual SLAM"
+  - "open vocabulary detection"
+  - "medical imaging deep learning"
+  - "industrial defect detection"
+
+sources:
+  arxiv:
+    enabled: true
+    categories: ["cs.RO", "cs.CV", "cs.LG"]
+    max_results_per_category: 60   # most recent submissions scanned per category
+    max_authors_per_paper: 6       # ignore huge author lists on big-collaboration papers
+  github:
+    enabled: true
+    max_queries: 6                 # how many search_terms to spend on GitHub
+    per_query: 15
+    min_stars: 40
+    max_user_lookups: 25           # extra calls to enrich top owners with name/location/bio
+    include_orgs: false            # prefer individual people over org accounts
+  huggingface:
+    enabled: true
+    max_queries: 6
+    per_query: 20
+  semantic_scholar:
+    enabled: true
+    max_queries: 6
+    per_query: 20
+    max_author_lookups: 30         # author-detail calls (citations, h-index, affiliation)
+
+# Affiliation / location / bio substrings (lowercased) that mark a person as
+# India-affiliated. Used for the geography mix, not for filtering anyone out.
+india_affiliation_keywords:
+  - "india"
+  - "indian institute"
+  - "iit "
+  - "iit-"
+  - "iisc"
+  - "iiit"
+  - "bits pilani"
+  - "isro"
+  - "drdo"
+  - "bengaluru"
+  - "bangalore"
+  - "hyderabad"
+  - "mumbai"
+  - "delhi"
+  - "chennai"
+  - "kanpur"
+  - "kharagpur"
+  - "roorkee"
+  - "guwahati"
+  - "madras"
+  - "bombay"
+
+# Relative weights for the people score (normalized internally).
+weights:
+  domain: 0.50      # overlap with your profile.yaml skills/domains
+  influence: 0.30   # citations / stars / likes / h-index (log-scaled)
+  recency: 0.20     # how recently the person has been active
+
+# Half-life (days) for the recency signal. Research/OSS cadence is slower than
+# news, so this is generous compared to the article novelty half-life.
+recency_half_life_days: 45
+
+# Domain-match ratio at or above which a person is flagged as a strong match
+# for your stack (gets the ★ badge and a "for_you" tag).
+personal_match_threshold: 0.45
+
+# Minimum people score for a person to be eligible at all.
+min_score: 0.30
+
+limits:
+  people_radar: 12   # max people surfaced
+  min_india: 3       # guarantee at least this many India-affiliated people if available

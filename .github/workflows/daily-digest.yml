@@ -33,6 +33,9 @@ jobs:
       - name: Run pipeline
         run: python run_pipeline.py
         working-directory: scripts
+        env:
+          # Raises the GitHub Search API rate limit (60 -> 5000 req/hr) for People Radar.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push updated digest
         run: |

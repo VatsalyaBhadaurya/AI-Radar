@@ -4,6 +4,7 @@
 const SECTION_ORDER = [
   "for_you",
   "hiring_for_you",
+  "people_radar",
   "recent_funding",
   "top_stories",
   "build_today",
@@ -37,7 +38,45 @@ function formatDate(iso) {
   });
 }
 
+function renderPerson(item) {
+  const personalBadge = item.personal_match
+    ? `<span class="tag tag-personal">★ strong match for your domain</span>`
+    : "";
+  const avatarHtml = item.image_url
+    ? `<a class="person-avatar-link" href="${escapeHTML(item.url)}" target="_blank" rel="noopener"><img class="person-avatar" src="${escapeHTML(item.image_url)}" alt="" loading="lazy"></a>`
+    : "";
+  const metaLine = [item.source, item.affiliation, item.region, `score ${Number(item.score).toFixed(2)}`]
+    .filter(Boolean).map(escapeHTML).join(" · ");
+  const work = (item.recent_work || []).length
+    ? `<p class="person-work-label">Recent work:</p><ul class="person-work">${item.recent_work
+        .map((w) => `<li><a href="${escapeHTML(w.url)}" target="_blank" rel="noopener">${escapeHTML(w.title)}</a></li>`)
+        .join("")}</ul>`
+    : "";
+  const links = (item.profiles || [])
+    .map((p) => `<a class="tag tag-link" href="${escapeHTML(p.url)}" target="_blank" rel="noopener">${escapeHTML(p.label)}</a>`)
+    .join("");
+  const tags = (item.tags || []).map((t) => `<span class="tag">${escapeHTML(t)}</span>`).join("");
+
+  return `
+    <article class="item person" data-tags="${escapeHTML((item.tags || []).join(" "))}" data-category="people">
+      ${personalBadge}
+      <div class="person-head">
+        ${avatarHtml}
+        <div>
+          <h3><a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.name || item.title)}</a></h3>
+          <p class="item-meta">${metaLine}</p>
+        </div>
+      </div>
+      <p class="item-summary">${escapeHTML(item.summary)}</p>
+      <p class="item-why"><strong>Why they matter:</strong> ${escapeHTML(item.why_it_matters)}</p>
+      ${work}
+      <p class="item-tags">${links}${tags}</p>
+    </article>
+  `;
+}
+
 function renderItem(item) {
+  if (item.category === "people") return renderPerson(item);
   const tags = (item.tags || [])
     .map((t) => `<span class="tag">${escapeHTML(t)}</span>`)
     .join("");
