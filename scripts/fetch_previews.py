@@ -84,6 +84,8 @@ def enrich_digest(digest: dict, cache: dict) -> tuple[dict, int]:
 
     for section in digest.get("sections", []):
         for item in section.get("items", []):
+            if item.get("category") == "people":
+                continue  # people cards use avatars (or none); don't scrape profile pages
             if item.get("image_url"):
                 continue
 

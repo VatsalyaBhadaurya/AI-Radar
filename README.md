@@ -21,6 +21,12 @@ it's surfaced.
   Remotely) ranked against a precise experience profile — skills, domains, and
   career stage — so intern/entry-level/new-grad roles that genuinely match come
   first and senior-only postings are filtered down.
+- **People Radar** — researchers and builders (Indian and international) doing
+  meaningful work in your domain, discovered from public APIs (arXiv, GitHub,
+  Hugging Face, Semantic Scholar) and ranked by domain overlap, influence
+  (citations / stars / likes / h-index), and recent activity — with a guaranteed
+  India/international geography mix and direct links to each person's public
+  profiles. (No LinkedIn scraping — see "How it works".)
 - **Recent Funding** — fresh startup funding and acquisition news (TechCrunch
   Startups, Crunchbase News, MedCity News for medtech), ranked by relevance to your
   focus areas — AI, robotics, medtech, and industrial automation.
@@ -36,7 +42,12 @@ it's surfaced.
 AI Engineering Radar runs as a fully automated, self-hosted pipeline:
 
 1. **Collect** — pulls from a curated registry of RSS/Atom feeds, arXiv listings,
-   GitHub release feeds, job boards, and funding news sources.
+   GitHub release feeds, job boards, and funding news sources. For **People Radar**
+   it queries public, bot-friendly APIs (arXiv, GitHub Search, Hugging Face,
+   Semantic Scholar) to discover people doing domain-relevant work. It deliberately
+   does **not** scrape LinkedIn: LinkedIn is auth-walled, forbids scraping in its
+   ToS, and blocks the datacenter IPs that the GitHub Actions runner uses — the
+   APIs above surface the same people reliably and link out to their public profiles.
 2. **Normalize & deduplicate** — cleans and merges near-duplicate stories so the
    same announcement isn't repeated across sources.
 3. **Score** — every item is scored on relevance, novelty, source trust, and
@@ -64,6 +75,9 @@ no code changes required:
   Stack" section.
 - **`config/scoring.yaml`** — scoring weights, thresholds, novelty decay, and
   per-section item limits.
+- **`config/people.yaml`** — the "People Radar" config: domain search terms,
+  which discovery APIs to use, India-affiliation keywords for the geography mix,
+  and the domain/influence/recency weighting used to rank people.
 
 See [`docs/method.html`](docs/method.html) for the full, published scoring
 methodology.

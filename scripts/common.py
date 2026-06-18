@@ -46,6 +46,10 @@ def load_profile() -> dict:
     return load_yaml(CONFIG_DIR / "profile.yaml")
 
 
+def load_people_config() -> dict:
+    return load_yaml(CONFIG_DIR / "people.yaml")
+
+
 def ensure_dirs() -> None:
     for d in (DATA_DIR, ARCHIVE_DIR, DIGEST_DIR, WORK_DIR):
         d.mkdir(parents=True, exist_ok=True)
