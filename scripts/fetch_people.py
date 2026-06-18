@@ -39,6 +39,7 @@ USER_AGENT = "ai-engineering-radar/1.0 (+https://github.com/)"
 ARXIV_API = "http://export.arxiv.org/api/query"
 GITHUB_SEARCH_API = "https://api.github.com/search/repositories"
 GITHUB_USER_API = "https://api.github.com/users/"
+GITHUB_USER_SEARCH_API = "https://api.github.com/search/users"
 HF_MODELS_API = "https://huggingface.co/api/models"
 S2_PAPER_SEARCH = "https://api.semanticscholar.org/graph/v1/paper/search"
 S2_AUTHOR_API = "https://api.semanticscholar.org/graph/v1/author/"
@@ -203,7 +204,79 @@ def fetch_github(cfg: dict) -> list[dict]:
             person["affiliation"] = user["company"].lstrip("@").strip()
         time.sleep(0.3)
 
-    return [p for p in by_owner.values() if not p.get("_drop")]
+    owners = [p for p in by_owner.values() if not p.get("_drop")]
+    owners.extend(fetch_github_india_users(cfg, headers))
+    return owners
+
+
+def fetch_github_india_users(cfg: dict, headers: dict) -> list[dict]:
+    """Surface India-based builders directly via the user-search API.
+
+    Repo-owner search rarely exposes location, so domain-relevant Indian
+    developers get crowded out. Querying users by `location:<city>` finds them
+    explicitly; the geography mix then reserves slots for them.
+    """
+    isrc = cfg["sources"]["github"].get("india_user_search", {})
+    if not isrc.get("enabled", False):
+        return []
+    locations = isrc.get("locations", ["India"])
+    # Multiple `location:` qualifiers are OR-ed by the GitHub search API.
+    location_filter = " ".join(f'location:"{loc}"' for loc in locations)
+
+    seen: set[str] = set()
+    logins: list[str] = []
+    for term in cfg.get("search_terms", [])[: isrc.get("max_queries", 4)]:
+        query = f"{term} {location_filter}"
+        url = (
+            f"{GITHUB_USER_SEARCH_API}?q={quote_plus(query)}"
+            f"&sort=followers&order=desc&per_page={isrc.get('per_query', 8)}"
+        )
+        try:
+            resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            users = resp.json().get("items", [])
+        except Exception as exc:  # noqa: BLE001
+            print(f"  [warn] GitHub India user search '{term}' failed: {exc}", file=sys.stderr)
+            continue
+        for user in users:
+            login = user.get("login")
+            if login and login not in seen:
+                seen.add(login)
+                logins.append(login)
+        time.sleep(1.0)
+
+    people: list[dict] = []
+    for login in logins[: isrc.get("max_user_lookups", 20)]:
+        try:
+            resp = requests.get(GITHUB_USER_API + login, headers=headers, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            user = resp.json()
+        except Exception as exc:  # noqa: BLE001
+            print(f"  [warn] GitHub India user '{login}' lookup failed: {exc}", file=sys.stderr)
+            continue
+        if user.get("type") == "Organization":
+            continue
+        people.append({
+            "name": user.get("name") or login,
+            "source": "GitHub",
+            "profile_url": user.get("html_url") or f"https://github.com/{login}",
+            "discovery_url": user.get("html_url") or f"https://github.com/{login}",
+            "affiliation": (user.get("company") or "").lstrip("@").strip(),
+            "location": (user.get("location") or "India").strip(),
+            "bio": (user.get("bio") or "").strip(),
+            "topics": [],
+            "recent_work": [{
+                "title": f"{login} on GitHub",
+                "url": user.get("html_url") or f"https://github.com/{login}",
+                "date": user.get("updated_at"),
+            }],
+            "signals": {"github_followers": user.get("followers", 0) or 0},
+            "last_active": user.get("updated_at"),
+            "avatar_url": user.get("avatar_url"),
+            "region_hint": "India",  # came from a location:India query
+        })
+        time.sleep(0.3)
+    return people
 
 
 # --------------------------------------------------------------------------- #

@@ -41,6 +41,14 @@ sources:
     min_stars: 40
     max_user_lookups: 25           # extra calls to enrich top owners with name/location/bio
     include_orgs: false            # prefer individual people over org accounts
+    # Dedicated pass to surface India-based builders (repo-owner search rarely
+    # exposes location, so we query the user-search API by location directly).
+    india_user_search:
+      enabled: true
+      locations: ["India", "Bengaluru", "Bangalore", "Hyderabad", "Mumbai", "Delhi", "Chennai", "Pune"]
+      max_queries: 4               # how many search_terms to spend here
+      per_query: 8
+      max_user_lookups: 20
   huggingface:
     enabled: true
     max_queries: 6
