@@ -31,6 +31,7 @@ INFLUENCE_SCALES = {
     "citations": 5000,
     "h_index": 60,
     "github_stars": 20000,
+    "github_followers": 5000,
     "hf_likes": 2000,
 }
 DOMAIN_MATCH_CAP = 6  # matched keywords needed to reach full domain_match
@@ -93,6 +94,8 @@ def _merge(a: dict, b: dict) -> dict:
     la = [d for d in (primary.get("last_active"), secondary.get("last_active")) if d]
     merged["last_active"] = max(la) if la else None
     merged["avatar_url"] = primary.get("avatar_url") or secondary.get("avatar_url")
+    if "India" in (primary.get("region_hint"), secondary.get("region_hint")):
+        merged["region_hint"] = "India"
     return merged
 
 
@@ -138,6 +141,8 @@ def _recency(last_active: str, half_life_days: float) -> float:
 
 
 def _is_india(person: dict, india_keywords: list) -> bool:
+    if person.get("region_hint") == "India":
+        return True  # discovered via a location:India query
     text = f"{person.get('affiliation','')} {person.get('location','')} {person.get('bio','')}".lower()
     return bool(_keyword_matches(text, india_keywords))
 
@@ -153,6 +158,8 @@ def _why(matched: list, signals: dict, region: str, recent_work: list) -> str:
         bits.append(f"h-index {signals['h_index']}")
     if signals.get("github_stars"):
         bits.append(f"{signals['github_stars']:,}★ on GitHub")
+    if signals.get("github_followers"):
+        bits.append(f"{signals['github_followers']:,} GitHub followers")
     if signals.get("hf_likes"):
         bits.append(f"{signals['hf_likes']:,} HF likes")
     sentence = "This person " + (parts[0] if parts else "is active in your field")
