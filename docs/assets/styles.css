@@ -266,6 +266,23 @@ h2 {
   background: rgba(94, 234, 212, 0.20);
 }
 
+/* Verified, self-published LinkedIn profile (vs. a "Find on LinkedIn" search). */
+.tag-linkedin {
+  background: rgba(10, 102, 194, 0.18);
+  color: #4aa3ec;
+  border: 1px solid rgba(10, 102, 194, 0.55);
+}
+
+.tag-linkedin:hover {
+  background: rgba(10, 102, 194, 0.30);
+}
+
+.tag-linkedin::before {
+  content: "in ";
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
 .site-footer {
   text-align: center;
   color: var(--text-muted);

@@ -130,7 +130,8 @@ def _render_person(item: dict) -> str:
         work_html = ""
 
     links_html = "".join(
-        f'<a class="tag tag-link" href="{html.escape(p["url"])}" target="_blank" rel="noopener">{html.escape(p["label"])}</a>'
+        f'<a class="tag tag-link{" tag-linkedin" if p.get("verified") else ""}" '
+        f'href="{html.escape(p["url"])}" target="_blank" rel="noopener">{html.escape(p["label"])}</a>'
         for p in item.get("profiles", []) if p.get("url")
     )
     tags = " ".join(f'<span class="tag">{html.escape(t)}</span>' for t in item.get("tags", []))

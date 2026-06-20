@@ -20,6 +20,7 @@ from __future__ import annotations
 import math
 import re
 from datetime import datetime, timezone
+from urllib.parse import quote_plus
 
 from common import (
     DATA_DIR, WORK_DIR, ensure_dirs, load_people_config, load_profile,
@@ -94,6 +95,7 @@ def _merge(a: dict, b: dict) -> dict:
     la = [d for d in (primary.get("last_active"), secondary.get("last_active")) if d]
     merged["last_active"] = max(la) if la else None
     merged["avatar_url"] = primary.get("avatar_url") or secondary.get("avatar_url")
+    merged["linkedin_url"] = primary.get("linkedin_url") or secondary.get("linkedin_url")
     if "India" in (primary.get("region_hint"), secondary.get("region_hint")):
         merged["region_hint"] = "India"
     return merged
@@ -221,9 +223,30 @@ def score_people(raw: list, cfg: dict, profile: dict, taxonomy: dict) -> list:
     return scored
 
 
+def _linkedin_link(person: dict) -> dict:
+    """A LinkedIn link for every person.
+
+    If the person publicly linked their LinkedIn (surfaced from GitHub), point
+    straight at that profile. Otherwise hand back a prefilled LinkedIn
+    people-search by name (+ affiliation) so it's one click to find them.
+    """
+    real = (person.get("linkedin_url") or "").strip()
+    if real:
+        return {"label": "LinkedIn", "url": real, "verified": True}
+    name = (person.get("name") or "").strip()
+    keywords = quote_plus(f"{name} {person.get('affiliation', '')}".strip())
+    return {
+        "label": "Find on LinkedIn",
+        "url": f"https://www.linkedin.com/search/results/people/?keywords={keywords}",
+        "verified": False,
+    }
+
+
 def _public_person(person: dict) -> dict:
     profiles = person.get("profiles", {})
     profile_links = [{"label": label, "url": url} for label, url in profiles.items() if url]
+    if person.get("name"):
+        profile_links.append(_linkedin_link(person))
     primary_url = (
         person.get("discovery_url")
         or (profile_links[0]["url"] if profile_links else person.get("profile_url"))

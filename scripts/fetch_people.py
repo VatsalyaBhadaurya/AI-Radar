@@ -40,6 +40,7 @@ ARXIV_API = "http://export.arxiv.org/api/query"
 GITHUB_SEARCH_API = "https://api.github.com/search/repositories"
 GITHUB_USER_API = "https://api.github.com/users/"
 GITHUB_USER_SEARCH_API = "https://api.github.com/search/users"
+GITHUB_SOCIAL_API = "https://api.github.com/users/{login}/social_accounts"
 HF_MODELS_API = "https://huggingface.co/api/models"
 S2_PAPER_SEARCH = "https://api.semanticscholar.org/graph/v1/paper/search"
 S2_AUTHOR_API = "https://api.semanticscholar.org/graph/v1/author/"
@@ -123,6 +124,31 @@ def _github_headers() -> dict:
     return headers
 
 
+def _github_linkedin(login: str, user: dict, headers: dict) -> str | None:
+    """Return a person's *own* public LinkedIn URL, if they linked it.
+
+    Not scraping LinkedIn: GitHub exposes the social accounts a user chose to
+    publish (incl. LinkedIn) via its public API, and some people put a LinkedIn
+    URL in their profile `blog` field. We only surface links people advertise.
+    """
+    blog = (user.get("blog") or "").strip()
+    if "linkedin.com/" in blog.lower():
+        return blog if blog.startswith("http") else f"https://{blog}"
+    try:
+        resp = requests.get(
+            GITHUB_SOCIAL_API.format(login=login), headers=headers, timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        accounts = resp.json()
+    except Exception:  # noqa: BLE001 - best-effort, never break the pipeline
+        return None
+    for acc in accounts if isinstance(accounts, list) else []:
+        url = (acc.get("url") or "").strip()
+        if (acc.get("provider") == "linkedin") or ("linkedin.com/" in url.lower()):
+            return url or None
+    return None
+
+
 def fetch_github(cfg: dict) -> list[dict]:
     src = cfg["sources"]["github"]
     if not src.get("enabled", True):
@@ -202,6 +228,9 @@ def fetch_github(cfg: dict) -> list[dict]:
             person["bio"] = (person["bio"] + " " + user["bio"]).strip()
         if user.get("company"):
             person["affiliation"] = user["company"].lstrip("@").strip()
+        linkedin = _github_linkedin(login, user, headers)
+        if linkedin:
+            person["linkedin_url"] = linkedin
         time.sleep(0.3)
 
     owners = [p for p in by_owner.values() if not p.get("_drop")]
@@ -256,6 +285,7 @@ def fetch_github_india_users(cfg: dict, headers: dict) -> list[dict]:
             continue
         if user.get("type") == "Organization":
             continue
+        linkedin = _github_linkedin(login, user, headers)
         people.append({
             "name": user.get("name") or login,
             "source": "GitHub",
@@ -274,6 +304,7 @@ def fetch_github_india_users(cfg: dict, headers: dict) -> list[dict]:
             "last_active": user.get("updated_at"),
             "avatar_url": user.get("avatar_url"),
             "region_hint": "India",  # came from a location:India query
+            "linkedin_url": linkedin,
         })
         time.sleep(0.3)
     return people

@@ -53,7 +53,10 @@ function renderPerson(item) {
         .join("")}</ul>`
     : "";
   const links = (item.profiles || [])
-    .map((p) => `<a class="tag tag-link" href="${escapeHTML(p.url)}" target="_blank" rel="noopener">${escapeHTML(p.label)}</a>`)
+    .map((p) => {
+      const cls = p.verified ? "tag tag-link tag-linkedin" : "tag tag-link";
+      return `<a class="${cls}" href="${escapeHTML(p.url)}" target="_blank" rel="noopener">${escapeHTML(p.label)}</a>`;
+    })
     .join("");
   const tags = (item.tags || []).map((t) => `<span class="tag">${escapeHTML(t)}</span>`).join("");
 
