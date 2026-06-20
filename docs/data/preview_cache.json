@@ -778,5 +778,53 @@
   "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/noam-shazeer-deal-ball.png?resize=1200,800",
     "fetched_at": "2026-06-20"
+  },
+  "https://developer.nvidia.com/blog/build-on-device-ai-companions-with-the-nvidia-ace-game-agent-sdk-and-unreal-engine-5-plugins": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/ai-game-character-500x282.gif",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19747": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19640": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19753": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19345": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19351": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19469": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19501": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19346": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19347": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://arxiv.org/abs/2606.19354": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-06-20"
+  },
+  "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/reliance-mukesh-ambani.jpg?resize=1200,800",
+    "fetched_at": "2026-06-20"
   }
 }
