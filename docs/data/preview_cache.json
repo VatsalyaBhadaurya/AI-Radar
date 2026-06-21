@@ -826,5 +826,37 @@
   "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/reliance-mukesh-ambani.jpg?resize=1200,800",
     "fetched_at": "2026-06-20"
+  },
+  "https://remoteok.com/remote-jobs/remote-manufacturing-operator-i-eaton-1133763": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-06-21"
+  },
+  "https://remoteok.com/remote-jobs/remote-manufacturing-manager-eaton-1133779": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-06-21"
+  },
+  "https://openai.com/index/improving-health-intelligence-in-chatgpt": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4yWq9ysTsvnlOm2FZUVYQ1/bec481613bb7762c6afbd6bec2edbdae/16x9_Health_SEO_1.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-06-21"
+  },
+  "https://theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK467_AI_MUSIC_CVirginia_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-06-21"
+  },
+  "https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-7.webp",
+    "fetched_at": "2026-06-21"
+  },
+  "https://openai.com/index/introducing-life-sci-bench": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1trh6KslZ4XaGmEYHQVoDP/e4a6d9910ef9025bfbe5bed00cf0ae42/LifeSciBench_16x9.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-06-21"
+  },
+  "https://mitchivin.com/": {
+    "image_url": null,
+    "fetched_at": "2026-06-21"
+  },
+  "https://startupwiki.tech/": {
+    "image_url": null,
+    "fetched_at": "2026-06-21"
   }
 }
