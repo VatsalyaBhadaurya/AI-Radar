@@ -858,5 +858,25 @@
   "https://startupwiki.tech/": {
     "image_url": null,
     "fetched_at": "2026-06-21"
+  },
+  "https://ycombinator.com/companies/wildcard/jobs/SEmo4di-founding-applied-ml-engineer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/ded9c49e4caae76b5466102e61073e6b370cb326.png?1738308671",
+    "fetched_at": "2026-06-22"
+  },
+  "https://developer.nvidia.com/blog/inside-nvidia-halos-for-robotics-a-full-stack-functional-safety-system-for-physical-ai": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/humanoid-robot.webp",
+    "fetched_at": "2026-06-22"
+  },
+  "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/anthropic-claude-fable.jpg?resize=1200,798",
+    "fetched_at": "2026-06-22"
+  },
+  "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/tim-cook-iphone-GettyImages-2234563479.jpg?w=1024",
+    "fetched_at": "2026-06-22"
+  },
+  "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1278815846.jpg?resize=1200,800",
+    "fetched_at": "2026-06-22"
   }
 }
