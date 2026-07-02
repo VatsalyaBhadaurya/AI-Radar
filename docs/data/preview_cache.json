@@ -1718,5 +1718,89 @@
   "https://theverge.com/column/959433/libby-ai-filter": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24148705/PXL_20221028_153245856.jpg?quality=90&amp;strip=all&amp;crop=0%2C15.232329842932%2C100%2C69.535340314136&amp;w=1200",
     "fetched_at": "2026-07-01"
+  },
+  "https://arxiv.org/abs/2607.00020": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00351": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00457": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://ycombinator.com/companies/proliferate/jobs/mMHvKR9-founding-product-engineer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/8a51b468ded81d8f8847dd75ed281beeb0a71b77.png?1771376897",
+    "fetched_at": "2026-07-02"
+  },
+  "https://ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/82493096f003f1a5800031161c10f95f365688b2.png?1770087728",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00972": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00124": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00189": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00272": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "http://bair.berkeley.edu/blog/2026/07/01/grads-2026": {
+    "image_url": "http://bair.berkeley.edu/blog/assets/BAIR_Logo.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00218": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00174": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00283": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00248": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2606.31112": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00627": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2607.00276": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://arxiv.org/abs/2606.31041": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-02"
+  },
+  "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/gpt-steady-v3.png?w=768",
+    "fetched_at": "2026-07-02"
+  },
+  "https://theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STK201_SAM_ALTMAN_CVIRGINIA2A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-07-02"
+  },
+  "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/vint-cerf-GettyImages-454796419.jpg?resize=1200,723",
+    "fetched_at": "2026-07-02"
   }
 }
