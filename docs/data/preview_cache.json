@@ -1954,5 +1954,21 @@
   "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2194584986.jpg?w=1024",
     "fetched_at": "2026-07-05"
+  },
+  "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Even-G2-and-R1-with-HUD.jpeg?resize=1200,675",
+    "fetched_at": "2026-07-06"
+  },
+  "https://huggingface.co/blog/lerobot-release-v060": {
+    "image_url": "https://huggingface.co/blog/assets/lerobot-release-v060/thumbnail.png",
+    "fetched_at": "2026-07-06"
+  },
+  "https://theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25584700/STK483_EDUCATION_C.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "fetched_at": "2026-07-06"
+  },
+  "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2280727243.jpg?resize=1200,840",
+    "fetched_at": "2026-07-06"
   }
 }
