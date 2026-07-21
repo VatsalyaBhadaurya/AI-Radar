@@ -1,36 +1,4 @@
 {
-  "https://remoteok.com/remote-jobs/remote-manufacturing-operator-i-eaton-1133763": {
-    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
-    "fetched_at": "2026-06-21"
-  },
-  "https://remoteok.com/remote-jobs/remote-manufacturing-manager-eaton-1133779": {
-    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
-    "fetched_at": "2026-06-21"
-  },
-  "https://openai.com/index/improving-health-intelligence-in-chatgpt": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4yWq9ysTsvnlOm2FZUVYQ1/bec481613bb7762c6afbd6bec2edbdae/16x9_Health_SEO_1.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-06-21"
-  },
-  "https://theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK467_AI_MUSIC_CVirginia_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-06-21"
-  },
-  "https://developer.nvidia.com/blog/nvidia-blackwell-tops-mlperf-training-6-0-with-industry-leading-scale-and-performance": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/image1-7.webp",
-    "fetched_at": "2026-06-21"
-  },
-  "https://openai.com/index/introducing-life-sci-bench": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1trh6KslZ4XaGmEYHQVoDP/e4a6d9910ef9025bfbe5bed00cf0ae42/LifeSciBench_16x9.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-06-21"
-  },
-  "https://mitchivin.com/": {
-    "image_url": null,
-    "fetched_at": "2026-06-21"
-  },
-  "https://startupwiki.tech/": {
-    "image_url": null,
-    "fetched_at": "2026-06-21"
-  },
   "https://ycombinator.com/companies/wildcard/jobs/SEmo4di-founding-applied-ml-engineer": {
     "image_url": "https://bookface-images.s3.amazonaws.com/logos/ded9c49e4caae76b5466102e61073e6b370cb326.png?1738308671",
     "fetched_at": "2026-06-22"
@@ -2406,5 +2374,105 @@
   "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2285660756.jpg?w=1024",
     "fetched_at": "2026-07-20"
+  },
+  "https://arxiv.org/abs/2607.16222": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16506": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16897": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Jeremy-Nixon.jpg?resize=1200,900",
+    "fetched_at": "2026-07-21"
+  },
+  "https://techcrunch.com/2026/07/20/colossal-biosciences-reportedly-in-talks-to-raise-new-capital-at-20b-30b-valuation": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/BenLamm_DW.jpg?resize=1200,903",
+    "fetched_at": "2026-07-21"
+  },
+  "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Team-Photo.jpg?resize=1200,800",
+    "fetched_at": "2026-07-21"
+  },
+  "https://medcitynews.com/2026/07/for-millions-in-rural-america-medicine-is-still-far-away": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2020/01/GettyImages-1039043886.jpg",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16636": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16202": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.17173": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16200": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16921": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16366": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16920": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16247": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.17237": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16582": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16241": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16669": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16872": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16235": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.16250": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-21"
+  },
+  "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2019/10/youtube-ios-app.jpg?resize=1200,674",
+    "fetched_at": "2026-07-21"
+  },
+  "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2286058347.jpg?w=1024",
+    "fetched_at": "2026-07-21"
+  },
+  "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/10/getty-perplexity.jpg?resize=1200,800",
+    "fetched_at": "2026-07-21"
   }
 }
