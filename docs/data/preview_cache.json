@@ -1,24 +1,4 @@
 {
-  "https://ycombinator.com/companies/wildcard/jobs/SEmo4di-founding-applied-ml-engineer": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/ded9c49e4caae76b5466102e61073e6b370cb326.png?1738308671",
-    "fetched_at": "2026-06-22"
-  },
-  "https://developer.nvidia.com/blog/inside-nvidia-halos-for-robotics-a-full-stack-functional-safety-system-for-physical-ai": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/06/humanoid-robot.webp",
-    "fetched_at": "2026-06-22"
-  },
-  "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/anthropic-claude-fable.jpg?resize=1200,798",
-    "fetched_at": "2026-06-22"
-  },
-  "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/tim-cook-iphone-GettyImages-2234563479.jpg?w=1024",
-    "fetched_at": "2026-06-22"
-  },
-  "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-1278815846.jpg?resize=1200,800",
-    "fetched_at": "2026-06-22"
-  },
   "https://arxiv.org/abs/2606.20754": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-06-23"
@@ -2474,5 +2454,113 @@
   "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2025/10/getty-perplexity.jpg?resize=1200,800",
     "fetched_at": "2026-07-21"
+  },
+  "https://arxiv.org/abs/2607.18362": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18580": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18709": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://remoteok.com/remote-jobs/remote-testing-recommendation-step-jacobs-1135130": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://remoteok.com/remote-jobs/remote-manufacturing-staffease-inc-1135153": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://news.ycombinator.com/item?id=48995037": {
+    "image_url": null,
+    "fetched_at": "2026-07-22"
+  },
+  "https://techcrunch.com/2026/07/21/this-uber-alumn-just-raised-a-10m-pre-seed-to-build-portable-nuclear-enegry": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/2026_0709_Bluecore_0280_HQ.jpg?resize=1200,800",
+    "fetched_at": "2026-07-22"
+  },
+  "https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/glow-founders.jpg?resize=1200,800",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18432": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18254": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18448": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18540": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18570": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18731": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18840": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18365": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18615": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18510": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18577": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18245": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18772": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18508": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18438": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://arxiv.org/abs/2607.18820": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-07-22"
+  },
+  "https://theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Screenshot-2026-07-21-at-12.22.06-PM.png?quality=90&amp;strip=all&amp;crop=0%2C2.6087741469579%2C100%2C94.782451706084&amp;w=1200",
+    "fetched_at": "2026-07-22"
+  },
+  "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2248543137.jpg?resize=1200,840",
+    "fetched_at": "2026-07-22"
+  },
+  "https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-638007236.jpg?resize=1200,798",
+    "fetched_at": "2026-07-22"
   }
 }
