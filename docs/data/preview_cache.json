@@ -1,108 +1,4 @@
 {
-  "https://arxiv.org/abs/2607.01378": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01804": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01938": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.02092": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/4eee6e19647ab5f3be3cda18b2a87d90ea956332.png?1705544917",
-    "fetched_at": "2026-07-03"
-  },
-  "https://techcrunch.com/2026/07/02/iqm-europes-first-public-quantum-company-admits-the-future-of-the-tech-is-uncertain": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/IQM-Nasdaq-Tower.jpg?resize=1200,675",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.02195": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.02205": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01388": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01431": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01394": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01237": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01595": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.02222": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01304": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01502": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.00183": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.00058": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01366": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01612": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01417": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01490": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://arxiv.org/abs/2607.01240": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-03"
-  },
-  "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2024/10/GettyImages-1968119319.jpg?resize=1200,800",
-    "fetched_at": "2026-07-03"
-  },
-  "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/AI-sandwich-hunger.png?resize=1200,960",
-    "fetched_at": "2026-07-03"
-  },
-  "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
-    "fetched_at": "2026-07-03"
-  },
   "https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon": {
     "image_url": null,
     "fetched_at": "2026-07-04"
@@ -2574,5 +2470,41 @@
   "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2024/06/snapchat-getty.jpg?w=1200",
     "fetched_at": "2026-08-01"
+  },
+  "https://github.com/drumih/turbo-fieldfare": {
+    "image_url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1304159264/d6c0493d-d97a-45fc-b20a-dd40d1b6e090?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T104125Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=bfb88e70988d3530f6861dfbe64432ebb8ce848f7cf4e0ae535280db44ac9f40&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY2NzU4NSwibmJmIjoxNzg1NjY3Mjg1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.zSdBqmauaL6njPzmCz-RW1nkva80uo2CTZRlimGvbb4",
+    "fetched_at": "2026-08-02"
+  },
+  "https://ycombinator.com/companies/morph/jobs/0Z8vI3K-member-of-technical-staff": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/b4d10434317c3ea726f5129500cdb06a17b2455c.png?1757192177",
+    "fetched_at": "2026-08-02"
+  },
+  "https://ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/021205547e8691c3f3d6448bac786086900d5b0e.png?1718238521",
+    "fetched_at": "2026-08-02"
+  },
+  "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Smallest-AI-Founders.jpg?resize=1200,927",
+    "fetched_at": "2026-08-02"
+  },
+  "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Surgical-Intelligence.webp",
+    "fetched_at": "2026-08-02"
+  },
+  "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2207699717.jpg?resize=1200,800",
+    "fetched_at": "2026-08-02"
+  },
+  "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2236544077.jpg?resize=1200,800",
+    "fetched_at": "2026-08-02"
+  },
+  "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-1040458588.jpg?w=1024",
+    "fetched_at": "2026-08-02"
+  },
+  "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/AutonomousKey1.jpeg?w=1200",
+    "fetched_at": "2026-08-02"
   }
 }
