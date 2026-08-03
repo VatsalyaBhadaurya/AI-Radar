@@ -1,36 +1,4 @@
 {
-  "https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon": {
-    "image_url": null,
-    "fetched_at": "2026-07-04"
-  },
-  "https://ycombinator.com/companies/infracost/jobs/YTJcFwr-marketing-lead": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/c09ffaee50a4575cca6014736bbeb74a6ade20a1.png?1625660543",
-    "fetched_at": "2026-07-04"
-  },
-  "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2022/09/Matthew-Prince-co-founder-CEO-Cloudflare-1.jpg?resize=1200,800",
-    "fetched_at": "2026-07-04"
-  },
-  "https://openai.com/index/introducing-genebench-pro": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6ISCsbFZAwfE8rca32ZXSt/7958029f06d5bf872217476430f12549/GenebenchPro_Blog_SEO.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-07-04"
-  },
-  "https://freegraphpaper.net/": {
-    "image_url": "https://freegraphpaper.net/images/og/default.png",
-    "fetched_at": "2026-07-04"
-  },
-  "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership": {
-    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/3_SocialShare_gradient.max-1440x810.jpg",
-    "fetched_at": "2026-07-04"
-  },
-  "https://theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/ultrasound_phantom_segmentation-b254a71d083eb5c9.png?quality=90&amp;strip=all&amp;crop=28.441715022566,0,70.316569954868,100",
-    "fetched_at": "2026-07-04"
-  },
-  "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-ai-generated-eb728837-4a65-4ce4-b814-abd0c140d20c.jpg?w=1024",
-    "fetched_at": "2026-07-04"
-  },
   "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219786590.jpg?w=1024",
     "fetched_at": "2026-07-05"
@@ -2506,5 +2474,101 @@
   "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/AutonomousKey1.jpeg?w=1200",
     "fetched_at": "2026-08-02"
+  },
+  "https://arxiv.org/abs/2607.29169": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.29172": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.29302": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-july": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2017/06/GettyImages-610690314.jpg",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28858": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28658": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28802": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28801": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28881": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.29227": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28629": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.29567": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28952": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28993": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.29374": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28696": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.29052": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28637": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28693": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28840": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28996": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2607.28631": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-03"
+  },
+  "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/June-Headshots-7740.jpg?resize=1200,800",
+    "fetched_at": "2026-08-03"
+  },
+  "https://theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9724610532046%2C100%2C80.055077893591&amp;w=1200",
+    "fetched_at": "2026-08-03"
   }
 }
