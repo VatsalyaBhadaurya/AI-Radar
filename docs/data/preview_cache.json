@@ -1,20 +1,4 @@
 {
-  "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219786590.jpg?w=1024",
-    "fetched_at": "2026-07-05"
-  },
-  "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/google-declaration-of-independence.jpg?w=1200",
-    "fetched_at": "2026-07-05"
-  },
-  "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1387623215.jpg?resize=1200,900",
-    "fetched_at": "2026-07-05"
-  },
-  "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2194584986.jpg?w=1024",
-    "fetched_at": "2026-07-05"
-  },
   "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Even-G2-and-R1-with-HUD.jpeg?resize=1200,675",
     "fetched_at": "2026-07-06"
@@ -2570,5 +2554,137 @@
   "https://theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1259130896.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9724610532046%2C100%2C80.055077893591&amp;w=1200",
     "fetched_at": "2026-08-03"
+  },
+  "https://arxiv.org/abs/2608.00078": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00208": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00613": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00315": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://remoteok.com/remote-jobs/remote-fireman-dishman-carbogen-amcis-ltd-1136040": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://remoteok.com/remote-jobs/remote-ah-sic-cam-aditya-birla-group-1136073": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://ycombinator.com/companies/collectwise/jobs/oEAfzBS-ai-agent-engineer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/a5be02a3378f664e1f80f2a84997514d00f9fc1f.png?1731452013",
+    "fetched_at": "2026-08-04"
+  },
+  "https://techcrunch.com/2026/08/03/sequoias-shaun-maguire-leads-1b-round-for-nuclear-startup-valar-atomics": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/02/Mockup-of-Valar-Atomics-site.jpg?resize=1200,514",
+    "fetched_at": "2026-08-04"
+  },
+  "https://techcrunch.com/2026/08/03/horizon3-hits-2-billion-valuation-with-250m-series-e-as-ai-threats-escalate": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1197780051.jpg?resize=1200,800",
+    "fetched_at": "2026-08-04"
+  },
+  "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-03-at-12.31.35-PM.jpg?resize=1200,739",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00100": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00135": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00337": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00652": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00569": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00026": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00107": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00079": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00012": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00289": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00464": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00625": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00013": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00110": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00035": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00014": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00073": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00008": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00500": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.00106": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-04"
+  },
+  "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/Palantir-Alex-Karp.png?resize=1200,762",
+    "fetched_at": "2026-08-04"
+  },
+  "https://theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Verge-RedditBrands_V1-Final.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-08-04"
+  },
+  "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1502799666.jpg?resize=1200,633",
+    "fetched_at": "2026-08-04"
   }
 }
