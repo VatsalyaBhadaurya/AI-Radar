@@ -1,20 +1,4 @@
 {
-  "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Even-G2-and-R1-with-HUD.jpeg?resize=1200,675",
-    "fetched_at": "2026-07-06"
-  },
-  "https://huggingface.co/blog/lerobot-release-v060": {
-    "image_url": "https://huggingface.co/blog/assets/lerobot-release-v060/thumbnail.png",
-    "fetched_at": "2026-07-06"
-  },
-  "https://theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25584700/STK483_EDUCATION_C.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
-    "fetched_at": "2026-07-06"
-  },
-  "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2280727243.jpg?resize=1200,840",
-    "fetched_at": "2026-07-06"
-  },
   "https://arxiv.org/abs/2607.02646": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-07-07"
@@ -2686,5 +2670,121 @@
   "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1502799666.jpg?resize=1200,633",
     "fetched_at": "2026-08-04"
+  },
+  "https://arxiv.org/abs/2608.02990": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02809": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.03231": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://developer.nvidia.com/blog/beyond-vlas-how-world-action-models-reshape-robot-manipulation": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Cosmos-World-Models-Robot.gif",
+    "fetched_at": "2026-08-05"
+  },
+  "https://remoteok.com/remote-jobs/remote-no-current-openings-dimensionality-1136088": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://remoteok.com/remote-jobs/remote-close-satellite-support-bravo1alpha-bv-1136076": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://ycombinator.com/companies/truemetrics/jobs/bIQQ7tP-founding-gtm-lead": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/3a7ea44ef55ccd01b022c5879f0c20daa7bf1d4f.png?1691774028",
+    "fetched_at": "2026-08-05"
+  },
+  "https://medcitynews.com/2026/08/quanthealth-ai-drug-discovery": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/06/drug-discovery.jpg",
+    "fetched_at": "2026-08-05"
+  },
+  "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/1775612684808b896334503189e6f0c1fadd8857-2378x1280-1.jpg?w=1200",
+    "fetched_at": "2026-08-05"
+  },
+  "https://medcitynews.com/2026/08/supernus-indivior-merger-neuroscience-cns-supn-indv": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2021/06/GettyImages-1157798734.jpg",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.03051": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02620": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02786": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02700": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.03047": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02958": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.03052": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02653": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02790": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02830": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02711": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02690": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02616": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02975": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.03234": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://arxiv.org/abs/2608.02615": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-05"
+  },
+  "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-photo.jpg?w=1024",
+    "fetched_at": "2026-08-05"
+  },
+  "https://theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24002467/acastro_STK081_amd_02.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-08-05"
+  },
+  "https://theverge.com/science/975335/spacex-made-more-money-as-a-neocloud": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2286629860.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.754013220586%2C100%2C78.491973558828&amp;w=1200",
+    "fetched_at": "2026-08-05"
   }
 }
