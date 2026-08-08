@@ -1,108 +1,4 @@
 {
-  "https://arxiv.org/abs/2607.06678": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06706": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06896": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07196": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://ycombinator.com/companies/collectwise/jobs/P646Yw6-founding-account-executive": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/a5be02a3378f664e1f80f2a84997514d00f9fc1f.png?1731452013",
-    "fetched_at": "2026-07-09"
-  },
-  "https://medcitynews.com/2026/07/pearl-health-funding": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/09/money-growth.jpg",
-    "fetched_at": "2026-07-09"
-  },
-  "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/chip__1_.png?w=940",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06764": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06641": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07302": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06882": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06739": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07281": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07076": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06699": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06831": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07408": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06631": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06624": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07040": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.06618": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07229": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://arxiv.org/abs/2607.07391": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-09"
-  },
-  "https://openai.com/index/government-national-security-partnerships": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2h3zDXkAt00qFTGsCqrLuV/f4b2ed4ee96f72220d4f6ddc9924a01a/Frame-1.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-07-09"
-  },
-  "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2023/05/google-io-2023-watermarking.jpg?resize=1200,675",
-    "fetched_at": "2026-07-09"
-  },
-  "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/kylie-jenner-meta-ai-glasses.jpeg?resize=1200,750",
-    "fetched_at": "2026-07-09"
-  },
   "https://arxiv.org/abs/2607.07880": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-07-10"
@@ -2774,5 +2670,29 @@
   "https://theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STKB368_SUNO_C.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-08-07"
+  },
+  "https://theverge.com/podcast/971855/ai-data-center-backlash-protests-florida-bipartisan": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/VRG_DCD_0730.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-08-08"
+  },
+  "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2OqBX7eh31rmzCVTZrZgb6/8c852b5a1f787c1fea8ac9de5a33d2db/Frame.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-08-08"
+  },
+  "https://developer.nvidia.com/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image3-16.webp",
+    "fetched_at": "2026-08-08"
+  },
+  "https://theverge.com/entertainment/976939/roku-fairground-ai-fast-channel": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/Screenshot-2026-08-07-at-2.40.34-PM.png?quality=90&amp;strip=all&amp;crop=0%2C2.3735501218774%2C100%2C95.252899756245&amp;w=1200",
+    "fetched_at": "2026-08-08"
+  },
+  "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2266466589.jpg?w=1024",
+    "fetched_at": "2026-08-08"
+  },
+  "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/08/brian-chesky-GettyImages-2217178973.jpg?w=1024",
+    "fetched_at": "2026-08-08"
   }
 }
