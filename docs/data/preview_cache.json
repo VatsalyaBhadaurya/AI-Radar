@@ -1,32 +1,4 @@
 {
-  "https://ycombinator.com/companies/sixtyfour/jobs/bIbgQkL-operations-associate-data-samples-customer-success": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/1bb597f3c523ffa144378db8ab6100c529167c91.png?1755022649",
-    "fetched_at": "2026-07-12"
-  },
-  "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/PE4252-2.jpg?resize=1200,800",
-    "fetched_at": "2026-07-12"
-  },
-  "https://github.com/dicroce/wyrm_math": {
-    "image_url": "https://opengraph.githubassets.com/49d524e2e6730f16f29bbc455a7ff06e14e14edb5aa2fc769d11525fc9ec5199/dicroce/wyrm_math",
-    "fetched_at": "2026-07-12"
-  },
-  "https://openai.com/index/separating-signal-from-noise-coding-evaluations": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5f0Xf4wOuXVsX7TZUM4tjl/4672bf7bf93bad67ade28dce57f62638/Seperating-signal-from-noise-SEO.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-07-12"
-  },
-  "https://tomesphere.com/atlas": {
-    "image_url": null,
-    "fetched_at": "2026-07-12"
-  },
-  "https://theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/meta-muse-image-instagram-tag.png?quality=90&amp;strip=all&amp;crop=0,16.342557965595,100,67.314884068811",
-    "fetched_at": "2026-07-12"
-  },
-  "https://fadingmaize.com/": {
-    "image_url": "https://www.fadingmaize.com/images/fading-maize-og.jpg",
-    "fetched_at": "2026-07-12"
-  },
   "https://arxiv.org/abs/2607.09590": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-07-13"
@@ -2618,5 +2590,117 @@
   "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-491300440.jpg?w=1024",
     "fetched_at": "2026-08-10"
+  },
+  "https://arxiv.org/abs/2608.07619": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07621": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07533": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07596": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://medcitynews.com/2026/08/jazz-pharma-acquisition-kcnt1-related-epilepsy-actio-biosciences-neuroscience": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2019/01/GettyImages-938046810.jpg",
+    "fetched_at": "2026-08-11"
+  },
+  "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07641": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07763": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07812": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07862": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07525": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07968": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07557": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07562": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07553": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.08053": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07555": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07584": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07572": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.08067": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07570": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.08036": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07567": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07642": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://arxiv.org/abs/2608.07891": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-11"
+  },
+  "https://theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546248/STK169_Mark_Zuckerburg_CVIRGINIA_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-08-11"
+  },
+  "https://theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/DCD-Lila-Snyder.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.711631919237%2C100%2C78.576736161526&amp;w=1200",
+    "fetched_at": "2026-08-11"
+  },
+  "https://theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/zuckerberg_stock_Parkin.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-08-11"
   }
 }
