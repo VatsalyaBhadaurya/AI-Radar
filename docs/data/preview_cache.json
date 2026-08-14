@@ -1,100 +1,4 @@
 {
-  "https://arxiv.org/abs/2607.12659": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12287": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12571": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12356": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://remoteok.com/remote-jobs/remote-create-your-own-vitalize-1134801": {
-    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://ycombinator.com/companies/kontigo/jobs/uNttrlv-head-of-security": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/021205547e8691c3f3d6448bac786086900d5b0e.png?1718238521",
-    "fetched_at": "2026-07-15"
-  },
-  "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2196333417_75e106.jpg?resize=1200,901",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.11933": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12702": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12195": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12079": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12114": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12065": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12466": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12278": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.11946": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.11939": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12165": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12254": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12252": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.11891": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://arxiv.org/abs/2607.12076": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-07-15"
-  },
-  "https://openai.com/index/managing-ai-investments-in-agentic-era": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1f3fCCk8KKldaYmrCqQ6tt/3193a26fa6ff6423b4235b0661de239f/Frame-1.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-07-15"
-  },
-  "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2021/10/biotech-header.jpg?resize=1200,807",
-    "fetched_at": "2026-07-15"
-  },
   "https://arxiv.org/abs/2607.13056": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-07-16"
@@ -2762,5 +2666,149 @@
   "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/android_header.webp?resize=1200,854",
     "fetched_at": "2026-08-13"
+  },
+  "https://github.com/google-ai-edge/LiteRT": {
+    "image_url": "https://opengraph.githubassets.com/1889fd2f951e0b2bcf351f4e03b85ff99d0c9cbe806154de9c430c479620351c/google-ai-edge/LiteRT",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12416": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.13438": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.13474": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://atg.science/careers": {
+    "image_url": "https://atg.science/social-card.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200",
+    "fetched_at": "2026-08-14"
+  },
+  "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/Scott-wu-headshot-e1780070238342.png?resize=1200,1004",
+    "fetched_at": "2026-08-14"
+  },
+  "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-582759168.jpg?resize=1200,800",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/vllm-project/vllm": {
+    "image_url": "https://opengraph.githubassets.com/25f6d105729a88e6f9df186daaf05ed5a0cb4d6a6588f0a6b026de6240d958ec/vllm-project/vllm",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/cactus-compute/cactus": {
+    "image_url": "https://opengraph.githubassets.com/8c7626ea4113f01e2cbb026e90483f2fd3f57ad10ea1d7a6f03a369ce0eaffdd/cactus-compute/cactus",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12489": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12860": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12854": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/microsoft/BitNet": {
+    "image_url": "https://opengraph.githubassets.com/04f7092a7e210c318e89232368719d71c269d03711270ccc2a15fb9e81a15035/microsoft/BitNet",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/altic-dev/FluidVoice": {
+    "image_url": "https://opengraph.githubassets.com/e798b3d0d3e39fe63affb1f09455e1e2abb88eb422b7c221d75b8629fe8f3d59/altic-dev/FluidVoice",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/ggml-org/ggml": {
+    "image_url": "https://opengraph.githubassets.com/ab6f1a4c2f6b55460a11f4a5182226205b9234b5a376cba2bf449ff9ebdad713/ggml-org/ggml",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/openxla/xla": {
+    "image_url": "https://opengraph.githubassets.com/93d3b46920e4d07b142dda8cc707e6c36d37a1d65bd718a30694ca65d3a975b2/openxla/xla",
+    "fetched_at": "2026-08-14"
+  },
+  "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements": {
+    "image_url": null,
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/ggml-org/llama.cpp": {
+    "image_url": "https://repository-images.githubusercontent.com/612354784/8b9eb0ec-6517-44a9-8a3a-fccddc678e57",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12629": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.13362": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.13049": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.13395": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12502": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12570": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12611": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12781": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12564": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.13095": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12442": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://arxiv.org/abs/2608.12689": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/ClickHouse/ClickHouse": {
+    "image_url": "https://opengraph.githubassets.com/5abf805f7c46e844b178d2b93863fd35cbdd8254e9d2fde17dede3f8106ed093/ClickHouse/ClickHouse",
+    "fetched_at": "2026-08-14"
+  },
+  "https://github.com/NVIDIA/cccl": {
+    "image_url": "https://opengraph.githubassets.com/7efa6f92f3500b99e2dd4121ead9ff21191dfd223cffaf7bdba5f4f1114b5955/NVIDIA/cccl",
+    "fetched_at": "2026-08-14"
+  },
+  "https://openai.com/index/dali-rajic-chief-revenue-officer": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7foBqhVyCeruJXiT79LxmK/94e25ece2f872aded25419f38d248653/Dali_Resized.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-08-14"
+  },
+  "https://theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2275749204.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.746068936881%2C100%2C78.507862126237&amp;w=1200",
+    "fetched_at": "2026-08-14"
+  },
+  "https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK071_APPLE_A-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-08-14"
   }
 }
