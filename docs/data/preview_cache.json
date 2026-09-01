@@ -1,40 +1,4 @@
 {
-  "https://github.com/drumih/turbo-fieldfare": {
-    "image_url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1304159264/d6c0493d-d97a-45fc-b20a-dd40d1b6e090?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260802T104125Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=bfb88e70988d3530f6861dfbe64432ebb8ce848f7cf4e0ae535280db44ac9f40&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTY2NzU4NSwibmJmIjoxNzg1NjY3Mjg1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.zSdBqmauaL6njPzmCz-RW1nkva80uo2CTZRlimGvbb4",
-    "fetched_at": "2026-08-02"
-  },
-  "https://ycombinator.com/companies/morph/jobs/0Z8vI3K-member-of-technical-staff": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/b4d10434317c3ea726f5129500cdb06a17b2455c.png?1757192177",
-    "fetched_at": "2026-08-02"
-  },
-  "https://ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/021205547e8691c3f3d6448bac786086900d5b0e.png?1718238521",
-    "fetched_at": "2026-08-02"
-  },
-  "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Smallest-AI-Founders.jpg?resize=1200,927",
-    "fetched_at": "2026-08-02"
-  },
-  "https://developer.nvidia.com/blog/developing-healthcare-robotics-with-gpu-native-medical-physics-simulation": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Surgical-Intelligence.webp",
-    "fetched_at": "2026-08-02"
-  },
-  "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2207699717.jpg?resize=1200,800",
-    "fetched_at": "2026-08-02"
-  },
-  "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2236544077.jpg?resize=1200,800",
-    "fetched_at": "2026-08-02"
-  },
-  "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-1040458588.jpg?w=1024",
-    "fetched_at": "2026-08-02"
-  },
-  "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/AutonomousKey1.jpeg?w=1200",
-    "fetched_at": "2026-08-02"
-  },
   "https://arxiv.org/abs/2607.29169": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-08-03"
@@ -2798,5 +2762,125 @@
   "https://theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2291175333.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.750889909111%2C100%2C78.498220181778&amp;w=1200",
     "fetched_at": "2026-08-31"
+  },
+  "https://arxiv.org/abs/2608.28718": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.29078": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.29100": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.29208": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://remoteok.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://ycombinator.com/companies/collectwise/jobs/7U500pP-founding-customer-success-engineer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/a5be02a3378f664e1f80f2a84997514d00f9fc1f.png?1731452013",
+    "fetched_at": "2026-09-01"
+  },
+  "https://news.ycombinator.com/item?id=49514781": {
+    "image_url": null,
+    "fetched_at": "2026-09-01"
+  },
+  "https://jobs.ashbyhq.com/workweave": {
+    "image_url": "https://app.ashbyhq.com/api/images/org-theme-logo/8c055073-ed97-4980-a925-eecf79fbde90/89560b07-0c51-4946-9d59-1e98694a0a99/f444bc50-13b7-4a53-97ed-89e1897a760b.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://medcitynews.com/2026/08/4-notable-health-tech-funding-announcements-in-august": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/03/investment.jpg",
+    "fetched_at": "2026-09-01"
+  },
+  "https://techcrunch.com/2026/08/31/magna-increases-bet-on-battery-swapping-in-india-with-35m-for-yuma": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/yuma-energy.jpg?resize=1200,800",
+    "fetched_at": "2026-09-01"
+  },
+  "https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/BlueVoice_Founders.png?resize=1200,600",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28667": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28623": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28693": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28677": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28611": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.29096": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.29242": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28995": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28656": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28875": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28670": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28678": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28641": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28663": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.27506": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28626": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://arxiv.org/abs/2608.28645": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-01"
+  },
+  "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2255009714.jpg?resize=1200,800",
+    "fetched_at": "2026-09-01"
+  },
+  "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/Instagram-label-.png?w=1200",
+    "fetched_at": "2026-09-01"
   }
 }
