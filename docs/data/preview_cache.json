@@ -1,16 +1,4 @@
 {
-  "https://theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKS528_DATA_CENTERS2_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-08-09"
-  },
-  "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/zuckerberg-LA-trial-2026-GettyImages-2261841364.jpg?w=1024",
-    "fetched_at": "2026-08-09"
-  },
-  "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/ditto-ai-app.jpg?resize=1200,675",
-    "fetched_at": "2026-08-09"
-  },
   "https://arxiv.org/abs/2608.07002": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-08-10"
@@ -2838,5 +2826,13 @@
   "https://theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK259_MICROSOFT_COPILOT_2__B.png?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-09-07"
+  },
+  "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image1-1.webp",
+    "fetched_at": "2026-09-08"
+  },
+  "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Chain-of-thought-picture.png?resize=1200,800",
+    "fetched_at": "2026-09-08"
   }
 }
