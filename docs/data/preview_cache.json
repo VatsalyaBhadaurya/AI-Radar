@@ -1,148 +1,4 @@
 {
-  "https://github.com/google-ai-edge/LiteRT": {
-    "image_url": "https://opengraph.githubassets.com/1889fd2f951e0b2bcf351f4e03b85ff99d0c9cbe806154de9c430c479620351c/google-ai-edge/LiteRT",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12416": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.13438": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.13474": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://atg.science/careers": {
-    "image_url": "https://atg.science/social-card.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200",
-    "fetched_at": "2026-08-14"
-  },
-  "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/Scott-wu-headshot-e1780070238342.png?resize=1200,1004",
-    "fetched_at": "2026-08-14"
-  },
-  "https://techcrunch.com/2026/08/12/how-a-250-million-acquisition-collapsed-into-allegations-of-fraud-and-forged-signatures": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-582759168.jpg?resize=1200,800",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/vllm-project/vllm": {
-    "image_url": "https://opengraph.githubassets.com/25f6d105729a88e6f9df186daaf05ed5a0cb4d6a6588f0a6b026de6240d958ec/vllm-project/vllm",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/cactus-compute/cactus": {
-    "image_url": "https://opengraph.githubassets.com/8c7626ea4113f01e2cbb026e90483f2fd3f57ad10ea1d7a6f03a369ce0eaffdd/cactus-compute/cactus",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12489": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12860": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12854": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/microsoft/BitNet": {
-    "image_url": "https://opengraph.githubassets.com/04f7092a7e210c318e89232368719d71c269d03711270ccc2a15fb9e81a15035/microsoft/BitNet",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/altic-dev/FluidVoice": {
-    "image_url": "https://opengraph.githubassets.com/e798b3d0d3e39fe63affb1f09455e1e2abb88eb422b7c221d75b8629fe8f3d59/altic-dev/FluidVoice",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/ggml-org/ggml": {
-    "image_url": "https://opengraph.githubassets.com/ab6f1a4c2f6b55460a11f4a5182226205b9234b5a376cba2bf449ff9ebdad713/ggml-org/ggml",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/openxla/xla": {
-    "image_url": "https://opengraph.githubassets.com/93d3b46920e4d07b142dda8cc707e6c36d37a1d65bd718a30694ca65d3a975b2/openxla/xla",
-    "fetched_at": "2026-08-14"
-  },
-  "https://pytorch.org/blog/fp8-training-on-amd-gpus-with-torchtitan-and-torchao-upstreaming-performance-improvements": {
-    "image_url": null,
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/ggml-org/llama.cpp": {
-    "image_url": "https://repository-images.githubusercontent.com/612354784/8b9eb0ec-6517-44a9-8a3a-fccddc678e57",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12629": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.13362": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.13049": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.13395": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12502": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12570": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12611": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12781": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12564": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.13095": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12442": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://arxiv.org/abs/2608.12689": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/ClickHouse/ClickHouse": {
-    "image_url": "https://opengraph.githubassets.com/5abf805f7c46e844b178d2b93863fd35cbdd8254e9d2fde17dede3f8106ed093/ClickHouse/ClickHouse",
-    "fetched_at": "2026-08-14"
-  },
-  "https://github.com/NVIDIA/cccl": {
-    "image_url": "https://opengraph.githubassets.com/7efa6f92f3500b99e2dd4121ead9ff21191dfd223cffaf7bdba5f4f1114b5955/NVIDIA/cccl",
-    "fetched_at": "2026-08-14"
-  },
-  "https://openai.com/index/dali-rajic-chief-revenue-officer": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7foBqhVyCeruJXiT79LxmK/94e25ece2f872aded25419f38d248653/Dali_Resized.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-08-14"
-  },
-  "https://theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2275749204.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.746068936881%2C100%2C78.507862126237&amp;w=1200",
-    "fetched_at": "2026-08-14"
-  },
-  "https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK071_APPLE_A-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-08-14"
-  },
   "https://arxiv.org/abs/2608.12346": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-08-15"
@@ -2694,5 +2550,21 @@
   "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2286500505.jpg?resize=1200,800",
     "fetched_at": "2026-09-12"
+  },
+  "https://vester.si/bodily-oddities": {
+    "image_url": "https://vester.si/bodily-oddities/og/home.png",
+    "fetched_at": "2026-09-13"
+  },
+  "https://openai.com/index/paul-christiano-joins-openai-foundation-board": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/182NzFWut4sS5hBGtIVsq5/c2620026fe60121fe6543a992c7477ea/paul-christiano-joins-openai-foundation-board--seo-v001.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-09-13"
+  },
+  "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2198353376.jpg?resize=1200,800",
+    "fetched_at": "2026-09-13"
+  },
+  "https://theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK201_SAM_ALTMAN_CVIRGINIA2D-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-09-13"
   }
 }
