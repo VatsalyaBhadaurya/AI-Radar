@@ -1,104 +1,4 @@
 {
-  "https://arxiv.org/abs/2608.12346": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://developer.nvidia.com/blog/nvidia-jetpack-7-2-1-adds-agentic-video-skills-and-t3000-emulation": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/image4-1.webp",
-    "fetched_at": "2026-08-15"
-  },
-  "https://pytorch.org/blog/fast-ondevice-agentic-ai-with-executorch": {
-    "image_url": null,
-    "fetched_at": "2026-08-15"
-  },
-  "https://medcitynews.com/2026/08/aligned-marketplace-secures-20m-for-advanced-primary-care-marketplace": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2019/06/GettyImages-1129146997.jpg",
-    "fetched_at": "2026-08-15"
-  },
-  "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/meta-ai-icon-smartphone.jpg?resize=1200,800",
-    "fetched_at": "2026-08-15"
-  },
-  "https://arxiv.org/abs/2608.12585": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/abseil/abseil-cpp": {
-    "image_url": "https://opengraph.githubassets.com/aa7292fc9dfe16504a34decba3a8e74f6a2fe2ddae11dc4ddcb2d5449b72fbb3/abseil/abseil-cpp",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/autowarefoundation/vision_pilot": {
-    "image_url": "https://repository-images.githubusercontent.com/862500480/c0302a62-acc8-4d4c-9b96-ad5e3ba406b7",
-    "fetched_at": "2026-08-15"
-  },
-  "https://arxiv.org/abs/2608.12372": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/OpenCut-app/OpenCut": {
-    "image_url": "https://opengraph.githubassets.com/6eef00c6fd452f54de87828ee488115cc5e71a8b1332c16f41d981c95d8a18d0/OpenCut-app/OpenCut",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/github/spec-kit": {
-    "image_url": "https://opengraph.githubassets.com/4be25b4a751811849c2fb83787d930cf9649c436739e849680cbafa7c5ed6646/github/spec-kit",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/cursor/plugins": {
-    "image_url": "https://opengraph.githubassets.com/6fbb2226b31c2452f8f165d66ead29778e0d76c4c7f0dc87d094382de86f832f/cursor/plugins",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/google/googletest": {
-    "image_url": "https://opengraph.githubassets.com/dcb01d12b2e2323dad379b81078bbcc1ce80b045ccbb8589355642fea9c8025a/google/googletest",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/holaboss-ai/holaOS": {
-    "image_url": "https://opengraph.githubassets.com/c6c099a138754431c96d42324b2c37c64d90f7075b5ae451f164ead61533e624/holaboss-ai/holaOS",
-    "fetched_at": "2026-08-15"
-  },
-  "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop": {
-    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6a1dc0f2b4238bb17ff94794/St00mBynNYpgz93MpL17G.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/NVIDIA-NeMo/Automodel": {
-    "image_url": "https://opengraph.githubassets.com/2769c8193f588ea22a178bf6fa278de2fd215390eb897513de88c3677ce9a2e9/NVIDIA-NeMo/Automodel",
-    "fetched_at": "2026-08-15"
-  },
-  "https://arxiv.org/abs/2608.12345": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://arxiv.org/abs/2608.12368": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://arxiv.org/abs/2608.12426": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://arxiv.org/abs/2608.12325": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://arxiv.org/abs/2608.12385": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/microsoft/terminal": {
-    "image_url": "https://repository-images.githubusercontent.com/100060912/dc77b180-764a-11e9-9e12-aace7d0ecd7d",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/ToolJet/ToolJet": {
-    "image_url": "https://repository-images.githubusercontent.com/352933140/7b0eae9e-d28f-4a05-b3ad-994ec0572ebe",
-    "fetched_at": "2026-08-15"
-  },
-  "https://github.com/deepseek-ai/awesome-deepseek-agent": {
-    "image_url": "https://opengraph.githubassets.com/1bcfbb3cd61f4a6c914b5ff835e784147cf2bd5742bc85e10aa9c5dd9af51125/deepseek-ai/awesome-deepseek-agent",
-    "fetched_at": "2026-08-15"
-  },
-  "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/Dali_Resized.webp?resize=1200,675",
-    "fetched_at": "2026-08-15"
-  },
   "https://ycombinator.com/companies/voltair/jobs/sSOD2Ox-flight-test-engineer": {
     "image_url": "https://bookface-images.s3.amazonaws.com/logos/d0214f983941c846a524d64275a8171d8efcaf29.png?1773178052",
     "fetched_at": "2026-08-16"
@@ -2566,5 +2466,109 @@
   "https://theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK201_SAM_ALTMAN_CVIRGINIA2D-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-09-13"
+  },
+  "https://arxiv.org/abs/2609.11961": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12384": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12316": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://remoteok.com/remote-jobs/remote-software-engineer-mirantis-1137387": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://medcitynews.com/2026/09/inspiren-senior-living-ai": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/02/dementia-care.jpg",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12002": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12265": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.11993": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12181": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12471": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12310": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12123": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12245": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12036": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12103": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12341": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12382": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12159": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12171": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12475": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12397": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.12394": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://arxiv.org/abs/2609.11987": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-14"
+  },
+  "https://theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK095_MICROSOFT_2_CVirginia_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-09-14"
+  },
+  "https://theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "fetched_at": "2026-09-14"
+  },
+  "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-1.jpg?w=1024",
+    "fetched_at": "2026-09-14"
   }
 }

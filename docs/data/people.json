@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T13:43:19Z",
+  "generated_at": "2026-09-14T15:42:38Z",
   "people": [
     {
       "id": "person_qiang_jony_zhang",
@@ -11,8 +11,8 @@
       "affiliation": "University of Science and Technology of China",
       "region": "International",
       "summary": "A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches. Embodied AI Researcher",
-      "why_it_matters": "This person works on embodied AI, embodied, vision-language-action (3,527★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.",
-      "score": 0.8605,
+      "why_it_matters": "This person works on embodied AI, embodied, vision-language (3,527★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.",
+      "score": 0.8586,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -41,8 +41,8 @@
       "matched_skills": [
         "embodied AI",
         "embodied",
-        "vision-language-action",
         "vision-language",
+        "vision-language-action",
         "VLA",
         "multimodal"
       ],
@@ -61,7 +61,7 @@
       "region": "International",
       "summary": "Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources. I am a Ph.D student at HUST, China. Joint training with Tsinghua University @thunlp . Embodied intelligence field, RL field. Worked @OpenBMB(ModelBest).",
       "why_it_matters": "This person works on embodied AI, embodied, VLA (244★ on GitHub). Recent: wadeKeith/Awesome-Embodied-AI.",
-      "score": 0.8489,
+      "score": 0.8459,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -109,8 +109,8 @@
       "affiliation": "UESTC | UniTn",
       "region": "International",
       "summary": "This is a curated list of \"Embodied AI or robot with Large Language Models\" research. Watch this repository for the latest updates! 🔥 Ph.D. student. Research Interests: LLM-Agents, Vision-Language.",
-      "why_it_matters": "This person works on embodied AI, embodied, vision-language (1,879★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.",
-      "score": 0.7519,
+      "why_it_matters": "This person works on embodied, embodied AI, vision-language (1,880★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.",
+      "score": 0.7487,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -137,8 +137,8 @@
         }
       ],
       "matched_skills": [
-        "embodied AI",
         "embodied",
+        "embodied AI",
         "vision-language",
         "robotics"
       ],
@@ -156,8 +156,8 @@
       "affiliation": "Om Labs",
       "region": "International",
       "summary": "A curated list of academic papers and resources on Physical AI — focusing on Vision-Language-Action (VLA) models, world models, embodied ai, and robotic foundation models. Co-founder @ Om Labs,\r\nex-Uber",
-      "why_it_matters": "This person works on vision-language-action, vision-language, VLA (418★ on GitHub). Recent: keon/awesome-physical-ai.",
-      "score": 0.7403,
+      "why_it_matters": "This person works on vision-language, vision-language-action, VLA (419★ on GitHub). Recent: keon/awesome-physical-ai.",
+      "score": 0.7394,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -184,8 +184,8 @@
         }
       ],
       "matched_skills": [
-        "vision-language-action",
         "vision-language",
+        "vision-language-action",
         "VLA",
         "world model",
         "embodied AI",
@@ -205,8 +205,8 @@
       "affiliation": "Tsinghua University",
       "region": "International",
       "summary": "[ICLR 2026] Code of \"MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation\" Master's Student in Embodied AI, Dept. Automation, Tsinghua University.",
-      "why_it_matters": "This person works on VLA, vision-language-action, vision-language (342★ on GitHub). Recent: shihao1895/MemoryVLA.",
-      "score": 0.7252,
+      "why_it_matters": "This person works on VLA, vision-language, vision-language-action (342★ on GitHub). Recent: shihao1895/MemoryVLA.",
+      "score": 0.7244,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -234,68 +234,14 @@
       ],
       "matched_skills": [
         "VLA",
-        "vision-language-action",
         "vision-language",
+        "vision-language-action",
         "manipulation",
         "embodied AI",
         "embodied"
       ],
       "found_via": [
         "GitHub"
-      ]
-    },
-    {
-      "id": "person_jinliang_zheng",
-      "category": "people",
-      "name": "Jinliang Zheng",
-      "title": "Jinliang Zheng",
-      "url": "https://2toinf.github.io/",
-      "source": "Semantic Scholar",
-      "affiliation": "Air, Tsinghua University",
-      "region": "International",
-      "summary": "[ICLR 2026] The offical Implementation of \"Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model\"",
-      "why_it_matters": "This person works on vision-language-action, vision-language, manipulation (607 citations; h-index 10; 728★ on GitHub). Recent: 2toinf/X-VLA.",
-      "score": 0.6886,
-      "personal_match": true,
-      "tags": [
-        "GitHub",
-        "International",
-        "Semantic Scholar",
-        "for_you"
-      ],
-      "image_url": "https://avatars.githubusercontent.com/u/54488861?v=4",
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2112524681"
-        },
-        {
-          "label": "GitHub",
-          "url": "https://github.com/2toinf"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Jinliang+Zheng+Air%2C+Tsinghua+University",
-          "verified": false
-        }
-      ],
-      "recent_work": [
-        {
-          "title": "2toinf/X-VLA",
-          "url": "https://github.com/2toinf/X-VLA",
-          "date": "2026-06-10T09:04:37Z"
-        }
-      ],
-      "matched_skills": [
-        "vision-language-action",
-        "vision-language",
-        "manipulation",
-        "robotics",
-        "VLA"
-      ],
-      "found_via": [
-        "GitHub",
-        "Semantic Scholar"
       ]
     },
     {
@@ -308,8 +254,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "[ECCV 2026] VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model",
-      "why_it_matters": "This person works on VLA, vision-language-action, vision-language (568★ on GitHub). Recent: ginwind/VLA-JEPA.",
-      "score": 0.6833,
+      "why_it_matters": "This person works on VLA, vision-language-action, vision-language (572★ on GitHub). Recent: ginwind/VLA-JEPA.",
+      "score": 0.6809,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -355,8 +301,8 @@
       "affiliation": "PKU",
       "region": "International",
       "summary": "A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related websites.",
-      "why_it_matters": "This person works on world model, embodied AI, embodied (2,010★ on GitHub). Recent: leofan90/Awesome-World-Models.",
-      "score": 0.6733,
+      "why_it_matters": "This person works on world model, embodied, embodied AI (2,014★ on GitHub). Recent: leofan90/Awesome-World-Models.",
+      "score": 0.6792,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -379,13 +325,13 @@
         {
           "title": "leofan90/Awesome-World-Models",
           "url": "https://github.com/leofan90/Awesome-World-Models",
-          "date": "2026-09-11T05:42:00Z"
+          "date": "2026-09-14T06:12:20Z"
         }
       ],
       "matched_skills": [
         "world model",
-        "embodied AI",
-        "embodied"
+        "embodied",
+        "embodied AI"
       ],
       "found_via": [
         "GitHub"
@@ -402,7 +348,7 @@
       "region": "International",
       "summary": "A curated collection of papers on Sim-to-Real, Real-to-Sim, and Real2Sim2Real transfer for robotics, reinforcement learning, and embodied AI. sun254667307@gmail.com",
       "why_it_matters": "This person works on sim-to-real, robotics, embodied AI (106★ on GitHub). Recent: sun254667/Awesome-Real2Sim2Real.",
-      "score": 0.6658,
+      "score": 0.6641,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -440,6 +386,54 @@
       ]
     },
     {
+      "id": "person_jinliang_zheng",
+      "category": "people",
+      "name": "Jinliang Zheng",
+      "title": "Jinliang Zheng",
+      "url": "https://github.com/2toinf",
+      "source": "GitHub",
+      "affiliation": "Tsinghua University",
+      "region": "International",
+      "summary": "[ICLR 2026] The offical Implementation of \"Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model\"",
+      "why_it_matters": "This person works on vision-language, vision-language-action, manipulation (728★ on GitHub). Recent: 2toinf/X-VLA.",
+      "score": 0.6617,
+      "personal_match": true,
+      "tags": [
+        "GitHub",
+        "International",
+        "for_you"
+      ],
+      "image_url": "https://avatars.githubusercontent.com/u/54488861?v=4",
+      "profiles": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/2toinf"
+        },
+        {
+          "label": "Find on LinkedIn",
+          "url": "https://www.linkedin.com/search/results/people/?keywords=Jinliang+Zheng+Tsinghua+University",
+          "verified": false
+        }
+      ],
+      "recent_work": [
+        {
+          "title": "2toinf/X-VLA",
+          "url": "https://github.com/2toinf/X-VLA",
+          "date": "2026-06-10T09:04:37Z"
+        }
+      ],
+      "matched_skills": [
+        "vision-language",
+        "vision-language-action",
+        "manipulation",
+        "robotics",
+        "VLA"
+      ],
+      "found_via": [
+        "GitHub"
+      ]
+    },
+    {
       "id": "person_xiao_ming_wu",
       "category": "people",
       "name": "Xiao-Ming Wu",
@@ -449,8 +443,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond PhD Student, MMLab@NTU.",
-      "why_it_matters": "This person works on vision-language-action, vision-language, VLA (1,016★ on GitHub). Recent: DravenALG/awesome-vla-wam.",
-      "score": 0.6584,
+      "why_it_matters": "This person works on vision-language-action, vision-language, VLA (1,017★ on GitHub). Recent: DravenALG/awesome-vla-wam.",
+      "score": 0.6583,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -473,7 +467,7 @@
         {
           "title": "DravenALG/awesome-vla-wam",
           "url": "https://github.com/DravenALG/awesome-vla-wam",
-          "date": "2026-09-13T02:58:15Z"
+          "date": "2026-09-14T03:38:41Z"
         }
       ],
       "matched_skills": [
@@ -495,8 +489,8 @@
       "affiliation": "The University of Hong Kong",
       "region": "International",
       "summary": "[Lumina具身智能社区] 具身智能技术指南 Embodied-AI-Guide Co-founder & CTO @XsparkAI , PhD. Student @HKU-MMLab , Founder @Lumina-EAI",
-      "why_it_matters": "This person works on embodied, robotics (15,946★ on GitHub). Recent: TianxingChen/Embodied-AI-Guide.",
-      "score": 0.644,
+      "why_it_matters": "This person works on embodied, robotics (15,977★ on GitHub). Recent: TianxingChen/Embodied-AI-Guide.",
+      "score": 0.641,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -540,7 +534,7 @@
       "region": "India",
       "summary": "Robotics & AI Engineer | ROS 2 | SLAM | Embodied AI | BIT Bangalore | CGPA 9.0",
       "why_it_matters": "This person works on robotics, AI engineer, ROS 2 (1 GitHub followers). India-based/affiliated. Recent: lasyasuresh on GitHub.",
-      "score": 0.6325,
+      "score": 0.6308,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -589,7 +583,7 @@
       "region": "International",
       "summary": "[Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI Human Cyber Physical (HCP) Intelligence Integration Lab\r\n\r\n中山大学人机物智能融合实验室",
       "why_it_matters": "This person works on embodied, embodied AI, manipulation (2,168★ on GitHub). Recent: HCPLab-SYSU/Embodied_AI_Paper_List.",
-      "score": 0.612,
+      "score": 0.6113,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -636,7 +630,7 @@
       "region": "India",
       "summary": "Computer Science Undergraduate | Machine Learning & Computer Vision | Embodied AI | Robotics | Research",
       "why_it_matters": "This person works on machine learning, computer vision, embodied AI. India-based/affiliated. Recent: MohapatraSaloni on GitHub.",
-      "score": 0.5956,
+      "score": 0.5926,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -683,8 +677,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "CarlaAir: Fly Drones Inside a CARLA World!! A Unified Infrastructure for Air-Ground Embodied Intelligence",
-      "why_it_matters": "This person works on embodied, robotics, ROS2 (1,090★ on GitHub). Recent: louiszengCN/CarlaAir.",
-      "score": 0.5873,
+      "why_it_matters": "This person works on embodied, robotics, ROS2 (1,092★ on GitHub). Recent: louiszengCN/CarlaAir.",
+      "score": 0.5853,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -730,7 +724,7 @@
       "region": "International",
       "summary": "A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation",
       "why_it_matters": "This person works on vision-language-action, vision-language, manipulation (854★ on GitHub). Recent: Denghaoyuan123/Awesome-RL-VLA.",
-      "score": 0.5702,
+      "score": 0.5697,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -767,52 +761,6 @@
       ]
     },
     {
-      "id": "person_abdulaziz",
-      "category": "people",
-      "name": "Abdulaziz",
-      "title": "Abdulaziz",
-      "url": "https://github.com/aalmuzairee",
-      "source": "GitHub",
-      "affiliation": "",
-      "region": "International",
-      "summary": "Squint: Fast Visual Reinforcement Learning for Sim-to-Real Robotics [PyTorch, SO-101 Robot Arm, ManiSkill3, Sim-to-Real] ML & Robotics Researcher",
-      "why_it_matters": "This person works on sim-to-real, robotics, PyTorch (94★ on GitHub). Recent: aalmuzairee/squint.",
-      "score": 0.5624,
-      "personal_match": true,
-      "tags": [
-        "GitHub",
-        "International",
-        "for_you"
-      ],
-      "image_url": "https://avatars.githubusercontent.com/u/43945670?v=4",
-      "profiles": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/aalmuzairee"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Abdulaziz",
-          "verified": false
-        }
-      ],
-      "recent_work": [
-        {
-          "title": "aalmuzairee/squint",
-          "url": "https://github.com/aalmuzairee/squint",
-          "date": "2026-09-04T17:13:21Z"
-        }
-      ],
-      "matched_skills": [
-        "sim-to-real",
-        "robotics",
-        "PyTorch"
-      ],
-      "found_via": [
-        "GitHub"
-      ]
-    },
-    {
       "id": "person_nu_world_model_embodied_ai",
       "category": "people",
       "name": "NU-World-Model-Embodied-AI",
@@ -822,7 +770,7 @@
       "affiliation": "",
       "region": "International",
       "summary": "actquant, arxiv:2605.10806, arxiv:2605.19242, arxiv:2605.24011, arxiv:2606.05254, base_model:Qwen/Qwen3.5-9B",
-      "why_it_matters": "This person works on embodied, robotics, vision-language-action (2 HF likes). Recent: NU-World-Model-Embodied-AI/phyjudge-9B.",
+      "why_it_matters": "This person works on embodied, robotics, vision-language (2 HF likes). Recent: NU-World-Model-Embodied-AI/phyjudge-9B.",
       "score": 0.56,
       "personal_match": true,
       "tags": [
@@ -862,12 +810,58 @@
       "matched_skills": [
         "embodied",
         "robotics",
-        "vision-language-action",
         "vision-language",
+        "vision-language-action",
         "VLA"
       ],
       "found_via": [
         "Hugging Face"
+      ]
+    },
+    {
+      "id": "person_abdulaziz",
+      "category": "people",
+      "name": "Abdulaziz",
+      "title": "Abdulaziz",
+      "url": "https://github.com/aalmuzairee",
+      "source": "GitHub",
+      "affiliation": "",
+      "region": "International",
+      "summary": "Squint: Fast Visual Reinforcement Learning for Sim-to-Real Robotics [PyTorch, SO-101 Robot Arm, ManiSkill3, Sim-to-Real] ML & Robotics Researcher",
+      "why_it_matters": "This person works on sim-to-real, robotics, PyTorch (95★ on GitHub). Recent: aalmuzairee/squint.",
+      "score": 0.5599,
+      "personal_match": true,
+      "tags": [
+        "GitHub",
+        "International",
+        "for_you"
+      ],
+      "image_url": "https://avatars.githubusercontent.com/u/43945670?v=4",
+      "profiles": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/aalmuzairee"
+        },
+        {
+          "label": "Find on LinkedIn",
+          "url": "https://www.linkedin.com/search/results/people/?keywords=Abdulaziz",
+          "verified": false
+        }
+      ],
+      "recent_work": [
+        {
+          "title": "aalmuzairee/squint",
+          "url": "https://github.com/aalmuzairee/squint",
+          "date": "2026-09-04T17:13:21Z"
+        }
+      ],
+      "matched_skills": [
+        "sim-to-real",
+        "robotics",
+        "PyTorch"
+      ],
+      "found_via": [
+        "GitHub"
       ]
     },
     {
@@ -881,7 +875,7 @@
       "region": "International",
       "summary": "Implementation of π₀, the robotic foundation model architecture proposed by Physical Intelligence Working with Attention. It's all we need",
       "why_it_matters": "This person works on robotics, PyTorch (584★ on GitHub). Recent: lucidrains/pi-zero-pytorch.",
-      "score": 0.5284,
+      "score": 0.5257,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -925,7 +919,7 @@
       "region": "International",
       "summary": "Paper list in the survey paper: Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis Robotic researcher interested in 3D Vision for Robotics. CMU PhD.",
       "why_it_matters": "This person works on robotics, vision-language-action, vision-language (468★ on GitHub). Recent: JeffreyYH/Awesome-Generalist-Robots-via-Foundation-Models.",
-      "score": 0.4943,
+      "score": 0.4933,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -961,6 +955,50 @@
       ]
     },
     {
+      "id": "person_yanjie_ze",
+      "category": "people",
+      "name": "Yanjie Ze",
+      "title": "Yanjie Ze",
+      "url": "https://github.com/YanjieZe",
+      "source": "GitHub",
+      "affiliation": "Stanford University",
+      "region": "International",
+      "summary": "A Paper List for Humanoid Robot Learning. Robotics",
+      "why_it_matters": "This person works on humanoid, robotics (2,756★ on GitHub). Recent: YanjieZe/awesome-humanoid-robot-learning.",
+      "score": 0.4767,
+      "personal_match": false,
+      "tags": [
+        "GitHub",
+        "International"
+      ],
+      "image_url": "https://avatars.githubusercontent.com/u/59699800?v=4",
+      "profiles": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/YanjieZe"
+        },
+        {
+          "label": "Find on LinkedIn",
+          "url": "https://www.linkedin.com/search/results/people/?keywords=Yanjie+Ze+Stanford+University",
+          "verified": false
+        }
+      ],
+      "recent_work": [
+        {
+          "title": "YanjieZe/awesome-humanoid-robot-learning",
+          "url": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
+          "date": "2026-07-08T13:48:28Z"
+        }
+      ],
+      "matched_skills": [
+        "humanoid",
+        "robotics"
+      ],
+      "found_via": [
+        "GitHub"
+      ]
+    },
+    {
       "id": "person_mint_sjtu",
       "category": "people",
       "name": "MINT-SJTU",
@@ -971,7 +1009,7 @@
       "region": "International",
       "summary": "Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment MINT-SJTU: Machine Intelligence and Interaction Lab @ SJTU",
       "why_it_matters": "This person works on vision-language-action, vision-language (360★ on GitHub). Recent: MINT-SJTU/Evo-1.",
-      "score": 0.4786,
+      "score": 0.4764,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1014,8 +1052,8 @@
       "affiliation": "",
       "region": "India",
       "summary": "Robotics & Automation Engineer · RL & Embodied AI · IEEE Chair · Building autonomous systems that work in the real world.",
-      "why_it_matters": "This person works on robotics, embodied AI, embodied (2 GitHub followers). India-based/affiliated. Recent: Erints on GitHub.",
-      "score": 0.4786,
+      "why_it_matters": "This person works on robotics, embodied, embodied AI (2 GitHub followers). India-based/affiliated. Recent: Erints on GitHub.",
+      "score": 0.4754,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1043,52 +1081,8 @@
       ],
       "matched_skills": [
         "robotics",
-        "embodied AI",
-        "embodied"
-      ],
-      "found_via": [
-        "GitHub"
-      ]
-    },
-    {
-      "id": "person_yanjie_ze",
-      "category": "people",
-      "name": "Yanjie Ze",
-      "title": "Yanjie Ze",
-      "url": "https://github.com/YanjieZe",
-      "source": "GitHub",
-      "affiliation": "Stanford University",
-      "region": "International",
-      "summary": "A Paper List for Humanoid Robot Learning. Robotics",
-      "why_it_matters": "This person works on humanoid, robotics (2,754★ on GitHub). Recent: YanjieZe/awesome-humanoid-robot-learning.",
-      "score": 0.4779,
-      "personal_match": false,
-      "tags": [
-        "GitHub",
-        "International"
-      ],
-      "image_url": "https://avatars.githubusercontent.com/u/59699800?v=4",
-      "profiles": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/YanjieZe"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Yanjie+Ze+Stanford+University",
-          "verified": false
-        }
-      ],
-      "recent_work": [
-        {
-          "title": "YanjieZe/awesome-humanoid-robot-learning",
-          "url": "https://github.com/YanjieZe/awesome-humanoid-robot-learning",
-          "date": "2026-07-08T13:48:28Z"
-        }
-      ],
-      "matched_skills": [
-        "humanoid",
-        "robotics"
+        "embodied",
+        "embodied AI"
       ],
       "found_via": [
         "GitHub"
@@ -1104,8 +1098,8 @@
       "affiliation": "",
       "region": "India",
       "summary": "Electronics & Communication Engineering Student | Robotics | ROS 2 | Embodied AI",
-      "why_it_matters": "This person works on robotics, ROS 2, embodied AI. India-based/affiliated. Recent: thejas472 on GitHub.",
-      "score": 0.4696,
+      "why_it_matters": "This person works on robotics, ROS 2, embodied. India-based/affiliated. Recent: thejas472 on GitHub.",
+      "score": 0.4673,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1134,8 +1128,8 @@
       "matched_skills": [
         "robotics",
         "ROS 2",
-        "embodied AI",
-        "embodied"
+        "embodied",
+        "embodied AI"
       ],
       "found_via": [
         "GitHub"
@@ -1151,8 +1145,8 @@
       "affiliation": "Haradi Bots",
       "region": "India",
       "summary": "👋 Hey, I’m Aditya (Haradi Bots)\r\n\r\nYoung robotics and AI developer building the future one project at a time.\r\nI work on humanoid robots, deep learning models",
-      "why_it_matters": "This person works on robotics, humanoid, deep learning (53 GitHub followers). India-based/affiliated. Recent: haradi880 on GitHub.",
-      "score": 0.4554,
+      "why_it_matters": "This person works on robotics, humanoid, deep learning (51 GitHub followers). India-based/affiliated. Recent: haradi880 on GitHub.",
+      "score": 0.453,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1197,8 +1191,8 @@
       "affiliation": "Atxlabs",
       "region": "India",
       "summary": "Agentic AI Engineer. I build multi-agent systems that plan, use tools, and hold up in production. Building toward embodied AI.",
-      "why_it_matters": "This person works on AI engineer, embodied AI, embodied (1 GitHub followers). India-based/affiliated. Recent: adityajadhavv18 on GitHub.",
-      "score": 0.4452,
+      "why_it_matters": "This person works on AI engineer, embodied, embodied AI (1 GitHub followers). India-based/affiliated. Recent: adityajadhavv18 on GitHub.",
+      "score": 0.4424,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1226,51 +1220,8 @@
       ],
       "matched_skills": [
         "AI engineer",
-        "embodied AI",
-        "embodied"
-      ],
-      "found_via": [
-        "GitHub"
-      ]
-    },
-    {
-      "id": "person_ziqi_fan",
-      "category": "people",
-      "name": "Ziqi Fan",
-      "title": "Ziqi Fan",
-      "url": "https://github.com/fan-ziqi",
-      "source": "GitHub",
-      "affiliation": "ZSTU & NJUST",
-      "region": "International",
-      "summary": "Simulation verification and physical deployment of robot reinforcement learning algorithms, suitable for quadruped robots, wheeled robots, and humanoid robots. \"sar\" represents \"simulation and real\" 应无所住 而生其心",
-      "why_it_matters": "This person works on humanoid (1,459★ on GitHub). Recent: fan-ziqi/rl_sar.",
-      "score": 0.4337,
-      "personal_match": false,
-      "tags": [
-        "GitHub",
-        "International"
-      ],
-      "image_url": "https://avatars.githubusercontent.com/u/62320343?v=4",
-      "profiles": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/fan-ziqi"
-        },
-        {
-          "label": "LinkedIn",
-          "url": "https://www.linkedin.com/in/robotsfan",
-          "verified": true
-        }
-      ],
-      "recent_work": [
-        {
-          "title": "fan-ziqi/rl_sar",
-          "url": "https://github.com/fan-ziqi/rl_sar",
-          "date": "2026-08-16T10:59:49Z"
-        }
-      ],
-      "matched_skills": [
-        "humanoid"
+        "embodied",
+        "embodied AI"
       ],
       "found_via": [
         "GitHub"
@@ -1324,44 +1275,43 @@
       ]
     },
     {
-      "id": "person_zihao_he",
+      "id": "person_ziqi_fan",
       "category": "people",
-      "name": "Zihao He",
-      "title": "Zihao He",
-      "url": "https://github.com/Alan-Heoooh",
+      "name": "Ziqi Fan",
+      "title": "Ziqi Fan",
+      "url": "https://github.com/fan-ziqi",
       "source": "GitHub",
-      "affiliation": "Shanghai Jiao Tong University",
+      "affiliation": "ZSTU & NJUST",
       "region": "International",
-      "summary": "[RA-L 2025 & IROS 2025] FoAR: Force-Aware Reactive Policy for Contact-Rich Robotic Manipulation Undergraduate Student @ SJTU | Robot Learning",
-      "why_it_matters": "This person works on ROS 2, manipulation (69★ on GitHub). Recent: Alan-Heoooh/FoAR.",
-      "score": 0.4085,
+      "summary": "Simulation verification and physical deployment of robot reinforcement learning algorithms, suitable for quadruped robots, wheeled robots, and humanoid robots. \"sar\" represents \"simulation and real\" 应无所住 而生其心",
+      "why_it_matters": "This person works on humanoid (1,459★ on GitHub). Recent: fan-ziqi/rl_sar.",
+      "score": 0.4316,
       "personal_match": false,
       "tags": [
         "GitHub",
         "International"
       ],
-      "image_url": "https://avatars.githubusercontent.com/u/120731772?v=4",
+      "image_url": "https://avatars.githubusercontent.com/u/62320343?v=4",
       "profiles": [
         {
           "label": "GitHub",
-          "url": "https://github.com/Alan-Heoooh"
+          "url": "https://github.com/fan-ziqi"
         },
         {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Zihao+He+Shanghai+Jiao+Tong+University",
-          "verified": false
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/robotsfan",
+          "verified": true
         }
       ],
       "recent_work": [
         {
-          "title": "Alan-Heoooh/FoAR",
-          "url": "https://github.com/Alan-Heoooh/FoAR",
-          "date": "2026-08-07T14:22:26Z"
+          "title": "fan-ziqi/rl_sar",
+          "url": "https://github.com/fan-ziqi/rl_sar",
+          "date": "2026-08-16T10:59:49Z"
         }
       ],
       "matched_skills": [
-        "ROS 2",
-        "manipulation"
+        "humanoid"
       ],
       "found_via": [
         "GitHub"
@@ -1378,7 +1328,7 @@
       "region": "International",
       "summary": "Training a humanoid robot for locomotion using Reinforcement Learning Humanoid robotics researcher",
       "why_it_matters": "This person works on humanoid, robotics (1,214★ on GitHub). Recent: rohanpsingh/LearningHumanoidWalking.",
-      "score": 0.4074,
+      "score": 0.407,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1412,6 +1362,50 @@
       ]
     },
     {
+      "id": "person_zihao_he",
+      "category": "people",
+      "name": "Zihao He",
+      "title": "Zihao He",
+      "url": "https://github.com/Alan-Heoooh",
+      "source": "GitHub",
+      "affiliation": "Shanghai Jiao Tong University",
+      "region": "International",
+      "summary": "[RA-L 2025 & IROS 2025] FoAR: Force-Aware Reactive Policy for Contact-Rich Robotic Manipulation Undergraduate Student @ SJTU | Robot Learning",
+      "why_it_matters": "This person works on ROS 2, manipulation (69★ on GitHub). Recent: Alan-Heoooh/FoAR.",
+      "score": 0.4066,
+      "personal_match": false,
+      "tags": [
+        "GitHub",
+        "International"
+      ],
+      "image_url": "https://avatars.githubusercontent.com/u/120731772?v=4",
+      "profiles": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Alan-Heoooh"
+        },
+        {
+          "label": "Find on LinkedIn",
+          "url": "https://www.linkedin.com/search/results/people/?keywords=Zihao+He+Shanghai+Jiao+Tong+University",
+          "verified": false
+        }
+      ],
+      "recent_work": [
+        {
+          "title": "Alan-Heoooh/FoAR",
+          "url": "https://github.com/Alan-Heoooh/FoAR",
+          "date": "2026-08-07T14:22:26Z"
+        }
+      ],
+      "matched_skills": [
+        "ROS 2",
+        "manipulation"
+      ],
+      "found_via": [
+        "GitHub"
+      ]
+    },
+    {
       "id": "person_jinlong_wu",
       "category": "people",
       "name": "JInlong Wu",
@@ -1422,7 +1416,7 @@
       "region": "International",
       "summary": "TensorRT-first robot foundation model inference for edge GPUs Just a boy to catch stars.",
       "why_it_matters": "This person works on TensorRT (49★ on GitHub). Recent: Jinlong-cs/pi.cpp.",
-      "score": 0.4009,
+      "score": 0.4017,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1444,7 +1438,7 @@
         {
           "title": "Jinlong-cs/pi.cpp",
           "url": "https://github.com/Jinlong-cs/pi.cpp",
-          "date": "2026-09-13T06:17:34Z"
+          "date": "2026-09-14T14:31:09Z"
         }
       ],
       "matched_skills": [
@@ -1452,251 +1446,6 @@
       ],
       "found_via": [
         "GitHub"
-      ]
-    },
-    {
-      "id": "person_moo_jin_kim",
-      "category": "people",
-      "name": "Moo Jin Kim",
-      "title": "Moo Jin Kim",
-      "url": "https://www.semanticscholar.org/author/2159987907",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (5,593 citations; h-index 10).",
-      "score": 0.4,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2159987907"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Moo+Jin+Kim",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_karl_pertsch",
-      "category": "people",
-      "name": "Karl Pertsch",
-      "title": "Karl Pertsch",
-      "url": "https://www.semanticscholar.org/author/31719101",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (17,895 citations; h-index 32).",
-      "score": 0.4,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/31719101"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Karl+Pertsch",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_siddharth_karamcheti",
-      "category": "people",
-      "name": "Siddharth Karamcheti",
-      "title": "Siddharth Karamcheti",
-      "url": "https://www.siddkaramcheti.com/",
-      "source": "Semantic Scholar",
-      "affiliation": "Stanford University",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (12,045 citations; h-index 21).",
-      "score": 0.4,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/10737060"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Siddharth+Karamcheti+Stanford+University",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_ted_xiao",
-      "category": "people",
-      "name": "Ted Xiao",
-      "title": "Ted Xiao",
-      "url": "https://www.semanticscholar.org/author/9961095",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (19,999 citations; h-index 33).",
-      "score": 0.4,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/9961095"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Ted+Xiao",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_a_balakrishna",
-      "category": "people",
-      "name": "A. Balakrishna",
-      "title": "A. Balakrishna",
-      "url": "https://www.semanticscholar.org/author/3117588",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (5,005 citations; h-index 24).",
-      "score": 0.4,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/3117588"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=A.+Balakrishna",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_kevin_black",
-      "category": "people",
-      "name": "Kevin Black",
-      "title": "Kevin Black",
-      "url": "https://www.semanticscholar.org/author/2258959388",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (5,540 citations; h-index 13).",
-      "score": 0.4,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2258959388"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Kevin+Black",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_noah_brown",
-      "category": "people",
-      "name": "Noah Brown",
-      "title": "Noah Brown",
-      "url": "https://www.semanticscholar.org/author/2161343011",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (13,731 citations; h-index 10).",
-      "score": 0.4,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2161343011"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Noah+Brown",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
       ]
     },
     {
@@ -1709,8 +1458,8 @@
       "affiliation": "DatraAI",
       "region": "India",
       "summary": "Multimodal data processing layer for Embodied AI",
-      "why_it_matters": "This person works on multimodal, embodied AI, embodied (3 GitHub followers). India-based/affiliated. Recent: datraai-labs on GitHub.",
-      "score": 0.3813,
+      "why_it_matters": "This person works on multimodal, embodied, embodied AI (3 GitHub followers). India-based/affiliated. Recent: datraai-labs on GitHub.",
+      "score": 0.3799,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1738,8 +1487,8 @@
       ],
       "matched_skills": [
         "multimodal",
-        "embodied AI",
-        "embodied"
+        "embodied",
+        "embodied AI"
       ],
       "found_via": [
         "GitHub"
@@ -1802,146 +1551,6 @@
       ]
     },
     {
-      "id": "person_karan_dhabalia",
-      "category": "people",
-      "name": "Karan Dhabalia",
-      "title": "Karan Dhabalia",
-      "url": "https://www.semanticscholar.org/author/2356782366",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (1,320 citations; h-index 5).",
-      "score": 0.3531,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2356782366"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Karan+Dhabalia",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_james_darpinian",
-      "category": "people",
-      "name": "James Darpinian",
-      "title": "James Darpinian",
-      "url": "https://www.semanticscholar.org/author/2356784408",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (1,315 citations; h-index 4).",
-      "score": 0.353,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2356784408"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=James+Darpinian",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_physical_intelligence",
-      "category": "people",
-      "name": "Physical Intelligence",
-      "title": "Physical Intelligence",
-      "url": "https://www.semanticscholar.org/author/2356784273",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (1,287 citations; h-index 3).",
-      "score": 0.3522,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2356784273"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Physical+Intelligence",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_mustafa_shukor",
-      "category": "people",
-      "name": "Mustafa Shukor",
-      "title": "Mustafa Shukor",
-      "url": "https://www.semanticscholar.org/author/2067292515",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (1,168 citations; h-index 16).",
-      "score": 0.3488,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2067292515"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Mustafa+Shukor",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
       "id": "person_swastik_mitra",
       "category": "people",
       "name": "Swastik mitra",
@@ -1951,8 +1560,8 @@
       "affiliation": "Indian institute of technology",
       "region": "India",
       "summary": "Interested in dynamical systems and Embodied AI",
-      "why_it_matters": "This person works on embodied AI, embodied (13 GitHub followers). India-based/affiliated. Recent: Swastikmitra34 on GitHub.",
-      "score": 0.348,
+      "why_it_matters": "This person works on embodied, embodied AI (13 GitHub followers). India-based/affiliated. Recent: Swastikmitra34 on GitHub.",
+      "score": 0.3466,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1978,8 +1587,8 @@
         }
       ],
       "matched_skills": [
-        "embodied AI",
-        "embodied"
+        "embodied",
+        "embodied AI"
       ],
       "found_via": [
         "GitHub"
@@ -1995,8 +1604,8 @@
       "affiliation": "Peking University",
       "region": "International",
       "summary": "The official implementation of the paper \"Scaling Behavior Foundation Model for Humanoid Robots\"",
-      "why_it_matters": "This person works on humanoid (243★ on GitHub). Recent: zengweishuai/ScaleBFM.",
-      "score": 0.3424,
+      "why_it_matters": "This person works on humanoid (246★ on GitHub). Recent: zengweishuai/ScaleBFM.",
+      "score": 0.3412,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -2026,566 +1635,6 @@
       ],
       "found_via": [
         "GitHub"
-      ]
-    },
-    {
-      "id": "person_jianxiong_li",
-      "category": "people",
-      "name": "Jianxiong Li",
-      "title": "Jianxiong Li",
-      "url": "https://facebear-ljx.github.io/",
-      "source": "Semantic Scholar",
-      "affiliation": "Institute for AI Industry Research (AIR), Tsinghua University",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (912 citations; h-index 14).",
-      "score": 0.3401,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2136086524"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Jianxiong+Li+Institute+for+AI+Industry+Research+%28AIR%29%2C+Tsinghua+University",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_run_luo",
-      "category": "people",
-      "name": "Run Luo",
-      "title": "Run Luo",
-      "url": "https://www.semanticscholar.org/author/2240531270",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (578 citations; h-index 10).",
-      "score": 0.3241,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2240531270"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Run+Luo",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_qixiu_li",
-      "category": "people",
-      "name": "Qixiu Li",
-      "title": "Qixiu Li",
-      "url": "https://www.semanticscholar.org/author/2322728528",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (512 citations; h-index 6).",
-      "score": 0.3198,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2322728528"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Qixiu+Li",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_dana_aubakirova",
-      "category": "people",
-      "name": "Dana Aubakirova",
-      "title": "Dana Aubakirova",
-      "url": "https://www.semanticscholar.org/author/2252792786",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (450 citations; h-index 5).",
-      "score": 0.3153,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2252792786"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Dana+Aubakirova",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_zewei_zhou",
-      "category": "people",
-      "name": "Zewei Zhou",
-      "title": "Zewei Zhou",
-      "url": "https://www.semanticscholar.org/author/2292466757",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (428 citations; h-index 7).",
-      "score": 0.3135,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2292466757"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Zewei+Zhou",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_pepijn_kooijmans",
-      "category": "people",
-      "name": "Pepijn Kooijmans",
-      "title": "Pepijn Kooijmans",
-      "url": "https://www.semanticscholar.org/author/2365036530",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (357 citations; h-index 2).",
-      "score": 0.3071,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2365036530"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Pepijn+Kooijmans",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_steven_palma",
-      "category": "people",
-      "name": "Steven Palma",
-      "title": "Steven Palma",
-      "url": "https://www.semanticscholar.org/author/2365038732",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (357 citations; h-index 2).",
-      "score": 0.3071,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2365038732"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Steven+Palma",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_xiaobo_xia",
-      "category": "people",
-      "name": "Xiaobo Xia",
-      "title": "Xiaobo Xia",
-      "url": "https://www.semanticscholar.org/author/2308850042",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (348 citations; h-index 7).",
-      "score": 0.3062,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2308850042"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Xiaobo+Xia",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_francesco_capuano",
-      "category": "people",
-      "name": "Francesco Capuano",
-      "title": "Francesco Capuano",
-      "url": "https://www.semanticscholar.org/author/2365036806",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (328 citations; h-index 2).",
-      "score": 0.3042,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2365036806"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Francesco+Capuano",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_seth_z_zhao",
-      "category": "people",
-      "name": "Seth Z. Zhao",
-      "title": "Seth Z. Zhao",
-      "url": "https://www.semanticscholar.org/author/2316585215",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (289 citations; h-index 6).",
-      "score": 0.2997,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2316585215"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Seth+Z.+Zhao",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_tianhui_cai",
-      "category": "people",
-      "name": "Tianhui Cai",
-      "title": "Tianhui Cai",
-      "url": "https://www.semanticscholar.org/author/2324784985",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (274 citations; h-index 5).",
-      "score": 0.2978,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2324784985"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Tianhui+Cai",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_zhiyu_huang",
-      "category": "people",
-      "name": "Zhiyu Huang",
-      "title": "Zhiyu Huang",
-      "url": "https://www.semanticscholar.org/author/2333367109",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (271 citations; h-index 6).",
-      "score": 0.2975,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2333367109"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Zhiyu+Huang",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_zhihao_wang",
-      "category": "people",
-      "name": "Zhihao Wang",
-      "title": "Zhihao Wang",
-      "url": "https://www.semanticscholar.org/author/2313032843",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (252 citations; h-index 5).",
-      "score": 0.2949,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2313032843"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Zhihao+Wang",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_yun_zhang",
-      "category": "people",
-      "name": "Yun Zhang",
-      "title": "Yun Zhang",
-      "url": "https://www.semanticscholar.org/author/2334386538",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (250 citations; h-index 5).",
-      "score": 0.2946,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2334386538"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Yun+Zhang",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_lu_wang",
-      "category": "people",
-      "name": "Lu Wang",
-      "title": "Lu Wang",
-      "url": "https://www.semanticscholar.org/author/2356448329",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (247 citations; h-index 4).",
-      "score": 0.2942,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2356448329"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Lu+Wang",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
-      ]
-    },
-    {
-      "id": "person_xirui_kang",
-      "category": "people",
-      "name": "Xirui Kang",
-      "title": "Xirui Kang",
-      "url": "https://www.semanticscholar.org/author/2385783820",
-      "source": "Semantic Scholar",
-      "affiliation": "",
-      "region": "International",
-      "summary": "",
-      "why_it_matters": "This person is active in your field (142 citations; h-index 1).",
-      "score": 0.2748,
-      "personal_match": false,
-      "tags": [
-        "International",
-        "Semantic Scholar"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Semantic Scholar",
-          "url": "https://www.semanticscholar.org/author/2385783820"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=Xirui+Kang",
-          "verified": false
-        }
-      ],
-      "recent_work": [],
-      "matched_skills": [],
-      "found_via": [
-        "Semantic Scholar"
       ]
     },
     {
@@ -2632,6 +1681,49 @@
       ]
     },
     {
+      "id": "person_klein8734",
+      "category": "people",
+      "name": "klein8734",
+      "title": "klein8734",
+      "url": "https://huggingface.co/klein8734",
+      "source": "Hugging Face",
+      "affiliation": "",
+      "region": "International",
+      "summary": "embodied-ai, license:mit, region:us, research-notes, safetensors, transformer",
+      "why_it_matters": "This person works on embodied (4 HF likes). Recent: klein8734/embodied-ai-study.",
+      "score": 0.2468,
+      "personal_match": false,
+      "tags": [
+        "Hugging Face",
+        "International"
+      ],
+      "image_url": null,
+      "profiles": [
+        {
+          "label": "Hugging Face",
+          "url": "https://huggingface.co/klein8734"
+        },
+        {
+          "label": "Find on LinkedIn",
+          "url": "https://www.linkedin.com/search/results/people/?keywords=klein8734",
+          "verified": false
+        }
+      ],
+      "recent_work": [
+        {
+          "title": "klein8734/embodied-ai-study",
+          "url": "https://huggingface.co/klein8734/embodied-ai-study",
+          "date": null
+        }
+      ],
+      "matched_skills": [
+        "embodied"
+      ],
+      "found_via": [
+        "Hugging Face"
+      ]
+    },
+    {
       "id": "person_sen_wang",
       "category": "people",
       "name": "Sen Wang",
@@ -2641,8 +1733,8 @@
       "affiliation": "Xi'an Jiaotong University",
       "region": "International",
       "summary": "[2025CVPR] FlowRAM: Grounding Flow Matching Policy with Region-Aware Mamba Framework for Robotic Manipulation",
-      "why_it_matters": "This person works on manipulation (55★ on GitHub). Recent: SanMumumu/FlowRAM.",
-      "score": 0.2444,
+      "why_it_matters": "This person works on manipulation (56★ on GitHub). Recent: SanMumumu/FlowRAM.",
+      "score": 0.2442,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -2884,49 +1976,6 @@
         {
           "title": "advaitsharma/paper_020442611_embodied_ai",
           "url": "https://huggingface.co/advaitsharma/paper_020442611_embodied_ai",
-          "date": null
-        }
-      ],
-      "matched_skills": [
-        "embodied"
-      ],
-      "found_via": [
-        "Hugging Face"
-      ]
-    },
-    {
-      "id": "person_yyilmazmehmet",
-      "category": "people",
-      "name": "yyilmazmehmet",
-      "title": "yyilmazmehmet",
-      "url": "https://huggingface.co/yyilmazmehmet",
-      "source": "Hugging Face",
-      "affiliation": "",
-      "region": "International",
-      "summary": "concise-analytical, critical, embodied-ai, highlight-bullet, impersonal, intro-method-exp-related-conclusion",
-      "why_it_matters": "This person works on embodied. Recent: yyilmazmehmet/paper_021360441_embodied_ai.",
-      "score": 0.1833,
-      "personal_match": false,
-      "tags": [
-        "Hugging Face",
-        "International"
-      ],
-      "image_url": null,
-      "profiles": [
-        {
-          "label": "Hugging Face",
-          "url": "https://huggingface.co/yyilmazmehmet"
-        },
-        {
-          "label": "Find on LinkedIn",
-          "url": "https://www.linkedin.com/search/results/people/?keywords=yyilmazmehmet",
-          "verified": false
-        }
-      ],
-      "recent_work": [
-        {
-          "title": "yyilmazmehmet/paper_021360441_embodied_ai",
-          "url": "https://huggingface.co/yyilmazmehmet/paper_021360441_embodied_ai",
           "date": null
         }
       ],
