@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:42:38Z",
+  "generated_at": "2026-09-15T14:12:09Z",
   "people": [
     {
       "id": "person_qiang_jony_zhang",
@@ -11,8 +11,8 @@
       "affiliation": "University of Science and Technology of China",
       "region": "International",
       "summary": "A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches. Embodied AI Researcher",
-      "why_it_matters": "This person works on embodied AI, embodied, vision-language (3,527★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.",
-      "score": 0.8586,
+      "why_it_matters": "This person works on embodied AI, embodied, vision-language-action (3,534★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.",
+      "score": 0.9463,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -35,14 +35,14 @@
         {
           "title": "jonyzhang2023/awesome-embodied-vla-va-vln",
           "url": "https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln",
-          "date": "2026-08-07T12:31:28Z"
+          "date": "2026-09-15T04:53:08Z"
         }
       ],
       "matched_skills": [
         "embodied AI",
         "embodied",
-        "vision-language",
         "vision-language-action",
+        "vision-language",
         "VLA",
         "multimodal"
       ],
@@ -61,7 +61,7 @@
       "region": "International",
       "summary": "Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources. I am a Ph.D student at HUST, China. Joint training with Tsinghua University @thunlp . Embodied intelligence field, RL field. Worked @OpenBMB(ModelBest).",
       "why_it_matters": "This person works on embodied AI, embodied, VLA (244★ on GitHub). Recent: wadeKeith/Awesome-Embodied-AI.",
-      "score": 0.8459,
+      "score": 0.8433,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -109,8 +109,8 @@
       "affiliation": "UESTC | UniTn",
       "region": "International",
       "summary": "This is a curated list of \"Embodied AI or robot with Large Language Models\" research. Watch this repository for the latest updates! 🔥 Ph.D. student. Research Interests: LLM-Agents, Vision-Language.",
-      "why_it_matters": "This person works on embodied, embodied AI, vision-language (1,880★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.",
-      "score": 0.7487,
+      "why_it_matters": "This person works on embodied AI, embodied, vision-language (1,883★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.",
+      "score": 0.7461,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -137,8 +137,8 @@
         }
       ],
       "matched_skills": [
-        "embodied",
         "embodied AI",
+        "embodied",
         "vision-language",
         "robotics"
       ],
@@ -156,8 +156,8 @@
       "affiliation": "Om Labs",
       "region": "International",
       "summary": "A curated list of academic papers and resources on Physical AI — focusing on Vision-Language-Action (VLA) models, world models, embodied ai, and robotic foundation models. Co-founder @ Om Labs,\r\nex-Uber",
-      "why_it_matters": "This person works on vision-language, vision-language-action, VLA (419★ on GitHub). Recent: keon/awesome-physical-ai.",
-      "score": 0.7394,
+      "why_it_matters": "This person works on vision-language-action, vision-language, VLA (421★ on GitHub). Recent: keon/awesome-physical-ai.",
+      "score": 0.7387,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -184,8 +184,8 @@
         }
       ],
       "matched_skills": [
-        "vision-language",
         "vision-language-action",
+        "vision-language",
         "VLA",
         "world model",
         "embodied AI",
@@ -205,8 +205,8 @@
       "affiliation": "Tsinghua University",
       "region": "International",
       "summary": "[ICLR 2026] Code of \"MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation\" Master's Student in Embodied AI, Dept. Automation, Tsinghua University.",
-      "why_it_matters": "This person works on VLA, vision-language, vision-language-action (342★ on GitHub). Recent: shihao1895/MemoryVLA.",
-      "score": 0.7244,
+      "why_it_matters": "This person works on VLA, vision-language-action, vision-language (342★ on GitHub). Recent: shihao1895/MemoryVLA.",
+      "score": 0.7237,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -234,8 +234,8 @@
       ],
       "matched_skills": [
         "VLA",
-        "vision-language",
         "vision-language-action",
+        "vision-language",
         "manipulation",
         "embodied AI",
         "embodied"
@@ -254,8 +254,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "[ECCV 2026] VLA-JEPA: Enhancing Vision-Language-Action Model with Latent World Model",
-      "why_it_matters": "This person works on VLA, vision-language-action, vision-language (572★ on GitHub). Recent: ginwind/VLA-JEPA.",
-      "score": 0.6809,
+      "why_it_matters": "This person works on VLA, vision-language-action, vision-language (574★ on GitHub). Recent: ginwind/VLA-JEPA.",
+      "score": 0.6788,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -301,8 +301,8 @@
       "affiliation": "PKU",
       "region": "International",
       "summary": "A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related websites.",
-      "why_it_matters": "This person works on world model, embodied, embodied AI (2,014★ on GitHub). Recent: leofan90/Awesome-World-Models.",
-      "score": 0.6792,
+      "why_it_matters": "This person works on world model, embodied AI, embodied (2,014★ on GitHub). Recent: leofan90/Awesome-World-Models.",
+      "score": 0.6764,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -330,8 +330,8 @@
       ],
       "matched_skills": [
         "world model",
-        "embodied",
-        "embodied AI"
+        "embodied AI",
+        "embodied"
       ],
       "found_via": [
         "GitHub"
@@ -348,7 +348,7 @@
       "region": "International",
       "summary": "A curated collection of papers on Sim-to-Real, Real-to-Sim, and Real2Sim2Real transfer for robotics, reinforcement learning, and embodied AI. sun254667307@gmail.com",
       "why_it_matters": "This person works on sim-to-real, robotics, embodied AI (106★ on GitHub). Recent: sun254667/Awesome-Real2Sim2Real.",
-      "score": 0.6641,
+      "score": 0.6625,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -395,8 +395,8 @@
       "affiliation": "Tsinghua University",
       "region": "International",
       "summary": "[ICLR 2026] The offical Implementation of \"Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model\"",
-      "why_it_matters": "This person works on vision-language, vision-language-action, manipulation (728★ on GitHub). Recent: 2toinf/X-VLA.",
-      "score": 0.6617,
+      "why_it_matters": "This person works on vision-language-action, vision-language, manipulation (728★ on GitHub). Recent: 2toinf/X-VLA.",
+      "score": 0.6611,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -423,8 +423,8 @@
         }
       ],
       "matched_skills": [
-        "vision-language",
         "vision-language-action",
+        "vision-language",
         "manipulation",
         "robotics",
         "VLA"
@@ -443,8 +443,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond PhD Student, MMLab@NTU.",
-      "why_it_matters": "This person works on vision-language-action, vision-language, VLA (1,017★ on GitHub). Recent: DravenALG/awesome-vla-wam.",
-      "score": 0.6583,
+      "why_it_matters": "This person works on vision-language-action, vision-language, VLA (1,018★ on GitHub). Recent: DravenALG/awesome-vla-wam.",
+      "score": 0.6554,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -489,8 +489,8 @@
       "affiliation": "The University of Hong Kong",
       "region": "International",
       "summary": "[Lumina具身智能社区] 具身智能技术指南 Embodied-AI-Guide Co-founder & CTO @XsparkAI , PhD. Student @HKU-MMLab , Founder @Lumina-EAI",
-      "why_it_matters": "This person works on embodied, robotics (15,977★ on GitHub). Recent: TianxingChen/Embodied-AI-Guide.",
-      "score": 0.641,
+      "why_it_matters": "This person works on embodied, robotics (15,996★ on GitHub). Recent: TianxingChen/Embodied-AI-Guide.",
+      "score": 0.6384,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -534,7 +534,7 @@
       "region": "India",
       "summary": "Robotics & AI Engineer | ROS 2 | SLAM | Embodied AI | BIT Bangalore | CGPA 9.0",
       "why_it_matters": "This person works on robotics, AI engineer, ROS 2 (1 GitHub followers). India-based/affiliated. Recent: lasyasuresh on GitHub.",
-      "score": 0.6308,
+      "score": 0.6292,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -582,8 +582,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "[Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI Human Cyber Physical (HCP) Intelligence Integration Lab\r\n\r\n中山大学人机物智能融合实验室",
-      "why_it_matters": "This person works on embodied, embodied AI, manipulation (2,168★ on GitHub). Recent: HCPLab-SYSU/Embodied_AI_Paper_List.",
-      "score": 0.6113,
+      "why_it_matters": "This person works on embodied, embodied AI, manipulation (2,169★ on GitHub). Recent: HCPLab-SYSU/Embodied_AI_Paper_List.",
+      "score": 0.6106,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -630,7 +630,7 @@
       "region": "India",
       "summary": "Computer Science Undergraduate | Machine Learning & Computer Vision | Embodied AI | Robotics | Research",
       "why_it_matters": "This person works on machine learning, computer vision, embodied AI. India-based/affiliated. Recent: MohapatraSaloni on GitHub.",
-      "score": 0.5926,
+      "score": 0.5901,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -677,8 +677,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "CarlaAir: Fly Drones Inside a CARLA World!! A Unified Infrastructure for Air-Ground Embodied Intelligence",
-      "why_it_matters": "This person works on embodied, robotics, ROS2 (1,092★ on GitHub). Recent: louiszengCN/CarlaAir.",
-      "score": 0.5853,
+      "why_it_matters": "This person works on embodied, robotics, ROS2 (1,093★ on GitHub). Recent: louiszengCN/CarlaAir.",
+      "score": 0.5835,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -723,8 +723,8 @@
       "affiliation": "Nanyang Technological University",
       "region": "International",
       "summary": "A Survey on Reinforcement Learning of Vision-Language-Action Models for Robotic Manipulation",
-      "why_it_matters": "This person works on vision-language-action, vision-language, manipulation (854★ on GitHub). Recent: Denghaoyuan123/Awesome-RL-VLA.",
-      "score": 0.5697,
+      "why_it_matters": "This person works on vision-language-action, vision-language, manipulation (856★ on GitHub). Recent: Denghaoyuan123/Awesome-RL-VLA.",
+      "score": 0.5693,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -770,7 +770,7 @@
       "affiliation": "",
       "region": "International",
       "summary": "actquant, arxiv:2605.10806, arxiv:2605.19242, arxiv:2605.24011, arxiv:2606.05254, base_model:Qwen/Qwen3.5-9B",
-      "why_it_matters": "This person works on embodied, robotics, vision-language (2 HF likes). Recent: NU-World-Model-Embodied-AI/phyjudge-9B.",
+      "why_it_matters": "This person works on embodied, robotics, vision-language-action (2 HF likes). Recent: NU-World-Model-Embodied-AI/phyjudge-9B.",
       "score": 0.56,
       "personal_match": true,
       "tags": [
@@ -810,8 +810,8 @@
       "matched_skills": [
         "embodied",
         "robotics",
-        "vision-language",
         "vision-language-action",
+        "vision-language",
         "VLA"
       ],
       "found_via": [
@@ -829,7 +829,7 @@
       "region": "International",
       "summary": "Squint: Fast Visual Reinforcement Learning for Sim-to-Real Robotics [PyTorch, SO-101 Robot Arm, ManiSkill3, Sim-to-Real] ML & Robotics Researcher",
       "why_it_matters": "This person works on sim-to-real, robotics, PyTorch (95★ on GitHub). Recent: aalmuzairee/squint.",
-      "score": 0.5599,
+      "score": 0.5574,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -875,7 +875,7 @@
       "region": "International",
       "summary": "Implementation of π₀, the robotic foundation model architecture proposed by Physical Intelligence Working with Attention. It's all we need",
       "why_it_matters": "This person works on robotics, PyTorch (584★ on GitHub). Recent: lucidrains/pi-zero-pytorch.",
-      "score": 0.5257,
+      "score": 0.5233,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -918,8 +918,8 @@
       "affiliation": "Carnegie Mellon University",
       "region": "International",
       "summary": "Paper list in the survey paper: Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis Robotic researcher interested in 3D Vision for Robotics. CMU PhD.",
-      "why_it_matters": "This person works on robotics, vision-language-action, vision-language (468★ on GitHub). Recent: JeffreyYH/Awesome-Generalist-Robots-via-Foundation-Models.",
-      "score": 0.4933,
+      "why_it_matters": "This person works on robotics, vision-language-action, vision-language (469★ on GitHub). Recent: JeffreyYH/Awesome-Generalist-Robots-via-Foundation-Models.",
+      "score": 0.4925,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -955,6 +955,52 @@
       ]
     },
     {
+      "id": "person_arin_t_s",
+      "category": "people",
+      "name": "Arin T S ",
+      "title": "Arin T S ",
+      "url": "https://github.com/Erints",
+      "source": "GitHub",
+      "affiliation": "",
+      "region": "India",
+      "summary": "Robotics & Automation Engineer · RL & Embodied AI · IEEE Chair · Building autonomous systems that work in the real world.",
+      "why_it_matters": "This person works on robotics, embodied AI, embodied (2 GitHub followers). India-based/affiliated. Recent: Erints on GitHub.",
+      "score": 0.4879,
+      "personal_match": true,
+      "tags": [
+        "GitHub",
+        "India",
+        "for_you"
+      ],
+      "image_url": "https://avatars.githubusercontent.com/u/159942118?v=4",
+      "profiles": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Erints"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/arints51457",
+          "verified": true
+        }
+      ],
+      "recent_work": [
+        {
+          "title": "Erints on GitHub",
+          "url": "https://github.com/Erints",
+          "date": "2026-09-15T08:11:16Z"
+        }
+      ],
+      "matched_skills": [
+        "robotics",
+        "embodied AI",
+        "embodied"
+      ],
+      "found_via": [
+        "GitHub"
+      ]
+    },
+    {
       "id": "person_yanjie_ze",
       "category": "people",
       "name": "Yanjie Ze",
@@ -964,8 +1010,8 @@
       "affiliation": "Stanford University",
       "region": "International",
       "summary": "A Paper List for Humanoid Robot Learning. Robotics",
-      "why_it_matters": "This person works on humanoid, robotics (2,756★ on GitHub). Recent: YanjieZe/awesome-humanoid-robot-learning.",
-      "score": 0.4767,
+      "why_it_matters": "This person works on humanoid, robotics (2,760★ on GitHub). Recent: YanjieZe/awesome-humanoid-robot-learning.",
+      "score": 0.4758,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1009,7 +1055,7 @@
       "region": "International",
       "summary": "Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic Alignment MINT-SJTU: Machine Intelligence and Interaction Lab @ SJTU",
       "why_it_matters": "This person works on vision-language-action, vision-language (360★ on GitHub). Recent: MINT-SJTU/Evo-1.",
-      "score": 0.4764,
+      "score": 0.4745,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1043,52 +1089,6 @@
       ]
     },
     {
-      "id": "person_arin_t_s",
-      "category": "people",
-      "name": "Arin T S ",
-      "title": "Arin T S ",
-      "url": "https://github.com/Erints",
-      "source": "GitHub",
-      "affiliation": "",
-      "region": "India",
-      "summary": "Robotics & Automation Engineer · RL & Embodied AI · IEEE Chair · Building autonomous systems that work in the real world.",
-      "why_it_matters": "This person works on robotics, embodied, embodied AI (2 GitHub followers). India-based/affiliated. Recent: Erints on GitHub.",
-      "score": 0.4754,
-      "personal_match": true,
-      "tags": [
-        "GitHub",
-        "India",
-        "for_you"
-      ],
-      "image_url": "https://avatars.githubusercontent.com/u/159942118?v=4",
-      "profiles": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/Erints"
-        },
-        {
-          "label": "LinkedIn",
-          "url": "https://www.linkedin.com/in/arints51457",
-          "verified": true
-        }
-      ],
-      "recent_work": [
-        {
-          "title": "Erints on GitHub",
-          "url": "https://github.com/Erints",
-          "date": "2026-09-10T04:51:06Z"
-        }
-      ],
-      "matched_skills": [
-        "robotics",
-        "embodied",
-        "embodied AI"
-      ],
-      "found_via": [
-        "GitHub"
-      ]
-    },
-    {
       "id": "person_thejas_k_m",
       "category": "people",
       "name": "Thejas K M",
@@ -1098,8 +1098,8 @@
       "affiliation": "",
       "region": "India",
       "summary": "Electronics & Communication Engineering Student | Robotics | ROS 2 | Embodied AI",
-      "why_it_matters": "This person works on robotics, ROS 2, embodied. India-based/affiliated. Recent: thejas472 on GitHub.",
-      "score": 0.4673,
+      "why_it_matters": "This person works on robotics, ROS 2, embodied AI. India-based/affiliated. Recent: thejas472 on GitHub.",
+      "score": 0.4654,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1128,8 +1128,8 @@
       "matched_skills": [
         "robotics",
         "ROS 2",
-        "embodied",
-        "embodied AI"
+        "embodied AI",
+        "embodied"
       ],
       "found_via": [
         "GitHub"
@@ -1146,7 +1146,7 @@
       "region": "India",
       "summary": "👋 Hey, I’m Aditya (Haradi Bots)\r\n\r\nYoung robotics and AI developer building the future one project at a time.\r\nI work on humanoid robots, deep learning models",
       "why_it_matters": "This person works on robotics, humanoid, deep learning (51 GitHub followers). India-based/affiliated. Recent: haradi880 on GitHub.",
-      "score": 0.453,
+      "score": 0.4521,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1191,8 +1191,8 @@
       "affiliation": "Atxlabs",
       "region": "India",
       "summary": "Agentic AI Engineer. I build multi-agent systems that plan, use tools, and hold up in production. Building toward embodied AI.",
-      "why_it_matters": "This person works on AI engineer, embodied, embodied AI (1 GitHub followers). India-based/affiliated. Recent: adityajadhavv18 on GitHub.",
-      "score": 0.4424,
+      "why_it_matters": "This person works on AI engineer, embodied AI, embodied (1 GitHub followers). India-based/affiliated. Recent: adityajadhavv18 on GitHub.",
+      "score": 0.44,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1220,8 +1220,8 @@
       ],
       "matched_skills": [
         "AI engineer",
-        "embodied",
-        "embodied AI"
+        "embodied AI",
+        "embodied"
       ],
       "found_via": [
         "GitHub"
@@ -1285,7 +1285,7 @@
       "region": "International",
       "summary": "Simulation verification and physical deployment of robot reinforcement learning algorithms, suitable for quadruped robots, wheeled robots, and humanoid robots. \"sar\" represents \"simulation and real\" 应无所住 而生其心",
       "why_it_matters": "This person works on humanoid (1,459★ on GitHub). Recent: fan-ziqi/rl_sar.",
-      "score": 0.4316,
+      "score": 0.4298,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1327,8 +1327,8 @@
       "affiliation": "",
       "region": "International",
       "summary": "Training a humanoid robot for locomotion using Reinforcement Learning Humanoid robotics researcher",
-      "why_it_matters": "This person works on humanoid, robotics (1,214★ on GitHub). Recent: rohanpsingh/LearningHumanoidWalking.",
-      "score": 0.407,
+      "why_it_matters": "This person works on humanoid, robotics (1,215★ on GitHub). Recent: rohanpsingh/LearningHumanoidWalking.",
+      "score": 0.4067,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1372,7 +1372,7 @@
       "region": "International",
       "summary": "[RA-L 2025 & IROS 2025] FoAR: Force-Aware Reactive Policy for Contact-Rich Robotic Manipulation Undergraduate Student @ SJTU | Robot Learning",
       "why_it_matters": "This person works on ROS 2, manipulation (69★ on GitHub). Recent: Alan-Heoooh/FoAR.",
-      "score": 0.4066,
+      "score": 0.4051,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1416,7 +1416,7 @@
       "region": "International",
       "summary": "TensorRT-first robot foundation model inference for edge GPUs Just a boy to catch stars.",
       "why_it_matters": "This person works on TensorRT (49★ on GitHub). Recent: Jinlong-cs/pi.cpp.",
-      "score": 0.4017,
+      "score": 0.4011,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1438,7 +1438,7 @@
         {
           "title": "Jinlong-cs/pi.cpp",
           "url": "https://github.com/Jinlong-cs/pi.cpp",
-          "date": "2026-09-14T14:31:09Z"
+          "date": "2026-09-15T08:22:55Z"
         }
       ],
       "matched_skills": [
@@ -1458,8 +1458,8 @@
       "affiliation": "DatraAI",
       "region": "India",
       "summary": "Multimodal data processing layer for Embodied AI",
-      "why_it_matters": "This person works on multimodal, embodied, embodied AI (3 GitHub followers). India-based/affiliated. Recent: datraai-labs on GitHub.",
-      "score": 0.3799,
+      "why_it_matters": "This person works on multimodal, embodied AI, embodied (3 GitHub followers). India-based/affiliated. Recent: datraai-labs on GitHub.",
+      "score": 0.3788,
       "personal_match": true,
       "tags": [
         "GitHub",
@@ -1487,8 +1487,8 @@
       ],
       "matched_skills": [
         "multimodal",
-        "embodied",
-        "embodied AI"
+        "embodied AI",
+        "embodied"
       ],
       "found_via": [
         "GitHub"
@@ -1560,8 +1560,8 @@
       "affiliation": "Indian institute of technology",
       "region": "India",
       "summary": "Interested in dynamical systems and Embodied AI",
-      "why_it_matters": "This person works on embodied, embodied AI (13 GitHub followers). India-based/affiliated. Recent: Swastikmitra34 on GitHub.",
-      "score": 0.3466,
+      "why_it_matters": "This person works on embodied AI, embodied (13 GitHub followers). India-based/affiliated. Recent: Swastikmitra34 on GitHub.",
+      "score": 0.3453,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1587,8 +1587,8 @@
         }
       ],
       "matched_skills": [
-        "embodied",
-        "embodied AI"
+        "embodied AI",
+        "embodied"
       ],
       "found_via": [
         "GitHub"
@@ -1604,8 +1604,8 @@
       "affiliation": "Peking University",
       "region": "International",
       "summary": "The official implementation of the paper \"Scaling Behavior Foundation Model for Humanoid Robots\"",
-      "why_it_matters": "This person works on humanoid (246★ on GitHub). Recent: zengweishuai/ScaleBFM.",
-      "score": 0.3412,
+      "why_it_matters": "This person works on humanoid (250★ on GitHub). Recent: zengweishuai/ScaleBFM.",
+      "score": 0.3404,
       "personal_match": false,
       "tags": [
         "GitHub",
@@ -1734,7 +1734,7 @@
       "region": "International",
       "summary": "[2025CVPR] FlowRAM: Grounding Flow Matching Policy with Region-Aware Mamba Framework for Robotic Manipulation",
       "why_it_matters": "This person works on manipulation (56★ on GitHub). Recent: SanMumumu/FlowRAM.",
-      "score": 0.2442,
+      "score": 0.2437,
       "personal_match": false,
       "tags": [
         "GitHub",
