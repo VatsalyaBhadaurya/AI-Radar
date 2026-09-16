@@ -1,112 +1,4 @@
 {
-  "https://arxiv.org/abs/2608.14379": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.14028": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.14047": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13678": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://tasklet.ai/careers/head-of-design-engineering": {
-    "image_url": "https://tasklet.ai/og-image.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://ycombinator.com/companies/gooseworks/jobs/UJ4vH2F-founding-engineer": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/2a7957bec3c772d726f4cfaadb0d29e3f8446ea5.png?1773947033",
-    "fetched_at": "2026-08-17"
-  },
-  "https://medcitynews.com/2026/08/vogenx-ipo-post-bariatric-hypoglycemia-pbh-mizagliflozin-metabolic-disorder-vogx": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2023/07/GettyImages-1401958587.jpg",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13566": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13756": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13612": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13684": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13844": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13616": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13924": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.14031": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.14049": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13766": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.14029": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13690": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13577": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13799": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.14003": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.14150": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://arxiv.org/abs/2608.13608": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-17"
-  },
-  "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261514463.jpg?w=1024",
-    "fetched_at": "2026-08-17"
-  },
-  "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2239280474.jpg?resize=1200,800",
-    "fetched_at": "2026-08-17"
-  },
-  "https://theverge.com/column/980337/rogue-ai-science-fiction-openai": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-08-17"
-  },
   "https://arxiv.org/abs/2608.14822": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-08-18"
@@ -2590,5 +2482,113 @@
   "https://theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2292612804.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-09-15"
+  },
+  "https://arxiv.org/abs/2609.16641": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16683": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16074": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://ycombinator.com/companies/kyber/jobs/eturrAR-forward-deployed-engineer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/36d823535a32695e6b82b2371e3ed3df2496af99.png?1754429935",
+    "fetched_at": "2026-09-16"
+  },
+  "https://jiga.io/about-us?ashby_jid=0b75d72d-c92b-4dca-8062-09d298ada0bd": {
+    "image_url": "https://jiga.io/wp-content/uploads/2026/07/About-us-web-preview-V2.jpg",
+    "fetched_at": "2026-09-16"
+  },
+  "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Profound-founders.jpg?resize=1200,798",
+    "fetched_at": "2026-09-16"
+  },
+  "https://techcrunch.com/2026/09/15/evvy-raises-40m-as-it-seeks-to-further-womens-health-research-with-vaginal-microbiome-data": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Evvy-founders.jpg?resize=1200,810",
+    "fetched_at": "2026-09-16"
+  },
+  "https://medcitynews.com/2026/09/thatch-secures-108m-reaches-1b-valuation": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2017/04/GettyImages-637108448.jpg",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16091": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16443": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16012": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16312": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16486": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16697": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16644": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16503": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16409": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16601": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16610": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16233": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16066": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16229": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16023": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://arxiv.org/abs/2609.16551": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-16"
+  },
+  "https://theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK_414_5_D.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "fetched_at": "2026-09-16"
+  },
+  "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+    "fetched_at": "2026-09-16"
+  },
+  "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg?resize=1200,750",
+    "fetched_at": "2026-09-16"
   }
 }
