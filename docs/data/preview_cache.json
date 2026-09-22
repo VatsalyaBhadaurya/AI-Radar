@@ -1,16 +1,4 @@
 {
-  "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2169079907_27e720-e1734690817769.jpg?resize=1200,800",
-    "fetched_at": "2026-08-23"
-  },
-  "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2263890424.jpg?w=1024",
-    "fetched_at": "2026-08-23"
-  },
-  "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2218892225.jpg?resize=1200,804",
-    "fetched_at": "2026-08-23"
-  },
   "https://arxiv.org/abs/2608.21031": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-08-24"
@@ -2486,5 +2474,121 @@
   "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Vocci-feat.jpg?resize=1200,675",
     "fetched_at": "2026-09-21"
+  },
+  "https://arxiv.org/abs/2609.22285": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22462": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22538": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22606": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-1366897838.jpg?resize=1200,800",
+    "fetched_at": "2026-09-22"
+  },
+  "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Morphotonics.jpg?resize=1200,675",
+    "fetched_at": "2026-09-22"
+  },
+  "https://medcitynews.com/2026/09/telix-itm-merger-acquisition-radiopharmaceutical-cancer-gep-nets-tlx": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2021/12/5575498919_c57292ccb2_c.jpg",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22591": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22281": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22291": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22332": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/grid-robot-arm-cleaning-plate-1.webp",
+    "fetched_at": "2026-09-22"
+  },
+  "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/robot-arm-ros-2-node.webp",
+    "fetched_at": "2026-09-22"
+  },
+  "https://pytorch.org/blog/how-shopify-built-a-continual-learning-loop-with-pytorch-and-vllm": {
+    "image_url": null,
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22110": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22582": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22274": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22608": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22293": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22588": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22379": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22124": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22138": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22302": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22104": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://arxiv.org/abs/2609.22119": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-22"
+  },
+  "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+    "fetched_at": "2026-09-22"
+  },
+  "https://theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "fetched_at": "2026-09-22"
+  },
+  "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-496672575.jpg?resize=1200,800",
+    "fetched_at": "2026-09-22"
   }
 }
