@@ -1,112 +1,4 @@
 {
-  "https://arxiv.org/abs/2608.25308": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25585": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25659": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.24959": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://bild.ai/jobs": {
-    "image_url": "https://app.ashbyhq.com/api/images/org-theme-logo/435bca2f-31b4-401a-8f43-1d2f1f2f95f4/8ce49a52-60c8-41a1-9140-92b9fdf9e614/c67014ba-e124-404e-893b-7f049bc5e253.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://ycombinator.com/companies/adentris/jobs/ZpMXZ0C-founding-engineer-ai-rcm-healthcare-platform-typescript-python": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/2a318862c1cb3444982b5fe4da25d7d1ac34a5ab.png?1787699870",
-    "fetched_at": "2026-08-27"
-  },
-  "https://medcitynews.com/2026/08/onos-health-raises-17m-to-expand-ai-powered-behavioral-health-platform": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/03/investment.jpg",
-    "fetched_at": "2026-08-27"
-  },
-  "https://techcrunch.com/2026/08/27/this-former-pge-engineer-is-building-a-google-maps-for-the-underground": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/civilgrid-platform-project-frames.jpg?resize=1200,953",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25114": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.24988": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25085": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25251": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.24938": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/robot-quad-composite-1-1-500x282.gif",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25547": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25572": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25356": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25332": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.24966": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25017": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.24936": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.25071": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.24945": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://arxiv.org/abs/2608.24963": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-27"
-  },
-  "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/claude-app-centered-in-ai-apps-GettyImages-2167861906.jpg?resize=1200,801",
-    "fetched_at": "2026-08-27"
-  },
-  "https://theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/VRG_DCD_082726_site.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-08-27"
-  },
-  "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/QueryStory-Groups-8-1.jpg?resize=1200,799",
-    "fetched_at": "2026-08-27"
-  },
   "https://arxiv.org/abs/2608.26673": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-08-28"
@@ -2590,5 +2482,77 @@
   "https://theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-09-25"
+  },
+  "https://arxiv.org/abs/2609.28865": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28811": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://medcitynews.com/2026/09/adarx-ipo-small-interfering-rna-gene-silencing-sirna-hae-adrx": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2023/07/GettyImages-1359392488.jpg",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28567": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28605": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28682": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28813": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://ai-rete-rag.com/": {
+    "image_url": null,
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28757": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28923": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28857": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28607": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28502": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28558": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28581": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://arxiv.org/abs/2609.28625": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-26"
+  },
+  "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
+    "fetched_at": "2026-09-26"
+  },
+  "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/12/Boom_Superpower_Hero_Dec2025.jpg?resize=1200,675",
+    "fetched_at": "2026-09-26"
   }
 }
