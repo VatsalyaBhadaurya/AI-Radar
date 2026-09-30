@@ -1,100 +1,4 @@
 {
-  "https://arxiv.org/abs/2608.27497": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27550": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27609": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.28090": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.28108": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27512": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27844": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27888": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27513": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://developer.nvidia.com/blog/run-nvidia-bionemo-nim-microservices-for-protein-structure-prediction-in-claude-science": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/08/AdobeStock_842772489-e1787092703768.webp",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27584": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27843": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27545": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27753": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27929": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27871": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27463": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27477": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27716": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27461": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://arxiv.org/abs/2608.27866": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-08-31"
-  },
-  "https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/03/GettyImages-2205761844.jpg?resize=1200,846",
-    "fetched_at": "2026-08-31"
-  },
-  "https://theverge.com/tech/986593/instagram-addresses-fake-ai-profile-slop": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/vege-ai-influencer.png?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C48.836288442078&amp;w=1200",
-    "fetched_at": "2026-08-31"
-  },
-  "https://theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2291175333.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.750889909111%2C100%2C78.498220181778&amp;w=1200",
-    "fetched_at": "2026-08-31"
-  },
   "https://arxiv.org/abs/2608.28718": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-09-01"
@@ -2598,5 +2502,105 @@
   "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2023/11/GettyImages-1411834236.jpg?resize=1200,831",
     "fetched_at": "2026-09-29"
+  },
+  "https://arxiv.org/abs/2609.36118": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36352": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36182": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://medcitynews.com/2026/09/tiny-health-secures-33m-to-expand-microbiome-testing": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/09/money-growth.jpg",
+    "fetched_at": "2026-09-30"
+  },
+  "https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/04/GettyImages-1469304638.jpg?resize=1200,669",
+    "fetched_at": "2026-09-30"
+  },
+  "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/charter-space-founders.jpg?resize=1200,800",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36416": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36540": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.35943": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36426": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36471": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.35935": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36151": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.35823": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36199": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36219": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.36052": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.31669": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.35875": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.31656": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://arxiv.org/abs/2609.32082": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-09-30"
+  },
+  "https://pytorch.org/blog/from-upstream-changes-to-downstream-confidence-inside-torch-spyres-integration-with-pytorch-crcr": {
+    "image_url": null,
+    "fetched_at": "2026-09-30"
+  },
+  "https://theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK070__01.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-09-30"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D_717b98.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-09-30"
+  },
+  "https://openai.com/index/lenfest-ai-collaborative-expansion": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6txA4ODTKx7m0Lm7PZhV2j/f0f1322b05b78fb0b33d5dae4920aa00/lenfest-september-seo-white.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-09-30"
   }
 }
