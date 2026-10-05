@@ -1,64 +1,4 @@
 {
-  "https://developer.nvidia.com/blog/frontier-reasoning-reaches-the-edge-how-to-deploy-and-optimize-models-on-nvidia-jetson": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image2-3.webp",
-    "fetched_at": "2026-09-05"
-  },
-  "https://theverge.com/tech/990006/this-nas-company-wants-to-run-your-local-smart-home": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/LR6B5640.jpeg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-09-05"
-  },
-  "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/DSC_2479.jpg?resize=1200,800",
-    "fetched_at": "2026-09-05"
-  },
-  "https://techcrunch.com/2026/09/04/krafton-doubles-down-on-india-with-another-250m-bet-beyond-gaming": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/krafton-india.jpg?resize=1200,800",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.03526": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.03580": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.03527": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.02981": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.03416": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.03423": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.03553": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://arxiv.org/abs/2609.03588": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-05"
-  },
-  "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2266843677.jpg?resize=1200,800",
-    "fetched_at": "2026-09-05"
-  },
-  "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2287301688.jpg?resize=1200,800",
-    "fetched_at": "2026-09-05"
-  },
-  "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2264179980.jpg?resize=1200,800",
-    "fetched_at": "2026-09-05"
-  },
   "https://openai.com/index/daybreak-for-frontline-defenders": {
     "image_url": "https://images.ctfassets.net/kftzwdyauwt9/lvizepLUAiputffdSjtue/f89a11ed639405a45b491f70c882f0de/SEO_Card___short_copy_example__1_.png?w=1600&amp;h=900&amp;fit=fill",
     "fetched_at": "2026-09-06"
@@ -2398,5 +2338,97 @@
   "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
     "fetched_at": "2026-10-04"
+  },
+  "https://arxiv.org/abs/2610.02360": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02626": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02666": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02717": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02784": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02405": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02549": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02691": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02341": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02521": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02323": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02718": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02372": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02451": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02425": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02775": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02338": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02460": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.02819": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-05"
+  },
+  "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group": {
+    "image_url": null,
+    "fetched_at": "2026-10-05"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-05"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2294958253.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.729057198914%2C100%2C78.541885602173&amp;w=1200",
+    "fetched_at": "2026-10-05"
+  },
+  "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/hgh_web-1.png?resize=1200,920",
+    "fetched_at": "2026-10-05"
   }
 }
