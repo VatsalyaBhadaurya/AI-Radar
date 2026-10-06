@@ -1,24 +1,4 @@
 {
-  "https://openai.com/index/daybreak-for-frontline-defenders": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/lvizepLUAiputffdSjtue/f89a11ed639405a45b491f70c882f0de/SEO_Card___short_copy_example__1_.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-09-06"
-  },
-  "https://huggingface.co/blog/allenai/benchmirt": {
-    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/c_Rnu4DRj6Djxk1IT0gKu.png",
-    "fetched_at": "2026-09-06"
-  },
-  "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2023/03/artifact-newspaper-icon.jpg?resize=1200,645",
-    "fetched_at": "2026-09-06"
-  },
-  "https://reactoratlas.com/": {
-    "image_url": "https://reactoratlas.com/og/home/en.png",
-    "fetched_at": "2026-09-06"
-  },
-  "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Screenshot-2026-09-04-at-8.49.39-AM-e1788537064907.png?w=839",
-    "fetched_at": "2026-09-06"
-  },
   "https://arxiv.org/abs/2609.05178": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-09-07"
@@ -2430,5 +2410,117 @@
   "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/hgh_web-1.png?resize=1200,920",
     "fetched_at": "2026-10-05"
+  },
+  "https://arxiv.org/abs/2610.04255": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04391": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04536": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04238": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://techcrunch.com/2026/10/06/flais-ai-dealership-software-is-booking-50000-appointments-per-month": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/flai-cofounders.jpg?resize=1200,874",
+    "fetched_at": "2026-10-06"
+  },
+  "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Sequoia_Etched-Abhishek-Malani-Robert-Wachen-Sonya-Huang-Gavin-Uberti-copy.jpeg?resize=1200,846",
+    "fetched_at": "2026-10-06"
+  },
+  "https://medcitynews.com/2026/10/medtech-vc-2026-the-real-story-vs-the-thesis": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2021/06/GettyImages-500048664.jpg",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03928": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03792": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03896": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04067": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image1-3.webp",
+    "fetched_at": "2026-10-06"
+  },
+  "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2264771189.jpg?resize=1200,800",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04009": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03828": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03861": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03765": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04210": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04347": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03826": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03938": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03935": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04118": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.04073": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://arxiv.org/abs/2610.03984": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-06"
+  },
+  "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/BeautyGuides_Newsroom.webp?resize=1200,675",
+    "fetched_at": "2026-10-06"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/nolla-health-app.png?quality=90&amp;strip=all&amp;crop=0%2C5.420521028312%2C100%2C89.158957943376&amp;w=1200",
+    "fetched_at": "2026-10-06"
+  },
+  "https://theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/258035_Alexa_Studio_2025_JHiggins_0017.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-06"
   }
 }
