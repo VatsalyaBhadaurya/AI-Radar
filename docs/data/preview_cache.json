@@ -1,12 +1,4 @@
 {
-  "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image1-1.webp",
-    "fetched_at": "2026-09-08"
-  },
-  "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Chain-of-thought-picture.png?resize=1200,800",
-    "fetched_at": "2026-09-08"
-  },
   "https://arxiv.org/abs/2609.05832": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-09-09"
@@ -2518,5 +2510,113 @@
   "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/healthleap.jpeg?resize=1200,675",
     "fetched_at": "2026-10-07"
+  },
+  "https://arxiv.org/abs/2610.09228": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08917": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09134": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09016": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2278374931.jpg?w=1024",
+    "fetched_at": "2026-10-08"
+  },
+  "https://techcrunch.com/2026/10/08/vesta-raises-30m-as-lenders-adopt-ai-agents": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Vesta.jpg?resize=1200,776",
+    "fetched_at": "2026-10-08"
+  },
+  "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/02/GjsjauvbsAAgUtD.jpeg?w=900",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08813": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09152": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09163": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08810": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08819": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09116": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08941": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09117": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08852": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09015": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09200": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08827": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08814": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.09033": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08825": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08966": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://arxiv.org/abs/2610.08993": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-08"
+  },
+  "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/interface-workshop-detail.jpg?resize=1200,491",
+    "fetched_at": "2026-10-08"
+  },
+  "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Tony-Fadell_AI-Hardware_MIT-Future-Fest-1.jpg?resize=1200,800",
+    "fetched_at": "2026-10-08"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Artificial_NYFF64_01.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-08"
   }
 }
