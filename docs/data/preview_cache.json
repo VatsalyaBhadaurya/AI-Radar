@@ -1,104 +1,4 @@
 {
-  "https://arxiv.org/abs/2609.11134": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11308": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10706": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Hamza-Khalid-2-1.jpg?resize=800,1200",
-    "fetched_at": "2026-09-11"
-  },
-  "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/furo-cofounders.jpg?resize=1200,900",
-    "fetched_at": "2026-09-11"
-  },
-  "https://techcrunch.com/2026/09/10/bending-spoons-to-buy-collaboration-tools-maker-miro-for-1-36b-90-less-than-its-2022-valuation": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Miro_Header-2400x1260-copy-1536x806-1.png?resize=1200,630",
-    "fetched_at": "2026-09-11"
-  },
-  "https://techcrunch.com/2026/09/08/nuclear-startup-bluecore-energy-raises-50m-seed-round-just-two-months-after-launch": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Kofi-Asante.jpg?resize=1200,800",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11101": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11357": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10895": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10883": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10915": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11445": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10918": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10815": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10950": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10896": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11172": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.10855": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11117": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11128": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://arxiv.org/abs/2609.11141": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-11"
-  },
-  "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/jensen-huang-gtc-getty.jpg?resize=1200,781",
-    "fetched_at": "2026-09-11"
-  },
-  "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
-    "fetched_at": "2026-09-11"
-  },
-  "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
-    "fetched_at": "2026-09-11"
-  },
   "https://arxiv.org/abs/2609.10873": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-09-12"
@@ -2570,5 +2470,33 @@
   "https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
     "fetched_at": "2026-10-10"
+  },
+  "https://jobs.ashbyhq.com/weave-os": {
+    "image_url": "https://app.ashbyhq.com/api/images/org-theme-logo/8c055073-ed97-4980-a925-eecf79fbde90/89560b07-0c51-4946-9d59-1e98694a0a99/f444bc50-13b7-4a53-97ed-89e1897a760b.png",
+    "fetched_at": "2026-10-11"
+  },
+  "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1186369127.jpeg?resize=1200,800",
+    "fetched_at": "2026-10-11"
+  },
+  "https://developer.nvidia.com/blog/the-machines-that-make-the-machines": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image-1790985193398.webp",
+    "fetched_at": "2026-10-11"
+  },
+  "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/Bitwise-Determinism-e1791315897343.webp",
+    "fetched_at": "2026-10-11"
+  },
+  "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000",
+    "fetched_at": "2026-10-11"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
+    "fetched_at": "2026-10-11"
+  },
+  "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?resize=1200,842",
+    "fetched_at": "2026-10-11"
   }
 }
