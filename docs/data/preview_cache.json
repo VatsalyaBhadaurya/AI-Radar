@@ -1,64 +1,4 @@
 {
-  "https://arxiv.org/abs/2609.10873": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://medcitynews.com/2026/09/genhealth-ai-raises-16-5m-to-automate-healthcare-administrative-tasks": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2016/11/GettyImages-508089844.jpg",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.11115": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.10654": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.11018": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://openai.com/index/scaling-storage-one-billion-users-part-one": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5D3TSOEPUfq7vsrX6Vsp0Q/3ac45b90943bcbcdd0eac9b80e0f679a/SEO.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-09-12"
-  },
-  "https://openai.com/index/perplexity-improving-accuracy-with-astra": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/2ONJEXhA8M9IGON14JgHTc/4450550ce2d8b38c7fe2e7825839c92a/og.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-09-12"
-  },
-  "https://openai.com/index/ai-policy-window": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3j3cxGtSNDD0McSlczkBsg/2627bd7c7ea80e644696bd92587dc88c/6j6yjkcvdffsmjbvq2uw8u-seo__1_.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.10712": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.10824": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.11030": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.11144": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://arxiv.org/abs/2609.11176": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-12"
-  },
-  "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2082335389.jpg?resize=1200,857",
-    "fetched_at": "2026-09-12"
-  },
-  "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-2286500505.jpg?resize=1200,800",
-    "fetched_at": "2026-09-12"
-  },
   "https://vester.si/bodily-oddities": {
     "image_url": "https://vester.si/bodily-oddities/og/home.png",
     "fetched_at": "2026-09-13"
@@ -2498,5 +2438,101 @@
   "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?resize=1200,842",
     "fetched_at": "2026-10-11"
+  },
+  "https://arxiv.org/abs/2610.12696": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12914": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12881": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://medcitynews.com/2026/10/outro-raises-7m-to-support-safe-deprescribing": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2018/09/GettyImages-914792268.jpg",
+    "fetched_at": "2026-10-12"
+  },
+  "https://medcitynews.com/2026/10/herpes-simplex-virus-antiviral-asahi-kasei-pritelivir-hovilpri-hsv": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/10/Asahi_Kasei_headquarters.jpg",
+    "fetched_at": "2026-10-12"
+  },
+  "https://medcitynews.com/2026/10/pediatric-innovation-isnt-a-small-market-problem-its-an-incentive-problem": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2023/12/GettyImages-1423294867.jpg",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12710": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12734": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12793": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12832": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Screenshot-2026-10-12-at-1.09.43-PM.jpg?resize=1200,676",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12549": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12558": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12790": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12707": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12898": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12569": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12669": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12596": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12667": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://arxiv.org/abs/2610.12758": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-12"
+  },
+  "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Blueprints-AI-Founder1.jpg?resize=1200,799",
+    "fetched_at": "2026-10-12"
+  },
+  "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Ambi-by-Mistlabs.jpeg?resize=1200,800",
+    "fetched_at": "2026-10-12"
+  },
+  "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1039496404.jpg?w=1024",
+    "fetched_at": "2026-10-12"
   }
 }
