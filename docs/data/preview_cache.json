@@ -1,20 +1,4 @@
 {
-  "https://vester.si/bodily-oddities": {
-    "image_url": "https://vester.si/bodily-oddities/og/home.png",
-    "fetched_at": "2026-09-13"
-  },
-  "https://openai.com/index/paul-christiano-joins-openai-foundation-board": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/182NzFWut4sS5hBGtIVsq5/c2620026fe60121fe6543a992c7477ea/paul-christiano-joins-openai-foundation-board--seo-v001.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-09-13"
-  },
-  "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2198353376.jpg?resize=1200,800",
-    "fetched_at": "2026-09-13"
-  },
-  "https://theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STK201_SAM_ALTMAN_CVIRGINIA2D-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-09-13"
-  },
   "https://arxiv.org/abs/2609.11961": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-09-14"
@@ -2534,5 +2518,41 @@
   "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2018/10/GettyImages-1039496404.jpg?w=1024",
     "fetched_at": "2026-10-12"
+  },
+  "https://medcitynews.com/2026/10/what-corporate-venture-funds-get-wrong-about-strategic-value": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2016/07/value-based-care-e1520889493759.jpg",
+    "fetched_at": "2026-10-13"
+  },
+  "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-1202319290.jpeg?resize=1200,800",
+    "fetched_at": "2026-10-13"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK255_Google_Gemini_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-13"
+  },
+  "https://deepmind.google/blog/gemini-4-argon-for-robotics": {
+    "image_url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+    "fetched_at": "2026-10-13"
+  },
+  "https://deepmind.google/blog/introducing-gemini-4-argon": {
+    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
+    "fetched_at": "2026-10-13"
+  },
+  "https://theverge.com/games/1010097/epic-games-disney-project-ai-coding-art": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932925/acastro_STK108__03.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-13"
+  },
+  "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Satlyt_Team_Group-Portrait_Steps.jpg?resize=1200,800",
+    "fetched_at": "2026-10-13"
+  },
+  "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672",
+    "fetched_at": "2026-10-13"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK278_character_ai_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-13"
   }
 }
