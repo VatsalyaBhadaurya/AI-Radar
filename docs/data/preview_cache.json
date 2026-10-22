@@ -1,120 +1,4 @@
 {
-  "https://arxiv.org/abs/2609.22285": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22462": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22538": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22606": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://techcrunch.com/2026/09/22/singapores-nexstrom-wants-to-bring-2d-semiconductors-to-chip-fabs": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-1366897838.jpg?resize=1200,800",
-    "fetched_at": "2026-09-22"
-  },
-  "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Morphotonics.jpg?resize=1200,675",
-    "fetched_at": "2026-09-22"
-  },
-  "https://medcitynews.com/2026/09/telix-itm-merger-acquisition-radiopharmaceutical-cancer-gep-nets-tlx": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2021/12/5575498919_c57292ccb2_c.jpg",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22591": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22281": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22291": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22332": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://developer.nvidia.com/blog/simplifying-model-serving-across-multiple-gpus-with-nvidia-tensorrt-multi-device-integration-in-nvidia-dynamo-triton": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/grid-robot-arm-cleaning-plate-1.webp",
-    "fetched_at": "2026-09-22"
-  },
-  "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/robot-arm-ros-2-node.webp",
-    "fetched_at": "2026-09-22"
-  },
-  "https://pytorch.org/blog/how-shopify-built-a-continual-learning-loop-with-pytorch-and-vllm": {
-    "image_url": null,
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22110": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22582": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22274": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22608": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22293": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22588": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22379": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22124": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22138": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22302": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22104": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://arxiv.org/abs/2609.22119": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-22"
-  },
-  "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2235971874.jpg?resize=1200,800",
-    "fetched_at": "2026-09-22"
-  },
-  "https://theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS533_AI_AGENTS_HACKING_D_54a015.png?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
-    "fetched_at": "2026-09-22"
-  },
-  "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-496672575.jpg?resize=1200,800",
-    "fetched_at": "2026-09-22"
-  },
   "https://arxiv.org/abs/2609.25376": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-09-23"
@@ -2582,5 +2466,121 @@
   "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800",
     "fetched_at": "2026-10-21"
+  },
+  "https://arxiv.org/abs/2610.29161": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28948": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.29025": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28925": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/Flapping-Airplanes-founders-photo.jpg?resize=1200,821",
+    "fetched_at": "2026-10-22"
+  },
+  "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Blacksmith.jpg?resize=1200,800",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.29073": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28767": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28886": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.29014": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28699": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28953": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.29061": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.29171": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28955": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.29203": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.29142": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28814": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28801": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28849": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28673": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28982": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28773": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28989": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28785": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://arxiv.org/abs/2610.28819": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-22"
+  },
+  "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/01/deepseek-2.jpg?resize=1200,800",
+    "fetched_at": "2026-10-22"
+  },
+  "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Nirva-pendant.jpg?resize=1200,675",
+    "fetched_at": "2026-10-22"
+  },
+  "https://theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-22"
   }
 }
