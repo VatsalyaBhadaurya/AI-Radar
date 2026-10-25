@@ -1,104 +1,4 @@
 {
-  "https://arxiv.org/abs/2609.28838": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28955": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28984": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://usestable.com/careers/product-engineer": {
-    "image_url": null,
-    "fetched_at": "2026-09-25"
-  },
-  "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2024/06/india-ai.jpg?w=1200",
-    "fetched_at": "2026-09-25"
-  },
-  "https://techcrunch.com/2026/09/24/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Navy-shopping-cart-e1790268797534.png?w=735",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28991": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28876": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28654": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28660": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.29028": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28927": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28818": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28959": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28851": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28796": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28739": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28506": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28673": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28826": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.29001": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://arxiv.org/abs/2609.28610": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-25"
-  },
-  "https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/07/Mati-Staniszewski_SXSW.jpg?resize=1200,799",
-    "fetched_at": "2026-09-25"
-  },
-  "https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Fabin-Hedin-Lovable.jpg?resize=1200,675",
-    "fetched_at": "2026-09-25"
-  },
-  "https://theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-09-25"
-  },
   "https://arxiv.org/abs/2609.28865": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-09-26"
@@ -2518,5 +2418,37 @@
   "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
     "fetched_at": "2026-10-24"
+  },
+  "https://theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-25"
+  },
+  "https://huggingface.co/blog/ibm-granite/granite-speech-5": {
+    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/653fb52cbfd890805461d691/M_JJyIOBOWVzHXdy7CVVG.png",
+    "fetched_at": "2026-10-25"
+  },
+  "https://openai.com/index/securing-our-frontier-model-training-environment": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-10-25"
+  },
+  "https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl": {
+    "image_url": "https://pytorch.org/wp-content/uploads/2026/10/All-PyTorch-Blog-_-Social-Images-4.png",
+    "fetched_at": "2026-10-25"
+  },
+  "https://huggingface.co/blog/microsoft/thinkingbox-training": {
+    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
+    "fetched_at": "2026-10-25"
+  },
+  "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+    "fetched_at": "2026-10-25"
+  },
+  "https://theverge.com/column/1017983/google-ai-search-online-publishing": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-25"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&amp;strip=all&amp;crop=0%2C3.4695867913185%2C100%2C93.060826417363&amp;w=1200",
+    "fetched_at": "2026-10-25"
   }
 }
