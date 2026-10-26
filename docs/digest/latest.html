@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>2026-10-25 · AI Engineering Radar</title>
+<title>2026-10-26 · AI Engineering Radar</title>
 <link rel="icon" type="image/png" href="../assets/logo.png">
 <link rel="stylesheet" href="../assets/styles.css?v=2">
 </head>
@@ -18,31 +18,51 @@
   </nav>
 </header>
 <main class="container">
-  <h1>Today&#x27;s AI engineering radar — 2026-10-25</h1>
-  <p class="meta">Generated 2026-10-25T13:34:31Z</p>
-  <p class="summary">Today&#x27;s lead story: &quot;v8.4.185 - Load MNN on glibc 2.41+ by clearing its unused executable-stack flag (#26861)&quot; (Ultralytics (YOLO)). Coverage spans funding, infra_tooling with 241 items scanned and 5 surfaced across sections.</p>
+  <h1>Today&#x27;s AI engineering radar — 2026-10-26</h1>
+  <p class="meta">Generated 2026-10-26T15:52:39Z</p>
+  <p class="summary">Today&#x27;s lead story: &quot;Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies&quot; (arXiv cs.RO). Coverage spans robotics_vla, funding with 363 items scanned and 5 surfaced across sections.</p>
   
   <section class="digest-section">
     <h2>Matches Your Stack</h2>
     
     <article class="item">
       <span class="tag tag-personal">★ matches your stack</span>
-      <a class="item-image-link" href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.185" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.185" target="_blank" rel="noopener">v8.4.185 - Load MNN on glibc 2.41+ by clearing its unused executable-stack flag (#26861)</a></h3>
-      <p class="item-meta">Ultralytics (YOLO) · 2026-10-24T04:29:51Z · score 0.4945</p>
-      <p class="item-summary">🌟 Summary This release primarily fixes MNN loading on newer Linux systems, while improving ONNX deployment options, export reliability, and several training and inference workflows. 📊 Key Changes MNN on newer Linux: The headline change addresses an import failure on glibc 2.41+ systems, including Ubuntu 25.04/26.04 and Debian 13. Ultralytics now clears an unused executable-stack flag in affected MNN x86_64 modules before importing them, allowing MNN export and inference to work. More ONNX deplo…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: inference, deployment, ONNX). Matches your stack: ONNX.</p>
-      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.32102" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.32102" target="_blank" rel="noopener">Coupling Execution Horizon and Sampling Depth in Flow-Matching VLA Policies</a></h3>
+      <p class="item-meta">arXiv cs.RO · 2026-10-26T04:00:00Z · score 0.8156</p>
+      <p class="item-summary">arXiv:2610.32102v1 Announce Type: new Abstract: Flow-matching Vision-Language-Action (VLA) models generate expressive continuous trajectories for robotic manipulation, yet balancing real-time responsiveness with execution stability remains a persistent challenge. Standard deployment workflows typically treat numerical solver depth and execution horizon as decoupled choices. The horizon amortizes inference latency, while solver depth is kept high to preserve integration fidelity. In this paper,…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, manipulation, VLA). Matches your stack: VLA, vision-language-action, manipulation.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       <span class="tag tag-personal">★ matches your stack</span>
-      <a class="item-image-link" href="https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/" target="_blank" rel="noopener"><img class="item-image" src="https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/desktop-computer-overlay-light.webp" alt="" loading="lazy"></a>
-      <h3><a href="https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2/" target="_blank" rel="noopener">Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2</a></h3>
-      <p class="item-meta">NVIDIA Developer Blog (AI) · 2026-10-23T17:27:52Z · score 0.4295</p>
-      <p class="item-summary">The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and...</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: TensorRT). Matches your stack: TensorRT.</p>
-      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">model_releases</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31859" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31859" target="_blank" rel="noopener">Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates</a></h3>
+      <p class="item-meta">arXiv cs.RO · 2026-10-26T04:00:00Z · score 0.8046</p>
+      <p class="item-summary">arXiv:2610.31859v1 Announce Type: new Abstract: When a vision-language-action (VLA) model is fine-tuned with its trainable weights in bfloat16 (bf16) and no fp32 master copy, AdamW writes each update straight into bf16, silently rounding away any update smaller than 1/512 of a weight. In 9 of 12 open VLA codebases a default or documented recipe trains this way, 4 on full weight matrices, including LeRobot&#x27;s SmolVLA default and its $\pi_0$/$\pi_{0.5}$ guides. In our LIBERO runs without the copy,…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, VLA, vision-language-action). Likely useful for builders (code, benchmarks, or tooling implications). Matches your stack: VLA, vision-language-action.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+    <article class="item">
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.32208" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.32208" target="_blank" rel="noopener">Do VLAs Know They Will Fail? Interpretable Success and Failure Patterns in Physical AI Systems</a></h3>
+      <p class="item-meta">arXiv cs.RO · 2026-10-26T04:00:00Z · score 0.7596</p>
+      <p class="item-summary">arXiv:2610.32208v1 Announce Type: new Abstract: Vision-Language-Action (VLA) models have emerged as powerful general-purpose robot policies, but their successes and failures remain difficult to diagnose and understand. In this work, we show that sparse autoencoder (SAE) representations of OpenVLA activations contain outcome-predictive information and can be used to predict task failure before the robot reaches an unrecoverable state. Moreover, to provide insights into what common behaviors may…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, VLA, vision-language-action). Matches your stack: VLA, vision-language-action.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+    <article class="item">
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31829" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31829" target="_blank" rel="noopener">SEVI: Safe Evidential Real-World Reinforcement Learning</a></h3>
+      <p class="item-meta">arXiv cs.RO · 2026-10-26T04:00:00Z · score 0.7051</p>
+      <p class="item-summary">arXiv:2610.31829v1 Announce Type: new Abstract: Real-world reinforcement learning has enabled contact-rich manipulation tasks to be trained directly on physical robots, but unsafe interactions during online learning remain a key barrier to practical deployment. We propose Safe Evidential Real-World Reinforcement Learning (SEVI), a framework for reliability-aware safety intervention during real-world policy learning. SEVI introduces an Evidential Safety Critic that estimates both future constrai…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, manipulation, policy). Matches your stack: manipulation.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span></p>
     </article>
 
   </section>
@@ -61,11 +81,11 @@
         <a class="person-avatar-link" href="https://github.com/wadeKeith" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/34277382?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/wadeKeith" target="_blank" rel="noopener">Cheng Yin</a></h3>
-          <p class="item-meta">GitHub · THUNLP · International · score 0.8673</p>
+          <p class="item-meta">GitHub · THUNLP · International · score 0.8639</p>
         </div>
       </div>
       <p class="item-summary">Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources. I am a Ph.D student at HUST, China. Joint training with Tsinghua University @thunlp . Embodied intelligence field, RL field. Worked @OpenBMB(ModelBest).</p>
-      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied, embodied AI, VLA (253★ on GitHub). Recent: wadeKeith/Awesome-Embodied-AI.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied AI, embodied, VLA (253★ on GitHub). Recent: wadeKeith/Awesome-Embodied-AI.</p>
       <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/wadeKeith/Awesome-Embodied-AI" target="_blank" rel="noopener">wadeKeith/Awesome-Embodied-AI</a></li></ul>
       <p class="item-tags"><a class="tag tag-link" href="https://github.com/wadeKeith" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Cheng+Yin+THUNLP" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
     </article>
@@ -76,11 +96,11 @@
         <a class="person-avatar-link" href="https://github.com/jonyzhang2023" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/50441823?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/jonyzhang2023" target="_blank" rel="noopener">Qiang (Jony) ZHANG</a></h3>
-          <p class="item-meta">GitHub · University of Science and Technology of China · International · score 0.8555</p>
+          <p class="item-meta">GitHub · University of Science and Technology of China · International · score 0.8538</p>
         </div>
       </div>
       <p class="item-summary">A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches. Embodied AI Researcher</p>
-      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied, embodied AI, vision-language-action (3,606★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied AI, embodied, vision-language-action (3,610★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.</p>
       <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln" target="_blank" rel="noopener">jonyzhang2023/awesome-embodied-vla-va-vln</a></li></ul>
       <p class="item-tags"><a class="tag tag-link" href="https://github.com/jonyzhang2023" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Qiang+%28Jony%29+ZHANG+University+of+Science+and+Technology+of+China" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
     </article>
@@ -91,11 +111,11 @@
         <a class="person-avatar-link" href="https://github.com/2toinf" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/54488861?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/2toinf" target="_blank" rel="noopener">Jinliang Zheng</a></h3>
-          <p class="item-meta">GitHub · Tsinghua University · International · score 0.8013</p>
+          <p class="item-meta">GitHub · Tsinghua University · International · score 0.7982</p>
         </div>
       </div>
       <p class="item-summary">[ICLR 2026] The offical Implementation of &quot;Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model&quot;</p>
-      <p class="item-why"><strong>Why they matter:</strong> This person works on vision-language-action, vision-language, manipulation (746★ on GitHub). Recent: 2toinf/X-VLA.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on vision-language-action, vision-language, manipulation (747★ on GitHub). Recent: 2toinf/X-VLA.</p>
       <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/2toinf/X-VLA" target="_blank" rel="noopener">2toinf/X-VLA</a></li></ul>
       <p class="item-tags"><a class="tag tag-link" href="https://github.com/2toinf" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Jinliang+Zheng+Tsinghua+University" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
     </article>
@@ -106,11 +126,11 @@
         <a class="person-avatar-link" href="https://github.com/zchoi" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/30498168?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/zchoi" target="_blank" rel="noopener">Haonan Zhang</a></h3>
-          <p class="item-meta">GitHub · UESTC | UniTn · International · score 0.7576</p>
+          <p class="item-meta">GitHub · UESTC | UniTn · International · score 0.7604</p>
         </div>
       </div>
       <p class="item-summary">This is a curated list of &quot;Embodied AI or robot with Large Language Models&quot; research. Watch this repository for the latest updates! 🔥 Ph.D. student. Research Interests: LLM-Agents, Vision-Language.</p>
-      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied, embodied AI, vision-language (1,907★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied AI, embodied, vision-language (1,910★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.</p>
       <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent" target="_blank" rel="noopener">zchoi/Awesome-Embodied-Robotics-and-Agent</a></li></ul>
       <p class="item-tags"><a class="tag tag-link" href="https://github.com/zchoi" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Haonan+Zhang+UESTC+%7C+UniTn" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
     </article>
@@ -121,7 +141,7 @@
         <a class="person-avatar-link" href="https://github.com/HCPLab-SYSU" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/38847349?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/HCPLab-SYSU" target="_blank" rel="noopener">HCP Lab</a></h3>
-          <p class="item-meta">GitHub · International · score 0.753</p>
+          <p class="item-meta">GitHub · International · score 0.7499</p>
         </div>
       </div>
       <p class="item-summary">[Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI Human Cyber Physical (HCP) Intelligence Integration Lab
@@ -138,7 +158,7 @@
         <a class="person-avatar-link" href="https://github.com/hzxie" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/1730504?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/hzxie" target="_blank" rel="noopener">Haozhe Xie</a></h3>
-          <p class="item-meta">GitHub · Dexmate · International · score 0.722</p>
+          <p class="item-meta">GitHub · Dexmate · International · score 0.7199</p>
         </div>
       </div>
       <p class="item-summary">The official implementation of &quot;DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation&quot;. (NeurIPS 2026) R&amp;D Lead of Dexmate&#x27;s Singapore Office</p>
@@ -153,7 +173,7 @@
         <a class="person-avatar-link" href="https://github.com/keon" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/10793962?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/keon" target="_blank" rel="noopener">Keon</a></h3>
-          <p class="item-meta">GitHub · Om Labs · International · score 0.715</p>
+          <p class="item-meta">GitHub · Om Labs · International · score 0.7145</p>
         </div>
       </div>
       <p class="item-summary">A curated list of academic papers and resources on Physical AI — focusing on Vision-Language-Action (VLA) models, world models, embodied ai, and robotic foundation models. Co-founder @ Om Labs,
@@ -169,7 +189,7 @@ ex-Uber</p>
         <a class="person-avatar-link" href="https://github.com/shihao1895" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/73372139?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/shihao1895" target="_blank" rel="noopener">Hao Shi</a></h3>
-          <p class="item-meta">GitHub · The University of Hong Kong · International · score 0.7044</p>
+          <p class="item-meta">GitHub · The University of Hong Kong · International · score 0.7039</p>
         </div>
       </div>
       <p class="item-summary">[ICLR 2026] Code of &quot;MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation&quot; 1st-year Ph.D. @ HKU MMLAB  |  M.Eng. @ THU LeapLab  |  Focus on embodied AI.</p>
@@ -184,11 +204,11 @@ ex-Uber</p>
         <a class="person-avatar-link" href="https://github.com/Jiaaqiliu" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/109644579?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/Jiaaqiliu" target="_blank" rel="noopener">Jiaqi Liu</a></h3>
-          <p class="item-meta">GitHub · UNC · International · score 0.7027</p>
+          <p class="item-meta">GitHub · UNC · International · score 0.6997</p>
         </div>
       </div>
       <p class="item-summary">A comprehensive list of excellent research papers, models, datasets, and other resources on Vision-Language-Action (VLA) models in robotics. CS PhD student at UNC-Chapel Hill.</p>
-      <p class="item-why"><strong>Why they matter:</strong> This person works on vision-language-action, vision-language, VLA (501★ on GitHub). Recent: Jiaaqiliu/Awesome-VLA-Robotics.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on vision-language, vision-language-action, VLA (501★ on GitHub). Recent: Jiaaqiliu/Awesome-VLA-Robotics.</p>
       <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/Jiaaqiliu/Awesome-VLA-Robotics" target="_blank" rel="noopener">Jiaaqiliu/Awesome-VLA-Robotics</a></li></ul>
       <p class="item-tags"><a class="tag tag-link" href="https://github.com/Jiaaqiliu" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Jiaqi+Liu+UNC" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
     </article>
@@ -199,7 +219,7 @@ ex-Uber</p>
         <a class="person-avatar-link" href="https://github.com/lasyasuresh" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/258370445?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/lasyasuresh" target="_blank" rel="noopener">lasya suresh </a></h3>
-          <p class="item-meta">GitHub · India · score 0.5953</p>
+          <p class="item-meta">GitHub · India · score 0.5944</p>
         </div>
       </div>
       <p class="item-summary">Robotics &amp; AI Engineer | ROS 2 | SLAM | Embodied AI | BIT Bangalore | CGPA 9.0</p>
@@ -214,7 +234,7 @@ ex-Uber</p>
         <a class="person-avatar-link" href="https://github.com/haradi880" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/152493516?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/haradi880" target="_blank" rel="noopener">Aditya</a></h3>
-          <p class="item-meta">GitHub · Haradi Bots · India · score 0.5599</p>
+          <p class="item-meta">GitHub · Haradi Bots · India · score 0.557</p>
         </div>
       </div>
       <p class="item-summary">👋 Hey, I’m Aditya (Haradi Bots)
@@ -232,11 +252,11 @@ I work on humanoid robots, deep learning models</p>
         <a class="person-avatar-link" href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/161278869?v=4" alt="" loading="lazy"></a>
         <div>
           <h3><a href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener">Saloni Mohapatra</a></h3>
-          <p class="item-meta">GitHub · India · score 0.5348</p>
+          <p class="item-meta">GitHub · India · score 0.5332</p>
         </div>
       </div>
       <p class="item-summary">Computer Science Undergraduate | Machine Learning &amp; Computer Vision | Embodied AI | Robotics | Research</p>
-      <p class="item-why"><strong>Why they matter:</strong> This person works on machine learning, computer vision, embodied (1 GitHub followers). India-based/affiliated. Recent: MohapatraSaloni on GitHub.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on machine learning, computer vision, embodied AI (1 GitHub followers). India-based/affiliated. Recent: MohapatraSaloni on GitHub.</p>
       <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener">MohapatraSaloni on GitHub</a></li></ul>
       <p class="item-tags"><a class="tag tag-link" href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link tag-linkedin" href="https://www.linkedin.com/in/saloni-mohapatra-0b4095284/" target="_blank" rel="noopener">LinkedIn</a><span class="tag">GitHub</span> <span class="tag">India</span> <span class="tag">for_you</span></p>
     </article>
@@ -246,6 +266,26 @@ I work on humanoid robots, deep learning models</p>
   <section class="digest-section">
     <h2>Recent Funding</h2>
     
+    <article class="item">
+      
+      <a class="item-image-link" href="https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/" target="_blank" rel="noopener"><img class="item-image" src="https://news.crunchbase.com/wp-content/uploads/concentrated-capital.jpg" alt="" loading="lazy"></a>
+      <h3><a href="https://news.crunchbase.com/venture/california-startups-most-us-funding-2026-openai-anthropic/" target="_blank" rel="noopener">California Startups Have Raised More So Far In 2026 Than The Entire US Ever Has In A Single Year</a></h3>
+      <p class="item-meta">Crunchbase News · 2026-10-26T11:00:35Z · score 0.5815</p>
+      <p class="item-summary">California companies have scooped up more than three-fourths of all U.S. startup funding this year. That, per Crunchbase data, is an apparent record share. And keep in mind: This year still has a couple months left.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Startup funding news (raised, funding).</p>
+      <p class="item-tags"><span class="tag">funding</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://news.crunchbase.com/ma/acquired-boom-era-startups-ezcater-anyscale/" target="_blank" rel="noopener"><img class="item-image" src="https://news.crunchbase.com/wp-content/uploads/M_A.jpg" alt="" loading="lazy"></a>
+      <h3><a href="https://news.crunchbase.com/ma/acquired-boom-era-startups-ezcater-anyscale/" target="_blank" rel="noopener">Acquirers Are Snapping Up Boom-Era Startups That Haven’t Raised Funding In Years</a></h3>
+      <p class="item-meta">Crunchbase News · 2026-10-22T11:00:41Z · score 0.4548</p>
+      <p class="item-summary">A number of companies whose names might feature on a playlist of 2021 boom-era unicorns have sold to acquirers in recent months, including one-time highfliers like Airtable, Headspace and Miro. In many cases, companies are selling at valuations which, while not puny, are still far below their former peaks.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Startup funding news (raised, funding, valuation).</p>
+      <p class="item-tags"><span class="tag">funding</span></p>
+    </article>
+
     <article class="item">
       
       <a class="item-image-link" href="https://news.crunchbase.com/fintech-ecommerce/insuretech/startup-slingshot-insurance-seed-funding-genteman/" target="_blank" rel="noopener"><img class="item-image" src="https://news.crunchbase.com/wp-content/uploads/Money_Rocket.jpg" alt="" loading="lazy"></a>
@@ -266,26 +306,6 @@ I work on humanoid robots, deep learning models</p>
       <p class="item-tags"><span class="tag">funding</span></p>
     </article>
 
-    <article class="item">
-      
-      <a class="item-image-link" href="https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2026/10/Blacksmith.jpg?resize=1200,800" alt="" loading="lazy"></a>
-      <h3><a href="https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/" target="_blank" rel="noopener">Blacksmith hits unicorn valuation after Sequoia leads Series C</a></h3>
-      <p class="item-meta">TechCrunch Startups · 2026-10-21T17:18:27Z · score 0.409</p>
-      <p class="item-summary">Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.</p>
-      <p class="item-why"><strong>Why it matters:</strong> Startup funding news (series c, valuation, led by).</p>
-      <p class="item-tags"><span class="tag">funding</span></p>
-    </article>
-
-    <article class="item">
-      
-      <a class="item-image-link" href="https://medcitynews.com/2026/10/allswell-raises-7m-to-grow-lgbtq-behavioral-health-platform/" target="_blank" rel="noopener"><img class="item-image" src="https://medcitynews.com/wp-content/uploads/sites/7/2021/05/LGBTQ-youth-flag.jpg" alt="" loading="lazy"></a>
-      <h3><a href="https://medcitynews.com/2026/10/allswell-raises-7m-to-grow-lgbtq-behavioral-health-platform/" target="_blank" rel="noopener">Allswell Raises $7M to Grow LGBTQ+ Behavioral Health Platform</a></h3>
-      <p class="item-meta">MedCity News · 2026-10-18T14:13:00Z · score 0.4088</p>
-      <p class="item-summary">Allswell&amp;#8217;s seed round was led by Rethink Impact, and included participation from Magnify Ventures, Ulu Ventures and Hopelab Ventures, joining existing investors Techstars and Amboy Street Ventures. The post Allswell Raises $7M to Grow LGBTQ+ Behavioral Health Platform appeared first on MedCity News .</p>
-      <p class="item-why"><strong>Why it matters:</strong> Startup funding news (raises, seed round, led by).</p>
-      <p class="item-tags"><span class="tag">funding</span></p>
-    </article>
-
   </section>
 
   <section class="digest-section">
@@ -293,52 +313,52 @@ I work on humanoid robots, deep learning models</p>
     
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/anthropics/knowledge-work-plugins" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/0119e8f6c6eed3cbe7bdb64a1a7de287eaaa781eb7715656d1975140a67dc911/anthropics/knowledge-work-plugins" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/anthropics/knowledge-work-plugins" target="_blank" rel="noopener">anthropics/knowledge-work-plugins</a></h3>
-      <p class="item-meta">GitHub Trending (Python) · 2026-10-25T13:34:18Z · score 0.82</p>
-      <p class="item-summary">Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company. Built for Claude Cowork , also compatible with Claude Code . Why Plugins Cowork lets you set the goal and Claude delivers finished, professional work. Plugins let you go further: tell Claude how you like work done, which tools and data to pull from, how to handle critical workflows, and what slash c…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, repository, open source). Likely useful for builders (code, benchmarks, or tooling implications).</p>
+      <a class="item-image-link" href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/0742e4442346207aab938189c45544c9486aee4b9e840b02e4ea063a57df40a9/Shubhamsaboo/awesome-llm-apps" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" rel="noopener">Shubhamsaboo/awesome-llm-apps</a></h3>
+      <p class="item-meta">GitHub Trending (Python) · 2026-10-26T15:52:14Z · score 0.88</p>
+      <p class="item-summary">100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source. https://www.theunwindai.com Awesome LLM Apps 100+ open-source AI agents, agent skills, and RAG apps. Hand-built, tested end-to-end, Apache-2.0. Clone it, ship it, sell it - 100% free and open-source Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source models. Step-by-step tutorials on Unwind AI · Quick start · Browse all templates Project Graveyard Insurance Claim Live Agent Team AI Fraud Investigation Agen…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: model, GPT, Claude). Likely useful for builders (code, benchmarks, or tooling implications).</p>
       <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/openvinotoolkit/openvino" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/d810dac99eac56eea059765126972b09ed8df24bc3c22cf116a782e8490d4760/openvinotoolkit/openvino" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/openvinotoolkit/openvino" target="_blank" rel="noopener">openvinotoolkit/openvino</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.82</p>
-      <p class="item-summary">OpenVINO™ is an open source toolkit for optimizing and deploying AI inference https://docs.openvino.ai Open-source software toolkit for optimizing and deploying deep learning models. Documentation • Blog • Key Features • Tutorials • Integrations • Benchmarks • Generative AI Inference Optimization : Boost deep learning performance in computer vision, automatic speech recognition, generative AI, natural language processing with large and small language models, and many other common tasks. Flexibl…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: open source, open-source, tool). Likely useful for builders (code, benchmarks, or tooling implications).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">projects</span> <span class="tag">repos</span> <span class="tag">vlm_multimodal</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31838" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31838" target="_blank" rel="noopener">SAGE: Sense-Aligned Multimodal Grounding Evaluation with Gloss-Augmented Reasoning</a></h3>
+      <p class="item-meta">arXiv cs.CL · 2026-10-26T04:00:00Z · score 0.8381</p>
+      <p class="item-summary">arXiv:2610.31838v1 Announce Type: new Abstract: This paper introduces Sense-Aligned Grounding Evaluation (SAGE), a unified 10-candidate image-selection benchmark that reformulates VWSD, VerSe, and WikiDiverse into a shared term-centric protocol covering noun-, verb-, and entity-centered grounding. SAGE includes confusable hard negatives and a context-swapped VerSe diagnostic to probe target-term grounding beyond direct caption--image compatibility. We further propose Gloss-Augmented Reasoning (…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: paper, arXiv, benchmark).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/crewAIInc/crewAI" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/710601088/b287b45c-081a-4001-884d-67374219f277" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/crewAIInc/crewAI" target="_blank" rel="noopener">crewAIInc/crewAI</a></h3>
-      <p class="item-meta">GitHub Trending (Python) · 2026-10-25T13:34:18Z · score 0.7</p>
-      <p class="item-summary">Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks. https://crewai.com Homepage · Open Source · Docs · Start Cloud Trial · Blog · Forum Fast and Flexible Multi-Agent Automation Framework CrewAI is an open-source Python framework with high-level abstractions and low-level APIs for building production-ready multi-agent workflows. It gives developers autonomous agent col…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: framework, API). Likely useful for builders (code, benchmarks, or tooling implications).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.32126" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.32126" target="_blank" rel="noopener">Data Quality in RVL-CDIP: A Systematic Audit</a></h3>
+      <p class="item-meta">arXiv cs.CV · 2026-10-26T04:00:00Z · score 0.8381</p>
+      <p class="item-summary">arXiv:2610.32126v1 Announce Type: new Abstract: RVL-CDIP is the de facto standard benchmark for document classification, and reported accuracy on it is now 98.8%. In this paper, we audit RVL-CDIP for data quality issues and find that approximately 10.5% of its 400,000 documents have erroneous labels and that 35.2% of the test set has a duplicate or near-duplicate in the training set. Identification codes on the pages are sufficient to classify at 69% accuracy, and a state-of-the-art model loses…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: paper, arXiv, benchmark).</p>
+      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">repos</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/zen-browser/desktop" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/1e3efc9bfaeb5458772104fa8f191318f4a6299bb1fe269e2d3a4041a7ac71f3/zen-browser/desktop" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/zen-browser/desktop" target="_blank" rel="noopener">zen-browser/desktop</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.6925</p>
-      <p class="item-summary">Welcome to a calmer internet https://zen-browser.app Zen Browser Zen is a firefox-based browser with the aim of pushing your productivity to a new level! Download • Website • Documentation • Release Notes Firefox Versions Release - Is currently built using Firefox version 158.0 ! Twilight - Is currently built using Firefox version RC 158.0 ! Contributing If you&#x27;d like to report a bug, please do so on our GitHub Issues page and for feature requests, you can use GitHub Discussions . Zen is an ope…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, GitHub, release notes).</p>
-      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31898" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31898" target="_blank" rel="noopener">StateBridge: Phase- and Track-Grounded Reasoning for Synthetic-to-Real Traffic Video Captioning and VQA</a></h3>
+      <p class="item-meta">arXiv cs.CV · 2026-10-26T04:00:00Z · score 0.7556</p>
+      <p class="item-summary">arXiv:2610.31898v1 Announce Type: new Abstract: Traffic safety videos provide rich evidence for understanding interactions between pedestrians and vehicles, but synthetic-to-real evaluation makes this setting challenging because models must learn from simulated scenes and generalize to real-world traffic. In this work, we present StateBridge, a traffic video-language framework designed to operate under this synthetic-only training protocol. Our approach uses phase-aware clip construction, pedes…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, evaluation, training).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/1cba87684cfa134081a47dbe12b70e051657f6f46d3bdcf092826921b01dd125/ComposioHQ/awesome-claude-skills" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ComposioHQ/awesome-claude-skills" target="_blank" rel="noopener">ComposioHQ/awesome-claude-skills</a></h3>
-      <p class="item-meta">GitHub Trending (Python) · 2026-10-25T13:34:18Z · score 0.6775</p>
-      <p class="item-summary">A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows Awesome Claude Skills A comprehensive and curated list of 1000+ production ready and practical Claude Skills and Plugins for enhancing productivity across usecases on not just Claude.ai , Claude Code, but also across coding agents like Codex, Cursor, Gemini CLI, Antigravity and more. Give your skills real-world actions Skills tell your agent how to work. An MCP Gateway gives it secure access to the…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: Claude, Gemini).</p>
-      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31972" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31972" target="_blank" rel="noopener">Reproducible Evaluation as the Substrate for Safe Prompt Compression in Production Agents</a></h3>
+      <p class="item-meta">arXiv cs.AI · 2026-10-26T04:00:00Z · score 0.7406</p>
+      <p class="item-summary">arXiv:2610.31972v1 Announce Type: new Abstract: Evaluating conversational agents that act on live, mutable enterprise data is hard: replayed sessions drift as backend state changes, and a benchmark built today can silently go stale as the data it describes moves on. We present an offline evaluation harness for a production conversational agent that stays reproducible despite the live data it operates on changing, and that can be regenerated on demand once it goes stale. We then use this harness…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, benchmark, evaluation). Likely useful for builders (code, benchmarks, or tooling implications).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">papers_benchmarks</span></p>
     </article>
 
   </section>
@@ -348,32 +368,32 @@ I work on humanoid robots, deep learning models</p>
     
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ClickHouse/ClickHouse" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/8d91423e6328c2169546d237542b470eb7b5b11bb7a766d2708034f7c83cefbd/ClickHouse/ClickHouse" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ClickHouse/ClickHouse" target="_blank" rel="noopener">ClickHouse/ClickHouse</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.6775</p>
-      <p class="item-summary">ClickHouse® is a real-time analytics database management system https://clickhouse.com ClickHouse® is an open-source column-oriented database management system that allows generating analytical data reports in real-time. How To Install (Linux, macOS, FreeBSD) curl https://clickhouse.com/ | sh Or skip the install: try ClickHouse Cloud for free and start querying in minutes. Useful Links Official website has a quick high-level overview of ClickHouse on the main page. ClickHouse Cloud ClickHouse a…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, open-source).</p>
+      <a class="item-image-link" href="https://github.com/AgriciDaniel/claude-seo" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/1152014594/0e048e51-24ae-435b-9b32-cc6b3def5356" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/AgriciDaniel/claude-seo" target="_blank" rel="noopener">AgriciDaniel/claude-seo</a></h3>
+      <p class="item-meta">GitHub Trending (All Languages) · 2026-10-26T15:52:14Z · score 0.7</p>
+      <p class="item-summary">Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data. https://skool.com/ai-marketing-hub-pro Claude SEO Free, open-source SEO audits inside Claude Code . Rank higher in Google and get cited by AI search. Install · Demo · Results · Team · C…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, open-source). Likely useful for builders (code, benchmarks, or tooling implications).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/coollabsio/coolify" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/332880689/2061f103-12bd-421a-90dc-3bbea15766d0" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/coollabsio/coolify" target="_blank" rel="noopener">coollabsio/coolify</a></h3>
+      <p class="item-meta">GitHub Trending (All Languages) · 2026-10-26T15:52:14Z · score 0.6775</p>
+      <p class="item-summary">An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers. https://coolify.io Coolify An open-source platform to deploy applications, databases, and services on your own servers. Open source &amp;amp; free forever, backed by our philosophy . Website · Documentation · Cloud · Discord · Community What is Coolify? Coolify is an open-source and self-hostable alte…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: open source, open-source).</p>
+      <p class="item-tags"><span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/apirrone/Open_Duck_Mini" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/356ec82e58ee333db5c13d8100f22e55b98efd36d7976fdd593adad93b1c4e33/apirrone/Open_Duck_Mini" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/apirrone/Open_Duck_Mini" target="_blank" rel="noopener">apirrone/Open_Duck_Mini</a></h3>
+      <p class="item-meta">GitHub Trending (Python) · 2026-10-26T15:52:14Z · score 0.655</p>
+      <p class="item-summary">Making a mini version of the BDX droid. https://discord.gg/UtJZsgfQGe Open Duck Mini v2 We are making a miniature version of the BDX Droid by Disney. It is about 42 centimeters tall with its legs extended. The full BOM cost should be under $400 ! This repo is kind of a hub where we centralize all resources related to this project. This is a working repo, so there are a lot of undocumented scripts 😃 We&#x27;ll try to clean things up at some point. State of sim2real https://github.com/user-attachments…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, GitHub).</p>
       <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
-    </article>
-
-    <article class="item">
-      
-      <a class="item-image-link" href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/968197216/8522a757-5632-4fa4-8d01-fcc121390cb1" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noopener">google-gemini/gemini-cli</a></h3>
-      <p class="item-meta">GitHub Trending (All Languages) · 2026-10-25T13:34:18Z · score 0.655</p>
-      <p class="item-summary">An open-source AI agent that brings the power of Gemini directly into your terminal. https://geminicli.com Note Unpaid tier and Google One users: Gemini CLI was replaced by Antigravity CLI on June 18th, 2026. To learn more, see our blog post . Gemini CLI has not been optimized for Gemini 4 Argon. To use Gemini 4 Argon, please use Antigravity. Gemini CLI Note Gemini CLI is not optimized for the latest Gemini models. For the best coding experience with Gemini models use Antigravity CLI Gemini CLI…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: model, Gemini).</p>
-      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
-    </article>
-
-    <article class="item">
-      
-      <a class="item-image-link" href="https://github.com/makecindy/cindy" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/942284f31bf03237debb611032085dbaa27c9abec7d28e30e88c8c1e40b54db2/makecindy/cindy" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/makecindy/cindy" target="_blank" rel="noopener">makecindy/cindy</a></h3>
-      <p class="item-meta">GitHub Trending (All Languages) · 2026-10-25T13:34:18Z · score 0.655</p>
-      <p class="item-summary">Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 https://cindy.app English · 简体中文 🌐 cindy.app &amp;nbsp;·&amp;nbsp; ⬇️ Download Cindy is an open-source AI agent that works out of the box. She brings multiple harnesses, models and tools into one agent that finishes real work in your projects and apps. Ready from day one, yours to shape over time. Cindy runs locally on your own machine, using your real files and logged-in apps. The first supported harnesse…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: open-source, tool).</p>
-      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
     </article>
 
   </section>
@@ -383,42 +403,42 @@ I work on humanoid robots, deep learning models</p>
     
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.189" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.189" target="_blank" rel="noopener">v8.4.189 - `ultralytics 8.4.189` Fix IMX requirements, Hailo seg end nodes and unreadable-dataset errors (#26883)</a></h3>
-      <p class="item-meta">Ultralytics (YOLO) · 2026-10-25T13:25:52Z · score 0.6745</p>
-      <p class="item-summary">🌟 Summary Ultralytics 8.4.189 improves deployment reliability and inference robustness , with key fixes for Sony IMX500 and Hailo exports, clearer dataset errors, and safer handling of model outputs. No model architecture changes were introduced. 📊 Key Changes More reliable IMX500 exports: Updated converter requirements and aligned dependency versions. IMX500 export is now explicitly supported on Linux with Python 3.10–3.12. Fixed Hailo segmentation exports: The segmentation prototype output no…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: inference, deployment).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31946" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31946" target="_blank" rel="noopener">Which Answer Did the Seventeen-Year-Old Write? A Behavioral Case Study of Author-Age Misattribution, Miscalibrated Confidence, and Non-Corrective Self-Explanation in Six Frontier Language Models</a></h3>
+      <p class="item-meta">arXiv cs.CL · 2026-10-26T04:00:00Z · score 0.7331</p>
+      <p class="item-summary">arXiv:2610.31946v1 Announce Type: new Abstract: Three students answered the same exam prompt by hand: &quot;What is happiness? Are you happy?&quot; Their ages, recorded at collection, are 17, 28, and 45. The 17-year-old&#x27;s answer is hedged and formally phrased. Asked to match each answer to an age and gender label, most frontier language models confidently assign it to an adult. This paper reports a structured case study of that failure across six models: Claude Fable 5, Gemini 3.1 Pro, GPT-5.6 Sol, Grok…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: model, GPT, Claude).</p>
+      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">repos</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ggml-org/llama.cpp/releases/tag/b11874" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11874" target="_blank" rel="noopener">b11874</a></h3>
-      <p class="item-meta">llama.cpp · 2026-10-25T13:33:31Z · score 0.6724</p>
-      <p class="item-summary">opencl: add topk and lightning indexer ( #31026 ) opencl: add topk opencl: optimize topk opencl: add fp lightning indexer opencl: optimize lightning indexer opencl: refactor opencl: refactor tiled topk kernel opencl: adjust format Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59622642 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (C…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: kernel, framework).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">repos</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31945" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31945" target="_blank" rel="noopener">Kolibri: A Sovereign European Model on the Pareto Frontier</a></h3>
+      <p class="item-meta">arXiv cs.CL · 2026-10-26T04:00:00Z · score 0.6956</p>
+      <p class="item-summary">arXiv:2610.31945v1 Announce Type: new Abstract: This report introduces Kolibri, an English-German mixture-of-experts transformer with 78.1B total parameters and 3.46B active parameters per token, released as open weights under the Apache 2.0 licence. We built Kolibri for sovereign and specialised deployment, with a particular focus on German and on regulated domains such as public administration, industry, and aerospace. To support these settings, we control the full model-development process,…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: release, model, open weights).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">repos</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/612354784/8b9eb0ec-6517-44a9-8a3a-fccddc678e57" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener">ggml-org/llama.cpp</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.655</p>
-      <p class="item-summary">LLM inference in C/C++ https://llama.app llama.cpp LLM inference in C/C++ ggml / ops / maintainer PRs / dev stats / lib llama API / llama-server REST API Quick start A few options to get llama.cpp installed on your machine: # curl curl -LsSf https://llama.app/install.sh | sh # powershell irm https://llama.app/install.ps1 | iex Visit https://llama.app and follow the instructions Run with Docker - see our Docker documentation Download pre-built binaries from the releases page Build from source by…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: release, Llama).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">projects</span></p>
+      <a class="item-image-link" href="https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/u/23090290?s=60&amp;v=4" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/unslothai/unsloth/releases/tag/v0.1.911-beta" target="_blank" rel="noopener">Scheduled + MiniMax-M3.1-Flash + Perf Gains</a></h3>
+      <p class="item-meta">Unsloth · 2026-10-26T15:04:30Z · score 0.6846</p>
+      <p class="item-summary">This release adds scheduled tasks, FLUX-3 edit support, perf improvements and more. Also new: MiniMax-M3.1-Flash, face touch-ups for images and faster performance + chats on Mac. Highlights Scheduled tasks : Run a prompt on a schedule with a local model or an API MiniMax-M3.1-Flash : MiniMax&#x27;s 428B MoE (23B active) Guide FLUX 3 Editing : FLUX 3 now supports editing of images with prompts Perf improvements : Large Mac perf gains, less lag, reduced binary sizes Saved presets : Save your Run setti…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: release, model).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ml-explore/mlx" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/62ed59280fd7985d6d64378d06e7af7537d704e68f830a2c1c7fdbee1c7be3d0/ml-explore/mlx" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ml-explore/mlx" target="_blank" rel="noopener">ml-explore/mlx</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.655</p>
-      <p class="item-summary">MLX: An array framework for Apple silicon https://ml-explore.github.io/mlx/ MLX Quickstart | Installation | Documentation | Examples MLX is an array framework for machine learning on Apple silicon, brought to you by Apple machine learning research. Some key features of MLX include: Familiar APIs : MLX has a Python API that closely follows NumPy. MLX also has fully featured C++, C , and Swift APIs, which closely mirror the Python API. MLX has higher-level packages like mlx.nn and mlx.optimizers…</p>
+      <a class="item-image-link" href="https://github.com/ggml-org/llama.cpp/releases/tag/b11899" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/ggml-org/llama.cpp/releases/tag/b11899" target="_blank" rel="noopener">b11899</a></h3>
+      <p class="item-meta">llama.cpp · 2026-10-26T12:29:36Z · score 0.6831</p>
+      <p class="item-summary">mtmd: add mtmd_helper_get_capabilities ( #31183 ) mtmd: add mtmd_helper_get_capabilities cap audio_stream add back old api for compat audio_gen_spk_ref, text_gen Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/59906184 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu s390x (CPU) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubun…</p>
       <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: framework, API).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">repos</span></p>
     </article>
 
   </section>
@@ -427,33 +447,33 @@ I work on humanoid robots, deep learning models</p>
     <h2>Robotics &amp; Embodied AI</h2>
     
     <article class="item">
-      
-      <a class="item-image-link" href="https://github.com/pollen-robotics/microduck" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/a03890a9d66b0f2f7d984f83138eba6060e85b6825e95a657d60172d99757a61/pollen-robotics/microduck" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/pollen-robotics/microduck" target="_blank" rel="noopener">pollen-robotics/microduck</a></h3>
-      <p class="item-meta">GitHub Trending (All Languages) · 2026-10-25T13:34:18Z · score 0.6325</p>
-      <p class="item-summary">A Tiny biped duck robot 🦆 https://pollen-robotics.com/microduck Microduck A tiny biped robot that moves using reinforcement learning policies. Get yours here · Cheat sheet · Training the policies · How it works · Contributing This repo is the duck&#x27;s brain. About 25 cm and 800 g of robot, run by a handful of daemons on a Rockchip RK3566: a 50 Hz control loop driving fifteen servos from neural policies, the radios and the camera, and the update machinery that gets new software onto a robot withou…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, robotics).</p>
-      <p class="item-tags"><span class="tag">papers_benchmarks</span> <span class="tag">projects</span> <span class="tag">repos</span> <span class="tag">robotics_vla</span></p>
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31845" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31845" target="_blank" rel="noopener">EgoForesight: Effectively Scaling Policy Learning with Noisy Egocentric Actions</a></h3>
+      <p class="item-meta">arXiv cs.RO · 2026-10-26T04:00:00Z · score 0.7051</p>
+      <p class="item-summary">arXiv:2610.31845v1 Announce Type: new Abstract: Scaling policy learning requires broad experience and reliable supervision. Robot demonstrations provide high-quality trajectory supervision but are costly to collect. Egocentric videos broaden task and environment coverage, yet motion reconstruction and retargeting introduce noisy action labels. To address this challenge, we introduce EgoForesight, a vision-language-action framework that learns jointly from both sources by reducing the influence…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, vision-language-action, policy). Matches your stack: vision-language-action.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
-      
-      <a class="item-image-link" href="https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update" target="_blank" rel="noopener"><img class="item-image" src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" alt="" loading="lazy"></a>
-      <h3><a href="https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update" target="_blank" rel="noopener">Now Google says it might use your Gmail and Google Photos data to target ads</a></h3>
-      <p class="item-meta">The Verge AI · 2026-10-23T16:52:55Z · score 0.4236</p>
-      <p class="item-summary">Google has updated its privacy policy in a way that could mean you&#x27;ll start seeing targeted ads based on your personal data if you&#x27;re using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for personalized ads. While the previous [&amp;#8230;]</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: policy).</p>
-      <p class="item-tags"><span class="tag">industry</span> <span class="tag">robotics_vla</span></p>
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31983" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31983" target="_blank" rel="noopener">Interpreting Physics in Video Encoders using Multi-Object Interaction Videos</a></h3>
+      <p class="item-meta">arXiv cs.CV · 2026-10-26T04:00:00Z · score 0.6676</p>
+      <p class="item-summary">arXiv:2610.31983v1 Announce Type: new Abstract: Video encoder models are increasingly used as world models for physical AI, where a policy plans by rolling out the latent, so what physics the latent holds bounds what the agent can plan over. Moreover, existing interpretability work probes quantities belonging to a single object; the quantities that make physics relational, such as momentum transfer, restitution, and friction, are defined between bodies and have not been examined. We probe relat…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: policy, world model). Matches your stack: world model.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
-      
-      <a class="item-image-link" href="https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/" target="_blank" rel="noopener"><img class="item-image" src="https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/Microduck-labels.webp" alt="" loading="lazy"></a>
-      <h3><a href="https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation/" target="_blank" rel="noopener">Using AI Agents to Teach Robots Like Microduck to Walk in Simulation</a></h3>
-      <p class="item-meta">NVIDIA Developer Blog (AI) · 2026-10-23T14:58:32Z · score 0.4125</p>
-      <p class="item-summary">Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, policy).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">robotics_vla</span></p>
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.32093" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.32093" target="_blank" rel="noopener">DiscoDemo: Discovering Efficient and Diverse Robot Demonstrations for Imitation Learning</a></h3>
+      <p class="item-meta">arXiv cs.RO · 2026-10-26T04:00:00Z · score 0.6676</p>
+      <p class="item-summary">arXiv:2610.32093v1 Announce Type: new Abstract: Behavior cloning for robotic manipulation is highly sensitive to the coverage of its training data, yet collecting diverse successful demonstrations remains costly. We study reinforcement learning (RL) not as a deployable controller, but as a data generator for downstream visuomotor imitation learning. Our key premise is that multiple successful solution modes cover a broader range of successful trajectories than repeatedly collecting a single nar…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot, manipulation). Matches your stack: manipulation.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span></p>
     </article>
 
   </section>
@@ -463,22 +483,32 @@ I work on humanoid robots, deep learning models</p>
     
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.186" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.186" target="_blank" rel="noopener">v8.4.186 - Load torch 1.10-1.12 on glibc 2.41+ with one shared executable-stack fix for torch and MNN (#26866)</a></h3>
-      <p class="item-meta">Ultralytics (YOLO) · 2026-10-24T11:40:09Z · score 0.4545</p>
-      <p class="item-summary">🌟 Summary Improves compatibility with newer Linux systems by fixing imports for some older PyTorch versions and MNN on glibc 2.41 and later. 📊 Key Changes 🛠️ Adds a shared import helper that clears an unused executable-stack flag from affected shared libraries when glibc rejects them. 🔥 Uses the fix for PyTorch 1.10–1.12 and MNN; other import errors are still raised normally. 📚 Updates the utility reference documentation and removes the now-redundant MNN-specific import helper. 🎯 Purpose &amp;amp;…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Tagged under VLM / VLA / Multimodal.</p>
-      <p class="item-tags"><span class="tag">vlm_multimodal</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.32059" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.32059" target="_blank" rel="noopener">Concept Acupuncturist: An Efficient and Precise Concept Erasure Method for Diffusion Models via Sparse Autoencoders</a></h3>
+      <p class="item-meta">arXiv cs.CV · 2026-10-26T04:00:00Z · score 0.6581</p>
+      <p class="item-summary">arXiv:2610.32059v1 Announce Type: new Abstract: Diffusion-based image generation models produce high-quality images but may generate harmful or policy-violating content, motivating machine unlearning (MU) to selectively remove target concepts while preserving general capabilities. However, existing MU approaches often struggle with the distributed and entangled nature of concept representations, leading to inefficient optimization and imprecise edits when applied through large-scale fine-tuning…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to VLM / VLA / Multimodal (matches: diffusion, image generation).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://huggingface.co/blog/ibm-granite/granite-speech-5" target="_blank" rel="noopener"><img class="item-image" src="https://cdn-uploads.huggingface.co/production/uploads/653fb52cbfd890805461d691/M_JJyIOBOWVzHXdy7CVVG.png" alt="" loading="lazy"></a>
-      <h3><a href="https://huggingface.co/blog/ibm-granite/granite-speech-5" target="_blank" rel="noopener">Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster</a></h3>
-      <p class="item-meta">Hugging Face Blog · 2026-10-21T14:58:18Z · score 0.4263</p>
-      <p class="item-summary"></p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to VLM / VLA / Multimodal (matches: speech).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">vlm_multimodal</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.32013" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.32013" target="_blank" rel="noopener">MAGIC: Margin-gated Contrastive Debiasing with Evidence Restoration for VLM Test-time Robustness Scaling</a></h3>
+      <p class="item-meta">arXiv cs.CV · 2026-10-26T04:00:00Z · score 0.6356</p>
+      <p class="item-summary">arXiv:2610.32013v1 Announce Type: new Abstract: This paper studies the problem of test-time robustness scaling for large vision-language models (LVLMs), which aims to mitigate language bias during inference. Existing approaches typically adopt test-time scaling techniques such as contrastive decoding to improve inference performance. Despite the progress, the performance of these approaches is far from satisfactory due to intentional evidence removal during perturbations and redundant inference…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to VLM / VLA / Multimodal (matches: vision-language, VLM).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.32042" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.32042" target="_blank" rel="noopener">X-Dubbing: Speech-to-Speech Translation under Temporal and Visual Constraints</a></h3>
+      <p class="item-meta">arXiv cs.CL · 2026-10-26T04:00:00Z · score 0.6131</p>
+      <p class="item-summary">arXiv:2610.32042v1 Announce Type: new Abstract: Cross-lingual dubbing aims to convert source speech into target-language speech that remains synchronized with the original video. The key to this task is to produce a faithful translation that is naturally speakable within the source timing, which is non-trivial because languages differ in duration, rhythm, and articulation. In this paper, we propose X-Dubbing, which formulates the task as a joint problem of time-aware speech-to-text translation…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to VLM / VLA / Multimodal (matches: speech, speech-to-text).</p>
+      <p class="item-tags"><span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
   </section>
@@ -488,52 +518,52 @@ I work on humanoid robots, deep learning models</p>
     
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/vectorize-io/hindsight" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/3380d6d605f17b317cac256dd4772e9e89bedc6b49af72b26462333959db0119/vectorize-io/hindsight" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/vectorize-io/hindsight" target="_blank" rel="noopener">vectorize-io/hindsight</a></h3>
-      <p class="item-meta">GitHub Trending (Python) · 2026-10-25T13:34:18Z · score 0.655</p>
-      <p class="item-summary">Hindsight: Agent Memory That Learns https://hindsight.vectorize.io/ Documentation • Integrations • Cookbook • Benchmarks • Paper • Hindsight Cloud What is Hindsight? Hindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsight is focused on making agents that learn, not just remember. It eliminates the shortcomings of alternative techniques such as RAG and knowledge graph and delivers state…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: paper, benchmark).</p>
-      <p class="item-tags"><span class="tag">papers_benchmarks</span> <span class="tag">projects</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31821" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31821" target="_blank" rel="noopener">What the Query Remembers: Query Abstraction Governs Lexical and Dense Retrieval of Classical Arabic Poetry</a></h3>
+      <p class="item-meta">arXiv cs.CL · 2026-10-26T04:00:00Z · score 0.7406</p>
+      <p class="item-summary">arXiv:2610.31821v1 Announce Type: new Abstract: How well a poetry archive can be searched depends on what the user still remembers, not only on what the model understands. We show this for Classical Arabic poetry, benchmarking nine dense encoders and BM25 over two corpora, three indexing modes and two evaluation protocols. Which retriever wins is governed by how much of a poem&#x27;s wording the query still carries. On tip-of-the-tongue queries BM25 leads every dense encoder, including an 8B state-o…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, benchmark, evaluation). Likely useful for builders (code, benchmarks, or tooling implications).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://openai.com/index/securing-our-frontier-model-training-environment" target="_blank" rel="noopener"><img class="item-image" src="https://images.ctfassets.net/kftzwdyauwt9/5Ho5AoUkijZ1OWhqcDlVvT/84af1aa075c5e8e44d9dc93d0146c31f/new-approach-to-research-model-containment-social.png?w=1600&amp;amp;h=900&amp;amp;fit=fill" alt="" loading="lazy"></a>
-      <h3><a href="https://openai.com/index/securing-our-frontier-model-training-environment" target="_blank" rel="noopener">Securing our frontier model training environment</a></h3>
-      <p class="item-meta">OpenAI News · 2026-10-23T10:00:00Z · score 0.5837</p>
-      <p class="item-summary">OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: evaluation, training).</p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31721" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31721" target="_blank" rel="noopener">End-to-End Differentiable Diffusion Conditioning for Physics-Informed Optimization</a></h3>
+      <p class="item-meta">arXiv cs.LG · 2026-10-26T04:00:00Z · score 0.7181</p>
+      <p class="item-summary">arXiv:2610.31721v1 Announce Type: new Abstract: Optimizing high-dimensional physical systems under expensive evaluations and complex constraints is a central challenge in science and engineering. In offline model-based optimization (MBO), methods must improve designs using only a fixed dataset and no test-time access to the true objective. However, existing methods typically suffer from conservatism, unconstrained surrogate exploitation, or function as static inference-time samplers that cannot…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, evaluation, dataset).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31733" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31733" target="_blank" rel="noopener">Learning to Be Monitored: Causal Bounds and Intervention-Aware Post-Training Recipes for Chain-of-Thought Monitorability</a></h3>
+      <p class="item-meta">arXiv cs.LG · 2026-10-26T04:00:00Z · score 0.7181</p>
+      <p class="item-summary">arXiv:2610.31733v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring aims to detect potentially harmful behaviors in large language models (LLMs) from their CoTs. Intervention-based evaluations measure this property by asking whether a monitor can detect the role of an intervention from the CoT when the targeted behavior occurs, typically using minimal-criterion sensitivity ($\mathsf{TPR_{mc}}$) proposed by~\citep{guan2025monitoring}. However, a target behavior observed under inter…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, evaluation, training).</p>
       <p class="item-tags"><span class="tag">industry</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/" target="_blank" rel="noopener"><img class="item-image" src="https://pytorch.org/wp-content/uploads/2026/10/All-PyTorch-Blog-_-Social-Images-4.png" alt="" loading="lazy"></a>
-      <h3><a href="https://pytorch.org/blog/torchtitan-update-new-sota-models-performance-at-scale-titanrl/" target="_blank" rel="noopener">TorchTitan Update: New SOTA Models, Performance at Scale, TitanRL</a></h3>
-      <p class="item-meta">PyTorch Blog · 2026-10-21T19:45:44Z · score 0.5683</p>
-      <p class="item-summary">TorchTitan is a PyTorch-native platform for rapid experimentation and large-scale pre- and post-training of generative AI models. It is designed as a minimal, clean-room implementation of PyTorch-native techniques, with flexible... The post TorchTitan Update: New SOTA Models, Performance at Scale, TitanRL appeared first on PyTorch .</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: SOTA, training). Likely useful for builders (code, benchmarks, or tooling implications).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31791" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31791" target="_blank" rel="noopener">PaperScorer: How Predictable Is Paper Acceptance?</a></h3>
+      <p class="item-meta">arXiv cs.LG · 2026-10-26T04:00:00Z · score 0.7181</p>
+      <p class="item-summary">arXiv:2610.31791v1 Announce Type: new Abstract: Automated research is largely evaluated by benchmark performance, but the value of research rarely reduces to a single score. Humans judge a work&#x27;s holistic contribution through peer review, which is hard to model because it is noisy and depends on many factors. However, what if, given only the paper, we could predict its peer-review decision directly? We introduce PaperScorer, a family of models that predict a paper&#x27;s accept or reject decision fr…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: paper, arXiv, benchmark).</p>
+      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.187" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.187" target="_blank" rel="noopener">v8.4.187 - ultralytics 8.4.187 OKS-only label assignment with a pyramid-level gate for YOLO26-pose (#26843)</a></h3>
-      <p class="item-meta">Ultralytics (YOLO) · 2026-10-24T12:58:36Z · score 0.5178</p>
-      <p class="item-summary">🌟 Summary YOLO26-pose training now assigns keypoints using pose accuracy, with a feature-pyramid scale gate to help match objects to suitable training anchors. 📊 Key Changes OKS-only matching: For ground truths with visible keypoints, assignment now uses keypoint similarity (OKS) instead of blending it with box overlap. Scale-aware candidate selection: An FCOS-style gate limits candidate anchors to pyramid levels suited to each object’s size. The finest and coarsest levels remain available for…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: training).</p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31863" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31863" target="_blank" rel="noopener">Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance</a></h3>
+      <p class="item-meta">arXiv cs.CL · 2026-10-26T04:00:00Z · score 0.7181</p>
+      <p class="item-summary">arXiv:2610.31863v1 Announce Type: new Abstract: If agricultural machinery is to support intelligent, offline assistance, then the system must access technical documentation dynamically. In this paper, the Semantic Synchronization of operator manuals over ISO 11783-based CAN buses is analyzed, defined as the process that brings the local knowledge base of a tractor-side assistant into agreement with the operator manual of the connected implement. Data transfer performance was benchmarked using M…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: paper, arXiv, benchmark).</p>
       <p class="item-tags"><span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
-    </article>
-
-    <article class="item">
-      
-      <a class="item-image-link" href="https://huggingface.co/blog/microsoft/thinkingbox-training" target="_blank" rel="noopener"><img class="item-image" src="https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png" alt="" loading="lazy"></a>
-      <h3><a href="https://huggingface.co/blog/microsoft/thinkingbox-training" target="_blank" rel="noopener">Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox</a></h3>
-      <p class="item-meta">Hugging Face Blog · 2026-10-22T22:24:34Z · score 0.4629</p>
-      <p class="item-summary"></p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: training).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span></p>
     </article>
 
   </section>
@@ -543,31 +573,31 @@ I work on humanoid robots, deep learning models</p>
     
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/microsoft/winget-cli" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/8a52997b368757fab22371be133dc99dac34f27eaf2ead2edb0f9b0ade1aba45/microsoft/winget-cli" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/microsoft/winget-cli" target="_blank" rel="noopener">microsoft/winget-cli</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.655</p>
-      <p class="item-summary">WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface). https://learn.microsoft.com/windows/package-manager/ Windows Package Manager WinGet Client If you are new to the Windows Package Manager, you might want to Explore the Windows Package Manager tool . The client has access to packages from two default sources. The first is &quot;msstore&quot; the Microsoft Store (free Ap…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: tool, package).</p>
-      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+      <a class="item-image-link" href="https://github.com/521xueweihan/HelloGitHub" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/58028038/6cac4038-fd31-4ea6-8b31-e52ddc9a9b97" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/521xueweihan/HelloGitHub" target="_blank" rel="noopener">521xueweihan/HelloGitHub</a></h3>
+      <p class="item-meta">GitHub Trending (Python) · 2026-10-26T15:52:14Z · score 0.655</p>
+      <p class="item-summary">分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub. https://hellogithub.com 中文 | English | 日本語 分享 GitHub 上有趣、入门级的开源项目。 兴趣是最好的老师，HelloGitHub 帮你找到开源的乐趣！ 简介 HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。 每月 28 号 以月刊的形式 更新发布 ，内容包括： 有趣、入门级的开源项目 、 开源书籍 、 实战项目 、 企业级项目 等，让你用很短时间感受到开源的魅力，爱上开源！ 内容 获得更好的阅读体验 官网 或 HelloGitHub 公众号 📇 🎃 🍺 🍥 第 126 期 第 125 期 第 124 期 第 123 期 第 122 期 第 121 期 第 120 期 第 119 期 第 118 期 第 117 期 第 116 期 第 115 期 第 114 期 第 113 期 第 112 期 第 111 期 第 110 期 第 109 期 第 10…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: GitHub, open source).</p>
+      <p class="item-tags"><span class="tag">projects</span> <span class="tag">repos</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/imputnet/helium" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/10c78f7babcb689aecd9f0090388101dec7d83a3222272ea8749e07db938c3e6/imputnet/helium" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/imputnet/helium" target="_blank" rel="noopener">imputnet/helium</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.6325</p>
-      <p class="item-summary">Private, fast, and honest web browser https://helium.computer Helium The browser built around privacy, consent, and comfort. helium.computer Downloads Note Helium is in beta, so unexpected issues may occur. Please report them if they haven&#x27;t already been reported. The easiest way to download Helium is helium.computer . It&#x27;ll pick a compatible binary for your platform automatically. The same releases can also be downloaded from source on GitHub: Latest macOS release Latest Linux release Latest W…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, GitHub).</p>
-      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.31809" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.31809" target="_blank" rel="noopener">CuraLoc: Repository-Level Fault Localization via Planned Code Inspection</a></h3>
+      <p class="item-meta">arXiv cs.LG · 2026-10-26T04:00:00Z · score 0.6356</p>
+      <p class="item-summary">arXiv:2610.31809v1 Announce Type: new Abstract: A bug report describes what went wrong, but rarely where the code should change. Existing repository-level localization methods often let language models iteratively decide what code to inspect next, requiring repeated model calls and substantial token usage. We investigate whether these inspection decisions can instead be planned before source retrieval. In this research, we introduce CuraLoc, which first selects candidate files and represents th…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, repository).</p>
+      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">repos</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://github.com/envoyproxy/envoy" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/bdf04c431b22d49a6c4cb156d3e128c053a6a93562c189ed7b344932a0229099/envoyproxy/envoy" alt="" loading="lazy"></a>
-      <h3><a href="https://github.com/envoyproxy/envoy" target="_blank" rel="noopener">envoyproxy/envoy</a></h3>
-      <p class="item-meta">GitHub Trending (C++) · 2026-10-25T13:34:18Z · score 0.595</p>
-      <p class="item-summary">Cloud-native high-performance edge/middle/service proxy https://www.envoyproxy.io Cloud-native high-performance edge/middle/service proxy Envoy is hosted by the Cloud Native Computing Foundation (CNCF). If you are a company that wants to help shape the evolution of technologies that are container-packaged, dynamically-scheduled and microservices-oriented, consider joining the CNCF. For details about who&#x27;s involved and how Envoy plays a role, read the CNCF announcement . Documentation Official d…</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: package).</p>
+      <a class="item-image-link" href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/1206390571/fd6851a0-4e36-4541-a76c-2ad84935d0bc" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/debpalash/VoiceStudio" target="_blank" rel="noopener">debpalash/VoiceStudio</a></h3>
+      <p class="item-meta">GitHub Trending (All Languages) · 2026-10-26T15:52:14Z · score 0.595</p>
+      <p class="item-summary">VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages. https://voicestudio.sh VoiceStudio Open-source voice cloning, voice design, video dubbing, dictation, transcription &amp;amp; audiobook creation in 646 languages. Website · Download · Get started · Docs · Discord · 简体中文 · 日本語 Your voice. Your workflow. Create Produce Connect Clone a voice or design your own Dub videos with t…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: open-source).</p>
       <p class="item-tags"><span class="tag">projects</span> <span class="tag">repos</span></p>
     </article>
 
@@ -578,31 +608,31 @@ I work on humanoid robots, deep learning models</p>
     
     <article class="item">
       
-      <a class="item-image-link" href="https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797" alt="" loading="lazy"></a>
-      <h3><a href="https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/" target="_blank" rel="noopener">The AI graveyard: a running list of projects and startups that didn’t make it</a></h3>
-      <p class="item-meta">TechCrunch AI · 2026-10-24T19:00:00Z · score 0.4937</p>
-      <p class="item-summary">From Apple&#x27;s repeatedly delayed Siri AI to OpenAI&#x27;s messy &quot;super app&quot; launch, here&#x27;s a look at the AI projects that shut down or missed expectations.</p>
-      <p class="item-why"><strong>Why it matters:</strong> Relevant to Industry Moves (matches: startup).</p>
-      <p class="item-tags"><span class="tag">industry</span> <span class="tag">model_releases</span></p>
-    </article>
-
-    <article class="item">
-      
-      <a class="item-image-link" href="https://www.theverge.com/column/1017983/google-ai-search-online-publishing" target="_blank" rel="noopener"><img class="item-image" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" alt="" loading="lazy"></a>
-      <h3><a href="https://www.theverge.com/column/1017983/google-ai-search-online-publishing" target="_blank" rel="noopener">Google’s AI search changes upended online publishing</a></h3>
-      <p class="item-meta">The Verge AI · 2026-10-25T12:00:00Z · score 0.4769</p>
-      <p class="item-summary">This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI&#x27;s impact on the web, follow Emma Roth. The Stepback arrives in our subscribers&#x27; inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on [&amp;#8230;]</p>
-      <p class="item-why"><strong>Why it matters:</strong> Tagged under Industry Moves.</p>
+      <a class="item-image-link" href="https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800" alt="" loading="lazy"></a>
+      <h3><a href="https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/" target="_blank" rel="noopener">Anthropic officially files for its public debut</a></h3>
+      <p class="item-meta">TechCrunch AI · 2026-10-26T14:35:22Z · score 0.6079</p>
+      <p class="item-summary">Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Industry Moves (matches: IPO, revenue).</p>
       <p class="item-tags"><span class="tag">industry</span></p>
     </article>
 
     <article class="item">
       
-      <a class="item-image-link" href="https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai" target="_blank" rel="noopener"><img class="item-image" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C3.4695867913185%2C100%2C93.060826417363&amp;amp;w=1200" alt="" loading="lazy"></a>
-      <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai" target="_blank" rel="noopener">Blue Planet III is keeping the rough edges in the age of AI</a></h3>
-      <p class="item-meta">The Verge AI · 2026-10-24T21:29:12Z · score 0.4307</p>
-      <p class="item-summary">BBC&#x27;s Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue [&amp;#8230;]</p>
-      <p class="item-why"><strong>Why it matters:</strong> Tagged under Industry Moves.</p>
+      <a class="item-image-link" href="https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec" target="_blank" rel="noopener"><img class="item-image" src="https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/STK202_DARIO_AMODEI_CVIRGINIA_D.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" alt="" loading="lazy"></a>
+      <h3><a href="https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec" target="_blank" rel="noopener">Anthropic’s IPO filing lays out a plan to &amp;#8216;revolutionize every area of human endeavor&amp;#8217; with AI</a></h3>
+      <p class="item-meta">The Verge AI · 2026-10-26T13:32:49Z · score 0.523</p>
+      <p class="item-summary">Anthropic has filed its S-1 prospectus with the Securities and Exchange Commission, preparing the company behind Claude to beat OpenAI to the punch with an IPO. In a filing with the SEC, Anthropic said it plans to list on the Nasdaq exchange under the ticker symbol &quot;ANT.&quot; The AI company confidentially filed with the SEC [&amp;#8230;]</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Industry Moves (matches: IPO).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">model_releases</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800" alt="" loading="lazy"></a>
+      <h3><a href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/" target="_blank" rel="noopener">AI delivers ‘zero financial payoff’ to most companies, Apollo economist says</a></h3>
+      <p class="item-meta">TechCrunch AI · 2026-10-25T16:57:32Z · score 0.4821</p>
+      <p class="item-summary">&quot;Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.&quot;</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Industry Moves (matches: investment).</p>
       <p class="item-tags"><span class="tag">industry</span></p>
     </article>
 
