@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026-10-29 · AI Engineering Radar</title>
+<link rel="icon" type="image/png" href="../assets/logo.png">
+<link rel="stylesheet" href="../assets/styles.css?v=2">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">AI Engineering Radar</a>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../archive.html">Archive</a>
+    <a href="../sources.html">Sources</a>
+    <a href="../method.html">Method</a>
+  </nav>
+</header>
+<main class="container">
+  <h1>Today&#x27;s AI engineering radar — 2026-10-29</h1>
+  <p class="meta">Generated 2026-10-29T15:52:31Z</p>
+  <p class="summary">Today&#x27;s lead story: &quot;v8.4.192 - Support torch 2.15 CUDA in DDP training and ONNX Runtime inference (#26928)&quot; (Ultralytics (YOLO)). Coverage spans infra_tooling, model_releases, jobs with 259 items scanned and 5 surfaced across sections.</p>
+  
+  <section class="digest-section">
+    <h2>Matches Your Stack</h2>
+    
+    <article class="item">
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.192" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.192" target="_blank" rel="noopener">v8.4.192 - Support torch 2.15 CUDA in DDP training and ONNX Runtime inference (#26928)</a></h3>
+      <p class="item-meta">Ultralytics (YOLO) · 2026-10-28T23:47:54Z · score 0.7807</p>
+      <p class="item-summary">🌟 Summary v8.4.192 improves compatibility with PyTorch 2.15 and CUDA 13 for multi-GPU training and ONNX Runtime GPU inference, alongside a small update to Platform response documentation. 📊 Key Changes More reliable multi-GPU training: On PyTorch 2.8 and newer, each NCCL process group is explicitly bound to the GPU selected for its training rank. This helps prevent device-mismatch errors, especially when GPUs are selected in a non-default order. More dependable ONNX GPU inference: Linux CUDA se…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: inference, CUDA, GPU). Matches your stack: ONNX.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+    <article class="item">
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://github.com/kvcache-ai/Mooncake" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/819733173/b643a629-a15b-4d3d-9693-d98caeed4a08" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/kvcache-ai/Mooncake" target="_blank" rel="noopener">kvcache-ai/Mooncake</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.687</p>
+      <p class="item-summary">Mooncake is the serving platform for Kimi, a leading LLM service provided by Moonshot AI. https://kvcache-ai.github.io/Mooncake/ A KVCache-centric Disaggregated Architecture for LLM Serving Paper | Slides | Traces | Documentation | Blog | Slack Mooncake is the serving platform for Kimi , a leading LLM service provided by Moonshot AI . Under real workloads, Mooncake’s innovative architecture enables Kimi to handle 75% more requests while adhering to SLOs. 🔄 Updates Oct 10, 2026 : TensorRT-LLM me…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: serving, TensorRT). Matches your stack: TensorRT.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.191" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/ultralytics/ultralytics/releases/tag/v8.4.191" target="_blank" rel="noopener">v8.4.191 - `ultralytics 8.4.191` Fix RKNN INT8 accuracy with a host-side decode tail for all tasks (#26904)</a></h3>
+      <p class="item-meta">Ultralytics (YOLO) · 2026-10-27T17:54:40Z · score 0.6082</p>
+      <p class="item-summary">🌟 Summary Release v8.4.191 improves RKNN INT8 exports, especially for tasks beyond detection, and includes performance and tracking fixes plus Platform documentation updates. 📊 Key Changes RKNN INT8 export — main update: INT8 export is now enabled for detection, segmentation, pose, and oriented bounding box (OBB) models. The NPU runs the head’s output convolutions, while a new tail.onnx file runs the box decoding on the CPU in floating point. FP16-capable targets also use RKNN’s auto_hybrid opt…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: release, model). Matches your stack: ONNX.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+    <article class="item">
+      <span class="tag tag-personal">★ matches your stack</span>
+      <a class="item-image-link" href="https://github.com/FrigadeHQ/hob" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/1419901875/bef3a5ac-8f6b-4f29-8f2a-30f31c1771d7" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/FrigadeHQ/hob" target="_blank" rel="noopener">Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT</a></h3>
+      <p class="item-meta">Hacker News (Show HN) · 2026-10-26T16:12:29Z · score 0.5458</p>
+      <p class="item-summary">Hey HN, I&#x27;m Christian and this is a new OSS project I&#x27;ve been noodling on for the last couple of weeks. Hob is a free, MIT-licensed desktop app for Mac, Windows and Linux that works on your files the way the Claude and ChatGPT desktop apps do, except the model runs on your own computer. It uses open-weight models (currently Gemma 4 and gpt-oss). All your chats and files never leave your system. The only things that go online are web search (can be turned off in settings) and any MCP connectors…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: model, GPT, Claude). Matches your stack: GPT-OSS.</p>
+      <p class="item-tags"><span class="tag">for_you</span> <span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Hiring For You</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://nango.dev/careers" target="_blank" rel="noopener"><img class="item-image" src="https://nango.dev/opengraph-image.png" alt="" loading="lazy"></a>
+      <h3><a href="https://nango.dev/careers" target="_blank" rel="noopener">Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel</a></h3>
+      <p class="item-meta">Hacker News Jobs (YC) · 2026-10-28T21:00:06Z</p>
+      <p class="item-summary">Article URL: https://nango.dev/careers Comments URL: https://news.ycombinator.com/item?id=50280824 Points: 0 # Comments: 0</p>
+      <p class="item-why"><strong>Why it matters:</strong> Job posting from a tracked board; no strong overlap with your profile yet.</p>
+      <p class="item-tags"><span class="tag">jobs</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>People Radar</h2>
+    
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/wadeKeith" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/34277382?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/wadeKeith" target="_blank" rel="noopener">Cheng Yin</a></h3>
+          <p class="item-meta">GitHub · THUNLP · International · score 0.8618</p>
+        </div>
+      </div>
+      <p class="item-summary">Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources. I am a Ph.D student at HUST, China. Joint training with Tsinghua University @thunlp . Embodied intelligence field, RL field. Worked @OpenBMB(ModelBest).</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied AI, embodied, VLA (254★ on GitHub). Recent: wadeKeith/Awesome-Embodied-AI.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/wadeKeith/Awesome-Embodied-AI" target="_blank" rel="noopener">wadeKeith/Awesome-Embodied-AI</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/wadeKeith" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Cheng+Yin+THUNLP" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/jonyzhang2023" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/50441823?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/jonyzhang2023" target="_blank" rel="noopener">Qiang (Jony) ZHANG</a></h3>
+          <p class="item-meta">GitHub · University of Science and Technology of China · International · score 0.849</p>
+        </div>
+      </div>
+      <p class="item-summary">A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches. Embodied AI Researcher</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied AI, embodied, vision-language-action (3,617★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln" target="_blank" rel="noopener">jonyzhang2023/awesome-embodied-vla-va-vln</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/jonyzhang2023" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Qiang+%28Jony%29+ZHANG+University+of+Science+and+Technology+of+China" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/2toinf" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/54488861?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/2toinf" target="_blank" rel="noopener">Jinliang Zheng</a></h3>
+          <p class="item-meta">GitHub · Tsinghua University · International · score 0.7903</p>
+        </div>
+      </div>
+      <p class="item-summary">[ICLR 2026] The offical Implementation of &quot;Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model&quot;</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on vision-language-action, vision-language, manipulation (754★ on GitHub). Recent: 2toinf/X-VLA.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/2toinf/X-VLA" target="_blank" rel="noopener">2toinf/X-VLA</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/2toinf" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Jinliang+Zheng+Tsinghua+University" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/zchoi" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/30498168?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/zchoi" target="_blank" rel="noopener">Haonan Zhang</a></h3>
+          <p class="item-meta">GitHub · UESTC | UniTn · International · score 0.7544</p>
+        </div>
+      </div>
+      <p class="item-summary">This is a curated list of &quot;Embodied AI or robot with Large Language Models&quot; research. Watch this repository for the latest updates! 🔥 Ph.D. student. Research Interests: LLM-Agents, Vision-Language.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied AI, embodied, vision-language (1,910★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent" target="_blank" rel="noopener">zchoi/Awesome-Embodied-Robotics-and-Agent</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/zchoi" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Haonan+Zhang+UESTC+%7C+UniTn" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/HCPLab-SYSU" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/38847349?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/HCPLab-SYSU" target="_blank" rel="noopener">HCP Lab</a></h3>
+          <p class="item-meta">GitHub · International · score 0.7416</p>
+        </div>
+      </div>
+      <p class="item-summary">[Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI Human Cyber Physical (HCP) Intelligence Integration Lab
+
+中山大学人机物智能融合实验室</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on embodied, embodied AI, manipulation (2,190★ on GitHub). Recent: HCPLab-SYSU/Embodied_AI_Paper_List.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List" target="_blank" rel="noopener">HCPLab-SYSU/Embodied_AI_Paper_List</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/HCPLab-SYSU" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=HCP+Lab" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/hzxie" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/1730504?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/hzxie" target="_blank" rel="noopener">Haozhe Xie</a></h3>
+          <p class="item-meta">GitHub · Dexmate · International · score 0.7145</p>
+        </div>
+      </div>
+      <p class="item-summary">The official implementation of &quot;DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation&quot;. (NeurIPS 2026) R&amp;D Lead of Dexmate&#x27;s Singapore Office</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on VLA, vision-language-action, vision-language (364★ on GitHub). Recent: hzxie/DynamicVLA.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/hzxie/DynamicVLA" target="_blank" rel="noopener">hzxie/DynamicVLA</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/hzxie" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Haozhe+Xie+Dexmate" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/keon" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/10793962?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/keon" target="_blank" rel="noopener">Keon</a></h3>
+          <p class="item-meta">GitHub · Om Labs · International · score 0.7132</p>
+        </div>
+      </div>
+      <p class="item-summary">A curated list of academic papers and resources on Physical AI — focusing on Vision-Language-Action (VLA) models, world models, embodied ai, and robotic foundation models. Co-founder @ Om Labs,
+ex-Uber</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on vision-language-action, vision-language, VLA (448★ on GitHub). Recent: keon/awesome-physical-ai.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/keon/awesome-physical-ai" target="_blank" rel="noopener">keon/awesome-physical-ai</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/keon" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Keon+Om+Labs" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/Jiaaqiliu" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/109644579?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/Jiaaqiliu" target="_blank" rel="noopener">Jiaqi Liu</a></h3>
+          <p class="item-meta">GitHub · UNC · International · score 0.6917</p>
+        </div>
+      </div>
+      <p class="item-summary">A comprehensive list of excellent research papers, models, datasets, and other resources on Vision-Language-Action (VLA) models in robotics. CS PhD student at UNC-Chapel Hill.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on vision-language-action, vision-language, VLA (502★ on GitHub). Recent: Jiaaqiliu/Awesome-VLA-Robotics.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/Jiaaqiliu/Awesome-VLA-Robotics" target="_blank" rel="noopener">Jiaaqiliu/Awesome-VLA-Robotics</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/Jiaaqiliu" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Jiaqi+Liu+UNC" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/leofan90" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/48375324?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/leofan90" target="_blank" rel="noopener">Leo Fan</a></h3>
+          <p class="item-meta">GitHub · PKU · International · score 0.6703</p>
+        </div>
+      </div>
+      <p class="item-summary">A comprehensive list of papers for the definition of World Models and using World Models for General Video Generation, Embodied AI, and Autonomous Driving, including papers, codes, and related websites.</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on world model, embodied, embodied AI (2,048★ on GitHub). Recent: leofan90/Awesome-World-Models.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/leofan90/Awesome-World-Models" target="_blank" rel="noopener">leofan90/Awesome-World-Models</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/leofan90" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Leo+Fan+PKU" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">International</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/lasyasuresh" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/258370445?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/lasyasuresh" target="_blank" rel="noopener">lasya suresh </a></h3>
+          <p class="item-meta">GitHub · India · score 0.5919</p>
+        </div>
+      </div>
+      <p class="item-summary">Robotics &amp; AI Engineer | ROS 2 | SLAM | Embodied AI | BIT Bangalore | CGPA 9.0</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on robotics, AI engineer, ROS 2 (2 GitHub followers). India-based/affiliated. Recent: lasyasuresh on GitHub.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/lasyasuresh" target="_blank" rel="noopener">lasyasuresh on GitHub</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/lasyasuresh" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=lasya+suresh" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">India</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/haradi880" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/152493516?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/haradi880" target="_blank" rel="noopener">Aditya</a></h3>
+          <p class="item-meta">GitHub · Haradi Bots · India · score 0.5494</p>
+        </div>
+      </div>
+      <p class="item-summary">👋 Hey, I’m Aditya (Haradi Bots)
+
+Young robotics and AI developer building the future one project at a time.
+I work on humanoid robots, deep learning models</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on robotics, humanoid, deep learning (51 GitHub followers). India-based/affiliated. Recent: haradi880 on GitHub.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/haradi880" target="_blank" rel="noopener">haradi880 on GitHub</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/haradi880" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link" href="https://www.linkedin.com/search/results/people/?keywords=Aditya+Haradi+Bots" target="_blank" rel="noopener">Find on LinkedIn</a><span class="tag">GitHub</span> <span class="tag">India</span> <span class="tag">for_you</span></p>
+    </article>
+
+    <article class="item person" data-category="people">
+      <span class="tag tag-personal">★ strong match for your domain</span>
+      <div class="person-head">
+        <a class="person-avatar-link" href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener"><img class="person-avatar" src="https://avatars.githubusercontent.com/u/161278869?v=4" alt="" loading="lazy"></a>
+        <div>
+          <h3><a href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener">Saloni Mohapatra</a></h3>
+          <p class="item-meta">GitHub · India · score 0.5291</p>
+        </div>
+      </div>
+      <p class="item-summary">Computer Science Undergraduate | Machine Learning &amp; Computer Vision | Embodied AI | Robotics | Research</p>
+      <p class="item-why"><strong>Why they matter:</strong> This person works on machine learning, computer vision, embodied AI (1 GitHub followers). India-based/affiliated. Recent: MohapatraSaloni on GitHub.</p>
+      <p class="person-work-label">Recent work:</p><ul class="person-work"><li><a href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener">MohapatraSaloni on GitHub</a></li></ul>
+      <p class="item-tags"><a class="tag tag-link" href="https://github.com/MohapatraSaloni" target="_blank" rel="noopener">GitHub</a><a class="tag tag-link tag-linkedin" href="https://www.linkedin.com/in/saloni-mohapatra-0b4095284/" target="_blank" rel="noopener">LinkedIn</a><span class="tag">GitHub</span> <span class="tag">India</span> <span class="tag">for_you</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Recent Funding</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1197780051.jpg?resize=1200,800" alt="" loading="lazy"></a>
+      <h3><a href="https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/" target="_blank" rel="noopener">Upwind raises $400M after walking away from Datadog acquisition offer</a></h3>
+      <p class="item-meta">TechCrunch Startups · 2026-10-28T23:15:00Z · score 0.6791</p>
+      <p class="item-summary">The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Startup funding news (raises, raised, series c).</p>
+      <p class="item-tags"><span class="tag">funding</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/" target="_blank" rel="noopener"><img class="item-image" src="https://news.crunchbase.com/wp-content/uploads/Seed_1.jpg" alt="" loading="lazy"></a>
+      <h3><a href="https://news.crunchbase.com/seed/jumbo-seriesa-squeeze-seed-startup-funding-schroder-mgv/" target="_blank" rel="noopener">Jumbo Series A Rounds Hiding The Real Squeeze On Seed Startups</a></h3>
+      <p class="item-meta">Crunchbase News · 2026-10-29T11:00:12Z · score 0.6295</p>
+      <p class="item-summary">AI megarounds are masking a shrinking Series A market, leaving seed founders facing higher revenue expectations and longer timelines despite larger seed checks. To improve their chances, MGV&#x27;s Marc Schröder says, founders should size their seed funding around Series A milestones.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Startup funding news (funding, seed funding, series a).</p>
+      <p class="item-tags"><span class="tag">funding</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/" target="_blank" rel="noopener"><img class="item-image" src="https://news.crunchbase.com/wp-content/uploads/Series-B.jpg" alt="" loading="lazy"></a>
+      <h3><a href="https://news.crunchbase.com/venture/seriesb-startup-funding-up-deals-down-ai-prometheus/" target="_blank" rel="noopener">Series B Funding Is Up, But Fewer Deals Are Getting Done</a></h3>
+      <p class="item-meta">Crunchbase News · 2026-10-29T11:00:35Z · score 0.5815</p>
+      <p class="item-summary">Crunchbase data shows that so far this year, investors have poured around $48 billion into financings around the Series B stage, the highest tally in years. Yet round counts are below year-ago levels and are on track for a multiyear low. We take a look at the data.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Startup funding news (funding, series b).</p>
+      <p class="item-tags"><span class="tag">funding</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2026/06/slate-auto-truck-tesla-charging.jpg?resize=1200,800" alt="" loading="lazy"></a>
+      <h3><a href="https://techcrunch.com/2026/10/27/rebuild-which-spun-out-slate-auto-raises-2-1b/" target="_blank" rel="noopener">Re:Build, which spun out Slate Auto, raises $2.1B</a></h3>
+      <p class="item-meta">TechCrunch Startups · 2026-10-27T20:31:17Z · score 0.4562</p>
+      <p class="item-summary">The manufacturing accelerator bills itself as &quot;America’s answer to Shenzhen.&quot;</p>
+      <p class="item-why"><strong>Why it matters:</strong> Startup funding news relevant to your focus areas: manufacturing.</p>
+      <p class="item-tags"><span class="tag">funding</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Top Stories</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/tesseract-ocr/tesseract" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/b2a17034e10146cf5bfc86cf0f698f763e1adf60f2cd55f10dde97c9ec4d49ba/tesseract-ocr/tesseract" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/tesseract-ocr/tesseract" target="_blank" rel="noopener">tesseract-ocr/tesseract</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.835</p>
+      <p class="item-summary">Tesseract Open Source OCR Engine (main repository) https://tesseract-ocr.github.io/ Tesseract OCR Table of Contents Tesseract OCR About Brief history Installing Tesseract Running Tesseract For developers Support License Dependencies Latest Version of README About This package contains an OCR engine - libtesseract and a command line program - tesseract . Tesseract 4 adds a new neural net (LSTM) based OCR engine which is focused on line recognition, but also still supports the legacy Tesseract OC…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, repository, GitHub).</p>
+      <p class="item-tags"><span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/microsoft/BitNet" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/62fe0dfcf8e01d65353f542641a8ae45ea398a593e6bf9d6c607cc2589229028/microsoft/BitNet" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/microsoft/BitNet" target="_blank" rel="noopener">microsoft/BitNet</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.775</p>
+      <p class="item-summary">Official inference framework for 1-bit LLMs bitnet.cpp 📰 News 07/23/2026: 📣 We released VibeASR.cpp — a real-time multilingual ASR inference engine on CPU using BitNet I2_S quantization, achieving RTF &amp;lt; 1 with very few threads on x86 (AVX2) and ARM (NEON) platforms. [ Code ] [ Models ] [ Report ] 07/20/2026: 📣 We released BitNet-embedding-0.6B and BitNet-embedding-270M on Hugging Face — the first 1-bit embedding models that deliver competitive embedding quality with significantly faster infe…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: inference, quantization, framework).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier" target="_blank" rel="noopener"><img class="item-image" src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK255_Google_Gemini_A.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" alt="" loading="lazy"></a>
+      <h3><a href="https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier" target="_blank" rel="noopener">Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity</a></h3>
+      <p class="item-meta">The Verge AI · 2026-10-28T20:03:00Z · score 0.7428</p>
+      <p class="item-summary">Google has released its latest frontier model, Gemini 4 Carbon, offering &quot;significant gains&quot; in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon&#x27;s top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over [&amp;#8230;]</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: release, launch, model).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/p-e-w/heretic" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/4369d23963639ad22641ea24205fb45cd844696412ee49e94d673c58aed1cba0/p-e-w/heretic" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/p-e-w/heretic" target="_blank" rel="noopener">p-e-w/heretic</a></h3>
+      <p class="item-meta">GitHub Trending (Python) · 2026-10-29T15:52:16Z · score 0.715</p>
+      <p class="item-summary">Fully automatic censorship removal for language models https://heretic-project.org Heretic: Fully automatic censorship removal for language models Heretic is a tool that removes censorship (aka &quot;safety alignment&quot;) from transformer-based language models without expensive post-training. It combines an advanced implementation of directional ablation, also known as &quot;abliteration&quot; ( Arditi et al. 2024 , Lai 2025 ( 1 , 2 )), with a TPE-based parameter optimizer powered by Optuna . This approach enabl…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: ablation, training, alignment).</p>
+      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/github/spec-kit" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/9bf9e836bcf32d2b67971a93539c54b520966826e2ff6743b34284d31e1f6014/github/spec-kit" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/github/spec-kit" target="_blank" rel="noopener">github/spec-kit</a></h3>
+      <p class="item-meta">GitHub Trending (Python) · 2026-10-29T15:52:16Z · score 0.715</p>
+      <p class="item-summary">💫 Toolkit to help you get started with SDD or any other process! https://github.github.com/spec-kit/ 🌱 Spec Kit Build with a spec, fix a bug, or assess an idea — with your coding agent. English · 简体中文 · 日本語 · 한국어 Spec Kit is an open source toolkit that gives AI coding agents structured processes, reusable templates, and documented outcomes. Start with a ready-made process, customize it, or bring your own. Choose your process What you need Process Outcome Build a feature or application Spec-Driv…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: GitHub, open source, tool).</p>
+      <p class="item-tags"><span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Build Today: Project Picks</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/google/perfetto" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/ec9569ed367bd55a0faa6dc525605d39ad9800652b4c7416fadf2e5652e84dc0/google/perfetto" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/google/perfetto" target="_blank" rel="noopener">google/perfetto</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.7</p>
+      <p class="item-summary">Production-grade client-side tracing, profiling, and analysis for complex software systems. https://www.perfetto.dev Perfetto - System profiling, app tracing and trace analysis Perfetto is an open-source suite of SDKs, daemons and tools which use tracing to help developers understand the behaviour of complex systems and root-cause functional and performance issues on client and embedded systems. It is a production-grade tool that is the default tracing system for the Android operating system an…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: SDK, embedded). Likely useful for builders (code, benchmarks, or tooling implications).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/google/googletest" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/61c2f4e6e726ef64e4e97bf00ef75a7ed73b7daf5c0fce81dfc163278b48dad8/google/googletest" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/google/googletest" target="_blank" rel="noopener">google/googletest</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.6925</p>
+      <p class="item-summary">GoogleTest - Google Testing and Mocking Framework https://google.github.io/googletest/ GoogleTest Announcements Documentation Updates Our documentation is now live on GitHub Pages at https://google.github.io/googletest/ . We recommend browsing the documentation on GitHub Pages rather than directly in the repository. Release 1.18.0 Release 1.18.0 is now available. The 1.18.x branch requires at least C++17 . Continuous Integration We use Google&#x27;s internal systems for continuous integration. Comin…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: repo, repository, GitHub).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/obra/superpowers" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/a029c8ffd88c2d67747ad354c5468c27315e5300446bb64a42243cb586093d9e/obra/superpowers" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/obra/superpowers" target="_blank" rel="noopener">obra/superpowers</a></h3>
+      <p class="item-meta">GitHub Trending (All Languages) · 2026-10-29T15:52:16Z · score 0.655</p>
+      <p class="item-summary">An agentic skills framework &amp; software development methodology that works. Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. Table of Contents How it works Commercial Services Getting Started Claude Code Antigravity Codex App Codex CLI Cursor Devin CLI Factory Droid Gemini CLI GitHub Copilot CLI Grok Build CLI Kimi Code OpenCode Pi Qwen Code…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: Claude, Gemini).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Model &amp; Tooling Updates</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/huggingface/transformers/releases/tag/v5.22.0" target="_blank" rel="noopener"><img class="item-image" src="https://avatars.githubusercontent.com/u/30755778?s=60&amp;v=4" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/huggingface/transformers/releases/tag/v5.22.0" target="_blank" rel="noopener">v5.22.0: Mistral Large 4 (Le Chonk)</a></h3>
+      <p class="item-meta">Hugging Face Transformers · 2026-10-29T14:16:58Z · score 0.6893</p>
+      <p class="item-summary">New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral&#x27;s largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token (52 billion including embeddings and output layers), trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral&#x27;s own datacenters in Europe. Mistral Large 4 unifies instruction following, reasoning, coding, and agentic workflows in a single set of weights. While a gener…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: model, Mistral).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/baidu/Unlimited-OCR" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/4b34a74592eeed41e692ecb276141a52e80a933eeb43e35a9c23db967caca262/baidu/Unlimited-OCR" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/baidu/Unlimited-OCR" target="_blank" rel="noopener">baidu/Unlimited-OCR</a></h3>
+      <p class="item-meta">GitHub Trending (Python) · 2026-10-29T15:52:16Z · score 0.655</p>
+      <p class="item-summary">Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. Unlimited OCR Works Pioneering the OCR-3.0 Era: From Long- to Unlimited-Horizon Parsing. Release [2026/10/28] Thanks to the ms-swift community for supporting training of Unlimited OCR 2 . [2026/10/27] 📊 We release MarathonDocBench , a new benchmark for ultra-long document parsing. [2026/10/27] 🤝 Thanks to the ModelScope community for their support. Our model is now available at ModelScope . [2026/10/27] 🤝 Thanks to the Baidu…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Model Releases (matches: release, model).</p>
+      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">projects</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/wolfpld/tracy" target="_blank" rel="noopener"><img class="item-image" src="https://repository-images.githubusercontent.com/248058818/dbb4d679-aa73-4b7d-bdcd-0f9350eef2a6" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/wolfpld/tracy" target="_blank" rel="noopener">wolfpld/tracy</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.655</p>
+      <p class="item-summary">Frame profiler https://tracy.nereid.pl/ Tracy Profiler A real time, nanosecond resolution, remote telemetry, hybrid frame and sampling profiler for games and other applications. Tracy supports profiling CPU (Direct support is provided for C, C++, Lua, Python and Fortran integration. At the same time, third-party bindings to many other languages exist on the internet, such as Rust , Zig , C# , OCaml , Odin , etc.), GPU (All major graphics/compute APIs: OpenGL, Vulkan, Direct3D 11/12, Metal, Open…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: GPU, API).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">projects</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/0xShug0/audio.cpp" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/3e5c112450c7336a24b147cc473b87d0886c1842f0429398e5f1f4b48723e99b/0xShug0/audio.cpp" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/0xShug0/audio.cpp" target="_blank" rel="noopener">0xShug0/audio.cpp</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.655</p>
+      <p class="item-summary">An all-in-one, pure C++ inference engine for audio models, powered by ggml. Supports TTS, STT, VAD, voice conversion, music generation, and more, with highly optimized performance. No Python dependency. audio.cpp audio.cpp is a high-performance C++ audio inference framework built on top of ggml , designed to make modern local audio models practical, portable, and fast. Tired of juggling a dozen Conda environments, hundreds of Python packages, and dependency conflicts just to try a few audio mod…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Infra &amp; Inference Tooling (matches: inference, framework).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">model_releases</span> <span class="tag">projects</span> <span class="tag">repos</span> <span class="tag">vlm_multimodal</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Robotics &amp; Embodied AI</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://hackaday.com/2026/10/29/robot-picks-up-othello/" target="_blank" rel="noopener"><img class="item-image" src="https://hackaday.com/wp-content/uploads/2026/10/othello.png" alt="" loading="lazy"></a>
+      <h3><a href="https://hackaday.com/2026/10/29/robot-picks-up-othello/" target="_blank" rel="noopener">Robot Picks up Othello</a></h3>
+      <p class="item-meta">Hackaday · 2026-10-29T15:30:47Z · score 0.5712</p>
+      <p class="item-summary">Experience is a great teacher. Ask [Jeneus], who, in high school, tried to make a program that played Othello. It didn&amp;#8217;t go well. But years later, the idea produced an impressive &amp;#8230;read more</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: robot).</p>
+      <p class="item-tags"><span class="tag">projects</span> <span class="tag">robotics_vla</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely" target="_blank" rel="noopener"><img class="item-image" src="https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_3_Meta.jpg?quality=90&amp;amp;strip=all&amp;amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;amp;w=1200" alt="" loading="lazy"></a>
+      <h3><a href="https://www.theverge.com/tech/1020769/meta-updated-business-terms-delay-indefinitely" target="_blank" rel="noopener">Meta says it&amp;#8217;ll probably delay its controversial new business terms again</a></h3>
+      <p class="item-meta">The Verge AI · 2026-10-28T16:15:30Z · score 0.4928</p>
+      <p class="item-summary">Meta says it may push the implementation of its new business terms past November 20th as it faces backlash from publishers over concerns about AI training. In a post on X, Meta communications head Andy Stone said the company does &quot;not plan to make policy changes without a full consultation with industry groups and leaders.&quot; [&amp;#8230;]</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Robotics &amp; Embodied AI (matches: policy).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">papers_benchmarks</span> <span class="tag">robotics_vla</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>VLM &amp; Multimodal</h2>
+    <p class="empty">No items today.</p>
+  </section>
+
+  <section class="digest-section">
+    <h2>Papers &amp; Benchmarks</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.36328" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.36328" target="_blank" rel="noopener">How Stable Are LLM-Generated Proofs Under Program Refactoring? A Stress Test for Verifiable Code Generation</a></h3>
+      <p class="item-meta">arXiv cs.AI · 2026-10-29T04:00:00Z · score 0.6806</p>
+      <p class="item-summary">arXiv:2610.36328v1 Announce Type: new Abstract: Benchmarks for verifiable code generation usually test a proof against one fixed implementation. We ask whether the same proof remains valid after a program refactoring that preserves behavior. We introduce RefactorProof, which derives 458 Lean-certified variants from the 185 VERINA tasks that compile in our pinned environment while holding the specification and evaluated proof fixed byte-for-byte. VERINA supplies reference proofs for 46 tasks, al…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, benchmark). Likely useful for builders (code, benchmarks, or tooling implications).</p>
+      <p class="item-tags"><span class="tag">papers_benchmarks</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.36405" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.36405" target="_blank" rel="noopener">kw-bench: Breaking Frontier Harnesses on Real-World Tasks</a></h3>
+      <p class="item-meta">arXiv cs.AI · 2026-10-29T04:00:00Z · score 0.6581</p>
+      <p class="item-summary">arXiv:2610.36405v1 Announce Type: new Abstract: Each new generation of frontier model pushes the edge of what is possible. Inside a harness -- a loop, a shell, a filesystem, the ability to write and run its own code -- a model can take on increasingly difficult work. A growing body of work treats the coding-agent harness as infrastructure for knowledge work rather than a coding tool, and a new wave of benchmarks tests it there. Most of them are generative: build a financial model, a memo, a spr…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, benchmark).</p>
+      <p class="item-tags"><span class="tag">model_releases</span> <span class="tag">papers_benchmarks</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.36116" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.36116" target="_blank" rel="noopener">Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction</a></h3>
+      <p class="item-meta">arXiv cs.AI · 2026-10-29T04:00:00Z · score 0.6356</p>
+      <p class="item-summary">arXiv:2610.36116v1 Announce Type: new Abstract: As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \emph{why} should humans keep doing science, and \emph{how} should they use AI when they do? This paper argues that the second can be answered only by answering the first. It holds that one indispensable aim of science is \emph{durable, collective human understanding of the world, pursued in service of human ends and values}. From this princi…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: paper, arXiv).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.36308" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.36308" target="_blank" rel="noopener">When Retrieval Is Not Enough: Obsolete Facts in Agent Memory</a></h3>
+      <p class="item-meta">arXiv cs.AI · 2026-10-29T04:00:00Z · score 0.6356</p>
+      <p class="item-summary">arXiv:2610.36308v1 Announce Type: new Abstract: Memory-agent benchmarks often collapse retrieval and answer generation into one score, making it hard to tell whether a failure comes from missing an update or from not using an update that was already retrieved. We examine this distinction on the single-hop FactConsolidation task of MemoryAgentBench. With Qwen2.5-7B-Instruct on 6K-history BM25 accuracy drops from 45% to 32% when the retrieved evidence budget grows from 64 to 512 tokens, even thou…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, benchmark).</p>
+      <p class="item-tags"><span class="tag">papers_benchmarks</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://arxiv.org/abs/2610.36389" target="_blank" rel="noopener"><img class="item-image" src="https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png" alt="" loading="lazy"></a>
+      <h3><a href="https://arxiv.org/abs/2610.36389" target="_blank" rel="noopener">MAREval: A Multi-Agent Framework for Evaluating Natural Language Recommendation Explanations</a></h3>
+      <p class="item-meta">arXiv cs.AI · 2026-10-29T04:00:00Z · score 0.6356</p>
+      <p class="item-summary">arXiv:2610.36389v1 Announce Type: new Abstract: Evaluating natural language explanations in recommender systems is essential for fostering user trust, transparency, and engagement. However, existing evaluation approaches like human evaluations, while accurate, are resource-intensive and impractical at the scale required by modern recommendation platforms. Also, automated methods using single-agent LLMs suffer from prompt sensitivity and inconsistent outputs. To address these challenges, we prop…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Papers &amp; Benchmarks (matches: arXiv, evaluation).</p>
+      <p class="item-tags"><span class="tag">industry</span> <span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Repo Watch</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/tensorflow/tensorflow" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/e020f19bf21487fcb720d615c0777783387626161c3a49eada8f84551b64daab/tensorflow/tensorflow" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/tensorflow/tensorflow" target="_blank" rel="noopener">tensorflow/tensorflow</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.655</p>
+      <p class="item-summary">An Open Source Machine Learning Framework for Everyone https://tensorflow.org Documentation TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools , libraries , and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML-powered applications. TensorFlow was originally developed by researchers and engineers working within the Machine Intelligence team at Google Brain to…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: open source, tool).</p>
+      <p class="item-tags"><span class="tag">infra_tooling</span> <span class="tag">papers_benchmarks</span> <span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/wazuh/wazuh" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/e2761a5591b66f9dcd6b3cea2eb619898758cc674fd3539d1f2d8ceda2a4f753/wazuh/wazuh" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/wazuh/wazuh" target="_blank" rel="noopener">wazuh/wazuh</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.595</p>
+      <p class="item-summary">Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads. https://wazuh.com/ Wazuh Wazuh is a free and open source platform used for threat prevention, detection, and response. It is capable of protecting workloads across on-premises, virtualized, containerized, and cloud-based environments. Wazuh solution consists of an endpoint security agent, deployed to the monitored systems, and a management server, which collects and analyzes data gather…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: open source).</p>
+      <p class="item-tags"><span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://github.com/RxNaison/Epson-Waste-Reset" target="_blank" rel="noopener"><img class="item-image" src="https://opengraph.githubassets.com/9e322db2cdc9d834c3bc42c6b9545bca0327d4c7672332b1606e430d7fb8b011/RxNaison/Epson-Waste-Reset" alt="" loading="lazy"></a>
+      <h3><a href="https://github.com/RxNaison/Epson-Waste-Reset" target="_blank" rel="noopener">RxNaison/Epson-Waste-Reset</a></h3>
+      <p class="item-meta">GitHub Trending (C++) · 2026-10-29T15:52:16Z · score 0.595</p>
+      <p class="item-summary">A free, native, and completely open-source utility to reset the &quot;Waste Ink Pad&quot; counter on Epson printers EWR (Epson Waste Reset) A free, cross-platform, and completely open-source C++ utility to reset the &quot;Waste Ink Pad&quot; counter on Epson printers. EWR bypasses the need to pay for sketchy third-party reset keys (like WIC Reset) or run malicious, virus-flagged AdjProg.exe binaries. By dynamically generating IEEE 1284.4 hardware packets and utilizing a continuously updated database, EWR communica…</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Open-Source Repos (matches: open-source).</p>
+      <p class="item-tags"><span class="tag">projects</span> <span class="tag">repos</span></p>
+    </article>
+
+  </section>
+
+  <section class="digest-section">
+    <h2>Industry Moves</h2>
+    
+    <article class="item">
+      
+      <a class="item-image-link" href="https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2153474575.jpg?resize=1200,800" alt="" loading="lazy"></a>
+      <h3><a href="https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/" target="_blank" rel="noopener">Microsoft recorded $10 billion in revenue from OpenAI</a></h3>
+      <p class="item-meta">TechCrunch AI · 2026-10-28T21:34:30Z · score 0.5544</p>
+      <p class="item-summary">Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Industry Moves (matches: partnership, revenue).</p>
+      <p class="item-tags"><span class="tag">industry</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2026/09/wabi-20.jpg?resize=1200,620" alt="" loading="lazy"></a>
+      <h3><a href="https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/" target="_blank" rel="noopener">Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round</a></h3>
+      <p class="item-meta">TechCrunch AI · 2026-10-29T14:35:26Z · score 0.5479</p>
+      <p class="item-summary">On Thursday, AI app, Wabi, now describing itself as a &quot;personal agent,&quot; said it has raised $55 million at a $1.25 billion valuation.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Industry Moves (matches: valuation).</p>
+      <p class="item-tags"><span class="tag">industry</span></p>
+    </article>
+
+    <article class="item">
+      
+      <a class="item-image-link" href="https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/" target="_blank" rel="noopener"><img class="item-image" src="https://techcrunch.com/wp-content/uploads/2026/04/dollar-signs-data-center.png?w=1024" alt="" loading="lazy"></a>
+      <h3><a href="https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/" target="_blank" rel="noopener">Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion</a></h3>
+      <p class="item-meta">TechCrunch AI · 2026-10-28T21:58:32Z · score 0.4956</p>
+      <p class="item-summary">Microsoft has never disclosed Azure&#x27;s quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.</p>
+      <p class="item-why"><strong>Why it matters:</strong> Relevant to Industry Moves (matches: revenue).</p>
+      <p class="item-tags"><span class="tag">industry</span></p>
+    </article>
+
+  </section>
+
+</main>
+<footer class="site-footer">
+  <p>AI Engineering Radar — generated automatically every 24 hours.</p>
+</footer>
+</body>
+</html>
