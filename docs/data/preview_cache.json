@@ -1,104 +1,4 @@
 {
-  "https://arxiv.org/abs/2609.36118": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36352": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36182": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://medcitynews.com/2026/09/tiny-health-secures-33m-to-expand-microbiome-testing": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/09/money-growth.jpg",
-    "fetched_at": "2026-09-30"
-  },
-  "https://techcrunch.com/2026/09/29/a16z-backed-eliseai-raises-350m-doubles-valuation-to-4b": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2024/04/GettyImages-1469304638.jpg?resize=1200,669",
-    "fetched_at": "2026-09-30"
-  },
-  "https://techcrunch.com/2026/09/30/charter-space-raises-5m-to-bring-insurance-to-the-stars": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/charter-space-founders.jpg?resize=1200,800",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36416": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36540": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.35943": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36426": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36471": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.35935": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36151": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.35823": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36199": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36219": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.36052": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.31669": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.35875": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.31656": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://arxiv.org/abs/2609.32082": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-09-30"
-  },
-  "https://pytorch.org/blog/from-upstream-changes-to-downstream-confidence-inside-torch-spyres-integration-with-pytorch-crcr": {
-    "image_url": null,
-    "fetched_at": "2026-09-30"
-  },
-  "https://theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/acastro_STK070__01.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-09-30"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK201_SAM_ALTMAN_CVIRGINIA2D_717b98.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-09-30"
-  },
-  "https://openai.com/index/lenfest-ai-collaborative-expansion": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6txA4ODTKx7m0Lm7PZhV2j/f0f1322b05b78fb0b33d5dae4920aa00/lenfest-september-seo-white.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-09-30"
-  },
   "https://arxiv.org/abs/2609.38216": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-01"
@@ -2510,5 +2410,101 @@
   "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/dollar-signs-data-center.png?w=1024",
     "fetched_at": "2026-10-29"
+  },
+  "https://arxiv.org/abs/2610.37917": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38000": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38199": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38266": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://workatastartup.com/jobs/98722": {
+    "image_url": null,
+    "fetched_at": "2026-10-30"
+  },
+  "https://medcitynews.com/2026/10/biomarin-fabry-subcutaneous-enzyme-replacement-hanmi-gc-biopharma-gb3-bmrn": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/12/BioMarin_Pharmaceutical.jpg",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38103": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38121": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37989": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37788": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38234": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37799": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37974": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37983": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38016": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37913": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38024": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37972": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37786": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.37932": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://arxiv.org/abs/2610.38221": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-30"
+  },
+  "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2022/09/GettyImages-1415078085.jpg?resize=1200,721",
+    "fetched_at": "2026-10-30"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Vrg_illo_Sam_Altman_stock_trial.jpg?quality=90&amp;strip=all&amp;crop=0%2C12.339110464558%2C100%2C75.321779070884&amp;w=1200",
+    "fetched_at": "2026-10-30"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-10-30"
   }
 }
