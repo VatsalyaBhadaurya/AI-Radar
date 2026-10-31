@@ -1,92 +1,4 @@
 {
-  "https://arxiv.org/abs/2609.38216": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38537": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38362": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38616": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://ycombinator.com/companies/truemetrics/jobs/THLEzXI-gtm-founder-s-associate": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/3a7ea44ef55ccd01b022c5879f0c20daa7bf1d4f.png?1691774028",
-    "fetched_at": "2026-10-01"
-  },
-  "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/01/ElevenLabs-feat.jpg?resize=1200,669",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38409": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.35811": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38202": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38494": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38511": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38413": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38562": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38368": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.35805": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.35820": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38377": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38463": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://arxiv.org/abs/2609.38472": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-01"
-  },
-  "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Symphony-Lifestyle-Image-2.png?resize=1200,670",
-    "fetched_at": "2026-10-01"
-  },
-  "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Satlyt_Team_Group-Portrait_Steps.jpg?resize=1200,800",
-    "fetched_at": "2026-10-01"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2297767958.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.754010807628%2C100%2C78.491978384743&amp;w=1200",
-    "fetched_at": "2026-10-01"
-  },
   "https://arxiv.org/abs/2610.00438": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-02"
@@ -2506,5 +2418,53 @@
   "https://theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Anthropic_miracles_K_Radtke_b5ca50.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-10-30"
+  },
+  "https://remoteok.com/remote-jobs/remote-cloud-engineer-automation-smile-digital-health-1137600": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-10-31"
+  },
+  "https://arxiv.org/abs/2610.37926": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-31"
+  },
+  "https://openai.com/index/helping-websites-express-ai-training-preferences": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4fvNR0KxKmPYu4fRXtEgKp/4a522ef61a6f983b0b65ad39c2a71e4c/websites-toeexpress-ai-training-preferences-social.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-10-31"
+  },
+  "https://arxiv.org/abs/2610.38100": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-31"
+  },
+  "https://arxiv.org/abs/2610.37830": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-31"
+  },
+  "https://arxiv.org/abs/2610.37875": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-31"
+  },
+  "https://arxiv.org/abs/2610.37739": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-31"
+  },
+  "https://arxiv.org/abs/2610.37851": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-10-31"
+  },
+  "https://openai.com/index/ropes-gray-ai-diligence": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4lObA1HwFj5BMe9aLY4VTn/43b3536d7726d9f7b2a5ed27183a3cda/ropes-gray-ai-diligence-social.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-10-31"
+  },
+  "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+    "fetched_at": "2026-10-31"
+  },
+  "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1465332173.jpg?resize=1200,800",
+    "fetched_at": "2026-10-31"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&amp;strip=all&amp;crop=0%2C12.629941573716%2C100%2C74.740116852568&amp;w=1200",
+    "fetched_at": "2026-10-31"
   }
 }
