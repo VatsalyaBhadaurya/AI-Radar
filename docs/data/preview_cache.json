@@ -1,108 +1,4 @@
 {
-  "https://arxiv.org/abs/2610.00438": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00575": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00007": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00317": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
-    "fetched_at": "2026-10-02"
-  },
-  "https://medcitynews.com/2026/09/4-notable-health-tech-funding-announcements-in-september": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/01/money-private-equity.jpg",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00718": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00601": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00296": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00540": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00421": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/din-deploy-featured.webp",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00524": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00801": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00008": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00024": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00196": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00097": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00416": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00164": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00366": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00224": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://arxiv.org/abs/2610.00562": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-02"
-  },
-  "https://theverge.com/tech/1003929/amazon-ai-data-center-blog-warning": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-02"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Suno-AI-voices.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-02"
-  },
-  "https://theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKS536_AI_HALLUCINATION_D.png?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-02"
-  },
   "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect": {
     "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/llm-optimize-deploy.webp",
     "fetched_at": "2026-10-03"
@@ -2466,5 +2362,29 @@
   "https://theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&amp;strip=all&amp;crop=0%2C12.629941573716%2C100%2C74.740116852568&amp;w=1200",
     "fetched_at": "2026-10-31"
+  },
+  "https://medcitynews.com/2026/11/mmi-raises-125m-to-expand-robotic-microsurgery-and-explore-new-treatments": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2021/06/GettyImages-500048664.jpg",
+    "fetched_at": "2026-11-01"
+  },
+  "https://openai.com/index/fair-use-benefits-everyone": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/40dN0khAbqCa0KpP5e4879/5d3e710f50e44711bc40ca55c175726a/fair-use-benefits-everyone-social.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-11-01"
+  },
+  "https://outcrop.rocks/": {
+    "image_url": "https://outcrop.rocks/social-card.jpg",
+    "fetched_at": "2026-11-01"
+  },
+  "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+    "fetched_at": "2026-11-01"
+  },
+  "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+    "fetched_at": "2026-11-01"
+  },
+  "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
+    "fetched_at": "2026-11-01"
   }
 }
