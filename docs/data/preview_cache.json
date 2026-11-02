@@ -1,64 +1,4 @@
 {
-  "https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/llm-optimize-deploy.webp",
-    "fetched_at": "2026-10-03"
-  },
-  "https://ycombinator.com/companies/great-question/jobs/agEqBYD-product-engineer-ai-full-stack": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/876e548b9ee8e5740c35f5d6ddf2ce32d924edc7.png?1604424519",
-    "fetched_at": "2026-10-03"
-  },
-  "https://medcitynews.com/2026/10/parakeet-health-secures-10m-for-conversational-agentic-platform": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2019/06/GettyImages-1129146997.jpg",
-    "fetched_at": "2026-10-03"
-  },
-  "https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2023/02/neko-founders.jpeg?resize=1200,800",
-    "fetched_at": "2026-10-03"
-  },
-  "https://pytorch.org/blog/building-a-high-performance-and-portable-vllm-linear-backend-with-helion": {
-    "image_url": null,
-    "fetched_at": "2026-10-03"
-  },
-  "https://github.com/anteloc/ldraw-nova": {
-    "image_url": "https://opengraph.githubassets.com/976b7951994d4d118ec2d3129d78f9f0d80fbbbd6b8dc189d9704014af829ef3/anteloc/ldraw-nova",
-    "fetched_at": "2026-10-03"
-  },
-  "https://lathoa.ai/en": {
-    "image_url": null,
-    "fetched_at": "2026-10-03"
-  },
-  "https://developer.nvidia.com/blog/fine-tuning-nvidia-nemotron-for-saudi-arabic-dialects-with-a-path-to-other-languages": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/image3-18.webp",
-    "fetched_at": "2026-10-03"
-  },
-  "https://huggingface.co/blog/open-tts-leaderboard": {
-    "image_url": "https://huggingface.co/blog/assets/open-tts-leaderboard/thumbnail.png",
-    "fetched_at": "2026-10-03"
-  },
-  "https://huggingface.co/blog/ServiceNow-AI/autosynthdata": {
-    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
-    "fetched_at": "2026-10-03"
-  },
-  "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7pgu4BdlPJCuac2hOkAnS9/2b074a0c7a643bbf330a5d93235655e4/towards-safety-cases-for-frontier-ai-training-seo.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-10-03"
-  },
-  "https://openai.com/index/helping-small-businesses-put-ai-to-work": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/1rewZcU5SqdsiUKj7Q6fCx/e82271bc1df80e3f2d5f9cfcd82a91fa/helping-small-businesses-put-ai-to-work-seo.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-10-03"
-  },
-  "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
-    "fetched_at": "2026-10-03"
-  },
-  "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg?w=1024",
-    "fetched_at": "2026-10-03"
-  },
-  "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/mark-zuckerberg-muse-charm-getty.jpg?resize=1200,800",
-    "fetched_at": "2026-10-03"
-  },
   "https://ycombinator.com/companies/retailready/jobs/bFcgIe4-implementations": {
     "image_url": "https://bookface-images.s3.amazonaws.com/logos/6f80b4a48465bc260e00f9331c1aa38175ffced5.png?1704487189",
     "fetched_at": "2026-10-04"
@@ -2386,5 +2326,109 @@
   "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?resize=1200,800",
     "fetched_at": "2026-11-01"
+  },
+  "https://arxiv.org/abs/2610.41275": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41009": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40947": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40799": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://remoteok.com/remote-jobs/remote-partner-operations-manager-mecka-1137609": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://bitmovin.com/careers/8660599002": {
+    "image_url": null,
+    "fetched_at": "2026-11-02"
+  },
+  "https://medcitynews.com/2026/11/midstream-health-snags-20m-to-provide-health-systems-more-financial-stability": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/09/money-growth.jpg",
+    "fetched_at": "2026-11-02"
+  },
+  "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/DSCF1932.jpg?resize=1200,800",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41177": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40801": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/runai-tech-blog-compute-domains-1920x1080-4504000-1024x576-png.webp",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41037": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41014": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40828": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41320": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41336": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40971": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41190": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40949": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41063": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.41377": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40940": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2610.40954": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-02"
+  },
+  "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1481617564.jpg?resize=1200,680",
+    "fetched_at": "2026-11-02"
+  },
+  "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg?resize=1200,800",
+    "fetched_at": "2026-11-02"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&amp;strip=all&amp;crop=0%2C10.742221417566%2C100%2C78.515557164868&amp;w=1200",
+    "fetched_at": "2026-11-02"
   }
 }
