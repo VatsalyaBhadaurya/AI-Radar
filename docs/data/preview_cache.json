@@ -1,24 +1,4 @@
 {
-  "https://ycombinator.com/companies/retailready/jobs/bFcgIe4-implementations": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/6f80b4a48465bc260e00f9331c1aa38175ffced5.png?1704487189",
-    "fetched_at": "2026-10-04"
-  },
-  "https://techcrunch.com/podcast/the-investor-behind-neko-healths-700m-bet-on-scanning-your-whole-body": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2023/07/NekoScan.png?resize=1200,900",
-    "fetched_at": "2026-10-04"
-  },
-  "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2283113936-maller.jpg?w=1024",
-    "fetched_at": "2026-10-04"
-  },
-  "https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_3820.png?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-04"
-  },
-  "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
-    "fetched_at": "2026-10-04"
-  },
   "https://arxiv.org/abs/2610.02360": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-05"
@@ -2430,5 +2410,125 @@
   "https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK155_OPEN_AI_4_CVirginia_A.png?quality=90&amp;strip=all&amp;crop=0%2C10.742221417566%2C100%2C78.515557164868&amp;w=1200",
     "fetched_at": "2026-11-02"
+  },
+  "https://arxiv.org/abs/2611.00177": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00513": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00394": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00243": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://remoteok.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619": {
+    "image_url": "https://remoteok.com/url2og?url=https%3A%2F%2Fremoteok.com%2Fremote-jobs%2Fremote-ai-ml-engineer-docusketch-1137619&cachebuster=1793616215",
+    "fetched_at": "2026-11-03"
+  },
+  "https://ycombinator.com/companies/sava-trust-company/jobs": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/83be341e0996527c9dc31b1352fab4210beef09b.png?1756341335",
+    "fetched_at": "2026-11-03"
+  },
+  "https://medcitynews.com/2026/11/4-notable-health-tech-funding-announcements-in-october-2": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/03/investment.jpg",
+    "fetched_at": "2026-11-03"
+  },
+  "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Trajectory_3.jpg?resize=1200,900",
+    "fetched_at": "2026-11-03"
+  },
+  "https://medcitynews.com/2026/11/7-potential-problems-with-medicares-ai-prior-authorization-experiment": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2023/04/GettyImages-1056103192.jpg",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00524": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00870": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00755": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00522": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00286": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00403": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00408": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00044": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00734": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00283": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00193": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00036": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00785": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00191": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00045": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00447": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00460": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.00241": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://pytorch.org/blog/kvcache-meetup-korea-2026-event-recap": {
+    "image_url": "https://pytorch.org/wp-content/uploads/2026/11/PTFA-Announcement-1200x628-1.png",
+    "fetched_at": "2026-11-03"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301906266.jpg?quality=90&amp;strip=all&amp;crop=0%2C14.171056661111%2C100%2C78.524215886627&amp;w=1200",
+    "fetched_at": "2026-11-03"
+  },
+  "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
+    "fetched_at": "2026-11-03"
   }
 }
