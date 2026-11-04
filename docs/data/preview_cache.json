@@ -1,96 +1,4 @@
 {
-  "https://arxiv.org/abs/2610.02360": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02626": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02666": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02717": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02784": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02405": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02549": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02691": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02341": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02521": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02323": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02718": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02372": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02451": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02425": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02775": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02338": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02460": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://arxiv.org/abs/2610.02819": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-05"
-  },
-  "https://pytorch.org/blog/pytorch-hardware-enablement-updates-from-the-acceleration-integration-working-group": {
-    "image_url": null,
-    "fetched_at": "2026-10-05"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_C.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-05"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2294958253.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.729057198914%2C100%2C78.541885602173&amp;w=1200",
-    "fetched_at": "2026-10-05"
-  },
-  "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/hgh_web-1.png?resize=1200,920",
-    "fetched_at": "2026-10-05"
-  },
   "https://arxiv.org/abs/2610.04255": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-06"
@@ -2530,5 +2438,105 @@
   "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2302418320.jpg?w=1024",
     "fetched_at": "2026-11-03"
+  },
+  "https://arxiv.org/abs/2611.04096": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03850": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03765": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04477": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2022/12/GettyImages-1268605503.jpg?resize=1200,420",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04087": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04200": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03998": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04107": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04368": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03825": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04492": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04112": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04028": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.04152": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03937": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03685": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03739": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03727": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03767": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://openai.com/index/openai-to-acquire-pierre": {
+    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&amp;h=900&amp;fit=fill",
+    "fetched_at": "2026-11-04"
+  },
+  "https://github.com/finic-ai/kairos": {
+    "image_url": "https://opengraph.githubassets.com/a9995aab63019ac0f274e5461a9df12be07a231669dd1e5a116c5f2b5313f105/finic-ai/kairos",
+    "fetched_at": "2026-11-04"
+  },
+  "https://arxiv.org/abs/2611.03993": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-04"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-106058340.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.3445766662078%2C100%2C81.310846667584&amp;w=1200",
+    "fetched_at": "2026-11-04"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/gettyimages-2236544097.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.737892056687%2C100%2C78.524215886627&amp;w=1200",
+    "fetched_at": "2026-11-04"
   }
 }
