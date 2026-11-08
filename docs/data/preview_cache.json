@@ -1,104 +1,4 @@
 {
-  "https://arxiv.org/abs/2610.11168": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.11220": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10912": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10748": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/ARENA_3Founders.jpg?resize=1200,801",
-    "fetched_at": "2026-10-09"
-  },
-  "https://medcitynews.com/2026/10/vitalize-secures-31m-to-help-hospitals-manage-labor-capacity": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/09/money-growth.jpg",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.11129": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10740": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10703": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.11087": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10959": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10601": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10962": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.11072": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10990": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10865": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10563": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10738": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10918": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.11119": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.10942": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://arxiv.org/abs/2610.11012": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-09"
-  },
-  "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Olivia-Moore-Headshot-2026.jpg?w=896",
-    "fetched_at": "2026-10-09"
-  },
-  "https://theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/DSC04328_processed_1.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.723165084465%2C100%2C78.55366983107&amp;w=1200",
-    "fetched_at": "2026-10-09"
-  },
-  "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/ben-affleck-GettyImages-2297443537.jpg?w=1024",
-    "fetched_at": "2026-10-09"
-  },
   "https://theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-08-at-4.18.11-PM.png?quality=90&amp;strip=all&amp;crop=0%2C6.5996142187931%2C100%2C86.800771562414&amp;w=1200",
     "fetched_at": "2026-10-10"
@@ -2474,5 +2374,17 @@
   "https://theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-11-07"
+  },
+  "https://huggingface.co/blog/phonon-tts": {
+    "image_url": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
+    "fetched_at": "2026-11-08"
+  },
+  "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+    "fetched_at": "2026-11-08"
+  },
+  "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2207245107-1.jpg?resize=1200,765",
+    "fetched_at": "2026-11-08"
   }
 }
