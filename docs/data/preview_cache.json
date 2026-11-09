@@ -1,52 +1,4 @@
 {
-  "https://theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Screenshot-2026-10-08-at-4.18.11-PM.png?quality=90&amp;strip=all&amp;crop=0%2C6.5996142187931%2C100%2C86.800771562414&amp;w=1200",
-    "fetched_at": "2026-10-10"
-  },
-  "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/Zach-Yaegari.jpg?resize=1200,800",
-    "fetched_at": "2026-10-10"
-  },
-  "https://openai.com/index/asana-browser-agent": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4bNHf0rdpv55WFke9YADV7/306540f0701aa79ce7cc9057f616c577/asana-blue-layered-paper-social-seo-1920x1080.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-10-10"
-  },
-  "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image6-2-625x352.gif",
-    "fetched_at": "2026-10-10"
-  },
-  "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Guarding-installed.jpeg?resize=1200,900",
-    "fetched_at": "2026-10-10"
-  },
-  "https://arxiv.org/abs/2610.11050": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-10"
-  },
-  "https://arxiv.org/abs/2610.11128": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-10"
-  },
-  "https://arxiv.org/abs/2610.11213": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-10"
-  },
-  "https://arxiv.org/abs/2610.10833": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-10"
-  },
-  "https://arxiv.org/abs/2610.11005": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-10"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-10"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25299205/STK453_Privacy_D_CVirginia.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
-    "fetched_at": "2026-10-10"
-  },
   "https://jobs.ashbyhq.com/weave-os": {
     "image_url": "https://app.ashbyhq.com/api/images/org-theme-logo/8c055073-ed97-4980-a925-eecf79fbde90/89560b07-0c51-4946-9d59-1e98694a0a99/f444bc50-13b7-4a53-97ed-89e1897a760b.png",
     "fetched_at": "2026-10-11"
@@ -2386,5 +2338,117 @@
   "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2207245107-1.jpg?resize=1200,765",
     "fetched_at": "2026-11-08"
+  },
+  "https://arxiv.org/abs/2611.08577": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08827": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08857": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08917": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://ycombinator.com/companies/yn/jobs/TjDn3YZ-founding-growth-marketer": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/e3ade1c8fda2bd522e7c7daa51543e0f23ada61a.png?1782315103",
+    "fetched_at": "2026-11-09"
+  },
+  "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2023/09/Cameron-McCord.jpg?resize=1200,1200",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08559": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08569": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.09036": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.09041": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://news.ycombinator.com/item?id=50427934": {
+    "image_url": null,
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.09085": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08892": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08868": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08698": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08895": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08987": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08610": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08538": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08731": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08645": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.09223": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08613": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.09094": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.08755": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-09"
+  },
+  "https://theverge.com/tech/1029773/disney-adobe-generative-ai-partnership": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Disney-Adobe-AI-partnership.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-11-09"
+  },
+  "https://theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DCD_20261109_Glazier.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-11-09"
+  },
+  "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+    "fetched_at": "2026-11-09"
   }
 }
