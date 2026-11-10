@@ -1,32 +1,4 @@
 {
-  "https://jobs.ashbyhq.com/weave-os": {
-    "image_url": "https://app.ashbyhq.com/api/images/org-theme-logo/8c055073-ed97-4980-a925-eecf79fbde90/89560b07-0c51-4946-9d59-1e98694a0a99/f444bc50-13b7-4a53-97ed-89e1897a760b.png",
-    "fetched_at": "2026-10-11"
-  },
-  "https://techcrunch.com/2026/10/10/cloudflare-acquires-deno-to-improve-its-workers-programming-model": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1186369127.jpeg?resize=1200,800",
-    "fetched_at": "2026-10-11"
-  },
-  "https://developer.nvidia.com/blog/the-machines-that-make-the-machines": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image-1790985193398.webp",
-    "fetched_at": "2026-10-11"
-  },
-  "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/Bitwise-Determinism-e1791315897343.webp",
-    "fetched_at": "2026-10-11"
-  },
-  "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000",
-    "fetched_at": "2026-10-11"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK178_Satya_Nadella_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
-    "fetched_at": "2026-10-11"
-  },
-  "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/08/Claude-AI-app.jpg?resize=1200,842",
-    "fetched_at": "2026-10-11"
-  },
   "https://arxiv.org/abs/2610.12696": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-12"
@@ -2450,5 +2422,109 @@
   "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
     "fetched_at": "2026-11-09"
+  },
+  "https://arxiv.org/abs/2611.10089": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10137": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10343": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://remoteok.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://medcitynews.com/2026/11/startup-supporting-caregivers-raises-3-5m-in-seed-funding": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/06/phone.jpg",
+    "fetched_at": "2026-11-10"
+  },
+  "https://medcitynews.com/2026/11/argenx-unnatural-products-acquisition-macrocyclic-oral-peptides-immunology-inflammation-unp-argx": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/07/Argenx_logo.jpg",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10045": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10082": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10230": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.09945": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10165": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10219": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.09964": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10366": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10400": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10443": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.09957": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.09973": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10198": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.09938": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10003": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10007": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://arxiv.org/abs/2611.10223": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-10"
+  },
+  "https://openai.com/index/closing-ai-guidance-gap-education": {
+    "image_url": null,
+    "fetched_at": "2026-11-10"
+  },
+  "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+    "fetched_at": "2026-11-10"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK269_ANTHROPIC_2_D.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-11-10"
   }
 }
