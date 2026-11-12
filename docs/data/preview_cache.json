@@ -1,40 +1,4 @@
 {
-  "https://medcitynews.com/2026/10/what-corporate-venture-funds-get-wrong-about-strategic-value": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2016/07/value-based-care-e1520889493759.jpg",
-    "fetched_at": "2026-10-13"
-  },
-  "https://techcrunch.com/2026/10/13/giraffe-bio-aims-its-bespoke-biomolecules-at-the-looming-copper-shortage": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2024/09/GettyImages-1202319290.jpeg?resize=1200,800",
-    "fetched_at": "2026-10-13"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK255_Google_Gemini_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-13"
-  },
-  "https://deepmind.google/blog/gemini-4-argon-for-robotics": {
-    "image_url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
-    "fetched_at": "2026-10-13"
-  },
-  "https://deepmind.google/blog/introducing-gemini-4-argon": {
-    "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__2784x1566.width-1300.png",
-    "fetched_at": "2026-10-13"
-  },
-  "https://theverge.com/games/1010097/epic-games-disney-project-ai-coding-art": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23932925/acastro_STK108__03.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-13"
-  },
-  "https://techcrunch.com/2026/10/13/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/Satlyt_Team_Group-Portrait_Steps.jpg?resize=1200,800",
-    "fetched_at": "2026-10-13"
-  },
-  "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/Screenshot-2025-04-22-at-1.24.23PM.png?resize=1200,672",
-    "fetched_at": "2026-10-13"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK278_character_ai_B.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-13"
-  },
   "https://arxiv.org/abs/2610.14018": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-14"
@@ -2530,5 +2494,45 @@
   "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200",
     "fetched_at": "2026-11-11"
+  },
+  "https://huggingface.co/blog/qvac/botpsy": {
+    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+    "fetched_at": "2026-11-12"
+  },
+  "https://weworkremotely.com/remote-jobs/cigna-healthcare-clinical-program-senior-advisor-remote-express-scripts-academic-detailing": {
+    "image_url": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png",
+    "fetched_at": "2026-11-12"
+  },
+  "https://medcitynews.com/2026/11/merck-kgaa-emd-serono-pimicotinib-pimjetmi-fda-approval-tgct-rare-tumor": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2017/05/GettyImages-670645300.jpg",
+    "fetched_at": "2026-11-12"
+  },
+  "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/featured-image.webp",
+    "fetched_at": "2026-11-12"
+  },
+  "https://termsheetplease.com/": {
+    "image_url": "https://termsheetplease.com/assets/social-preview.png?v=title-only-20261110",
+    "fetched_at": "2026-11-12"
+  },
+  "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan": {
+    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+    "fetched_at": "2026-11-12"
+  },
+  "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026": {
+    "image_url": "http://bair.berkeley.edu/blog/assets/BAIR_Logo.png",
+    "fetched_at": "2026-11-12"
+  },
+  "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg?w=1024",
+    "fetched_at": "2026-11-12"
+  },
+  "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg?resize=1200,801",
+    "fetched_at": "2026-11-12"
+  },
+  "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv.jpg?resize=1200,1200",
+    "fetched_at": "2026-11-12"
   }
 }
