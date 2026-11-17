@@ -1,28 +1,4 @@
 {
-  "https://artie.com/careers": {
-    "image_url": "https://www.artie.com/opengraph-image.png",
-    "fetched_at": "2026-10-18"
-  },
-  "https://medcitynews.com/2026/10/upmc-enterprises-invests-in-velosource-to-expand-ai-enabled-clinician-staffing-platform": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2021/09/GettyImages-1191727241.jpg",
-    "fetched_at": "2026-10-18"
-  },
-  "https://huggingface.co/blog/nvidia/scaling-indic-pretraining": {
-    "image_url": "https://cdn-uploads.huggingface.co/production/uploads/68d2fec8856b85d927e44d32/x0aObe_0mduBjWFuKBGoV.png",
-    "fetched_at": "2026-10-18"
-  },
-  "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
-    "fetched_at": "2026-10-18"
-  },
-  "https://theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK043_VRG_Illo_N_Barclay_2_Meta.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-18"
-  },
-  "https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/STK414_AI_CVIRGINIA_C.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-18"
-  },
   "https://arxiv.org/abs/2610.22471": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-19"
@@ -2406,5 +2382,125 @@
   "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Jordan-Belfort.jpeg?resize=1200,675",
     "fetched_at": "2026-11-16"
+  },
+  "https://arxiv.org/abs/2611.18976": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19131": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19196": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19324": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://news.ycombinator.com/item?id=50534429": {
+    "image_url": null,
+    "fetched_at": "2026-11-17"
+  },
+  "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+    "fetched_at": "2026-11-17"
+  },
+  "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800",
+    "fetched_at": "2026-11-17"
+  },
+  "https://medcitynews.com/2026/11/your-ai-vendors-medical-exam-score-doesnt-mean-what-you-think-it-does": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/09/GettyImages-2204418056.jpg",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18652": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18702": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19138": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18644": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18855": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19061": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18891": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19318": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18982": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18701": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18591": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18608": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18609": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18674": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.18930": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19111": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.19116": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-17"
+  },
+  "https://github.com/withcoral/coral": {
+    "image_url": "https://opengraph.githubassets.com/908a449c293998fbd451f826b11430d59ada77497dff0343244804ad072faf5e/withcoral/coral",
+    "fetched_at": "2026-11-17"
+  },
+  "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Hero-asset.png?resize=1200,675",
+    "fetched_at": "2026-11-17"
+  },
+  "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1670871943.jpg?resize=1200,675",
+    "fetched_at": "2026-11-17"
+  },
+  "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2151467531.jpg?resize=1200,800",
+    "fetched_at": "2026-11-17"
+  },
+  "https://openai.com/index/introducing-openai-for-chile": {
+    "image_url": null,
+    "fetched_at": "2026-11-17"
   }
 }
