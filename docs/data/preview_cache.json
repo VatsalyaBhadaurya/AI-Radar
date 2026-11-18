@@ -1,108 +1,4 @@
 {
-  "https://arxiv.org/abs/2610.22471": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22951": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22435": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://medcitynews.com/2026/10/allswell-raises-7m-to-grow-lgbtq-behavioral-health-platform": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2021/05/LGBTQ-youth-flag.jpg",
-    "fetched_at": "2026-10-19"
-  },
-  "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/even-hospital.jpg?resize=1200,800",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22507": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22542": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22631": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22444": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://pytorch.org/blog/one-search-two-layers-compiler-controls-inside-pytorch-helion-using-nvidia-compileiq": {
-    "image_url": "https://pytorch.org/wp-content/uploads/2026/10/All-PyTorch-Blog-_-Social-Images.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22597": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22514": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22556": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22736": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22576": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22602": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22499": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22537": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22511": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22467": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22525": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22518": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://arxiv.org/abs/2610.22586": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-19"
-  },
-  "https://theverge.com/policy/1013113/democrats-ai-midterms": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25334821/STK466_ELECTION_2024_CVirginia_C.jpg?quality=90&amp;strip=all&amp;crop=0%2C9.9676601489831%2C100%2C80.064679702034&amp;w=1200",
-    "fetched_at": "2026-10-19"
-  },
-  "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024",
-    "fetched_at": "2026-10-19"
-  },
-  "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/55591989690_9a07db512f_k.jpg?resize=1200,800",
-    "fetched_at": "2026-10-19"
-  },
   "https://arxiv.org/abs/2610.23872": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-20"
@@ -2502,5 +2398,113 @@
   "https://openai.com/index/introducing-openai-for-chile": {
     "image_url": null,
     "fetched_at": "2026-11-17"
+  },
+  "https://arxiv.org/abs/2611.22001": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21782": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.22258": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.22275": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://remoteok.com/remote-jobs/remote-expert-talent-pool-physical-ai-clera-1137799": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://remoteok.com/remote-jobs/remote-engineering-manager-network-engineering-patientpoint-1137797": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://ycombinator.com/companies/evidence/jobs/1xb9PpP-founding-gtm-lead": {
+    "image_url": "https://bookface-images.s3.amazonaws.com/logos/2631e2c9f283d9a3c8d7d426e7e741f2467251cd.png?1694125706",
+    "fetched_at": "2026-11-18"
+  },
+  "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150167239.jpg?resize=1200,771",
+    "fetched_at": "2026-11-18"
+  },
+  "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/humyn-labs-co-founders_164602.jpg?resize=1200,800",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.22009": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21823": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21646": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21882": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21908": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.22321": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.22302": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21812": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21839": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.22297": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21846": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21622": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21919": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.22047": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.21682": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-18"
+  },
+  "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-1283692332.jpg?resize=1200,633",
+    "fetched_at": "2026-11-18"
+  },
+  "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-157503102.jpg?resize=1200,776",
+    "fetched_at": "2026-11-18"
+  },
+  "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297209338.jpg?w=1024",
+    "fetched_at": "2026-11-18"
   }
 }
