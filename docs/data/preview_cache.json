@@ -1,128 +1,4 @@
 {
-  "https://arxiv.org/abs/2610.23872": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23894": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23913": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23880": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://ycombinator.com/companies/hazel-2/jobs/PpNKYBS-full-stack-engineer-ts-sci": {
-    "image_url": "https://bookface-images.s3.amazonaws.com/logos/4eee6e19647ab5f3be3cda18b2a87d90ea956332.png?1705544917",
-    "fetched_at": "2026-10-20"
-  },
-  "https://evidence.dev/jobs": {
-    "image_url": "https://evidence.dev/brand-assets/twitter-card-black-bg.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2294590819.jpg?resize=1200,675",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.24051": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.24108": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.24264": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23937": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23877": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.24260": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23904": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23861": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.24184": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.24016": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.24129": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23879": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23908": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23892": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23919": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23915": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23866": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23911": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23928": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://arxiv.org/abs/2610.23941": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-20"
-  },
-  "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/cyberatttack.jpg?w=612",
-    "fetched_at": "2026-10-20"
-  },
-  "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/04/Otter-feat.jpg?resize=1200,675",
-    "fetched_at": "2026-10-20"
-  },
-  "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2023/08/rnuUXh8kprc7HfoRAGgTvZ-1200-80.jpg?w=970",
-    "fetched_at": "2026-10-20"
-  },
-  "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2195703830.jpg?w=1024",
-    "fetched_at": "2026-10-20"
-  },
   "https://arxiv.org/abs/2610.27199": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-21"
@@ -2506,5 +2382,109 @@
   "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2297209338.jpg?w=1024",
     "fetched_at": "2026-11-18"
+  },
+  "https://arxiv.org/abs/2611.23676": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23499": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23843": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23714": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://remoteok.com/remote-jobs/remote-legal-engineering-counsel-stedi-1137803": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://remoteok.com/remote-jobs/remote-business-development-manager-maya-htt-1137802": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Everful-founders.jpg?resize=1200,800",
+    "fetched_at": "2026-11-19"
+  },
+  "https://medcitynews.com/2026/11/hone-health-secures-228m-for-longevity-platform": {
+    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2025/09/money-growth.jpg",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23241": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23774": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23339": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://developer.nvidia.com/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/electron-energy-loss-spectroscopy.webp",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23491": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23731": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23858": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23615": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23674": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23480": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23529": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23517": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23530": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23803": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.23588": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-19"
+  },
+  "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg?resize=1200,801",
+    "fetched_at": "2026-11-19"
+  },
+  "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
+    "fetched_at": "2026-11-19"
+  },
+  "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg?w=1024",
+    "fetched_at": "2026-11-19"
   }
 }
