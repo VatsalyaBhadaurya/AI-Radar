@@ -1,112 +1,4 @@
 {
-  "https://arxiv.org/abs/2610.27199": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27040": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27496": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27485": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://9mothers.com/careers": {
-    "image_url": "https://cdn.ploy.ai/dd1475f0-2410-4ca9-b24e-7883c3bddc93/user/570ba5d4-mounted-edda-stylized.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/mach9-founders.jpg?resize=1200,800",
-    "fetched_at": "2026-10-21"
-  },
-  "https://medcitynews.com/2026/10/readily-secures-11m-for-compliance-intelligence-platform": {
-    "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2020/12/GettyImages-1224840122.jpg",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27242": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27613": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.26903": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://openai.com/index/openai-models-google-cloud": {
-    "image_url": "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&amp;h=900&amp;fit=fill",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.26913": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27414": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27039": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27003": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27277": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.26948": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27041": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27027": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.26943": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.26964": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27032": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://arxiv.org/abs/2610.27046": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-21"
-  },
-  "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale": {
-    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/OpenShellKVcroppped.webp",
-    "fetched_at": "2026-10-21"
-  },
-  "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg?resize=1200,800",
-    "fetched_at": "2026-10-21"
-  },
-  "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/11/clem-delangue.png?resize=1200,789",
-    "fetched_at": "2026-10-21"
-  },
-  "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/pills-GettyImages-157287767.jpg?resize=1200,800",
-    "fetched_at": "2026-10-21"
-  },
   "https://arxiv.org/abs/2610.29161": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-22"
@@ -2486,5 +2378,105 @@
   "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test": {
     "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg?w=1024",
     "fetched_at": "2026-11-19"
+  },
+  "https://arxiv.org/abs/2611.25251": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25460": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25462": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://remoteok.com/remote-jobs/remote-revenue-enablement-manager-legion-1137825": {
+    "image_url": "https://remoteok.com/url2og?url=https%3A%2F%2Fremoteok.com%2Fremote-jobs%2Fremote-revenue-enablement-manager-legion-1137825&cachebuster=",
+    "fetched_at": "2026-11-20"
+  },
+  "https://techcrunch.com/2026/11/20/bending-spoons-buys-mailchimp-for-3-68-billion": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150300479.jpg?resize=1200,800",
+    "fetched_at": "2026-11-20"
+  },
+  "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-1414277307.jpg?resize=1200,776",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25459": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.24995": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25400": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.24971": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25489": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25398": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25366": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25179": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25369": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25521": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25257": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25088": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25001": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25274": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25282": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.25388": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-20"
+  },
+  "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
+    "fetched_at": "2026-11-20"
+  },
+  "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256664479.jpg?resize=1200,800",
+    "fetched_at": "2026-11-20"
+  },
+  "https://theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-11-20"
   }
 }
