@@ -1,120 +1,4 @@
 {
-  "https://arxiv.org/abs/2610.29161": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28948": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.29025": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28925": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/02/Flapping-Airplanes-founders-photo.jpg?resize=1200,821",
-    "fetched_at": "2026-10-22"
-  },
-  "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Blacksmith.jpg?resize=1200,800",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.29073": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28767": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28886": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.29014": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28699": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28953": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.29061": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.29171": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28955": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.29203": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.29142": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28814": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28801": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28849": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28673": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28982": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28773": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28989": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28785": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://arxiv.org/abs/2610.28819": {
-    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-    "fetched_at": "2026-10-22"
-  },
-  "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2025/01/deepseek-2.jpg?resize=1200,800",
-    "fetched_at": "2026-10-22"
-  },
-  "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you": {
-    "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/Nirva-pendant.jpg?resize=1200,675",
-    "fetched_at": "2026-10-22"
-  },
-  "https://theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings": {
-    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25546023/STK043_META_CVIRGINIA_A.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-    "fetched_at": "2026-10-22"
-  },
   "https://arxiv.org/abs/2610.30197": {
     "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
     "fetched_at": "2026-10-23"
@@ -2478,5 +2362,57 @@
   "https://theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings": {
     "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305716823.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
     "fetched_at": "2026-11-20"
+  },
+  "https://arxiv.org/abs/2611.24999": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25151": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos": {
+    "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/cosmos-gif-500x282.gif",
+    "fetched_at": "2026-11-21"
+  },
+  "https://remoteok.com/remote-jobs/remote-quality-engineer-quartermaster-1137914": {
+    "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25252": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25114": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25000": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25108": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25167": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25264": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://arxiv.org/abs/2611.25004": {
+    "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+    "fetched_at": "2026-11-21"
+  },
+  "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood": {
+    "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200",
+    "fetched_at": "2026-11-21"
+  },
+  "https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure": {
+    "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+    "fetched_at": "2026-11-21"
   }
 }
