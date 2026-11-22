@@ -1,51 +1,49 @@
 {
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T16:37:19Z",
-  "headline": "Today's AI engineering radar — 2026-11-21",
-  "summary": "Today's lead story: \"PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction\" (arXiv cs.LG). Coverage spans papers_benchmarks, infra_tooling, jobs with 316 items scanned and 5 surfaced across sections.",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T16:54:37Z",
+  "headline": "Today's AI engineering radar — 2026-11-22",
+  "summary": "Today's lead story: \"Building a Robotic Hand on a Budget\" (Hackaday). Coverage spans infra_tooling, robotics_vla, jobs with 290 items scanned and 5 surfaced across sections.",
   "sections": [
     {
       "id": "for_you",
       "name": "Matches Your Stack",
       "items": [
         {
-          "id": "item_6ec7e83ef4a3",
-          "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.24999",
-          "canonical_url": "https://arxiv.org/abs/2611.24999",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.24999v1 Announce Type: new Abstract: Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving realized state transitions unused as an explicit source of supervision. We introduce a profile-conditioned state world model that uses observed environment--behavior state transitions to learn transition…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv). Matches your stack: world model.",
+          "id": "item_5fc2913f5d63",
+          "title": "Building a Robotic Hand on a Budget",
+          "source": "Hackaday",
+          "url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/",
+          "canonical_url": "https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget",
+          "published_at": "2026-11-22T06:00:20Z",
+          "summary": "For all the recent advances in robot control enabled by machine learning, there are still a few problems which remain stubbornly difficult: locomotion, for example, or whole-body balance for humanoids. &#8230;read more",
+          "image_url": "https://hackaday.com/wp-content/uploads/2026/11/robot_hand.png",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, locomotion, humanoid). Matches your stack: humanoid.",
           "tags": [
             "for_you",
-            "model_releases",
-            "papers_benchmarks",
+            "projects",
             "robotics_vla"
           ],
-          "category": "papers_benchmarks",
-          "score": 0.5859,
+          "category": "robotics_vla",
+          "score": 0.6881,
           "personal_match": true
         },
         {
-          "id": "item_daef2f41fd34",
-          "title": "Rate-distortion Assessment for Hierarchical Content Summarization",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25151",
-          "canonical_url": "https://arxiv.org/abs/2611.25151",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25151v1 Announce Type: new Abstract: Powerful generative models including large language and vision models have demonstrated success across a wide range of content generation, editing and manipulation tasks via end-to-end prompt-based generation. However, current assessment of the quality of generative content manipulation remains subjective, limiting scientific understanding of model capabilities. Inspired by rate-distortion theory from Shannon information compression theory, in thi…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv). Matches your stack: manipulation.",
+          "id": "item_83e98b0dc5d6",
+          "title": "A Replacement PCB for the Echo Dot",
+          "source": "Hackaday",
+          "url": "https://hackaday.com/2026/11/22/a-replacement-pcb-for-the-echo-dot/",
+          "canonical_url": "https://hackaday.com/2026/11/22/a-replacement-pcb-for-the-echo-dot",
+          "published_at": "2026-11-22T09:00:03Z",
+          "summary": "The Amazon Echo and other voice-controlled home assistants provide so much promise of a Jetsons style future of machines at your service. They would be a must-have accessory, were it not &#8230;read more",
+          "image_url": "https://hackaday.com/wp-content/uploads/2026/11/dot-local-featured.jpg",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: Jetson). Matches your stack: Jetson.",
           "tags": [
             "for_you",
-            "model_releases",
-            "papers_benchmarks",
-            "robotics_vla"
+            "infra_tooling",
+            "projects"
           ],
-          "category": "papers_benchmarks",
-          "score": 0.5859,
+          "category": "infra_tooling",
+          "score": 0.5775,
           "personal_match": true
         },
         {
@@ -70,24 +68,24 @@
           "personal_match": true
         },
         {
-          "id": "item_a18e97945e0f",
-          "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos",
-          "source": "NVIDIA Developer Blog (AI)",
-          "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
-          "canonical_url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos",
-          "published_at": "2026-11-18T17:00:00Z",
-          "summary": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is...",
-          "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/cosmos-gif-500x282.gif",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: dataset, training). Matches your stack: world model.",
+          "id": "item_620bb301deb0",
+          "title": "k2-fsa/sherpa-onnx",
+          "source": "GitHub Trending (C++)",
+          "url": "https://github.com/k2-fsa/sherpa-onnx",
+          "canonical_url": "https://github.com/k2-fsa/sherpa-onnx",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages https://k2-fsa.github.io/sherpa/onnx/index.html Supported functions Speech recognition Speech synthesis Source separation ✔️ ✔️ ✔️ Speaker identification…",
+          "image_url": "https://opengraph.githubassets.com/5c79a677f7efec79a3b4be2495c28bdd12ade04175bbd84b62512358b9dd043b/k2-fsa/sherpa-onnx",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: runtime, ONNX, embedded). Matches your stack: ONNX.",
           "tags": [
             "for_you",
             "infra_tooling",
-            "model_releases",
-            "papers_benchmarks",
-            "robotics_vla"
+            "projects",
+            "repos",
+            "vlm_multimodal"
           ],
-          "category": "papers_benchmarks",
-          "score": 0.5334,
+          "category": "infra_tooling",
+          "score": 0.4745,
           "personal_match": true
         }
       ]
@@ -97,24 +95,112 @@
       "name": "Hiring For You",
       "items": [
         {
-          "id": "item_4ef16cbaab71",
-          "title": "Quartermaster: Quality Engineer",
+          "id": "item_90385bcf1607",
+          "title": "Wemolo: Senior Applied AI Engineer",
           "source": "RemoteOK",
-          "url": "https://remoteOK.com/remote-jobs/remote-quality-engineer-quartermaster-1137914",
-          "canonical_url": "https://remoteok.com/remote-jobs/remote-quality-engineer-quartermaster-1137914",
-          "published_at": "2026-11-20T16:00:18Z",
-          "summary": "Quartermaster is building the world's most comprehensive maritime intelligence platform. Our SmartMastâ¢ system transforms commercial and civilian vessels into a persistent, distributed sensing networkâcombining HD video, AI, radar, RF sensing, and AIS to deliver real-time maritime domain awareness at global scale. With 600+ sensors deployed across 25+ countries and more than 400,000 vessels identified outside of AIS, we are setting a new standard for what ocean surveillance and safety can l…",
+          "url": "https://remoteOK.com/remote-jobs/remote-senior-applied-ai-engineer-wemolo-1137917",
+          "canonical_url": "https://remoteok.com/remote-jobs/remote-senior-applied-ai-engineer-wemolo-1137917",
+          "published_at": "2026-11-21T00:00:11Z",
+          "summary": "Parking without barriers, tickets or queues. Wemolo builds its own hardware and its own AI to make that happen. More than 7,000 of our scanners run on around 4,000 parking sites across Europe and have processed over 1.3 billion parking events: unattended, outdoors, around the clock. As Senior Applied AI Engineer (all genders), you work like a forward deployed engineer, embedded with our internal teams. AI is reshaping how we work: you find where it has the highest impact, decide what is worth b…",
           "image_url": "https://remoteok.com/assets/og-image-2021c.png",
+          "why_it_matters": "This role matches your skills (Python); matches your focus areas (AI engineer); looks open to interns/entry-level candidates.",
+          "tags": [
+            "for_you",
+            "jobs"
+          ],
+          "category": "jobs",
+          "score": 0.4385,
+          "personal_match": true,
+          "company": "Wemolo",
+          "location": "MÃ¼nchen",
+          "experience_match": 0.4,
+          "matched_skills": [
+            "Python"
+          ]
+        },
+        {
+          "id": "item_3f6be278d090",
+          "title": "Reddit: Senior Staff Machine Learning Engineer, Ads Ranking",
+          "source": "RemoteOK",
+          "url": "https://remoteOK.com/remote-jobs/remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
+          "canonical_url": "https://remoteok.com/remote-jobs/remote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932",
+          "published_at": "2026-11-21T02:40:04Z",
+          "summary": "Reddit is a community of communities. Itâs built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internetâs largest sources of information. For more information, visit www.redditinc.com . We are seeking a Senior Staff Machine Le…",
+          "image_url": "https://remoteok.com/url2og?url=https%3A%2F%2Fremoteok.com%2Fremote-jobs%2Fremote-senior-staff-machine-learning-engineer-ads-ranking-reddit-1137932&cachebuster=",
+          "why_it_matters": "This role matches your focus areas (machine learning); looks open to interns/entry-level candidates.",
+          "tags": [
+            "for_you",
+            "jobs"
+          ],
+          "category": "jobs",
+          "score": 0.4064,
+          "personal_match": true,
+          "company": "Reddit",
+          "location": "US Only",
+          "experience_match": 0.35,
+          "matched_skills": []
+        },
+        {
+          "id": "item_04c98225ba59",
+          "title": "Contentstack: Revenue Operations Leader, Strategy & Planning",
+          "source": "RemoteOK",
+          "url": "https://remoteOK.com/remote-jobs/remote-revenue-operations-leader-strategy-planning-contentstack-1137951",
+          "canonical_url": "https://remoteok.com/remote-jobs/remote-revenue-operations-leader-strategy-planning-contentstack-1137951",
+          "published_at": "2026-11-21T05:40:08Z",
+          "summary": "What is Contentstack? Contentstack is redefining how modern digital experiences are built and managed. As the pioneer of the Agentic Experience Platform (AXP), Contentstack brings together structured content and brand governance (Content Cloud), real-time customer data, omnichannel personalization (Data Cloud) and autonomous AI orchestration (Agent OS) into one unified system. While many organizations adopted headless CMS or standalone AI tools expecting transformation, they often found themsel…",
+          "image_url": "https://remoteok.com/url2og?url=https%3A%2F%2Fremoteok.com%2Fremote-jobs%2Fremote-revenue-operations-leader-strategy-planning-contentstack-1137951&cachebuster=",
           "why_it_matters": "This role matches your focus areas (real-time).",
           "tags": [
             "jobs"
           ],
           "category": "jobs",
-          "score": 0.2877,
+          "score": 0.2628,
           "personal_match": false,
-          "company": "Quartermaster",
-          "location": "Arlington",
+          "company": "Contentstack",
+          "location": "US Only",
           "experience_match": 0.15,
+          "matched_skills": []
+        },
+        {
+          "id": "item_7a5bea03a644",
+          "title": "Natera: Staff Scientist, Machine Learning (Genomics)",
+          "source": "RemoteOK",
+          "url": "https://remoteOK.com/remote-jobs/remote-staff-scientist-machine-learning-genomics-natera-1137926",
+          "canonical_url": "https://remoteok.com/remote-jobs/remote-staff-scientist-machine-learning-genomics-natera-1137926",
+          "published_at": "2026-11-21T01:40:04Z",
+          "summary": "Natera is seeking a highly motivated Staff Machine Learning Scientist to join our rapidly growing company. As a member of the Data Science research team you will participate in the design and prototyping of cutting edge algorithms for analysis of genetic and clinical data. You will perform data analysis, algorithm design, contribute to our intellectual property portfolio, and interact closely with R&amp;D and product teams to define the requirements and improve the products and processes. PRIMA…",
+          "image_url": "https://remoteok.com/url2og?url=https%3A%2F%2Fremoteok.com%2Fremote-jobs%2Fremote-staff-scientist-machine-learning-genomics-natera-1137926&cachebuster=",
+          "why_it_matters": "This role matches your focus areas (machine learning).",
+          "tags": [
+            "jobs"
+          ],
+          "category": "jobs",
+          "score": 0.2544,
+          "personal_match": false,
+          "company": "Natera",
+          "location": "US Only",
+          "experience_match": 0.15,
+          "matched_skills": []
+        },
+        {
+          "id": "item_187dad26ad22",
+          "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
+          "source": "Hacker News Jobs (YC)",
+          "url": "https://tasklet.ai/careers",
+          "canonical_url": "https://tasklet.ai/careers",
+          "published_at": "2026-11-21T21:11:08Z",
+          "summary": "Article URL: https://tasklet.ai/careers Comments URL: https://news.ycombinator.com/item?id=50593679 Points: 0 # Comments: 0",
+          "image_url": "https://tasklet.ai/og-image.png",
+          "why_it_matters": "Job posting from a tracked board; no strong overlap with your profile yet.",
+          "tags": [
+            "jobs"
+          ],
+          "category": "jobs",
+          "score": 0.188,
+          "personal_match": false,
+          "company": "",
+          "location": "",
+          "experience_match": 0.0,
           "matched_skills": []
         }
       ]
@@ -134,7 +220,7 @@
           "region": "International",
           "summary": "Curated embodied AI list: surveys, VLA models, datasets, simulators, humanoids, robot learning, and safety resources. I am a Ph.D student at HUST, China. Joint training with Tsinghua University @thunlp . Embodied intelligence field, RL field. Worked @OpenBMB(ModelBest).",
           "why_it_matters": "This person works on embodied AI, embodied, VLA (255★ on GitHub). Recent: wadeKeith/Awesome-Embodied-AI.",
-          "score": 0.8499,
+          "score": 0.8471,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -182,8 +268,8 @@
           "affiliation": "University of Science and Technology of China",
           "region": "International",
           "summary": "A curated list of state-of-the-art research in embodied AI, focusing on vision-language-action (VLA) models, vision-language navigation (VLN), and related multimodal learning approaches. Embodied AI Researcher",
-          "why_it_matters": "This person works on embodied AI, embodied, vision-language (3,634★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.",
-          "score": 0.8191,
+          "why_it_matters": "This person works on embodied AI, embodied, vision-language (3,635★ on GitHub). Recent: jonyzhang2023/awesome-embodied-vla-va-vln.",
+          "score": 0.818,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -231,8 +317,8 @@
           "affiliation": "National University of Singapore",
           "region": "International",
           "summary": "Official Implementation of Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agents The PhD student in NUS.  Focus on Multimodal Learning (CVer&NLPer)",
-          "why_it_matters": "This person works on vision-language, vision-language-action, real-time (1,186★ on GitHub). Recent: RainBowLuoCS/Gamer.",
-          "score": 0.815,
+          "why_it_matters": "This person works on vision-language, vision-language-action, real-time (1,287★ on GitHub). Recent: RainBowLuoCS/Gamer.",
+          "score": 0.8146,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -280,7 +366,7 @@
           "region": "International",
           "summary": "The official implementation of \"DynamicVLA: A Vision-Language-Action Model for Dynamic Object Manipulation\". (NeurIPS 2026) R&D Lead of Dexmate's Singapore Office",
           "why_it_matters": "This person works on VLA, vision-language, vision-language-action (378★ on GitHub). Recent: hzxie/DynamicVLA.",
-          "score": 0.7943,
+          "score": 0.7945,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -303,7 +389,7 @@
             {
               "title": "hzxie/DynamicVLA",
               "url": "https://github.com/hzxie/DynamicVLA",
-              "date": "2026-11-20T22:55:29Z"
+              "date": "2026-11-22T00:51:08Z"
             }
           ],
           "matched_skills": [
@@ -327,8 +413,8 @@
           "affiliation": "UESTC | UniTn",
           "region": "International",
           "summary": "This is a curated list of \"Embodied AI or robot with Large Language Models\" research. Watch this repository for the latest updates! 🔥 Ph.D. student. Research Interests: LLM-Agents, Vision-Language.",
-          "why_it_matters": "This person works on embodied, embodied AI, vision-language (1,922★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.",
-          "score": 0.7402,
+          "why_it_matters": "This person works on embodied AI, embodied, vision-language (1,922★ on GitHub). Recent: zchoi/Awesome-Embodied-Robotics-and-Agent.",
+          "score": 0.7607,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -351,12 +437,12 @@
             {
               "title": "zchoi/Awesome-Embodied-Robotics-and-Agent",
               "url": "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent",
-              "date": "2026-11-14T01:28:45Z"
+              "date": "2026-11-22T03:38:14Z"
             }
           ],
           "matched_skills": [
-            "embodied",
             "embodied AI",
+            "embodied",
             "vision-language",
             "robotics"
           ],
@@ -375,7 +461,7 @@
           "region": "International",
           "summary": "[ICLR 2026] The offical Implementation of \"Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model\"",
           "why_it_matters": "This person works on vision-language, vision-language-action, manipulation (762★ on GitHub). Recent: 2toinf/X-VLA.",
-          "score": 0.739,
+          "score": 0.7371,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -422,8 +508,8 @@
           "affiliation": "UNC",
           "region": "International",
           "summary": "A comprehensive list of excellent research papers, models, datasets, and other resources on Vision-Language-Action (VLA) models in robotics. CS PhD student at UNC-Chapel Hill.",
-          "why_it_matters": "This person works on vision-language-action, vision-language, VLA (505★ on GitHub). Recent: Jiaaqiliu/Awesome-VLA-Robotics.",
-          "score": 0.7147,
+          "why_it_matters": "This person works on vision-language, vision-language-action, VLA (505★ on GitHub). Recent: Jiaaqiliu/Awesome-VLA-Robotics.",
+          "score": 0.7117,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -460,61 +546,14 @@
             }
           ],
           "matched_skills": [
-            "vision-language-action",
             "vision-language",
+            "vision-language-action",
             "VLA",
             "robotics"
           ],
           "found_via": [
             "GitHub",
             "arXiv"
-          ]
-        },
-        {
-          "id": "person_hcp_lab",
-          "category": "people",
-          "name": "HCP Lab",
-          "title": "HCP Lab",
-          "url": "https://github.com/HCPLab-SYSU",
-          "source": "GitHub",
-          "affiliation": "",
-          "region": "International",
-          "summary": "[Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI Human Cyber Physical (HCP) Intelligence Integration Lab\r\n\r\n中山大学人机物智能融合实验室",
-          "why_it_matters": "This person works on embodied, embodied AI, manipulation (2,196★ on GitHub). Recent: HCPLab-SYSU/Embodied_AI_Paper_List.",
-          "score": 0.6894,
-          "personal_match": true,
-          "tags": [
-            "GitHub",
-            "International",
-            "for_you"
-          ],
-          "image_url": "https://avatars.githubusercontent.com/u/38847349?v=4",
-          "profiles": [
-            {
-              "label": "GitHub",
-              "url": "https://github.com/HCPLab-SYSU"
-            },
-            {
-              "label": "Find on LinkedIn",
-              "url": "https://www.linkedin.com/search/results/people/?keywords=HCP+Lab",
-              "verified": false
-            }
-          ],
-          "recent_work": [
-            {
-              "title": "HCPLab-SYSU/Embodied_AI_Paper_List",
-              "url": "https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List",
-              "date": "2026-10-21T02:03:24Z"
-            }
-          ],
-          "matched_skills": [
-            "embodied",
-            "embodied AI",
-            "manipulation",
-            "robotics"
-          ],
-          "found_via": [
-            "GitHub"
           ]
         },
         {
@@ -527,8 +566,8 @@
           "affiliation": "",
           "region": "International",
           "summary": "actquant, arxiv:2605.10806, arxiv:2605.19242, arxiv:2605.24011, base_model:Qwen/Qwen3.5-9B, base_model:Wan-AI/Wan2.2-I2V-A14B",
-          "why_it_matters": "This person works on embodied, robotics, vision-language (78 HF likes). Recent: NU-World-Model-Embodied-AI/phyworld.",
-          "score": 0.6891,
+          "why_it_matters": "This person works on embodied, robotics, vision-language (79 HF likes). Recent: NU-World-Model-Embodied-AI/phyworld.",
+          "score": 0.6896,
           "personal_match": true,
           "tags": [
             "Hugging Face",
@@ -576,6 +615,53 @@
           ]
         },
         {
+          "id": "person_hcp_lab",
+          "category": "people",
+          "name": "HCP Lab",
+          "title": "HCP Lab",
+          "url": "https://github.com/HCPLab-SYSU",
+          "source": "GitHub",
+          "affiliation": "",
+          "region": "International",
+          "summary": "[Embodied-AI-Survey-2025] Paper List and Resource Repository for Embodied AI Human Cyber Physical (HCP) Intelligence Integration Lab\r\n\r\n中山大学人机物智能融合实验室",
+          "why_it_matters": "This person works on embodied, embodied AI, manipulation (2,196★ on GitHub). Recent: HCPLab-SYSU/Embodied_AI_Paper_List.",
+          "score": 0.6874,
+          "personal_match": true,
+          "tags": [
+            "GitHub",
+            "International",
+            "for_you"
+          ],
+          "image_url": "https://avatars.githubusercontent.com/u/38847349?v=4",
+          "profiles": [
+            {
+              "label": "GitHub",
+              "url": "https://github.com/HCPLab-SYSU"
+            },
+            {
+              "label": "Find on LinkedIn",
+              "url": "https://www.linkedin.com/search/results/people/?keywords=HCP+Lab",
+              "verified": false
+            }
+          ],
+          "recent_work": [
+            {
+              "title": "HCPLab-SYSU/Embodied_AI_Paper_List",
+              "url": "https://github.com/HCPLab-SYSU/Embodied_AI_Paper_List",
+              "date": "2026-10-21T02:03:24Z"
+            }
+          ],
+          "matched_skills": [
+            "embodied",
+            "embodied AI",
+            "manipulation",
+            "robotics"
+          ],
+          "found_via": [
+            "GitHub"
+          ]
+        },
+        {
           "id": "person_lasya_suresh",
           "category": "people",
           "name": "lasya suresh ",
@@ -586,7 +672,7 @@
           "region": "India",
           "summary": "Robotics & AI Engineer | ROS 2 | SLAM | Embodied AI | BIT Bangalore | CGPA 9.0",
           "why_it_matters": "This person works on robotics, AI engineer, ROS 2 (2 GitHub followers). India-based/affiliated. Recent: lasyasuresh on GitHub.",
-          "score": 0.576,
+          "score": 0.5754,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -634,8 +720,8 @@
           "affiliation": "TiTech - Buildonaut",
           "region": "India",
           "summary": "AI Systems Architect & Creator of Brahma Sol | Building Sovereign Embodied AI Companions & Autonomous Desktop Agents ⚡",
-          "why_it_matters": "This person works on embodied, embodied AI (85 GitHub followers). India-based/affiliated. Recent: titechprabhasolutions on GitHub.",
-          "score": 0.5116,
+          "why_it_matters": "This person works on embodied AI, embodied (85 GitHub followers). India-based/affiliated. Recent: titechprabhasolutions on GitHub.",
+          "score": 0.5087,
           "personal_match": false,
           "tags": [
             "GitHub",
@@ -661,8 +747,8 @@
             }
           ],
           "matched_skills": [
-            "embodied",
-            "embodied AI"
+            "embodied AI",
+            "embodied"
           ],
           "found_via": [
             "GitHub"
@@ -679,7 +765,7 @@
           "region": "India",
           "summary": "Computer Science Undergraduate | Machine Learning & Computer Vision | Embodied AI | Robotics | Research",
           "why_it_matters": "This person works on machine learning, computer vision, embodied AI (1 GitHub followers). India-based/affiliated. Recent: MohapatraSaloni on GitHub.",
-          "score": 0.5028,
+          "score": 0.5018,
           "personal_match": true,
           "tags": [
             "GitHub",
@@ -723,37 +809,20 @@
       "name": "Recent Funding",
       "items": [
         {
-          "id": "item_86af0f29866d",
-          "title": "The Week’s 10 Biggest Funding Rounds: $400M For Neurotech Leads, Followed By Big Deals For AI, Fintech, Biotech And More",
-          "source": "Crunchbase News",
-          "url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics/",
-          "canonical_url": "https://news.crunchbase.com/venture/biggest-startup-rounds-science-neurotech-model-ml-galvanize-therapeutics",
-          "published_at": "2026-11-20T20:15:54Z",
-          "summary": "U.S. startups continued to secure sizable rounds, led by brain-computer interface company Science securing a fresh $400 million.",
-          "image_url": "https://news.crunchbase.com/wp-content/uploads/Top_10_.jpeg",
-          "why_it_matters": "Startup funding news (funding, led by).",
-          "tags": [
-            "funding"
-          ],
-          "category": "funding",
-          "score": 0.5348,
-          "personal_match": false
-        },
-        {
-          "id": "item_6755813e5cbe",
-          "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+          "id": "item_bc1083d540d9",
+          "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
           "source": "TechCrunch Startups",
-          "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
-          "canonical_url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding",
-          "published_at": "2026-11-17T14:26:46Z",
-          "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
-          "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800",
-          "why_it_matters": "Startup funding news (raised, funding, series d).",
+          "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+          "canonical_url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt",
+          "published_at": "2026-11-18T01:44:21Z",
+          "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2150167239.jpg?resize=1200,771",
+          "why_it_matters": "Startup funding news (valuation, investment, led by).",
           "tags": [
             "funding"
           ],
           "category": "funding",
-          "score": 0.4471,
+          "score": 0.4367,
           "personal_match": false
         },
         {
@@ -774,20 +843,37 @@
           "personal_match": false
         },
         {
-          "id": "item_eb9d1d7207ed",
-          "title": "Your AI Vendor’s Medical Exam Score Doesn’t Mean What You Think It Does",
-          "source": "MedCity News",
-          "url": "https://medcitynews.com/2026/11/your-ai-vendors-medical-exam-score-doesnt-mean-what-you-think-it-does/",
-          "canonical_url": "https://medcitynews.com/2026/11/your-ai-vendors-medical-exam-score-doesnt-mean-what-you-think-it-does",
-          "published_at": "2026-11-17T14:48:00Z",
-          "summary": "If health systems want to adopt AI at scale, they need evaluation that is open, reproducible, and continuously updated. That’s also much harder to build in healthcare than in general-purpose AI, for these 3 reasons. The post Your AI Vendor&#8217;s Medical Exam Score Doesn&#8217;t Mean What You Think It Does appeared first on MedCity News .",
-          "image_url": "https://medcitynews.com/wp-content/uploads/sites/7/2026/09/GettyImages-2204418056.jpg",
-          "why_it_matters": "Startup funding news (valuation).",
+          "id": "item_6e0009ced174",
+          "title": "Sector Snapshot: Investors Turn Up The Volume On Voice AI",
+          "source": "Crunchbase News",
+          "url": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026/",
+          "canonical_url": "https://news.crunchbase.com/venture/voice-ai-startup-funding-peaks-2026",
+          "published_at": "2026-11-18T12:00:31Z",
+          "summary": "Voice AI is drawing billions of dollars from investors as startups find more ways to put it to work. According to Crunchbase data, companies developing or offering the technology have raised at least $9.5 billion in venture funding so far in 2026.",
+          "image_url": "https://news.crunchbase.com/wp-content/uploads/Talk.jpg",
+          "why_it_matters": "Startup funding news (raised, funding).",
           "tags": [
             "funding"
           ],
           "category": "funding",
-          "score": 0.3964,
+          "score": 0.4067,
+          "personal_match": false
+        },
+        {
+          "id": "item_6755813e5cbe",
+          "title": "Science Corporation’s brain tech is worth $3.5 billion after new funding",
+          "source": "TechCrunch Startups",
+          "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+          "canonical_url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding",
+          "published_at": "2026-11-17T14:26:46Z",
+          "summary": "Science Corp. raised a $400 million Series D to scale up its anti-blindness business.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/10/55588371385_eb2e316d52_o.jpg?resize=1200,800",
+          "why_it_matters": "Startup funding news (raised, funding, series d).",
+          "tags": [
+            "funding"
+          ],
+          "category": "funding",
+          "score": 0.3865,
           "personal_match": false
         }
       ]
@@ -797,100 +883,98 @@
       "name": "Top Stories",
       "items": [
         {
-          "id": "item_6dc7986520ff",
-          "title": "v0.40.17",
-          "source": "Ollama",
-          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
-          "canonical_url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
-          "published_at": "2026-11-21T04:05:14Z",
-          "summary": "Inkling 2 Mini Inkling 2 Mini from Thinking Machines is a 26B parameter model with 5.4B active. Its looped layers give it more computation per token than its size suggests, and it still fits on a Mac at about 20GB. It handles text and images, tool calls, and thinking, and scores 79.2% on SWE-Bench Verified). ollama run inkling-2-mini Note: inkling-2-mini is supported on Apple silicon only in this release. PC support will follow in an upcoming release. What's Changed ollama launch claude support…",
-          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
-          "why_it_matters": "Relevant to Model Releases (matches: release, launch, model).",
+          "id": "item_9007749ae556",
+          "title": "b12634: chat : trigger lazy grammar on bare JSON tool calls (#32497)",
+          "source": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12634",
+          "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12634",
+          "published_at": "2026-11-22T11:19:04Z",
+          "summary": "Models like Llama 3.x emit tool calls as plain {\"name\": ...} JSON without a start marker, so with tool_choice=auto no grammar was produced at all. Use a pattern trigger on the opening of the call object instead. Assisted-by: Claude Code",
+          "image_url": "https://avatars.githubusercontent.com/u/10432760?s=60&v=4",
+          "why_it_matters": "Relevant to Model Releases (matches: model, Claude, Llama).",
           "tags": [
+            "infra_tooling",
             "model_releases",
             "repos"
           ],
           "category": "model_releases",
-          "score": 0.7911,
+          "score": 0.7356,
           "personal_match": false
         },
         {
-          "id": "item_6212526ea335",
-          "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25252",
-          "canonical_url": "https://arxiv.org/abs/2611.25252",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25252v1 Announce Type: new Abstract: Coding agents built on large language models (LLMs) now help develop many models published as general solutions. Should generality instead reside in the agent that builds a model for each new task? We examine this question in prognostics and health management (PHM), where every model must work on unseen equipment. Our deployment-style benchmark, NextUnit-Bench, covers 24 public datasets split into 58 folds that hold out units or operating conditio…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark, dataset).",
+          "id": "item_49216330d962",
+          "title": "b12633",
+          "source": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
+          "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12633",
+          "published_at": "2026-11-22T14:57:05Z",
+          "summary": "ggml : fix nonzero clear on WebGPU and non-UMA devices ( #32727 ) Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70776484 macOS/iOS: macOS Apple Silicon (arm64) macOS Apple Silicon (arm64, KleidiAI enabled) DISABLED macOS Intel (x64) iOS XCFramework Linux: Ubuntu x64 (CPU) Ubuntu arm64 (CPU) Ubuntu 24.04 s390x (CPU) Ubuntu 26.04 s390x (CPU) Ubuntu 26.04 s390x (zDNN) Ubuntu x64 (Vulkan) Ubuntu arm64 (Vulkan) Ubuntu x64 (CUDA 12) - CUDA 12.8 libraries…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: CUDA, GPU, framework).",
           "tags": [
             "infra_tooling",
             "model_releases",
-            "papers_benchmarks"
-          ],
-          "category": "papers_benchmarks",
-          "score": 0.6964,
-          "personal_match": false
-        },
-        {
-          "id": "item_1bcdffbaa2df",
-          "title": "b12608",
-          "source": "llama.cpp",
-          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608",
-          "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12608",
-          "published_at": "2026-11-21T16:08:46Z",
-          "summary": "ggml-cpu: fix nc aligment in tinyBLAS_PPC_Q0 ( #32659 ) Fixes #31680 The matmul_tiled() implementation in tinyBLAS_Q0_PPC requires nc to be a multiple of 8 to perform matrix multiplication correctly. The previous alignment logic contained a special case for n == 4, which allowed n_aligned to be 4. Consequently, the tiled path could be selected with nc = 4, violating the kernel's tile-width requirement. This caused incorrect matrix multiplication results, observed as garbled inference output whe…",
-          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
-          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, kernel).",
-          "tags": [
-            "infra_tooling",
-            "papers_benchmarks"
+            "repos"
           ],
           "category": "infra_tooling",
-          "score": 0.6933,
+          "score": 0.7255,
           "personal_match": false
         },
         {
-          "id": "item_7f7ccbf019ca",
-          "title": "Release v5.24.0",
-          "source": "Hugging Face Transformers",
-          "url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
-          "canonical_url": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
-          "published_at": "2026-11-21T12:43:39Z",
-          "summary": "Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Small, added in v5.23.0. It has 24 decoder layers instead of 48, and compensates with a looping mechanism in which layers 6 to 17 run three times. A learned message-passing mechanism mixes the residuals of the previous pass into the attention and mixture-of-experts inputs of each loo…",
-          "image_url": "https://avatars.githubusercontent.com/u/71554963?s=60&v=4",
-          "why_it_matters": "Relevant to Model Releases (matches: release, model).",
+          "id": "item_1fb256ce62b7",
+          "title": "cursor/plugins",
+          "source": "GitHub Trending (All Languages)",
+          "url": "https://github.com/cursor/plugins",
+          "canonical_url": "https://github.com/cursor/plugins",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "Cursor plugin specification and official plugins Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own .cursor-plugin/plugin.json manifest. Plugins name Plugin Author Category description (from marketplace) teaching Teaching Cursor Utilities Skill mapping, practice plans, and learning retrospectives. continual-learning Continual Learning Eric Zakariasson Developer Tools Increme…",
+          "image_url": "https://avatars.githubusercontent.com/u/126759922?s=400&v=4",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: repo, repository, tool).",
+          "tags": [
+            "infra_tooling",
+            "projects",
+            "repos"
+          ],
+          "category": "repos",
+          "score": 0.6925,
+          "personal_match": false
+        },
+        {
+          "id": "item_a1efb2f86694",
+          "title": "Release 2.75.0 corresponding to NGC container 26.11",
+          "source": "Triton Inference Server",
+          "url": "https://github.com/triton-inference-server/server/releases/tag/v2.75.0",
+          "canonical_url": "https://github.com/triton-inference-server/server/releases/tag/v2.75.0",
+          "published_at": "2026-11-17T21:06:27Z",
+          "summary": "Triton Inference Server The Triton Inference Server provides a cloud inferencing solution optimized for both CPUs and GPUs. The server provides an inference service via an HTTP or GRPC endpoint, allowing remote clients to request inferencing for any model being managed by the server. For edge deployments, Triton Server is also available as a shared library with an API that allows the full functionality of the server to be included directly in an application. New Features and Improvements PyTorc…",
+          "image_url": "https://avatars.githubusercontent.com/u/99709299?s=60&v=4",
+          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, GPU, deployment).",
           "tags": [
             "infra_tooling",
             "model_releases",
-            "robotics_vla",
-            "vlm_multimodal"
-          ],
-          "category": "model_releases",
-          "score": 0.6813,
-          "personal_match": false,
-          "also_reported_by": [
-            "LeRobot (Hugging Face)"
-          ]
-        },
-        {
-          "id": "item_cce6031da167",
-          "title": "Fast and Memory-Light Evaluation of Density-Based Clusterings with the DISCO Index in R",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25114",
-          "canonical_url": "https://arxiv.org/abs/2611.25114",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25114v1 Announce Type: new Abstract: DISCO is a recent internal cluster validity index for density-based clustering that, unlike earlier indices, also evaluates the quality of noise labels. The discoCVI package makes DISCO available in R. This article describes the design of the package and a typical workflow, in which DISCO is used to compare clusterings and to choose the parameters of HDBSCAN without ground truth, followed by the implementation introduced in version 0.2.0. DISCO is…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, evaluation).",
-          "tags": [
-            "industry",
-            "papers_benchmarks",
             "repos"
           ],
-          "category": "papers_benchmarks",
-          "score": 0.6589,
+          "category": "infra_tooling",
+          "score": 0.662,
+          "personal_match": false
+        },
+        {
+          "id": "item_040d847d4b47",
+          "title": "b12629",
+          "source": "llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+          "canonical_url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+          "published_at": "2026-11-22T08:47:04Z",
+          "summary": "opencl: add coopmat GEMM for Adreno 850 (Q4_0, Q5_0, Q8_0, Q4_K, Q5_K, Q6_K) ( #32686 ) opencl: add Q4_0 coopmat GEMM for Adreno 850 Assisted-by: Claude Opus 5.5 opencl: add Q5_0 coopmat GEMM for Adreno 850 opencl: add Q8_0 coopmat GEMM for Adreno 850 opencl: add Q4_K coopmat GEMM for Adreno 850 opencl: add Q5_K coopmat GEMM for Adreno 850 opencl: add Q6_K coopmat GEMM for Adreno 850 Website: https://llama.app Attestations: https://github.com/ggml-org/llama.cpp/attestations/70715548 macOS/iOS:…",
+          "image_url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "why_it_matters": "Relevant to Model Releases (matches: Claude, Llama).",
+          "tags": [
+            "infra_tooling",
+            "model_releases",
+            "repos"
+          ],
+          "category": "model_releases",
+          "score": 0.6448,
           "personal_match": false
         }
       ]
@@ -900,63 +984,58 @@
       "name": "Build Today: Project Picks",
       "items": [
         {
-          "id": "item_52adf762d407",
-          "title": "google-labs-code/stitch-skills",
-          "source": "GitHub Trending (All Languages)",
-          "url": "https://github.com/google-labs-code/stitch-skills",
-          "canonical_url": "https://github.com/google-labs-code/stitch-skills",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor. https://stitch.withgoogle.com/docs/mcp/setup Stitch Design Skills A collection of agent skills and plugins for Google Stitch , following the Agent Skills open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual insta…",
-          "image_url": "https://opengraph.githubassets.com/e8aa9447fa2a6dbef53c781854536c6d5753f44d37a72bfe12fa558d07835277/google-labs-code/stitch-skills",
-          "why_it_matters": "Relevant to Model Releases (matches: Claude, Gemini).",
+          "id": "item_5d8a7b815c5a",
+          "title": "Soft Robot Made for the Races",
+          "source": "Hackaday",
+          "url": "https://hackaday.com/2026/11/22/soft-robot-made-for-the-races/",
+          "canonical_url": "https://hackaday.com/2026/11/22/soft-robot-made-for-the-races",
+          "published_at": "2026-11-22T15:00:49Z",
+          "summary": "Soft robotics is a relatively untapped field of robotics. However, that doesn’t mean there aren’t some good examples of what it could do in the near future. Speed is a &#8230;read more",
+          "image_url": "https://hackaday.com/wp-content/uploads/2026/11/scirobotics.aei1264-f1.jpg",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot, robotics).",
           "tags": [
-            "infra_tooling",
-            "model_releases",
             "projects",
-            "repos"
+            "robotics_vla"
           ],
-          "category": "model_releases",
-          "score": 0.655,
+          "category": "robotics_vla",
+          "score": 0.6257,
           "personal_match": false
         },
         {
-          "id": "item_f991dd82d59c",
-          "title": "zhouxiaoka/autoclip",
-          "source": "GitHub Trending (All Languages)",
-          "url": "https://github.com/zhouxiaoka/autoclip",
-          "canonical_url": "https://github.com/zhouxiaoka/autoclip",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing. https://zhouxiaoka.github.io/autoclip_intro/ AutoClip 一个链接，一键出片 开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 视频、封面和发布文案 ， 适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。 软件免费，云端模型按量计费；需要调整时可进入编辑器。 官网 · 下载桌面版 · 案例库 · 研究 · 快速开始 · 文档 · 问题反馈 简体中文 · English · 日本語 · 한국어 · Español · Português · Русский · Français 最新正式版 ，桌面、CLI 与 MCP 同步更新。版本以 autoclip --vers…",
-          "image_url": "https://opengraph.githubassets.com/c648a4ca5944dc79b6ef3b8ef4a9f6b971f78b4dba51fbbfe830ddbe3a66c71c/zhouxiaoka/autoclip",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub, open-source).",
-          "tags": [
-            "projects",
-            "repos"
-          ],
-          "category": "repos",
-          "score": 0.655,
-          "personal_match": false,
-          "also_reported_by": [
-            "GitHub Trending (Python)"
-          ]
-        },
-        {
-          "id": "item_30905c3403f9",
-          "title": "wshobson/agents",
+          "id": "item_c07b1f74d8c1",
+          "title": "pytorch/torchtitan",
           "source": "GitHub Trending (Python)",
-          "url": "https://github.com/wshobson/agents",
-          "canonical_url": "https://github.com/wshobson/agents",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "Plugins, agents, skills, and commands for Claude Code, Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi, written once in Markdown and adapted to each tool by generators with validation and evals. https://sethhobson.com Plugins, agents, and skills for AI coding tools Use one collection of plugins, agents, skills, and commands across Claude Code, OpenAI Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi. A harness is the coding tool that loads and runs the co…",
-          "image_url": "https://opengraph.githubassets.com/b55e281605cf7d0f9f528cc308ca62a0b11421ca4ef51f683543b4e92a209ad7/wshobson/agents",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub, tool).",
+          "url": "https://github.com/pytorch/torchtitan",
+          "canonical_url": "https://github.com/pytorch/torchtitan",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "A PyTorch native platform for training generative AI models A PyTorch-native platform for pretraining and post-training generative AI models at scale Quick start · Models · Features · RL · Docs · Contributing torchtitan is a clean-room, PyTorch-native implementation of large-scale training. One readable codebase takes a model from pretraining through supervised fine-tuning to reinforcement learning, composing FSDP, tensor, pipeline, context, and expert parallelism without rewriting the model. C…",
+          "image_url": "https://repository-images.githubusercontent.com/730932260/58c60c90-5c13-4af4-b022-841a617638fd",
+          "why_it_matters": "Relevant to Model Releases (matches: model).",
           "tags": [
             "model_releases",
+            "papers_benchmarks",
+            "projects"
+          ],
+          "category": "model_releases",
+          "score": 0.6175,
+          "personal_match": false
+        },
+        {
+          "id": "item_fd97a6d57c43",
+          "title": "toeverything/AFFiNE",
+          "source": "GitHub Trending (All Languages)",
+          "url": "https://github.com/toeverything/AFFiNE",
+          "canonical_url": "https://github.com/toeverything/AFFiNE",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. https://affine.pro AFFiNE.Pro Write, Draw and Plan All at Once A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion &amp; Miro. One hyper-fused platform for wildly creative minds. Home Page | Discord | Live Demo | Blog | Documentation Docs, canvas and ta…",
+          "image_url": "https://repository-images.githubusercontent.com/519859998/81557da6-35e0-421d-8ad7-ec0c7a4725d2",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: open-source).",
+          "tags": [
             "projects",
             "repos"
           ],
           "category": "repos",
-          "score": 0.655,
+          "score": 0.595,
           "personal_match": false
         }
       ]
@@ -966,83 +1045,79 @@
       "name": "Model & Tooling Updates",
       "items": [
         {
-          "id": "item_815203751a9c",
-          "title": "gabime/spdlog",
-          "source": "GitHub Trending (C++)",
-          "url": "https://github.com/gabime/spdlog",
-          "canonical_url": "https://github.com/gabime/spdlog",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "Fast C++ logging library. spdlog &nbsp; &nbsp; &nbsp; Fast C++ logging library Install Header-only version Copy the include folder to your build tree and use a C++11 compiler. Compiled version (recommended - much faster compile times) $ git clone https://github.com/gabime/spdlog.git $ cd spdlog &amp;&amp; mkdir build &amp;&amp; cd build $ cmake .. &amp;&amp; cmake --build . see example CMakeLists.txt on how to use. Platforms Linux, FreeBSD, OpenBSD, Solaris, AIX Windows (msvc 2019+, cygwin) mac…",
-          "image_url": "https://opengraph.githubassets.com/ffed0234b61ce7184126198630602b5660db17cf315b94942e7a2fe32d707321/gabime/spdlog",
-          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: compiler, library).",
+          "id": "item_3ffc776f8596",
+          "title": "Imbad0202/academic-research-skills",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "canonical_url": "https://github.com/Imbad0202/academic-research-skills",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize https://buymeacoffee.com/crucify020v Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 | 한국어 | Español | Português A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research to publication. Install in 30 seconds (Claude Code CLI / VS Code / JetBrains, v3.7.0+): /plugin marketplace add Imbad0202/academic-research-skills /plugin install academic-rese…",
+          "image_url": "https://opengraph.githubassets.com/dbc6c58273ad9590cf5b7fab701aa9761af3618a54413f8ff48f33ed5b89a690/Imbad0202/academic-research-skills",
+          "why_it_matters": "Relevant to Model Releases (matches: Claude).",
           "tags": [
-            "infra_tooling",
-            "projects",
-            "repos"
+            "model_releases",
+            "projects"
           ],
-          "category": "infra_tooling",
-          "score": 0.655,
+          "category": "model_releases",
+          "score": 0.595,
           "personal_match": false
         },
         {
-          "id": "item_a9bca652f0af",
-          "title": "Tracer-Cloud/opensre",
-          "source": "GitHub Trending (All Languages)",
-          "url": "https://github.com/Tracer-Cloud/opensre",
-          "canonical_url": "https://github.com/Tracer-Cloud/opensre",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "The open-source agent for CI/CD reliability. https://opensre.com OpenSRE: The open-source agent for CI/CD reliability Your CI tells you it broke, but not why or how to fix it. OpenSRE is a CLI agent that reads the failed run, traces the cause and pushes a fix for you to review. Self-hosted, with your own models. Quickstart · Docs · FAQ · Security 🚧 Public Alpha: Core workflows are usable for early exploration, though not yet fully stable. The project is in active development, and APIs and integ…",
-          "image_url": "https://repository-images.githubusercontent.com/1133141258/1e1ca9ef-fb92-4604-8b72-9e58667afce2",
-          "why_it_matters": "Relevant to Model Releases (matches: model). Likely useful for builders (code, benchmarks, or tooling implications).",
+          "id": "item_0fa0232fce0d",
+          "title": "awslabs/cli-agent-orchestrator",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/awslabs/cli-agent-orchestrator",
+          "canonical_url": "https://github.com/awslabs/cli-agent-orchestrator",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "Multi-agent orchestration for AI coding CLIs — Claude Code, Kiro, Codex, and more, coordinated in isolated tmux sessions https://awslabs.github.io/cli-agent-orchestrator/ CLI Agent Orchestrator (CAO) English | 简体中文 CLI Agent Orchestrator (CAO) coordinates multiple AI coding CLIs so a supervisor can delegate work to specialist agents in parallel or sequence. 📚 Documentation — guides, reference, and two interactive courses. What CAO does CAO runs a local cao-server , starts provider CLIs in isola…",
+          "image_url": "https://repository-images.githubusercontent.com/1028432181/84fd0414-9f32-41ea-aa78-3f7fd5fd8993",
+          "why_it_matters": "Relevant to Model Releases (matches: Claude).",
           "tags": [
-            "infra_tooling",
             "model_releases",
             "projects",
             "repos"
           ],
           "category": "model_releases",
-          "score": 0.64,
-          "personal_match": false,
-          "also_reported_by": [
-            "GitHub Trending (Python)"
-          ]
-        },
-        {
-          "id": "item_b42a2d7b0243",
-          "title": "Watch Where You Linearize: Predicting and Correcting Model-Merging Interference",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25000",
-          "canonical_url": "https://arxiv.org/abs/2611.25000",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25000v1 Announce Type: new Abstract: Model merging combines separately fine-tuned models by adding their task vectors to a shared backbone. Interference is typically assessed only after constructing and evaluating a candidate merge, making coefficient search expensive. We show that a first-order directional derivative of task A's outputs along task B's vector can predict interference, but only when evaluated at the appropriate model. At the receiver model, this derivative forecasts n…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Model Releases (matches: model, fine-tune).",
-          "tags": [
-            "model_releases",
-            "papers_benchmarks"
-          ],
-          "category": "model_releases",
-          "score": 0.6364,
+          "score": 0.595,
           "personal_match": false
         },
         {
-          "id": "item_549a3e6e9b69",
-          "title": "incoai/splash",
-          "source": "GitHub Trending (C++)",
-          "url": "https://github.com/incoai/splash",
-          "canonical_url": "https://github.com/incoai/splash",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "A local inference engine for Apple silicon, built around the model. https://inco.ai/blog/splash/ Splash A local inference engine for Apple silicon, built around the model. Splash runs coding agents and OpenAI or Anthropic compatible applications on one Mac. It combines DFlash 2 speculative decoding, specialized Metal kernels, and automatic memory planning, with vision, tool calling, and a built-in chat page. It reuses cached prefixes and batches concurrent requests automatically. Quick start Do…",
-          "image_url": "https://opengraph.githubassets.com/72f939e3996a2b037f2a8c2c0793355c21ec1b9c30bcf2668789fd4c87e56d8f/incoai/splash",
-          "why_it_matters": "Relevant to Infra & Inference Tooling (matches: inference, kernel).",
+          "id": "item_e535a2f5bfb4",
+          "title": "superdesigndev/treg",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/superdesigndev/treg",
+          "canonical_url": "https://github.com/superdesigndev/treg",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn https://treg.to Treg (OpenRouter for Tools) OpenRouter, but for agent tools instead of models. Point an agent at one base URL with one token and it can do the job: a curated catalog of thousands of endpoints across many providers — SEO and backlinks, social and trends, people and company enrichment, ads, scraping, image and video generation — priced per call, from a cent , with no provider signup. Plus your own team'…",
+          "image_url": "https://opengraph.githubassets.com/a12208f7c6bf12176a85f54127cf3d0fb6ebd6969cd67db7aba61bcd19390f57/superdesigndev/treg",
+          "why_it_matters": "Relevant to Model Releases (matches: model).",
           "tags": [
             "infra_tooling",
             "model_releases",
             "projects",
-            "repos"
+            "repos",
+            "vlm_multimodal"
           ],
-          "category": "infra_tooling",
-          "score": 0.6325,
+          "category": "model_releases",
+          "score": 0.595,
+          "personal_match": false
+        },
+        {
+          "id": "item_a7cf62d343d0",
+          "title": "phone-harness/phone-harness",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/phone-harness/phone-harness",
+          "canonical_url": "https://github.com/phone-harness/phone-harness",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "let your agent control your phone https://phone-harness.com Enable Claude Code, Codex, or any agent to use your real phone. The agent can scroll, tap, type, and read your phone with no jailbreak, no Xcode, and nothing installed on the phone. iPhone through the Mac's iPhone Mirroring window Android over adb from macOS, Linux or Windows Phone Harness Cloud phone: an Android over adb, or an iPhone over HTTPS ● agent: wants to open Weather │ ● find_text(\"Weather\") → (400, 468) │ ● tap(400, 468) → r…",
+          "image_url": "https://opengraph.githubassets.com/3e7675a6c9e2c06d03eda4f2c0d7b09a9cce856782326d8854f6c272d626c519/phone-harness/phone-harness",
+          "why_it_matters": "Relevant to Model Releases (matches: Claude).",
+          "tags": [
+            "model_releases",
+            "projects"
+          ],
+          "category": "model_releases",
+          "score": 0.595,
           "personal_match": false
         }
       ]
@@ -1050,7 +1125,26 @@
     {
       "id": "robotics_vla",
       "name": "Robotics & Embodied AI",
-      "items": []
+      "items": [
+        {
+          "id": "item_2cb10b95a79b",
+          "title": "The UN fails to agree on rules regulating ‘killer robots’",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+          "canonical_url": "https://theverge.com/tech/1039554/un-regulations-killer-robots",
+          "published_at": "2026-11-21T20:03:37Z",
+          "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the [&#8230;]",
+          "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&amp;strip=all&amp;crop=0%2C11.089604074363%2C100%2C77.820791851273&amp;w=1200",
+          "why_it_matters": "Relevant to Robotics & Embodied AI (matches: robot).",
+          "tags": [
+            "industry",
+            "robotics_vla"
+          ],
+          "category": "robotics_vla",
+          "score": 0.4775,
+          "personal_match": false
+        }
+      ]
     },
     {
       "id": "vlm_multimodal",
@@ -1062,58 +1156,61 @@
       "name": "Papers & Benchmarks",
       "items": [
         {
-          "id": "item_be19d5c53deb",
-          "title": "Long-Range Video Presentation Attack Detection: A Three-Class Benchmark Across 1-100 m and Two Sensor Types",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25108",
-          "canonical_url": "https://arxiv.org/abs/2611.25108",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25108v1 Announce Type: new Abstract: Face presentation attack detection (PAD) systems deployed in border control and airport surveillance are constrained by a critical assumption: subjects are captured at close range, typically under one meter. No existing benchmark systematically addresses multi-distance capture, diverse environmental conditions, and concurrent spoofing and occlusion-based attacks, leaving deployed models underprepared for real-world scenarios. We introduce a video-…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, benchmark).",
+          "id": "item_8b6ac2940fdc",
+          "title": "Managing frontier AI risk: From training to deployment",
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/managing-frontier-ai-risk",
+          "canonical_url": "https://openai.com/index/managing-frontier-ai-risk",
+          "published_at": "2026-11-18T06:00:00Z",
+          "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "image_url": "https://images.ctfassets.net/kftzwdyauwt9/62zvkDv3unaiLBblzJHY4f/d61ad5ec9ebc02f033d0efac3807be3e/managing-frontier-ai-risk-social.png?w=1600&amp;h=900&amp;fit=fill",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: training, alignment).",
           "tags": [
+            "infra_tooling",
             "model_releases",
             "papers_benchmarks"
           ],
           "category": "papers_benchmarks",
-          "score": 0.6364,
+          "score": 0.4959,
           "personal_match": false
         },
         {
-          "id": "item_d36c83e667c3",
-          "title": "Game-Theoretic Data Allocation for Expert Specialization and Routing",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25167",
-          "canonical_url": "https://arxiv.org/abs/2611.25167",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25167v1 Announce Type: new Abstract: Can the allocation used to train experts also predict which expert will perform best on a prompt? Such a connection would make the intended division of labor inspectable before training and allow the allocation itself to guide inference. We introduce InflEns, a mixture of LoRA experts whose training weights and inference routes come from the same location game in a fixed prompt-trait space. Players choose positions to maximize their expected share…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, training).",
+          "id": "item_a18e97945e0f",
+          "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos",
+          "source": "NVIDIA Developer Blog (AI)",
+          "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+          "canonical_url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos",
+          "published_at": "2026-11-18T17:00:00Z",
+          "summary": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is...",
+          "image_url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/cosmos-gif-500x282.gif",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: dataset, training). Matches your stack: world model.",
+          "tags": [
+            "for_you",
+            "infra_tooling",
+            "model_releases",
+            "papers_benchmarks",
+            "robotics_vla"
+          ],
+          "category": "papers_benchmarks",
+          "score": 0.4445,
+          "personal_match": true
+        },
+        {
+          "id": "item_f689168723dc",
+          "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "canonical_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "published_at": "2026-11-18T19:54:56Z",
+          "summary": "",
+          "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6aeabf9f2efd990530425e58/faP4Su889q_DIgN3wmU9M.png",
+          "why_it_matters": "Relevant to Papers & Benchmarks (matches: training).",
           "tags": [
             "infra_tooling",
             "papers_benchmarks"
           ],
           "category": "papers_benchmarks",
-          "score": 0.6364,
-          "personal_match": false
-        },
-        {
-          "id": "item_08ed6119888e",
-          "title": "Process-Knowledge-Guided Latent Diffusion for Generative Design of Porous Architectures: A Case Study in Aerosol Jet Printing",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25264",
-          "canonical_url": "https://arxiv.org/abs/2611.25264",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25264v1 Announce Type: new Abstract: Printed porous layouts interleave functional material with open channels, and the layout that uses the material best depends on how the process settings shape the deposit. Generative models propose layouts quickly, but a generator that does not receive the process setting samples from the same distribution at every setting, even when the process-dependent score ranks candidate layouts differently. This paper examines whether process knowledge can…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: paper, arXiv).",
-          "tags": [
-            "model_releases",
-            "papers_benchmarks",
-            "vlm_multimodal"
-          ],
-          "category": "papers_benchmarks",
-          "score": 0.6364,
+          "score": 0.4278,
           "personal_match": false
         },
         {
@@ -1122,7 +1219,7 @@
           "source": "GitHub Trending (C++)",
           "url": "https://github.com/carla-simulator/carla",
           "canonical_url": "https://github.com/carla-simulator/carla",
-          "published_at": "2026-11-21T16:37:12Z",
+          "published_at": "2026-11-22T16:54:25Z",
           "summary": "Open-source simulator for autonomous driving research. http://carla.org CARLA Simulator CARLA is an open-source simulator for autonomous driving research. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible…",
           "image_url": "https://repository-images.githubusercontent.com/108102826/b4c7e780-9374-11e9-970b-aacad1e5f0a7",
           "why_it_matters": "Relevant to Papers & Benchmarks (matches: training).",
@@ -1132,25 +1229,7 @@
             "repos"
           ],
           "category": "papers_benchmarks",
-          "score": 0.6175,
-          "personal_match": false
-        },
-        {
-          "id": "item_b2f70a733600",
-          "title": "On the Impact of Feature Reduction Techniques on Adversarial Attacks",
-          "source": "arXiv cs.LG",
-          "url": "https://arxiv.org/abs/2611.25004",
-          "canonical_url": "https://arxiv.org/abs/2611.25004",
-          "published_at": "2026-11-21T05:00:00Z",
-          "summary": "arXiv:2611.25004v1 Announce Type: new Abstract: Adversarial attacks have posed significant threats to machine learning models by exploiting their inherent vulnerabilities. Researchers have established an interdisciplinary field called adversarial machine learning to explore these vulnerabilities and develop corresponding defense strategies. Feature reduction strategies are used to decrease the dimensionality of the data in order to reduce training time, avoid the curse of dimensionality, preven…",
-          "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-          "why_it_matters": "Relevant to Papers & Benchmarks (matches: arXiv, training).",
-          "tags": [
-            "model_releases",
-            "papers_benchmarks"
-          ],
-          "category": "papers_benchmarks",
-          "score": 0.6139,
+          "score": 0.3675,
           "personal_match": false
         }
       ]
@@ -1160,63 +1239,57 @@
       "name": "Repo Watch",
       "items": [
         {
-          "id": "item_f3f1b90b51a6",
-          "title": "google/perfetto",
-          "source": "GitHub Trending (C++)",
-          "url": "https://github.com/google/perfetto",
-          "canonical_url": "https://github.com/google/perfetto",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "Production-grade client-side tracing, profiling, and analysis for complex software systems. https://www.perfetto.dev Perfetto Record, explore and query traces of complex software. Try the demo · Quick start · What can you do with it? · Documentation · Discord What is Perfetto? Perfetto is an open-source suite of tools for recording, visualizing and analyzing traces : timelines of what software and the system under it were doing. It is the default tracing system for Android and Chromium . System…",
-          "image_url": "https://opengraph.githubassets.com/62fa4c2f95184ddef38f64b92d0592b668aa16ae693099f0f3ec88ecdcf5895f/google/perfetto",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: open-source, tool).",
+          "id": "item_5e3363298a85",
+          "title": "apache/airflow",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/apache/airflow",
+          "canonical_url": "https://github.com/apache/airflow",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows https://airflow.apache.org/ Apache Airflow Category Badges License PyPI Containers Community Dev tools Version Build Status Main 3.x Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows. When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative. Use Airflow to author workflows (Dags) that orchestrate tas…",
+          "image_url": "https://repository-images.githubusercontent.com/33884891/3e449402-c463-46f9-aa6c-26942a9e2bdc",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: tool).",
           "tags": [
             "projects",
             "repos"
           ],
           "category": "repos",
-          "score": 0.655,
+          "score": 0.595,
           "personal_match": false
         },
         {
-          "id": "item_1555ed6bcb12",
-          "title": "jingyaogong/minimind",
-          "source": "GitHub Trending (All Languages)",
-          "url": "https://github.com/jingyaogong/minimind",
-          "canonical_url": "https://github.com/jingyaogong/minimind",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours. https://jingyaogong.github.io/minimind \"大道至简\" 中文 | English 此开源项目旨在完全从 0 开始，仅用 3 块钱成本与 2 小时训练时间，即可训练出规模约为 64M 的超小语言模型 MiniMind。 MiniMind 系列极其轻量，主线最小版本体积约为 GPT-3 的 $\\frac{1}{2700}$，力求让普通个人 GPU 也能快速完成训练与复现。 项目同时开源了大模型的极简结构与完整训练链路，覆盖 MoE、数据清洗、预训练（Pretrain）、监督微调（SFT）、LoRA、RLHF（DPO）、RLAIF（PPO / GRPO / CISPO）、Tool Use、Agentic RL、自适应思考与模型蒸馏等全过程代码。 MiniMind 同时拓展了视觉模态模型 MiniMind-V 、多模态 Omni 模型 MiniMind-O 、扩散语言模型（MiniMind-dLM）、线性模型（Mini…",
-          "image_url": "https://opengraph.githubassets.com/cb97ec9429c52eba9ade4414f105c47761d4d17ea3620a12ed6163d6c30043ae/jingyaogong/minimind",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub, tool).",
+          "id": "item_7e6d44f2920e",
+          "title": "odoo/odoo",
+          "source": "GitHub Trending (Python)",
+          "url": "https://github.com/odoo/odoo",
+          "canonical_url": "https://github.com/odoo/odoo",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "Odoo. Open Source Apps To Grow Your Business. https://www.odoo.com Odoo Odoo is a suite of web based open source business apps. The main Odoo Apps include an Open Source CRM , Website Builder , eCommerce , Warehouse Management , Project Management , Billing &amp; Accounting , Point of Sale , Human Resources , Marketing , Manufacturing , ... Odoo Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured Open Source ERP when you install several Ap…",
+          "image_url": "https://opengraph.githubassets.com/f1cdc76ad212167146585787f8f9a8a6d8b6718f2ed7831b8cd39a82c28ee6c2/odoo/odoo",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: open source).",
           "tags": [
-            "infra_tooling",
-            "model_releases",
-            "papers_benchmarks",
             "projects",
             "repos"
           ],
           "category": "repos",
-          "score": 0.6325,
-          "personal_match": false,
-          "also_reported_by": [
-            "GitHub Trending (Python)"
-          ]
+          "score": 0.595,
+          "personal_match": false
         },
         {
-          "id": "item_4e21b25c3f63",
-          "title": "boykopovar/AnyPS5",
-          "source": "GitHub Trending (C++)",
-          "url": "https://github.com/boykopovar/AnyPS5",
-          "canonical_url": "https://github.com/boykopovar/AnyPS5",
-          "published_at": "2026-11-21T16:37:12Z",
-          "summary": "Tool for automatic PS5 executables porting to Linux and Windows https://boykopovar.github.io/AnyPS5/ English | Português (Brasil) | Español | Català | Italiano | 简体中文 | Русский | Bahasa Indonesia | Polski | 日本語 | العربية | Ελληνικά About Tool for automatic executables porting to Linux and Windows. The relinker-only build runs on macOS, including Apple silicon. Web converter - files stay on your device. Includes a relinker that converts executable to the target system's native format and impleme…",
-          "image_url": "https://opengraph.githubassets.com/8ff9e83a2bfc8cb5d0677e56cc3ff2cb2b06343f5a53e75c2df8567f03f1b2e7/boykopovar/AnyPS5",
-          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub, tool).",
+          "id": "item_d664b5a459f3",
+          "title": "mjmirza/app-store-compliance",
+          "source": "GitHub Trending (All Languages)",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "canonical_url": "https://github.com/mjmirza/app-store-compliance",
+          "published_at": "2026-11-22T16:54:25Z",
+          "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents. https://mjmirza.github.io/app-store-compliance/ &nbsp;&nbsp;&nbsp; App Store Compliance Playbook Catch App Store and Google Play rejection causes before the reviewer does. A reference and a pre-submission guard for iOS and Andr…",
+          "image_url": "https://opengraph.githubassets.com/88cb401d060e9daf7effccea6d7775ba18e09648e0732498edaf0704794540ec/mjmirza/app-store-compliance",
+          "why_it_matters": "Relevant to Open-Source Repos (matches: GitHub).",
           "tags": [
             "projects",
             "repos"
           ],
           "category": "repos",
-          "score": 0.6325,
+          "score": 0.5725,
           "personal_match": false
         }
       ]
@@ -1226,57 +1299,54 @@
       "name": "Industry Moves",
       "items": [
         {
-          "id": "item_dffab27fe8d5",
-          "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-          "source": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-          "canonical_url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
-          "published_at": "2026-11-21T16:00:00Z",
-          "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
-          "image_url": "https://techcrunch.com/wp-content/uploads/2026/11/Inevitable-Key-Art_3x4-full-size.jpg?resize=899,1200",
-          "why_it_matters": "Relevant to Industry Moves (matches: startup).",
+          "id": "item_0c81fa30a9f6",
+          "title": "The vibe-coding revolution is coming to all the gadgets",
+          "source": "The Verge AI",
+          "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+          "canonical_url": "https://theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+          "published_at": "2026-11-22T13:00:00Z",
+          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not [&#8230;]",
+          "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
+          "why_it_matters": "Tagged under Industry Moves.",
           "tags": [
             "industry"
           ],
           "category": "industry",
-          "score": 0.5503,
+          "score": 0.4688,
           "personal_match": false
         },
         {
-          "id": "item_a2b0b71c8120",
-          "title": "Can Anthropic afford to put safety first?",
-          "source": "The Verge AI",
-          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-          "canonical_url": "https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-          "published_at": "2026-11-21T15:00:00Z",
-          "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to [&#8230;]",
-          "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&amp;strip=all&amp;crop=0%2C10.732984293194%2C100%2C78.534031413613&amp;w=1200",
-          "why_it_matters": "Relevant to Industry Moves (matches: IPO).",
+          "id": "item_f3487ac9886e",
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "canonical_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+          "published_at": "2026-11-21T21:37:10Z",
+          "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2026/05/signal-app-icon-phone.jpg?resize=1200,800",
+          "why_it_matters": "Tagged under Industry Moves.",
           "tags": [
-            "industry",
-            "model_releases",
-            "repos"
-          ],
-          "category": "industry",
-          "score": 0.5367,
-          "personal_match": false
-        },
-        {
-          "id": "item_58da9c66b145",
-          "title": "Introducing OpenAI for Chile",
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-openai-for-chile",
-          "canonical_url": "https://openai.com/index/introducing-openai-for-chile",
-          "published_at": "2026-11-17T00:00:00Z",
-          "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-          "image_url": null,
-          "why_it_matters": "Relevant to Industry Moves (matches: startup).",
-          "tags": [
-            "industry",
-            "model_releases"
+            "industry"
           ],
           "category": "industry",
           "score": 0.4317,
+          "personal_match": false
+        },
+        {
+          "id": "item_6ccebafcdf30",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "source": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+          "canonical_url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "published_at": "2026-11-21T17:00:00Z",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "image_url": "https://techcrunch.com/wp-content/uploads/2017/12/gettyimages-673436934.jpg?resize=1200,813",
+          "why_it_matters": "Tagged under Industry Moves.",
+          "tags": [
+            "industry"
+          ],
+          "category": "industry",
+          "score": 0.4195,
           "personal_match": false
         }
       ]
